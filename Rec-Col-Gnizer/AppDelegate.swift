@@ -11,22 +11,26 @@ import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
- 
+
+    let navigationController = UINavigationController()
     var coordinator: MainCoordinator!
-    var window: UIWindow?
+    var appWindow: UIWindow!
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-//
-//        self.coordinator = MainCoordinator()
-//        let rootNav = coordinator.navigationController
-//        let rootVc = rootNav.viewControllers.first
-         
- 
-        let vc1 = DummyViewController(nibName: "DummyViewController", bundle: Bundle.main)
-        self.window = UIWindow(frame: UIScreen.main.bounds)
-        self.window?.rootViewController = vc1
-        self.window?.makeKey()
-        self.window?.makeKeyAndVisible()
+
+        coordinator = MainCoordinator(withNavigationController: navigationController)
+        coordinator.start()
+        
+        if #available(iOS 13.0, *) {
+
+        } else {
+            coordinator = MainCoordinator(withNavigationController: navigationController)
+            coordinator.start()
+            
+            appWindow = UIWindow (frame: UIScreen.main.bounds)
+            appWindow.rootViewController = coordinator.navigationController
+            appWindow.makeKeyAndVisible()
+        }
         
         return true
     }

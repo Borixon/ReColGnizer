@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SUR-To-sA2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -259,25 +259,10 @@
             </objects>
             <point key="canvasLocation" x="3230" y="139"/>
         </scene>
-        <!--Color Data View Controller-->
-        <scene sceneID="XfQ-9n-Rv3">
-            <objects>
-                <viewController storyboardIdentifier="ColorDataViewController" id="YZ7-Jk-IvS" customClass="ColorDataViewController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Tat-TR-CoU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="V6Q-Ma-o6i"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dJc-C6-l7e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3988" y="139"/>
-        </scene>
-        <!--View Controller-->
+        <!--Loading View Controller-->
         <scene sceneID="Iaw-RJ-ebO">
             <objects>
-                <viewController storyboardIdentifier="LoadingViewController" id="SUR-To-sA2" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoadingViewController" id="SUR-To-sA2" customClass="LoadingViewController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="LoadingViewController" id="Igx-au-ov2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -298,6 +283,53 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yuc-0O-Mce" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4725" y="138"/>
+        </scene>
+        <!--Color Data View Controller-->
+        <scene sceneID="Aia-xm-vx0">
+            <objects>
+                <viewController storyboardIdentifier="ColorDataViewController" id="hNB-IX-Df9" customClass="ColorDataViewController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Zw-Le-Kwe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LZm-hA-mA4">
+                                <rect key="frame" x="0.0" y="44" width="414" height="721"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wlV-xj-gBn">
+                                <rect key="frame" x="30" y="786" width="354" height="55"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="hb8-A9-nWn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="tintColor" red="0.1219589189" green="0.12912842629999999" blue="0.1411769688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Add to favorite"/>
+                                <connections>
+                                    <action selector="checkData:" destination="Hnf-LI-NMs" eventType="touchUpInside" id="6cq-hB-esC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="wlV-xj-gBn" firstAttribute="leading" secondItem="Hrn-v2-pTo" secondAttribute="leading" constant="30" id="Izf-i0-nJ4"/>
+                            <constraint firstItem="LZm-hA-mA4" firstAttribute="leading" secondItem="Hrn-v2-pTo" secondAttribute="leading" id="OLS-sg-GDn"/>
+                            <constraint firstItem="Hrn-v2-pTo" firstAttribute="bottom" secondItem="wlV-xj-gBn" secondAttribute="bottom" constant="21" id="Pxu-d5-SKV"/>
+                            <constraint firstItem="Hrn-v2-pTo" firstAttribute="trailing" secondItem="LZm-hA-mA4" secondAttribute="trailing" id="QjW-7P-Ifc"/>
+                            <constraint firstItem="Hrn-v2-pTo" firstAttribute="trailing" secondItem="wlV-xj-gBn" secondAttribute="trailing" constant="30" id="Vwm-WS-BdN"/>
+                            <constraint firstItem="wlV-xj-gBn" firstAttribute="top" secondItem="LZm-hA-mA4" secondAttribute="bottom" constant="21" id="fy4-x6-Tft"/>
+                            <constraint firstItem="LZm-hA-mA4" firstAttribute="top" secondItem="Hrn-v2-pTo" secondAttribute="top" id="zGs-Mg-zjp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Hrn-v2-pTo"/>
+                    </view>
+                    <connections>
+                        <outlet property="saveButton" destination="wlV-xj-gBn" id="0VX-r8-dcK"/>
+                        <outlet property="tableView" destination="LZm-hA-mA4" id="LeW-ms-Omr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c8y-IC-F3Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3982.6086956521744" y="137.94642857142856"/>
         </scene>
         <!--Camera Capture View Controller-->
         <scene sceneID="SKi-SG-VPk">

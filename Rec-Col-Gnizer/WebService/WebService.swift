@@ -13,7 +13,7 @@ class WebService: NSObject {
     public func getColorFrom(data: (red: Int, green: Int, blue: Int), completion: @escaping (ColorModel?, Error?) -> ()) {
         let urlRequest: URLRequest
         do {
-            urlRequest = try API().requestColorData(data.red, data.green, data.red)
+            urlRequest = try API().requestColorData(data.red, data.green, data.blue)
         } catch {
             completion(nil, error)
             return

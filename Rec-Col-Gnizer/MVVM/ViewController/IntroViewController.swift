@@ -16,8 +16,8 @@ class IntroViewController: UIViewController, Storyboarded {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-//        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3, execute: {
-//            (self.coordinator as? MainCoordinator)?.openMenu()
-//        })
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.1, execute: {
+            (self.coordinator as? MainCoordinator)?.openMenu()
+        })
     }
 }
