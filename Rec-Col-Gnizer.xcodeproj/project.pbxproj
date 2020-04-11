@@ -7,15 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A3E64FA308D95077F90669C /* libPods-Rec-Col-Gnizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D25CDF86F488C7CDA6CF20 /* libPods-Rec-Col-Gnizer.a */; };
+		6F3A47D9243E71410036CF34 /* CameraCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A47D8243E71410036CF34 /* CameraCaptureViewController.swift */; };
 		6F591AF7243E2E7F00ECEEEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AF6243E2E7F00ECEEEC /* AppDelegate.swift */; };
 		6F591AF9243E2E7F00ECEEEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AF8243E2E7F00ECEEEC /* SceneDelegate.swift */; };
-		6F591AFB243E2E7F00ECEEEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AFA243E2E7F00ECEEEC /* ViewController.swift */; };
+		6F591AFB243E2E7F00ECEEEC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AFA243E2E7F00ECEEEC /* MenuViewController.swift */; };
 		6F591AFE243E2E7F00ECEEEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F591AFC243E2E7F00ECEEEC /* Main.storyboard */; };
 		6F591B01243E2E7F00ECEEEC /* Rec_Col_Gnizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AFF243E2E7F00ECEEEC /* Rec_Col_Gnizer.xcdatamodeld */; };
 		6F591B03243E2E8500ECEEEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F591B02243E2E8500ECEEEC /* Assets.xcassets */; };
 		6F591B06243E2E8500ECEEEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F591B04243E2E8500ECEEEC /* LaunchScreen.storyboard */; };
 		6F591B11243E2E8500ECEEEC /* Rec_Col_GnizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591B10243E2E8500ECEEEC /* Rec_Col_GnizerTests.swift */; };
 		6F591B1C243E2E8500ECEEEC /* Rec_Col_GnizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591B1B243E2E8500ECEEEC /* Rec_Col_GnizerUITests.swift */; };
+		6F591B2C243E2EDD00ECEEEC /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591B2B243E2EDD00ECEEEC /* WebService.swift */; };
+		6F591B2E243E2F0700ECEEEC /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591B2D243E2F0700ECEEEC /* ColorModel.swift */; };
+		6F9084C72440620F00D7E7A2 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084C62440620F00D7E7A2 /* CameraController.swift */; };
+		6F9084CA2440626100D7E7A2 /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084C92440626100D7E7A2 /* CameraError.swift */; };
+		6F9084CC2440629700D7E7A2 /* CameraControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084CB2440629700D7E7A2 /* CameraControllerDelegate.swift */; };
+		6F9084CE2440656400D7E7A2 /* RGBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084CD2440656400D7E7A2 /* RGBViewController.swift */; };
+		6F9084D02440658E00D7E7A2 /* ManualColorGetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084CF2440658E00D7E7A2 /* ManualColorGetterViewController.swift */; };
+		6F9084D52440660F00D7E7A2 /* RGBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084D42440660F00D7E7A2 /* RGBModel.swift */; };
+		6F9084D72440674E00D7E7A2 /* DataDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084D62440674E00D7E7A2 /* DataDefaults.swift */; };
+		6F9084D9244068F000D7E7A2 /* RGBViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084D8244068F000D7E7A2 /* RGBViewModel.swift */; };
+		6F9084DB2440694E00D7E7A2 /* HSLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084DA2440694E00D7E7A2 /* HSLViewController.swift */; };
+		6F9084DD24406A2600D7E7A2 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084DC24406A2600D7E7A2 /* MainViewModel.swift */; };
+		6F9084DF24406ACF00D7E7A2 /* MainMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084DE24406ACF00D7E7A2 /* MainMenuModel.swift */; };
+		6F9084E624407B7800D7E7A2 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084E524407B7800D7E7A2 /* ColorHelper.swift */; };
+		6F9138AF243E507C008B8E78 /* ColorRandomiezer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9138AE243E507C008B8E78 /* ColorRandomiezer.swift */; };
+		6F97C075243E57D300CDA54C /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F97C074243E57D300CDA54C /* IntroViewController.swift */; };
+		6F97C077243E596300CDA54C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F97C076243E596300CDA54C /* Coordinator.swift */; };
+		6F9D49492441C64C00AF50D6 /* RGBView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9D49482441C64C00AF50D6 /* RGBView.xib */; };
+		6F9D494C2441C6BA00AF50D6 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D494A2441C6BA00AF50D6 /* DummyViewController.swift */; };
+		6F9D494D2441C6BA00AF50D6 /* DummyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9D494B2441C6BA00AF50D6 /* DummyViewController.xib */; };
+		6FF2758F2440A6BE00FDDBAF /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF2758E2440A6BE00FDDBAF /* APIEndpoints.swift */; };
+		6FF275912440A6E200FDDBAF /* WebError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275902440A6E200FDDBAF /* WebError.swift */; };
+		6FF275932440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275922440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift */; };
+		6FF275952440B42B00FDDBAF /* ColorDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */; };
+		6FF275982440CEBF00FDDBAF /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275972440CEBF00FDDBAF /* Storyboarded.swift */; };
+		6FF2759B2440D13A00FDDBAF /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF2759A2440D13A00FDDBAF /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +64,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FB3AF0B30260BE62C362D6D /* Pods-Rec-Col-Gnizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rec-Col-Gnizer.debug.xcconfig"; path = "Target Support Files/Pods-Rec-Col-Gnizer/Pods-Rec-Col-Gnizer.debug.xcconfig"; sourceTree = "<group>"; };
+		6F3A47D8243E71410036CF34 /* CameraCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCaptureViewController.swift; sourceTree = "<group>"; };
 		6F591AF3243E2E7F00ECEEEC /* Rec-Col-Gnizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rec-Col-Gnizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F591AF6243E2E7F00ECEEEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F591AF8243E2E7F00ECEEEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6F591AFA243E2E7F00ECEEEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F591AFA243E2E7F00ECEEEC /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		6F591AFD243E2E7F00ECEEEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F591B00243E2E7F00ECEEEC /* Rec_Col_Gnizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rec_Col_Gnizer.xcdatamodel; sourceTree = "<group>"; };
 		6F591B02243E2E8500ECEEEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +81,37 @@
 		6F591B17243E2E8500ECEEEC /* Rec-Col-GnizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rec-Col-GnizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F591B1B243E2E8500ECEEEC /* Rec_Col_GnizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rec_Col_GnizerUITests.swift; sourceTree = "<group>"; };
 		6F591B1D243E2E8500ECEEEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F591B2B243E2EDD00ECEEEC /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		6F591B2D243E2F0700ECEEEC /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		6F9084C62440620F00D7E7A2 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		6F9084C92440626100D7E7A2 /* CameraError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
+		6F9084CB2440629700D7E7A2 /* CameraControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraControllerDelegate.swift; sourceTree = "<group>"; };
+		6F9084CD2440656400D7E7A2 /* RGBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBViewController.swift; sourceTree = "<group>"; };
+		6F9084CF2440658E00D7E7A2 /* ManualColorGetterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualColorGetterViewController.swift; sourceTree = "<group>"; };
+		6F9084D42440660F00D7E7A2 /* RGBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBModel.swift; sourceTree = "<group>"; };
+		6F9084D62440674E00D7E7A2 /* DataDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDefaults.swift; sourceTree = "<group>"; };
+		6F9084D8244068F000D7E7A2 /* RGBViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBViewModel.swift; sourceTree = "<group>"; };
+		6F9084DA2440694E00D7E7A2 /* HSLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSLViewController.swift; sourceTree = "<group>"; };
+		6F9084DC24406A2600D7E7A2 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		6F9084DE24406ACF00D7E7A2 /* MainMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuModel.swift; sourceTree = "<group>"; };
+		6F9084E524407B7800D7E7A2 /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		6F9138AE243E507C008B8E78 /* ColorRandomiezer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRandomiezer.swift; sourceTree = "<group>"; };
+		6F97C074243E57D300CDA54C /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		6F97C076243E596300CDA54C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		6F97C079243E6B4800CDA54C /* SwiftHEXColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftHEXColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F97C087243E6E6300CDA54C /* libSwiftHEXColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSwiftHEXColors.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9D49482441C64C00AF50D6 /* RGBView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RGBView.xib; sourceTree = "<group>"; };
+		6F9D494A2441C6BA00AF50D6 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
+		6F9D494B2441C6BA00AF50D6 /* DummyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DummyViewController.xib; sourceTree = "<group>"; };
+		6FF2758E2440A6BE00FDDBAF /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		6FF275902440A6E200FDDBAF /* WebError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebError.swift; sourceTree = "<group>"; };
+		6FF275922440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RGBViewController+TextFieldDelegate.swift"; sourceTree = "<group>"; };
+		6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDataViewController.swift; sourceTree = "<group>"; };
+		6FF275972440CEBF00FDDBAF /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		6FF2759A2440D13A00FDDBAF /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		79D25CDF86F488C7CDA6CF20 /* libPods-Rec-Col-Gnizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rec-Col-Gnizer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D6104C4CD6635364E222C4 /* Pods-Rec-Col-Gnizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rec-Col-Gnizer.release.xcconfig"; path = "Target Support Files/Pods-Rec-Col-Gnizer/Pods-Rec-Col-Gnizer.release.xcconfig"; sourceTree = "<group>"; };
+		A5023B34A503F01DC9C7DE38 /* Pods_Rec_Col_Gnizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rec_Col_Gnizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A3E64FA308D95077F90669C /* libPods-Rec-Col-Gnizer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +147,9 @@
 				6F591B0F243E2E8500ECEEEC /* Rec-Col-GnizerTests */,
 				6F591B1A243E2E8500ECEEEC /* Rec-Col-GnizerUITests */,
 				6F591AF4243E2E7F00ECEEEC /* Products */,
+				A8CD26646ADB296848AF81F8 /* Pods */,
+				AB6794DC08DF2D6DB05D2DDC /* Frameworks */,
+				6F97C083243E6CBE00CDA54C /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +166,15 @@
 		6F591AF5243E2E7F00ECEEEC /* Rec-Col-Gnizer */ = {
 			isa = PBXGroup;
 			children = (
+				6FF275962440CEAC00FDDBAF /* Flow */,
+				6F9138AD243E5060008B8E78 /* Helpers */,
+				6F591B2F243E2F0A00ECEEEC /* CoreData */,
+				6F591B2A243E2EC000ECEEEC /* WebService */,
+				6F591B29243E2EB500ECEEEC /* MVVM */,
 				6F591AF6243E2E7F00ECEEEC /* AppDelegate.swift */,
 				6F591AF8243E2E7F00ECEEEC /* SceneDelegate.swift */,
-				6F591AFA243E2E7F00ECEEEC /* ViewController.swift */,
-				6F591AFC243E2E7F00ECEEEC /* Main.storyboard */,
 				6F591B02243E2E8500ECEEEC /* Assets.xcassets */,
-				6F591B04243E2E8500ECEEEC /* LaunchScreen.storyboard */,
 				6F591B07243E2E8500ECEEEC /* Info.plist */,
-				6F591AFF243E2E7F00ECEEEC /* Rec_Col_Gnizer.xcdatamodeld */,
 			);
 			path = "Rec-Col-Gnizer";
 			sourceTree = "<group>";
@@ -131,6 +197,155 @@
 			path = "Rec-Col-GnizerUITests";
 			sourceTree = "<group>";
 		};
+		6F591B29243E2EB500ECEEEC /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				6F9084D1244065D200D7E7A2 /* ViewModel */,
+				6F9084D3244065F100D7E7A2 /* Model */,
+				6F9084D2244065DB00D7E7A2 /* ViewController */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		6F591B2A243E2EC000ECEEEC /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				6F97C078243E59DA00CDA54C /* CodableObjects */,
+				6F591B2B243E2EDD00ECEEEC /* WebService.swift */,
+				6FF2758E2440A6BE00FDDBAF /* APIEndpoints.swift */,
+				6FF275902440A6E200FDDBAF /* WebError.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		6F591B2F243E2F0A00ECEEEC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				6F591AFF243E2E7F00ECEEEC /* Rec_Col_Gnizer.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		6F9084C82440624A00D7E7A2 /* CameraController */ = {
+			isa = PBXGroup;
+			children = (
+				6F9084C62440620F00D7E7A2 /* CameraController.swift */,
+				6F9084C92440626100D7E7A2 /* CameraError.swift */,
+				6F9084CB2440629700D7E7A2 /* CameraControllerDelegate.swift */,
+			);
+			path = CameraController;
+			sourceTree = "<group>";
+		};
+		6F9084D1244065D200D7E7A2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6F9084D8244068F000D7E7A2 /* RGBViewModel.swift */,
+				6F9084DC24406A2600D7E7A2 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6F9084D2244065DB00D7E7A2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6F9D49472441C62D00AF50D6 /* NIB */,
+				6F591AFA243E2E7F00ECEEEC /* MenuViewController.swift */,
+				6F97C074243E57D300CDA54C /* IntroViewController.swift */,
+				6F3A47D8243E71410036CF34 /* CameraCaptureViewController.swift */,
+				6F9084CD2440656400D7E7A2 /* RGBViewController.swift */,
+				6F9084CF2440658E00D7E7A2 /* ManualColorGetterViewController.swift */,
+				6F9084DA2440694E00D7E7A2 /* HSLViewController.swift */,
+				6FF275922440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift */,
+				6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6F9084D3244065F100D7E7A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F9084D42440660F00D7E7A2 /* RGBModel.swift */,
+				6F9084DE24406ACF00D7E7A2 /* MainMenuModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F9138AD243E5060008B8E78 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6F9084C82440624A00D7E7A2 /* CameraController */,
+				6F9138AE243E507C008B8E78 /* ColorRandomiezer.swift */,
+				6F9084D62440674E00D7E7A2 /* DataDefaults.swift */,
+				6F9084E524407B7800D7E7A2 /* ColorHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6F97C078243E59DA00CDA54C /* CodableObjects */ = {
+			isa = PBXGroup;
+			children = (
+				6F591B2D243E2F0700ECEEEC /* ColorModel.swift */,
+			);
+			path = CodableObjects;
+			sourceTree = "<group>";
+		};
+		6F97C083243E6CBE00CDA54C /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				A5023B34A503F01DC9C7DE38 /* Pods_Rec_Col_Gnizer.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		6F9D49472441C62D00AF50D6 /* NIB */ = {
+			isa = PBXGroup;
+			children = (
+				6F9D49482441C64C00AF50D6 /* RGBView.xib */,
+				6F9D494A2441C6BA00AF50D6 /* DummyViewController.swift */,
+				6F9D494B2441C6BA00AF50D6 /* DummyViewController.xib */,
+			);
+			path = NIB;
+			sourceTree = "<group>";
+		};
+		6FF275962440CEAC00FDDBAF /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				6FF275992440D11A00FDDBAF /* Coordinators */,
+				6F591B04243E2E8500ECEEEC /* LaunchScreen.storyboard */,
+				6F591AFC243E2E7F00ECEEEC /* Main.storyboard */,
+				6F97C076243E596300CDA54C /* Coordinator.swift */,
+				6FF275972440CEBF00FDDBAF /* Storyboarded.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		6FF275992440D11A00FDDBAF /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				6FF2759A2440D13A00FDDBAF /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		A8CD26646ADB296848AF81F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FB3AF0B30260BE62C362D6D /* Pods-Rec-Col-Gnizer.debug.xcconfig */,
+				91D6104C4CD6635364E222C4 /* Pods-Rec-Col-Gnizer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB6794DC08DF2D6DB05D2DDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F97C087243E6E6300CDA54C /* libSwiftHEXColors.a */,
+				6F97C079243E6B4800CDA54C /* SwiftHEXColors.framework */,
+				79D25CDF86F488C7CDA6CF20 /* libPods-Rec-Col-Gnizer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +353,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F591B20243E2E8500ECEEEC /* Build configuration list for PBXNativeTarget "Rec-Col-Gnizer" */;
 			buildPhases = (
+				E2C4F1315A94ED3E13D90A9E /* [CP] Check Pods Manifest.lock */,
 				6F591AEF243E2E7F00ECEEEC /* Sources */,
 				6F591AF0243E2E7F00ECEEEC /* Frameworks */,
 				6F591AF1243E2E7F00ECEEEC /* Resources */,
@@ -237,7 +453,9 @@
 			files = (
 				6F591B06243E2E8500ECEEEC /* LaunchScreen.storyboard in Resources */,
 				6F591B03243E2E8500ECEEEC /* Assets.xcassets in Resources */,
+				6F9D49492441C64C00AF50D6 /* RGBView.xib in Resources */,
 				6F591AFE243E2E7F00ECEEEC /* Main.storyboard in Resources */,
+				6F9D494D2441C6BA00AF50D6 /* DummyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,15 +475,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E2C4F1315A94ED3E13D90A9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rec-Col-Gnizer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6F591AEF243E2E7F00ECEEEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FF275952440B42B00FDDBAF /* ColorDataViewController.swift in Sources */,
+				6F9084CC2440629700D7E7A2 /* CameraControllerDelegate.swift in Sources */,
 				6F591B01243E2E7F00ECEEEC /* Rec_Col_Gnizer.xcdatamodeld in Sources */,
-				6F591AFB243E2E7F00ECEEEC /* ViewController.swift in Sources */,
+				6F9084D9244068F000D7E7A2 /* RGBViewModel.swift in Sources */,
+				6F9138AF243E507C008B8E78 /* ColorRandomiezer.swift in Sources */,
+				6FF275932440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift in Sources */,
+				6F9D494C2441C6BA00AF50D6 /* DummyViewController.swift in Sources */,
+				6F591AFB243E2E7F00ECEEEC /* MenuViewController.swift in Sources */,
 				6F591AF7243E2E7F00ECEEEC /* AppDelegate.swift in Sources */,
+				6F9084D52440660F00D7E7A2 /* RGBModel.swift in Sources */,
+				6F9084E624407B7800D7E7A2 /* ColorHelper.swift in Sources */,
+				6F3A47D9243E71410036CF34 /* CameraCaptureViewController.swift in Sources */,
+				6FF275912440A6E200FDDBAF /* WebError.swift in Sources */,
+				6F9084D02440658E00D7E7A2 /* ManualColorGetterViewController.swift in Sources */,
+				6FF2759B2440D13A00FDDBAF /* MainCoordinator.swift in Sources */,
+				6F9084DF24406ACF00D7E7A2 /* MainMenuModel.swift in Sources */,
+				6F591B2C243E2EDD00ECEEEC /* WebService.swift in Sources */,
+				6FF2758F2440A6BE00FDDBAF /* APIEndpoints.swift in Sources */,
+				6F9084C72440620F00D7E7A2 /* CameraController.swift in Sources */,
 				6F591AF9243E2E7F00ECEEEC /* SceneDelegate.swift in Sources */,
+				6F591B2E243E2F0700ECEEEC /* ColorModel.swift in Sources */,
+				6F97C075243E57D300CDA54C /* IntroViewController.swift in Sources */,
+				6F97C077243E596300CDA54C /* Coordinator.swift in Sources */,
+				6F9084DD24406A2600D7E7A2 /* MainViewModel.swift in Sources */,
+				6F9084D72440674E00D7E7A2 /* DataDefaults.swift in Sources */,
+				6FF275982440CEBF00FDDBAF /* Storyboarded.swift in Sources */,
+				6F9084CE2440656400D7E7A2 /* RGBViewController.swift in Sources */,
+				6F9084DB2440694E00D7E7A2 /* HSLViewController.swift in Sources */,
+				6F9084CA2440626100D7E7A2 /* CameraError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,37 +704,39 @@
 		};
 		6F591B21243E2E8500ECEEEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB3AF0B30260BE62C362D6D /* Pods-Rec-Col-Gnizer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8W8AY4TB7V;
-				INFOPLIST_FILE = "Rec-Col-Gnizer/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)",
 				);
+				INFOPLIST_FILE = "Rec-Col-Gnizer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "AplikacjeMobilne.Rec-Col-Gnizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6F591B22243E2E8500ECEEEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D6104C4CD6635364E222C4 /* Pods-Rec-Col-Gnizer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8W8AY4TB7V;
 				INFOPLIST_FILE = "Rec-Col-Gnizer/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "AplikacjeMobilne.Rec-Col-Gnizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

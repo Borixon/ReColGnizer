@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AC7CC78C7F246C1BF4D435860380158 /* SwiftHEXColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B382B89DA82BEB7942AB656A360868A0 /* SwiftHEXColors-dummy.m */; };
+		448C4FFDA8F0324AA4E434A273E62F97 /* SwiftHEXColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43301AA5719D757CFEB0CB28A698EAEC /* SwiftHEXColors.swift */; };
+		681628D89EA45F7B0BABD01D21A47A96 /* Pods-Rec-Col-Gnizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D055BF71599A1F1E828B4E6585053D /* Pods-Rec-Col-Gnizer-dummy.m */; };
+		B54F868C638CDD438A07BEFD23E727A5 /* SwiftHEXColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD1AAEFE734368A80D06E003C1565F06 /* SwiftHEXColors-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC664DD97627E07537CF61B73570D9C0 /* Pods-Rec-Col-Gnizer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD870AEDEFBE2A914885B26C6797742 /* Pods-Rec-Col-Gnizer-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AF6AFE82CF224A00A08B90B79F1D2DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBCA5614C6DE80E95DB0A68DF224D729;
+			remoteInfo = SwiftHEXColors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FE5F4D9F7F28E0B62B2F459388F55E6 /* Pods-Rec-Col-Gnizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rec-Col-Gnizer.debug.xcconfig"; sourceTree = "<group>"; };
+		29D1F367E3D347084C275A1BA8679C62 /* Pods-Rec-Col-Gnizer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rec-Col-Gnizer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43301AA5719D757CFEB0CB28A698EAEC /* SwiftHEXColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftHEXColors.swift; path = Sources/SwiftHEXColors/SwiftHEXColors.swift; sourceTree = "<group>"; };
+		4FD870AEDEFBE2A914885B26C6797742 /* Pods-Rec-Col-Gnizer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rec-Col-Gnizer-umbrella.h"; sourceTree = "<group>"; };
+		629645FB8764F7375442C781A33F1DF0 /* SwiftHEXColors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftHEXColors.release.xcconfig; sourceTree = "<group>"; };
+		6E52930EAD61DF561F169D1E223C880F /* SwiftHEXColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftHEXColors.modulemap; sourceTree = "<group>"; };
+		7DCDFF416CA45349B3A43846BBE8488D /* libPods-Rec-Col-Gnizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Rec-Col-Gnizer.a"; path = "libPods-Rec-Col-Gnizer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		909027B28EAEB0EEBABA46766E9E9DD8 /* Pods-Rec-Col-Gnizer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rec-Col-Gnizer.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5D055BF71599A1F1E828B4E6585053D /* Pods-Rec-Col-Gnizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rec-Col-Gnizer-dummy.m"; sourceTree = "<group>"; };
+		A7E777F2DACE402F490B748F488BC42D /* Pods-Rec-Col-Gnizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rec-Col-Gnizer.release.xcconfig"; sourceTree = "<group>"; };
+		B382B89DA82BEB7942AB656A360868A0 /* SwiftHEXColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftHEXColors-dummy.m"; sourceTree = "<group>"; };
+		CD1AAEFE734368A80D06E003C1565F06 /* SwiftHEXColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-umbrella.h"; sourceTree = "<group>"; };
+		DE6DCAA27D0E00D37D8A4ABF7AD0CA2B /* SwiftHEXColors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftHEXColors.debug.xcconfig; sourceTree = "<group>"; };
+		E04804C4F35F91320D56725B538E28D2 /* SwiftHEXColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-prefix.pch"; sourceTree = "<group>"; };
+		E47040265C34559C1A18B7E3B32AB1E5 /* Pods-Rec-Col-Gnizer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rec-Col-Gnizer-acknowledgements.plist"; sourceTree = "<group>"; };
+		F902B2E372005A249A68B9F2BFBF1489 /* libSwiftHEXColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwiftHEXColors.a; path = libSwiftHEXColors.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16EE7259E669F6B62D22C65BA018F73C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943DE0716050CE8270FBCAC1CEB2AD08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		522F2BD7FD46A617163E9E44A2B198B8 /* SwiftHEXColors */ = {
+			isa = PBXGroup;
+			children = (
+				43301AA5719D757CFEB0CB28A698EAEC /* SwiftHEXColors.swift */,
+				66ADE03C3135E4FCB1B486F7BE3F6847 /* Support Files */,
+			);
+			name = SwiftHEXColors;
+			path = SwiftHEXColors;
+			sourceTree = "<group>";
+		};
+		5DBA916981A0A5507935C6ACFF058830 /* Pods-Rec-Col-Gnizer */ = {
+			isa = PBXGroup;
+			children = (
+				909027B28EAEB0EEBABA46766E9E9DD8 /* Pods-Rec-Col-Gnizer.modulemap */,
+				29D1F367E3D347084C275A1BA8679C62 /* Pods-Rec-Col-Gnizer-acknowledgements.markdown */,
+				E47040265C34559C1A18B7E3B32AB1E5 /* Pods-Rec-Col-Gnizer-acknowledgements.plist */,
+				A5D055BF71599A1F1E828B4E6585053D /* Pods-Rec-Col-Gnizer-dummy.m */,
+				4FD870AEDEFBE2A914885B26C6797742 /* Pods-Rec-Col-Gnizer-umbrella.h */,
+				1FE5F4D9F7F28E0B62B2F459388F55E6 /* Pods-Rec-Col-Gnizer.debug.xcconfig */,
+				A7E777F2DACE402F490B748F488BC42D /* Pods-Rec-Col-Gnizer.release.xcconfig */,
+			);
+			name = "Pods-Rec-Col-Gnizer";
+			path = "Target Support Files/Pods-Rec-Col-Gnizer";
+			sourceTree = "<group>";
+		};
+		66ADE03C3135E4FCB1B486F7BE3F6847 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E52930EAD61DF561F169D1E223C880F /* SwiftHEXColors.modulemap */,
+				B382B89DA82BEB7942AB656A360868A0 /* SwiftHEXColors-dummy.m */,
+				E04804C4F35F91320D56725B538E28D2 /* SwiftHEXColors-prefix.pch */,
+				CD1AAEFE734368A80D06E003C1565F06 /* SwiftHEXColors-umbrella.h */,
+				DE6DCAA27D0E00D37D8A4ABF7AD0CA2B /* SwiftHEXColors.debug.xcconfig */,
+				629645FB8764F7375442C781A33F1DF0 /* SwiftHEXColors.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftHEXColors";
+			sourceTree = "<group>";
+		};
+		859230D42FD4C88778FDA54A34E9A103 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				522F2BD7FD46A617163E9E44A2B198B8 /* SwiftHEXColors */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C018F20CB091D37BD3141308F6252CD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DCDFF416CA45349B3A43846BBE8488D /* libPods-Rec-Col-Gnizer.a */,
+				F902B2E372005A249A68B9F2BFBF1489 /* libSwiftHEXColors.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				859230D42FD4C88778FDA54A34E9A103 /* Pods */,
+				C018F20CB091D37BD3141308F6252CD3 /* Products */,
+				F0FB40BCC69B38AA05267A09AAAD1924 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0FB40BCC69B38AA05267A09AAAD1924 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA916981A0A5507935C6ACFF058830 /* Pods-Rec-Col-Gnizer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B3CD918ACAEC081A9EDDB3FB5D043E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC664DD97627E07537CF61B73570D9C0 /* Pods-Rec-Col-Gnizer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0E74DB7B0BD6BF3AD9176A2987C3171 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54F868C638CDD438A07BEFD23E727A5 /* SwiftHEXColors-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AD03D1A4D1AD72D9805985805DC3B2F7 /* Pods-Rec-Col-Gnizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F5389301DF30843BD4FBE0B07EE79D /* Build configuration list for PBXNativeTarget "Pods-Rec-Col-Gnizer" */;
+			buildPhases = (
+				5B3CD918ACAEC081A9EDDB3FB5D043E1 /* Headers */,
+				29AE86545F442D13E986E33E5A9F674A /* Sources */,
+				16EE7259E669F6B62D22C65BA018F73C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0F6B2AFE7D8F5109AA499C7B66B749C /* PBXTargetDependency */,
+			);
+			name = "Pods-Rec-Col-Gnizer";
+			productName = "Pods-Rec-Col-Gnizer";
+			productReference = 7DCDFF416CA45349B3A43846BBE8488D /* libPods-Rec-Col-Gnizer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FBCA5614C6DE80E95DB0A68DF224D729 /* SwiftHEXColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574BBD9F124AACCF46D0EFC8057C1A1C /* Build configuration list for PBXNativeTarget "SwiftHEXColors" */;
+			buildPhases = (
+				F0E74DB7B0BD6BF3AD9176A2987C3171 /* Headers */,
+				8960EACFF1418A89F9786D534144849F /* Sources */,
+				943DE0716050CE8270FBCAC1CEB2AD08 /* Frameworks */,
+				30E7B0FDB33D91F8E0716B1B0AE98A9B /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftHEXColors;
+			productName = SwiftHEXColors;
+			productReference = F902B2E372005A249A68B9F2BFBF1489 /* libSwiftHEXColors.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C018F20CB091D37BD3141308F6252CD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD03D1A4D1AD72D9805985805DC3B2F7 /* Pods-Rec-Col-Gnizer */,
+				FBCA5614C6DE80E95DB0A68DF224D729 /* SwiftHEXColors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30E7B0FDB33D91F8E0716B1B0AE98A9B /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SwiftHEXColors/SwiftHEXColors.modulemap",
+				"${PODS_ROOT}/Headers/Public/SwiftHEXColors/SwiftHEXColors-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SwiftHEXColors-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftHEXColors/SwiftHEXColors.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftHEXColors/SwiftHEXColors-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29AE86545F442D13E986E33E5A9F674A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681628D89EA45F7B0BABD01D21A47A96 /* Pods-Rec-Col-Gnizer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8960EACFF1418A89F9786D534144849F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC7CC78C7F246C1BF4D435860380158 /* SwiftHEXColors-dummy.m in Sources */,
+				448C4FFDA8F0324AA4E434A273E62F97 /* SwiftHEXColors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0F6B2AFE7D8F5109AA499C7B66B749C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftHEXColors;
+			target = FBCA5614C6DE80E95DB0A68DF224D729 /* SwiftHEXColors */;
+			targetProxy = 0AF6AFE82CF224A00A08B90B79F1D2DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1D427D8EB1EAA095ADD6D510F74B7BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6DCAA27D0E00D37D8A4ABF7AD0CA2B /* SwiftHEXColors.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftHEXColors/SwiftHEXColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwiftHEXColors/SwiftHEXColors.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftHEXColors;
+				PRODUCT_NAME = SwiftHEXColors;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B577F0CAF450B2A84C8A1EBC32BF86AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 629645FB8764F7375442C781A33F1DF0 /* SwiftHEXColors.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftHEXColors/SwiftHEXColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwiftHEXColors/SwiftHEXColors.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftHEXColors;
+				PRODUCT_NAME = SwiftHEXColors;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAC52033486996F7D852BB37496B81F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E777F2DACE402F490B748F488BC42D /* Pods-Rec-Col-Gnizer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rec-Col-Gnizer/Pods-Rec-Col-Gnizer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C360FBA35AEFB93F88E84BA38A3CD150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE5F4D9F7F28E0B62B2F459388F55E6 /* Pods-Rec-Col-Gnizer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rec-Col-Gnizer/Pods-Rec-Col-Gnizer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574BBD9F124AACCF46D0EFC8057C1A1C /* Build configuration list for PBXNativeTarget "SwiftHEXColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D427D8EB1EAA095ADD6D510F74B7BA3 /* Debug */,
+				B577F0CAF450B2A84C8A1EBC32BF86AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F5389301DF30843BD4FBE0B07EE79D /* Build configuration list for PBXNativeTarget "Pods-Rec-Col-Gnizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C360FBA35AEFB93F88E84BA38A3CD150 /* Debug */,
+				BAC52033486996F7D852BB37496B81F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+module Pods_Rec_Col_Gnizer {
+  umbrella header "Pods-Rec-Col-Gnizer-umbrella.h"
+
+  export *
+  module * { export * }
+}
