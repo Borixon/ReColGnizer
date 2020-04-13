@@ -22,14 +22,6 @@ class RGBViewController: BaseViewController, Storyboarded {
     var coordinator: MainCoordinator?
     internal let vm = RGBViewModel()
     
-    required init?(coder: NSCoder) {
-        super.init(coder: coder)
-    }
-    
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupLoadingCoordinator()
@@ -46,9 +38,9 @@ class RGBViewController: BaseViewController, Storyboarded {
     }
     
     private func setupLoadingCoordinator() {
-        if let nav = coordinator?.navigationController {
-            loadingCoordinator = LoadingCoordinator(withNavigationController: nav)
-        }
+//        if let nav = coordinator?.navigationController {
+//            loadingCoordinator = LoadingCoordinator(withNavigationController: nav)
+//        }
     }
     
     private func setupTextFields() {
@@ -104,10 +96,9 @@ class RGBViewController: BaseViewController, Storyboarded {
         vm.downloadRGBData(completion: { model, error in
             DispatchQueue.main.async {
                 if model != nil {
-                    
                     self.coordinator?.openColorData(data: model!)
                 } else {
-                    
+                    print(error)
                 }
             }
         })

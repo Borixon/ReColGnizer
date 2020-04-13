@@ -65,9 +65,7 @@ class RGBViewModel: NSObject {
     }
     
     public func downloadRGBData(completion: @escaping (ColorModel?, Error?) -> ()) {
-//        delegate?.openLoadingScreen()
         WebService().getColorFrom(data: colorData, completion: { model, error in
-//            self.delegate?.hideLoadingScreen()
             if model != nil {
                 completion(model!, nil)
             } else if error != nil {

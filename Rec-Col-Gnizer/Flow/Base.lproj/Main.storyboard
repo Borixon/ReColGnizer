@@ -19,18 +19,66 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Kj6-Nq-qDn">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="904"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.40000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="xjm-d1-cgs">
+                                <rect key="frame" x="64" y="419" width="286" height="66"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Re">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="50" name="Thonburi-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="C">
+                                        <attributes>
+                                            <color key="NSColor" red="0.16094970703125" green="0.65078124999999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="50" name="Thonburi-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="o">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.73192138671874996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="50" name="Thonburi-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="l">
+                                        <attributes>
+                                            <color key="NSColor" red="0.14437255859375001" green="0.18875732421874999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="50" name="Thonburi-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Gnizer">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="50" name="Thonburi-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="xjm-d1-cgs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="BeY-WN-9dq"/>
+                            <constraint firstItem="xjm-d1-cgs" firstAttribute="centerY" secondItem="Kj6-Nq-qDn" secondAttribute="centerY" id="H4u-Pc-NLL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xjm-d1-cgs" secondAttribute="trailing" constant="64" id="P1M-xM-cmZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kj6-Nq-qDn" secondAttribute="trailing" id="QES-9y-UFL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Kj6-Nq-qDn" secondAttribute="bottomMargin" id="aJA-d5-TAY"/>
                             <constraint firstItem="Kj6-Nq-qDn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gpg-N3-G5e"/>
+                            <constraint firstItem="xjm-d1-cgs" firstAttribute="centerX" secondItem="Kj6-Nq-qDn" secondAttribute="centerX" id="pDr-R8-KDh"/>
                             <constraint firstItem="Kj6-Nq-qDn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="wVt-B8-7M2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="jQ4-8J-9Ds"/>
                     <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="mainTitle" destination="xjm-d1-cgs" id="Xi4-d5-Xbg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -262,6 +310,7 @@
         <!--Loading View Controller-->
         <scene sceneID="Iaw-RJ-ebO">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yuc-0O-Mce" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="LoadingViewController" id="SUR-To-sA2" customClass="LoadingViewController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="LoadingViewController" id="Igx-au-ov2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -280,7 +329,6 @@
                         <viewLayoutGuide key="safeArea" id="ImX-yB-rNh"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Yuc-0O-Mce" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4725" y="138"/>
         </scene>

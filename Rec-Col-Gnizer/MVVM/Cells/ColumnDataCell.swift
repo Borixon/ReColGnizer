@@ -1,5 +1,5 @@
 //
-//  RGBDataCell.swift
+//  ColumnDataCell.swift
 //  Rec-Col-Gnizer
 //
 //  Created by Michał Krupa on 11/04/2020.
@@ -44,6 +44,41 @@ class ColumnDataCell: UITableViewCell {
         stackView.insertArrangedSubview(gColumn, at: 1)
         stackView.insertArrangedSubview(bColumn, at: 2)
     }
+    
+    func setup(data: CMYK, contrast: UIColor) {
+        
+        label.textColor = contrast
+        label.text = "CMYK"
+        backgroundColor = .clear
+        stackView.backgroundColor = .clear
+        
+        let cFraction = CGFloat(data.fraction.c)
+        let mFraction = CGFloat(data.fraction.m)
+        let yFraction = CGFloat(data.fraction.y)
+        let kFraction = CGFloat(data.fraction.k)
+        
+        let cColor = UIColor.cyan
+        let mColor = UIColor.magenta
+        let yColor = UIColor.yellow
+        let kColor = UIColor.black
+        
+        let cColumn = ColumnBuilder.createColumn(title: "\(data.c ?? 0)\nCyan",
+            fraction: cFraction, columnColor: cColor, contrast: contrast, width: 35, height: heightConstraint.constant)
+        
+        let mColumn = ColumnBuilder.createColumn(title: "\(data.m ?? 0)\nMagenta",
+            fraction: mFraction, columnColor: mColor, contrast: contrast, width: 35, height: heightConstraint.constant)
+        
+        let yColumn = ColumnBuilder.createColumn(title: "\(data.y ?? 0)\nYellow",
+            fraction: yFraction, columnColor: yColor, contrast: contrast, width: 35, height: heightConstraint.constant)
+        
+        let kColumn = ColumnBuilder.createColumn(title: "\(data.k ?? 0)\nKey",
+            fraction: kFraction, columnColor: kColor, contrast: contrast, width: 35, height: heightConstraint.constant)
+        
+        stackView.addArrangedSubview(cColumn)
+        stackView.addArrangedSubview(mColumn)
+        stackView.addArrangedSubview(yColumn)
+        stackView.addArrangedSubview(kColumn)
+    }
 }
 
 class ColumnBuilder {
@@ -62,6 +97,7 @@ class ColumnBuilder {
                                                     y: 0,
                                                     width: width,
                                                     height: columnHeight))
+        columnBackground.alpha = 0.3
         columnBackground.backgroundColor = contrast
         
         let column = UIView(frame: CGRect(x: width/2 - columnWidth/2,
@@ -71,18 +107,28 @@ class ColumnBuilder {
         column.backgroundColor = columnColor
         
         let label = UILabel(frame: CGRect(x: 0, y: columnHeight, width: width, height: labelHeight))
-        label.contentMode = .center
         label.backgroundColor = .clear
         label.numberOfLines = 2
         label.font = UIFont.boldSystemFont(ofSize: 14)
         label.textColor = contrast
         label.text = title
         label.textAlignment = .center
+        label.minimumScaleFactor = 0.5
         
         view.addSubview(label)
         view.addSubview(columnBackground)
         view.addSubview(column)
         
         return view
+    }
+}
+
+extension UIColor {
+    func isColorBlack() -> Bool {
+        let colorToCheck = CIColor(color: self)
+        if colorToCheck.red != 0 { return false }
+        if colorToCheck.green != 0 { return false }
+        if colorToCheck.blue != 0 { return false }
+        return true
     }
 }

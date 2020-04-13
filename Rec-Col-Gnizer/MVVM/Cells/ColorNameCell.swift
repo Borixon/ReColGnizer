@@ -14,8 +14,6 @@ class ColorNameCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     
     func setup(name: String, hex: String, contrast: UIColor) {
-        contentView.backgroundColor = .clear
-        backgroundView?.backgroundColor = .clear
         backgroundColor = .clear
         hexLabel.text = hex
         hexLabel.textColor = contrast

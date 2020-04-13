@@ -34,21 +34,32 @@ class ColorDataViewController: UIViewController, Storyboarded {
     private func setupTableView() {
         tableView.dataSource = self
         tableView.register(UINib(nibName: "ColorNameCell", bundle: Bundle.main), forCellReuseIdentifier: vm.nameCellIndentifier)
+        tableView.register(UINib(nibName: "ColumnDataCell", bundle: Bundle.main), forCellReuseIdentifier: vm.rgbCellIdentifier)
         tableView.backgroundColor = .clear
-        tableView.separatorStyle = .none
+        tableView.separatorStyle = .singleLine
+        tableView.estimatedRowHeight = UITableView.automaticDimension
     }
     
 }
 
 extension ColorDataViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1 //vm.numberOfRows
+        return 3
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: vm.nameCellIndentifier) as? ColorNameCell {
+        if indexPath.row == 0, let cell = tableView.dequeueReusableCell(withIdentifier: vm.nameCellIndentifier) as? ColorNameCell  {
             cell.setup(name: vm.nameData.name, hex: vm.nameData.hex, contrast: vm.contrastColor)
             return cell
+            
+        } else if let cell = tableView.dequeueReusableCell(withIdentifier: vm.rgbCellIdentifier) as? ColumnDataCell  {
+            if indexPath.row == 1 {
+                cell.setup(data: vm.rgbData, contrast: vm.contrastColor)
+                return cell
+            } else {
+                cell.setup(data: vm.cmykData, contrast: vm.contrastColor)
+                return cell
+            }
         }
         return UITableViewCell()
     }

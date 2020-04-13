@@ -40,14 +40,15 @@
 		6F9D49542442475F00AF50D6 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D49532442475F00AF50D6 /* LoadingViewController.swift */; };
 		6F9D495A244251CD00AF50D6 /* ColorNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D4958244251CD00AF50D6 /* ColorNameCell.swift */; };
 		6F9D495B244251CD00AF50D6 /* ColorNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9D4959244251CD00AF50D6 /* ColorNameCell.xib */; };
-		6F9D495E244251E100AF50D6 /* RGBDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D495C244251E100AF50D6 /* RGBDataCell.swift */; };
-		6F9D495F244251E100AF50D6 /* RGBDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9D495D244251E100AF50D6 /* RGBDataCell.xib */; };
+		6F9D495E244251E100AF50D6 /* ColumnDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D495C244251E100AF50D6 /* ColumnDataCell.swift */; };
+		6F9D495F244251E100AF50D6 /* ColumnDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9D495D244251E100AF50D6 /* ColumnDataCell.xib */; };
 		6F9D4962244251F600AF50D6 /* CMYKDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D4960244251F600AF50D6 /* CMYKDataCell.swift */; };
 		6F9D4963244251F600AF50D6 /* CMYKDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9D4961244251F600AF50D6 /* CMYKDataCell.xib */; };
 		6F9D49662442521400AF50D6 /* HSLDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D49642442521400AF50D6 /* HSLDataCell.swift */; };
 		6F9D49672442521400AF50D6 /* HSLDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9D49652442521400AF50D6 /* HSLDataCell.xib */; };
 		6F9D4969244254FC00AF50D6 /* ColorDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D4968244254FC00AF50D6 /* ColorDataViewModel.swift */; };
 		6F9D496B244266FA00AF50D6 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D496A244266FA00AF50D6 /* Styles.swift */; };
+		6F9D497424426F1600AF50D6 /* CellBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D497324426F1600AF50D6 /* CellBuilder.swift */; };
 		6FF2758F2440A6BE00FDDBAF /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF2758E2440A6BE00FDDBAF /* APIEndpoints.swift */; };
 		6FF275912440A6E200FDDBAF /* WebError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275902440A6E200FDDBAF /* WebError.swift */; };
 		6FF275932440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275922440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift */; };
@@ -115,14 +116,15 @@
 		6F9D49532442475F00AF50D6 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		6F9D4958244251CD00AF50D6 /* ColorNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorNameCell.swift; sourceTree = "<group>"; };
 		6F9D4959244251CD00AF50D6 /* ColorNameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorNameCell.xib; sourceTree = "<group>"; };
-		6F9D495C244251E100AF50D6 /* RGBDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBDataCell.swift; sourceTree = "<group>"; };
-		6F9D495D244251E100AF50D6 /* RGBDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RGBDataCell.xib; sourceTree = "<group>"; };
+		6F9D495C244251E100AF50D6 /* ColumnDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnDataCell.swift; sourceTree = "<group>"; };
+		6F9D495D244251E100AF50D6 /* ColumnDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColumnDataCell.xib; sourceTree = "<group>"; };
 		6F9D4960244251F600AF50D6 /* CMYKDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMYKDataCell.swift; sourceTree = "<group>"; };
 		6F9D4961244251F600AF50D6 /* CMYKDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CMYKDataCell.xib; sourceTree = "<group>"; };
 		6F9D49642442521400AF50D6 /* HSLDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSLDataCell.swift; sourceTree = "<group>"; };
 		6F9D49652442521400AF50D6 /* HSLDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HSLDataCell.xib; sourceTree = "<group>"; };
 		6F9D4968244254FC00AF50D6 /* ColorDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDataViewModel.swift; sourceTree = "<group>"; };
 		6F9D496A244266FA00AF50D6 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		6F9D497324426F1600AF50D6 /* CellBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellBuilder.swift; sourceTree = "<group>"; };
 		6FF2758E2440A6BE00FDDBAF /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
 		6FF275902440A6E200FDDBAF /* WebError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebError.swift; sourceTree = "<group>"; };
 		6FF275922440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RGBViewController+TextFieldDelegate.swift"; sourceTree = "<group>"; };
@@ -301,6 +303,7 @@
 				6F9084D62440674E00D7E7A2 /* DataDefaults.swift */,
 				6F9084E524407B7800D7E7A2 /* ColorHelper.swift */,
 				6F9D496A244266FA00AF50D6 /* Styles.swift */,
+				6F9D497324426F1600AF50D6 /* CellBuilder.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -334,8 +337,8 @@
 			children = (
 				6F9D4958244251CD00AF50D6 /* ColorNameCell.swift */,
 				6F9D4959244251CD00AF50D6 /* ColorNameCell.xib */,
-				6F9D495C244251E100AF50D6 /* RGBDataCell.swift */,
-				6F9D495D244251E100AF50D6 /* RGBDataCell.xib */,
+				6F9D495C244251E100AF50D6 /* ColumnDataCell.swift */,
+				6F9D495D244251E100AF50D6 /* ColumnDataCell.xib */,
 				6F9D4960244251F600AF50D6 /* CMYKDataCell.swift */,
 				6F9D4961244251F600AF50D6 /* CMYKDataCell.xib */,
 				6F9D49642442521400AF50D6 /* HSLDataCell.swift */,
@@ -493,7 +496,7 @@
 				6F9D4963244251F600AF50D6 /* CMYKDataCell.xib in Resources */,
 				6F591B03243E2E8500ECEEEC /* Assets.xcassets in Resources */,
 				6F9D495B244251CD00AF50D6 /* ColorNameCell.xib in Resources */,
-				6F9D495F244251E100AF50D6 /* RGBDataCell.xib in Resources */,
+				6F9D495F244251E100AF50D6 /* ColumnDataCell.xib in Resources */,
 				6F591AFE243E2E7F00ECEEEC /* Main.storyboard in Resources */,
 				6F9D49672442521400AF50D6 /* HSLDataCell.xib in Resources */,
 			);
@@ -570,8 +573,9 @@
 				6F9084C72440620F00D7E7A2 /* CameraController.swift in Sources */,
 				6F591AF9243E2E7F00ECEEEC /* SceneDelegate.swift in Sources */,
 				6F9D49522442460B00AF50D6 /* LoadingCoordinator.swift in Sources */,
-				6F9D495E244251E100AF50D6 /* RGBDataCell.swift in Sources */,
+				6F9D495E244251E100AF50D6 /* ColumnDataCell.swift in Sources */,
 				6F591B2E243E2F0700ECEEEC /* ColorModel.swift in Sources */,
+				6F9D497424426F1600AF50D6 /* CellBuilder.swift in Sources */,
 				6F97C075243E57D300CDA54C /* IntroViewController.swift in Sources */,
 				6F97C077243E596300CDA54C /* Coordinator.swift in Sources */,
 				6F9084DD24406A2600D7E7A2 /* MainViewModel.swift in Sources */,

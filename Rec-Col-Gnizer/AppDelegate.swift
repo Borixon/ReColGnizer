@@ -18,15 +18,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        coordinator = MainCoordinator(withNavigationController: navigationController)
-        coordinator.start()
+        coordinator = MainCoordinator()
+        
         
         if #available(iOS 13.0, *) {
 
         } else {
-            coordinator = MainCoordinator(withNavigationController: navigationController)
+            coordinator = MainCoordinator()
             coordinator.start()
-            
             appWindow = UIWindow (frame: UIScreen.main.bounds)
             appWindow.rootViewController = coordinator.navigationController
             appWindow.makeKeyAndVisible()

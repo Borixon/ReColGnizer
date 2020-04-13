@@ -13,38 +13,55 @@ class MainCoordinator: Coordinator {
     var childCoordinators: [Coordinator] = []
     var navigationController: UINavigationController
     
-    required init(withNavigationController navigationController: UINavigationController) {
-        self.navigationController = navigationController
+    required init() {
+        navigationController = UINavigationController()
+        navigationController.modalPresentationStyle = .fullScreen
     }
     
     func start() {
-        let vc = IntroViewController.instantiate()
-        vc.coordinator = self
-        navigationController.setViewControllers([vc], animated: true)
+        let introVC = IntroViewController.instantiate()
+        introVC.coordinator = self
+        navigationController.setNavigationBarHidden(true, animated: false)
+        navigationController.setViewControllers([introVC], animated: true)
     }
     
-    func openMenu() {
-        let vc = MenuViewController.instantiate()
-        vc.coordinator = self
-        navigationController.pushViewController(vc, animated: true)
+    func openTabBar() {
+        
+        let rgbPicker = RGBViewController.instantiate()
+        rgbPicker.coordinator = self
+        let cameraPicker = CameraCaptureViewController.instantiate()
+        cameraPicker.coordinator = self
+        let tabbar = UITabBarController()
+        tabbar.setViewControllers([rgbPicker, cameraPicker], animated: false)
+        let buttonRgb = UIBarButtonItem(title: "Manual Picker", style: .plain, target: self, action: nil)
+        let buttonCam = UIBarButtonItem(title: "Camera Picker", style: .plain, target: self, action: nil)
+        tabbar.setToolbarItems([buttonRgb, buttonCam], animated: false)
+        tabbar.tabBar.tintColor = .red
+        
+        navigationController.modalTransitionStyle = .crossDissolve
+        navigationController.modalPresentationStyle = .fullScreen
+        navigationController.pushViewController(tabbar, animated: true)
+        
     }
     
     func openCameraPicker() {
         let vc = CameraCaptureViewController.instantiate()
         vc.coordinator = self
-        navigationController.pushViewController(vc, animated: true)
+//        navigationController.pushViewController(vc, animated: true)
     }
     
     func openRGBPicker() {
         let vc = RGBViewController.instantiate()
         vc.coordinator = self
-        navigationController.pushViewController(vc, animated: true)
+//        navigationController.pushViewController(vc, animated: true)
     }
     
     func openColorData(data: ColorModel) {
         let vc = ColorDataViewController.instantiate()
         vc.vm = ColorDataViewModel(model: data)
-        navigationController.pushViewController(vc, animated: true)
+        navigationController.present(vc, animated: true, completion:{
+            print("PRESENTED!")
+        })
     }
     
     func insertLoadingScreen() {

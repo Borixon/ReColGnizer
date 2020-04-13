@@ -13,6 +13,7 @@ class ColorDataViewModel: NSObject {
 
     private let model: ColorModel
     public let nameCellIndentifier = "ColorCellNameIdentifier"
+    public let rgbCellIdentifier = "rgbCellIdentifier"
     
     init(model: ColorModel) {
         self.model = model
@@ -46,4 +47,11 @@ class ColorDataViewModel: NSObject {
         return (model.name.value, model.hex.value)
     }
     
+    var rgbData: RGB {
+        return model.rgb
+    }
+    
+    var cmykData: CMYK {
+        return model.cmyk
+    }
 }
