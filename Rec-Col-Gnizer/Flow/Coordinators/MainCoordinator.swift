@@ -27,6 +27,7 @@ class MainCoordinator: Coordinator {
     
     func openTabBar() {
         
+        // to replace
         let picker = PickerViewController.instantiate()
         picker.coordinator = self
         let cameraPicker = CameraCaptureViewController.instantiate()
@@ -59,12 +60,17 @@ class MainCoordinator: Coordinator {
     func openColorData(data: ColorModel) {
         let vc = ColorDataViewController.instantiate()
         vc.vm = ColorDataViewModel(model: data)
-        navigationController.present(vc, animated: true, completion:{
-            print("PRESENTED!")
-        })
+        DispatchQueue.main.async {
+            self.navigationController.present(vc, animated: true, completion: nil)
+        }
+    }
+    
+    func show(error: Error?) {
+        
     }
     
     func insertLoadingScreen() {
-        
+//        let loading = LoadingViewController()
+//
     }
 }

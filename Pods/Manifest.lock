@@ -1,16 +1,20 @@
 PODS:
+  - PromiseKit/CorePromise (6.13.1)
   - SwiftHEXColors (1.4.0)
 
 DEPENDENCIES:
+  - PromiseKit/CorePromise (~> 6.8)
   - SwiftHEXColors
 
 SPEC REPOS:
   trunk:
+    - PromiseKit
     - SwiftHEXColors
 
 SPEC CHECKSUMS:
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
   SwiftHEXColors: c5baa53cf2412ce6391633ce74999437cc025efc
 
-PODFILE CHECKSUM: c1718227a7fc31607350133cd6573b2f77857563
+PODFILE CHECKSUM: 7b8a837404d9a7a0b8ec732958d9a2f343186eb4
 
 COCOAPODS: 1.9.1

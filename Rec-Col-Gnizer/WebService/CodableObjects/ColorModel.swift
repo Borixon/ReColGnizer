@@ -19,7 +19,7 @@ struct ColorModel: Codable {
 
 struct Hex: Codable {
     let value: String
-    let clean: String
+    let clean: String?
 }
 
 struct RGB: Codable {
@@ -27,7 +27,7 @@ struct RGB: Codable {
     let g: Int
     let b: Int
     let value: String
-    let fraction: RGBFraction
+    let fraction: RGBFraction?
 }
 
 struct RGBFraction: Codable {
@@ -41,7 +41,7 @@ struct HSL: Codable {
     let s: Int
     let l: Int
     let value: String
-    let fraction: HSLFraction
+    let fraction: HSLFraction?
 }
 
 struct HSLFraction: Codable {
@@ -66,8 +66,8 @@ struct CMYK: Codable {
     let m: Int?
     let y: Int?
     let k: Int?
-    let value: String
-    let fraction: CMYKFraction
+    let value: String?
+    let fraction: CMYKFraction?
 }
 
 struct CMYKFraction: Codable {

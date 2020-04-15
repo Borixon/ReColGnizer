@@ -14,6 +14,7 @@ class PickerViewController: UIViewController, Storyboarded {
     @IBOutlet weak var categoryStackView: UIStackView!
     @IBOutlet weak var textFieldsStack: UIStackView!
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet var checkDataButton: UIView!
     
     var coordinator: MainCoordinator?
     let vm = PickerViewModel()
@@ -22,11 +23,12 @@ class PickerViewController: UIViewController, Storyboarded {
         super.viewDidLoad()
         setupTableView()
         setupSearchBar()
+        vm.delegate = self
     }
     
     private func setupSearchBar() {
         searchBar.delegate = self
-        searchBar.placeholder = "#FA36C1, Yellow..."
+        searchBar.placeholder = "#AA420C, Yellow..."
     }
     
     private func setupTableView() {
@@ -36,8 +38,22 @@ class PickerViewController: UIViewController, Storyboarded {
         tableView.register(UINib(nibName: "SliderCell", bundle: Bundle.main), forCellReuseIdentifier: "TMEP")
     }
     
+    @IBAction func checkData(_ sender: Any) {
+        vm.getColor()
+    }
+    
     private func setupCategoryStack() {
         
+    }
+}
+
+extension PickerViewController: PickerViewModelDelegate {
+    func show(color: ColorModel) {
+        coordinator?.openColorData(data: color)
+    }
+    
+    func show(error: Error?) {
+        coordinator?.show(error: error)
     }
 }
 

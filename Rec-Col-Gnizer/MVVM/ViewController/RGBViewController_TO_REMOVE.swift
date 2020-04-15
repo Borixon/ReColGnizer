@@ -93,15 +93,15 @@ class RGBViewController: BaseViewController, Storyboarded {
     }
     
     @IBAction func checkData(_ sender: Any) {
-        vm.downloadRGBData(completion: { model, error in
-            DispatchQueue.main.async {
-                if model != nil {
-                    self.coordinator?.openColorData(data: model!)
-                } else {
-                    print(error)
-                }
-            }
-        })
+//        vm.downloadRGBData(completion: { model, error in
+//            DispatchQueue.main.async {
+//                if model != nil {
+//                    self.coordinator?.openColorData(data: model!)
+//                } else {
+//                    print(error)
+//                }
+//            }
+//        })
     }
     
     @IBAction func valueChanged(_ sender: UISlider) {

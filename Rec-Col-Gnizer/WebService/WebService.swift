@@ -7,13 +7,14 @@
 //
 
 import Foundation
+import PromiseKit
 
 class WebService: NSObject {
 
-    public func getColorFrom(data: (red: Int, green: Int, blue: Int), completion: @escaping (ColorModel?, Error?) -> ()) {
+    public func getColorFrom<T: WSColorData>(data: T, completion: @escaping (ColorModel?, Error?) -> ()) {
         let urlRequest: URLRequest
         do {
-            urlRequest = try API().requestColorData(data.red, data.green, data.blue)
+            urlRequest = try API().colorRequest(data)
         } catch {
             completion(nil, error)
             return
@@ -30,6 +31,10 @@ class WebService: NSObject {
             }
             completion(nil, nil)
         }.resume()
+    }
+    
+    public func getColorScheme() {
+        
     }
     
 }

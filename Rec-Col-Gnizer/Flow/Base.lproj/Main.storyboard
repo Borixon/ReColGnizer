@@ -386,7 +386,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vIN-9t-44A">
-                                <rect key="frame" x="0.0" y="255" width="414" height="607"/>
+                                <rect key="frame" x="0.0" y="255" width="414" height="519"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ti0-DV-LA7">
@@ -401,27 +401,45 @@
                                     <constraint firstAttribute="height" constant="45" id="L7z-nC-4Gi"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukv-su-oWt">
+                                <rect key="frame" x="30" y="797" width="354" height="55"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="nuA-7S-zmr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="tintColor" red="0.1219589189" green="0.12912842629999999" blue="0.1411769688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Check color data"/>
+                                <connections>
+                                    <action selector="checkData:" destination="MUI-Lo-JhR" eventType="touchUpInside" id="slw-TZ-icM"/>
+                                    <action selector="checkData:" destination="Hnf-LI-NMs" eventType="touchUpInside" id="ukH-ev-OhA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="gF3-kU-8ao" firstAttribute="leading" secondItem="ZUQ-tO-aK2" secondAttribute="leading" id="374-mt-7mS"/>
+                            <constraint firstItem="ukv-su-oWt" firstAttribute="bottom" secondItem="ZUQ-tO-aK2" secondAttribute="bottom" constant="-10" id="57N-f1-ENa"/>
                             <constraint firstItem="gF3-kU-8ao" firstAttribute="top" secondItem="ZUQ-tO-aK2" secondAttribute="top" id="5qb-vG-pf6"/>
-                            <constraint firstItem="vIN-9t-44A" firstAttribute="bottom" secondItem="ZUQ-tO-aK2" secondAttribute="bottom" id="817-I0-PF9"/>
                             <constraint firstItem="vIN-9t-44A" firstAttribute="leading" secondItem="ZUQ-tO-aK2" secondAttribute="leading" id="AGf-Ip-pAm"/>
                             <constraint firstItem="gF3-kU-8ao" firstAttribute="trailing" secondItem="ZUQ-tO-aK2" secondAttribute="trailing" id="CBB-7v-Emk"/>
                             <constraint firstItem="vIN-9t-44A" firstAttribute="top" secondItem="ti0-DV-LA7" secondAttribute="bottom" id="Ck1-zj-BeN"/>
                             <constraint firstItem="ZUQ-tO-aK2" firstAttribute="trailing" secondItem="ti0-DV-LA7" secondAttribute="trailing" id="E7g-tH-3bA"/>
+                            <constraint firstItem="ZUQ-tO-aK2" firstAttribute="trailing" secondItem="ukv-su-oWt" secondAttribute="trailing" constant="30" id="JdV-3C-7wD"/>
                             <constraint firstItem="S4s-pA-3CO" firstAttribute="top" secondItem="gF3-kU-8ao" secondAttribute="bottom" id="KLK-b7-suQ"/>
                             <constraint firstItem="vIN-9t-44A" firstAttribute="trailing" secondItem="ZUQ-tO-aK2" secondAttribute="trailing" id="SCW-7s-8ua"/>
                             <constraint firstItem="ti0-DV-LA7" firstAttribute="leading" secondItem="ZUQ-tO-aK2" secondAttribute="leading" id="TGH-Lg-FcB"/>
                             <constraint firstItem="S4s-pA-3CO" firstAttribute="leading" secondItem="ZUQ-tO-aK2" secondAttribute="leading" id="UHg-uD-7MF"/>
                             <constraint firstItem="ZUQ-tO-aK2" firstAttribute="trailing" secondItem="S4s-pA-3CO" secondAttribute="trailing" id="f46-zB-ym6"/>
+                            <constraint firstItem="ukv-su-oWt" firstAttribute="leading" secondItem="ZUQ-tO-aK2" secondAttribute="leading" constant="30" id="i3f-2R-wJC"/>
+                            <constraint firstItem="ukv-su-oWt" firstAttribute="top" secondItem="vIN-9t-44A" secondAttribute="bottom" constant="23" id="qyQ-3Y-Cnp"/>
                             <constraint firstItem="ti0-DV-LA7" firstAttribute="top" secondItem="S4s-pA-3CO" secondAttribute="bottom" id="rCu-pd-BcS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZUQ-tO-aK2"/>
                     </view>
                     <connections>
                         <outlet property="categoryStackView" destination="S4s-pA-3CO" id="efO-AD-KNv"/>
+                        <outlet property="checkDataButton" destination="pBd-fG-SHt" id="LBc-25-6f6"/>
                         <outlet property="searchBar" destination="gF3-kU-8ao" id="jGE-JC-gaJ"/>
                         <outlet property="tableView" destination="vIN-9t-44A" id="j1S-hb-OkY"/>
                         <outlet property="textFieldsStack" destination="ti0-DV-LA7" id="V5T-xM-3sd"/>

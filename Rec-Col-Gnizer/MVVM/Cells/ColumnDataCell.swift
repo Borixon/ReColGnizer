@@ -25,9 +25,9 @@ class ColumnDataCell: UITableViewCell {
         backgroundColor = .clear
         stackView.backgroundColor = .clear
         
-        let rFraction = CGFloat(data.fraction.r)
-        let gFraction = CGFloat(data.fraction.g)
-        let bFraction = CGFloat(data.fraction.b)
+        let rFraction = CGFloat(data.fraction?.r ?? 0)
+        let gFraction = CGFloat(data.fraction?.g ?? 0)
+        let bFraction = CGFloat(data.fraction?.b ?? 0)
         
         let rColor = UIColor.red
         let gColor = UIColor.green
@@ -52,10 +52,10 @@ class ColumnDataCell: UITableViewCell {
         backgroundColor = .clear
         stackView.backgroundColor = .clear
         
-        let cFraction = CGFloat(data.fraction.c)
-        let mFraction = CGFloat(data.fraction.m)
-        let yFraction = CGFloat(data.fraction.y)
-        let kFraction = CGFloat(data.fraction.k)
+        let cFraction = CGFloat(data.fraction?.c ?? 0)
+        let mFraction = CGFloat(data.fraction?.m ?? 0)
+        let yFraction = CGFloat(data.fraction?.y ?? 0)
+        let kFraction = CGFloat(data.fraction?.k ?? 0)
         
         let cColor = UIColor.cyan
         let mColor = UIColor.magenta

@@ -64,15 +64,15 @@ class RGBViewModel: NSObject {
         }
     }
     
-    public func downloadRGBData(completion: @escaping (ColorModel?, Error?) -> ()) {
-        WebService().getColorFrom(data: colorData, completion: { model, error in
-            if model != nil {
-                completion(model!, nil)
-            } else if error != nil {
-                completion(nil, error!)
-            }
-        })
-    }
+//    public func downloadRGBData(completion: @escaping (ColorModel?, Error?) -> ()) {
+//        WebService().getColorFrom(data: colorData, completion: { model, error in
+//            if model != nil {
+//                completion(model!, nil)
+//            } else if error != nil {
+//                completion(nil, error!)
+//            }
+//        })
+//    }
 }
 
 protocol RGBViewModelDelegate {
