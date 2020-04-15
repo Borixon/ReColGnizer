@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E266" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CMYKEntity" representedClassName="CMYKEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="c" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="k" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="m" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="y" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="ColorEntity" representedClassName="ColorEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="distance" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="exactMatch" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="hex" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="cmyk" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CMYKEntity"/>
+        <relationship name="derivative" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ColorEntity" inverseName="exactColor" inverseEntity="ColorEntity"/>
+        <relationship name="exactColor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ColorEntity" inverseName="derivative" inverseEntity="ColorEntity"/>
+        <relationship name="rgb" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RGBEntity"/>
+    </entity>
+    <entity name="RGBEntity" representedClassName="RGBEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="b" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="g" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="r" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="ColorEntity" positionX="-63" positionY="-18" width="128" height="163"/>
+        <element name="RGBEntity" positionX="-54" positionY="0" width="128" height="88"/>
+        <element name="CMYKEntity" positionX="-36" positionY="36" width="128" height="103"/>
+    </elements>
 </model>

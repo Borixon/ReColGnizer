@@ -12,8 +12,6 @@ import AVFoundation
 class CameraCaptureViewController: UIViewController, Storyboarded {
     
     @IBOutlet weak var viewfinder: UIView!
-    @IBOutlet weak var zoomSlider: UISlider!
-    @IBOutlet weak var colorPointer: UIView! 
      
     var coordinator: Coordinator!
     let cameraController = CameraController()
@@ -23,16 +21,11 @@ class CameraCaptureViewController: UIViewController, Storyboarded {
         startCamera()
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        prepareView()
-    }
-    
     private func startCamera() {
         DispatchQueue.main.async {
             self.cameraController.startSession(completion: { success, error in
                 if success {
                     self.cameraController.delegate = self
-                    self.prepareZoomSlider()
                     self.cameraController.displayPreview(on: self.viewfinder)
                 } else {
                     // Print Error
@@ -42,28 +35,25 @@ class CameraCaptureViewController: UIViewController, Storyboarded {
     }
     
     private func prepareZoomSlider() {
-        zoomSlider.minimumValue = Float(cameraController.cameraDevice?.minAvailableVideoZoomFactor ?? 1)
-        zoomSlider.maximumValue = Float(cameraController.cameraDevice?.maxAvailableVideoZoomFactor ?? 1)
-        zoomSlider.value = zoomSlider.minimumValue
+//        zoomSlider.minimumValue = Float(cameraController.cameraDevice?.minAvailableVideoZoomFactor ?? 1)
+//        zoomSlider.maximumValue = Float(cameraController.cameraDevice?.maxAvailableVideoZoomFactor ?? 1)
+//        zoomSlider.value = zoomSlider.minimumValue
     }
     
     private func prepareView() {
-        viewfinder.layer.masksToBounds = true
-        viewfinder.layer.cornerRadius = view.bounds.width * 0.18
-        colorPointer.layer.masksToBounds = true
-        colorPointer.layer.cornerRadius = colorPointer.bounds.width/2.0
+        
     }
     
     @IBAction func valueChange(_ sender: UISlider) {
-        let zoomValue = CGFloat(sender.value)
-        
-        do {
-            try cameraController.cameraDevice?.lockForConfiguration()
-            cameraController.cameraDevice?.videoZoomFactor = zoomValue
-            cameraController.cameraDevice?.unlockForConfiguration()
-        } catch {
-        
-        }
+//        let zoomValue = CGFloat(sender.value)
+//
+//        do {
+//            try cameraController.cameraDevice?.lockForConfiguration()
+//            cameraController.cameraDevice?.videoZoomFactor = zoomValue
+//            cameraController.cameraDevice?.unlockForConfiguration()
+//        } catch {
+//
+//        }
     }
     
 }

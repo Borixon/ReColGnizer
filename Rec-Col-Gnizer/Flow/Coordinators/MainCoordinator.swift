@@ -27,12 +27,12 @@ class MainCoordinator: Coordinator {
     
     func openTabBar() {
         
-        let rgbPicker = RGBViewController.instantiate()
-        rgbPicker.coordinator = self
+        let picker = PickerViewController.instantiate()
+        picker.coordinator = self
         let cameraPicker = CameraCaptureViewController.instantiate()
         cameraPicker.coordinator = self
         let tabbar = UITabBarController()
-        tabbar.setViewControllers([rgbPicker, cameraPicker], animated: false)
+        tabbar.setViewControllers([picker, cameraPicker], animated: false)
         let buttonRgb = UIBarButtonItem(title: "Manual Picker", style: .plain, target: self, action: nil)
         let buttonCam = UIBarButtonItem(title: "Camera Picker", style: .plain, target: self, action: nil)
         tabbar.setToolbarItems([buttonRgb, buttonCam], animated: false)

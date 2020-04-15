@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UserData {
+class UserData: NSObject {
     
     private let defaults = UserDefaults.standard
     
@@ -51,6 +51,20 @@ class UserData {
         }
         set {
             defaults.setValue(newValue, forKey: kGreenRGBValue)
+        }
+    }
+    
+    private let kPickerCategorySelected = "kPickerCategorySelected"
+    var pickerCategory: PickerViewCategory {
+        get {
+            if let value = PickerViewCategory(rawValue: defaults.string(forKey: kPickerCategorySelected) ?? "") {
+                return value
+            } else {
+                return PickerViewCategory.RGB
+            }
+        }
+        set {
+            defaults.setValue(newValue.rawValue, forKey: kPickerCategorySelected)
         }
     }
 }

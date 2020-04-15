@@ -80,3 +80,7 @@ protocol RGBViewModelDelegate {
     func openLoadingScreen()
     func hideLoadingScreen()
 }
+
+enum ColorPickerType {
+    
+}
