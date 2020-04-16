@@ -8,9 +8,9 @@
 
 import Foundation
 
-struct ColorSchemeModel: Codable {
+struct WSColorSchemeModel: Codable {
     let mode: String
     let count: String
-    let colors: Array<ColorModel>
-    let seed: ColorModel
+    let colors: Array<WSColorModel>
+    let seed: WSColorModel
 }

@@ -18,7 +18,7 @@ class ColumnDataCell: UITableViewCell {
         return heightConstraint.constant
     }
     
-    func setup(data: RGB, contrast: UIColor) {
+    func setup(data: WSRgbModel, contrast: UIColor) {
         
         label.textColor = contrast
         label.text = "RGB"
@@ -45,7 +45,7 @@ class ColumnDataCell: UITableViewCell {
         stackView.insertArrangedSubview(bColumn, at: 2)
     }
     
-    func setup(data: CMYK, contrast: UIColor) {
+    func setup(data: WSCmykModel, contrast: UIColor) {
         
         label.textColor = contrast
         label.text = "CMYK"

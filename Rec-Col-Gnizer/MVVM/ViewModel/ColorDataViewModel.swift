@@ -11,11 +11,11 @@ import SwiftHEXColors
 
 class ColorDataViewModel: NSObject {
 
-    private let model: ColorModel
+    private let model: WSColorModel
     public let nameCellIndentifier = "ColorCellNameIdentifier"
     public let rgbCellIdentifier = "rgbCellIdentifier"
     
-    init(model: ColorModel) {
+    init(model: WSColorModel) {
         self.model = model
     }
     
@@ -47,11 +47,11 @@ class ColorDataViewModel: NSObject {
         return (model.name.value, model.hex.value)
     }
     
-    var rgbData: RGB {
+    var rgbData: WSRgbModel {
         return model.rgb
     }
     
-    var cmykData: CMYK {
+    var cmykData: WSCmykModel {
         return model.cmyk
     }
 }

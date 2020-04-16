@@ -10,9 +10,14 @@
 		6A3E64FA308D95077F90669C /* libPods-Rec-Col-Gnizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D25CDF86F488C7CDA6CF20 /* libPods-Rec-Col-Gnizer.a */; };
 		6F0133B524464A2900D2A25A /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0133B324464A2900D2A25A /* SliderCell.swift */; };
 		6F0133B624464A2900D2A25A /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F0133B424464A2900D2A25A /* SliderCell.xib */; };
-		6F10C648244764EC006EC9FC /* SchemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10C647244764EC006EC9FC /* SchemeModel.swift */; };
+		6F06E18124489365003CABAD /* HexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F06E18024489365003CABAD /* HexModel.swift */; };
+		6F06E1842448AC1E003CABAD /* PickerViewController+SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F06E1832448AC1E003CABAD /* PickerViewController+SearchBar.swift */; };
+		6F06E1862448AC4F003CABAD /* PickerViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F06E1852448AC4F003CABAD /* PickerViewController+TableView.swift */; };
+		6F06E1892448AC9B003CABAD /* SliderCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F06E1882448AC9B003CABAD /* SliderCellType.swift */; };
+		6F06E18B2448AD96003CABAD /* SliderCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F06E18A2448AD96003CABAD /* SliderCellData.swift */; };
+		6F10C648244764EC006EC9FC /* WSSchemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10C647244764EC006EC9FC /* WSSchemeModel.swift */; };
 		6F10C64A24476905006EC9FC /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10C64924476905006EC9FC /* API.swift */; };
-		6F10C64C24476BA9006EC9FC /* WSColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10C64B24476BA9006EC9FC /* WSColorData.swift */; };
+		6F10C64C24476BA9006EC9FC /* WSRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10C64B24476BA9006EC9FC /* WSRequestData.swift */; };
 		6F3A47D9243E71410036CF34 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A47D8243E71410036CF34 /* ImagePickerViewController.swift */; };
 		6F591AF7243E2E7F00ECEEEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AF6243E2E7F00ECEEEC /* AppDelegate.swift */; };
 		6F591AF9243E2E7F00ECEEEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AF8243E2E7F00ECEEEC /* SceneDelegate.swift */; };
@@ -23,13 +28,13 @@
 		6F591B11243E2E8500ECEEEC /* Rec_Col_GnizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591B10243E2E8500ECEEEC /* Rec_Col_GnizerTests.swift */; };
 		6F591B1C243E2E8500ECEEEC /* Rec_Col_GnizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591B1B243E2E8500ECEEEC /* Rec_Col_GnizerUITests.swift */; };
 		6F591B2C243E2EDD00ECEEEC /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591B2B243E2EDD00ECEEEC /* WebService.swift */; };
-		6F591B2E243E2F0700ECEEEC /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591B2D243E2F0700ECEEEC /* ColorModel.swift */; };
+		6F591B2E243E2F0700ECEEEC /* WSColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591B2D243E2F0700ECEEEC /* WSColorModel.swift */; };
 		6F9084C72440620F00D7E7A2 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084C62440620F00D7E7A2 /* CameraController.swift */; };
 		6F9084CA2440626100D7E7A2 /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084C92440626100D7E7A2 /* CameraError.swift */; };
 		6F9084CC2440629700D7E7A2 /* CameraControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084CB2440629700D7E7A2 /* CameraControllerDelegate.swift */; };
 		6F9084CE2440656400D7E7A2 /* RGBViewController_TO_REMOVE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084CD2440656400D7E7A2 /* RGBViewController_TO_REMOVE.swift */; };
 		6F9084D02440658E00D7E7A2 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084CF2440658E00D7E7A2 /* PickerViewController.swift */; };
-		6F9084D52440660F00D7E7A2 /* RGBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084D42440660F00D7E7A2 /* RGBModel.swift */; };
+		6F9084D52440660F00D7E7A2 /* PickerColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084D42440660F00D7E7A2 /* PickerColorModel.swift */; };
 		6F9084D72440674E00D7E7A2 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084D62440674E00D7E7A2 /* UserData.swift */; };
 		6F9084D9244068F000D7E7A2 /* RGBViewModel_TO_REMOVE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084D8244068F000D7E7A2 /* RGBViewModel_TO_REMOVE.swift */; };
 		6F9084DD24406A2600D7E7A2 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084DC24406A2600D7E7A2 /* MainViewModel.swift */; };
@@ -48,12 +53,14 @@
 		6F9D495F244251E100AF50D6 /* ColumnDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9D495D244251E100AF50D6 /* ColumnDataCell.xib */; };
 		6F9D4969244254FC00AF50D6 /* ColorDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D4968244254FC00AF50D6 /* ColorDataViewModel.swift */; };
 		6F9D496B244266FA00AF50D6 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D496A244266FA00AF50D6 /* Styles.swift */; };
-		6F9D497424426F1600AF50D6 /* CellBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D497324426F1600AF50D6 /* CellBuilder.swift */; };
+		6F9D497424426F1600AF50D6 /* CellDataBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D497324426F1600AF50D6 /* CellDataBuilder.swift */; };
 		6FF275912440A6E200FDDBAF /* WSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275902440A6E200FDDBAF /* WSError.swift */; };
 		6FF275932440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275922440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift */; };
 		6FF275952440B42B00FDDBAF /* ColorDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */; };
 		6FF275982440CEBF00FDDBAF /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275972440CEBF00FDDBAF /* Storyboarded.swift */; };
 		6FF2759B2440D13A00FDDBAF /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF2759A2440D13A00FDDBAF /* MainCoordinator.swift */; };
+		6FF5EAD824488ECA0026BEDE /* RgbModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5EAD724488ECA0026BEDE /* RgbModel.swift */; };
+		6FF5EADA24488F510026BEDE /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5EAD924488F510026BEDE /* ColorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,9 +84,14 @@
 		1FB3AF0B30260BE62C362D6D /* Pods-Rec-Col-Gnizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rec-Col-Gnizer.debug.xcconfig"; path = "Target Support Files/Pods-Rec-Col-Gnizer/Pods-Rec-Col-Gnizer.debug.xcconfig"; sourceTree = "<group>"; };
 		6F0133B324464A2900D2A25A /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
 		6F0133B424464A2900D2A25A /* SliderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderCell.xib; sourceTree = "<group>"; };
-		6F10C647244764EC006EC9FC /* SchemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemeModel.swift; sourceTree = "<group>"; };
+		6F06E18024489365003CABAD /* HexModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexModel.swift; sourceTree = "<group>"; };
+		6F06E1832448AC1E003CABAD /* PickerViewController+SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PickerViewController+SearchBar.swift"; sourceTree = "<group>"; };
+		6F06E1852448AC4F003CABAD /* PickerViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PickerViewController+TableView.swift"; sourceTree = "<group>"; };
+		6F06E1882448AC9B003CABAD /* SliderCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCellType.swift; sourceTree = "<group>"; };
+		6F06E18A2448AD96003CABAD /* SliderCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCellData.swift; sourceTree = "<group>"; };
+		6F10C647244764EC006EC9FC /* WSSchemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSSchemeModel.swift; sourceTree = "<group>"; };
 		6F10C64924476905006EC9FC /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
-		6F10C64B24476BA9006EC9FC /* WSColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSColorData.swift; sourceTree = "<group>"; };
+		6F10C64B24476BA9006EC9FC /* WSRequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSRequestData.swift; sourceTree = "<group>"; };
 		6F3A47D8243E71410036CF34 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
 		6F591AF3243E2E7F00ECEEEC /* Rec-Col-Gnizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rec-Col-Gnizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F591AF6243E2E7F00ECEEEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,13 +108,13 @@
 		6F591B1B243E2E8500ECEEEC /* Rec_Col_GnizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rec_Col_GnizerUITests.swift; sourceTree = "<group>"; };
 		6F591B1D243E2E8500ECEEEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F591B2B243E2EDD00ECEEEC /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
-		6F591B2D243E2F0700ECEEEC /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		6F591B2D243E2F0700ECEEEC /* WSColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSColorModel.swift; sourceTree = "<group>"; };
 		6F9084C62440620F00D7E7A2 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		6F9084C92440626100D7E7A2 /* CameraError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
 		6F9084CB2440629700D7E7A2 /* CameraControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraControllerDelegate.swift; sourceTree = "<group>"; };
 		6F9084CD2440656400D7E7A2 /* RGBViewController_TO_REMOVE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBViewController_TO_REMOVE.swift; sourceTree = "<group>"; };
 		6F9084CF2440658E00D7E7A2 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
-		6F9084D42440660F00D7E7A2 /* RGBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBModel.swift; sourceTree = "<group>"; };
+		6F9084D42440660F00D7E7A2 /* PickerColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerColorModel.swift; sourceTree = "<group>"; };
 		6F9084D62440674E00D7E7A2 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		6F9084D8244068F000D7E7A2 /* RGBViewModel_TO_REMOVE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBViewModel_TO_REMOVE.swift; sourceTree = "<group>"; };
 		6F9084DC24406A2600D7E7A2 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
@@ -123,12 +135,14 @@
 		6F9D495D244251E100AF50D6 /* ColumnDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColumnDataCell.xib; sourceTree = "<group>"; };
 		6F9D4968244254FC00AF50D6 /* ColorDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDataViewModel.swift; sourceTree = "<group>"; };
 		6F9D496A244266FA00AF50D6 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
-		6F9D497324426F1600AF50D6 /* CellBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellBuilder.swift; sourceTree = "<group>"; };
+		6F9D497324426F1600AF50D6 /* CellDataBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDataBuilder.swift; sourceTree = "<group>"; };
 		6FF275902440A6E200FDDBAF /* WSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSError.swift; sourceTree = "<group>"; };
 		6FF275922440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RGBViewController+TextFieldDelegate.swift"; sourceTree = "<group>"; };
 		6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDataViewController.swift; sourceTree = "<group>"; };
 		6FF275972440CEBF00FDDBAF /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		6FF2759A2440D13A00FDDBAF /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		6FF5EAD724488ECA0026BEDE /* RgbModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RgbModel.swift; sourceTree = "<group>"; };
+		6FF5EAD924488F510026BEDE /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 		79D25CDF86F488C7CDA6CF20 /* libPods-Rec-Col-Gnizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rec-Col-Gnizer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D6104C4CD6635364E222C4 /* Pods-Rec-Col-Gnizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rec-Col-Gnizer.release.xcconfig"; path = "Target Support Files/Pods-Rec-Col-Gnizer/Pods-Rec-Col-Gnizer.release.xcconfig"; sourceTree = "<group>"; };
 		A5023B34A503F01DC9C7DE38 /* Pods_Rec_Col_Gnizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rec_Col_Gnizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +174,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F06E1822448ABFF003CABAD /* PickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6F9084CF2440658E00D7E7A2 /* PickerViewController.swift */,
+				6F06E1832448AC1E003CABAD /* PickerViewController+SearchBar.swift */,
+				6F06E1852448AC4F003CABAD /* PickerViewController+TableView.swift */,
+			);
+			path = PickerViewController;
+			sourceTree = "<group>";
+		};
+		6F06E1872448AC82003CABAD /* SliderCell */ = {
+			isa = PBXGroup;
+			children = (
+				6F0133B324464A2900D2A25A /* SliderCell.swift */,
+				6F0133B424464A2900D2A25A /* SliderCell.xib */,
+				6F06E1882448AC9B003CABAD /* SliderCellType.swift */,
+				6F06E18A2448AD96003CABAD /* SliderCellData.swift */,
+			);
+			path = SliderCell;
+			sourceTree = "<group>";
+		};
 		6F591AEA243E2E7F00ECEEEC = {
 			isa = PBXGroup;
 			children = (
@@ -236,7 +271,7 @@
 				6F591B2B243E2EDD00ECEEEC /* WebService.swift */,
 				6F10C64924476905006EC9FC /* API.swift */,
 				6FF275902440A6E200FDDBAF /* WSError.swift */,
-				6F10C64B24476BA9006EC9FC /* WSColorData.swift */,
+				6F10C64B24476BA9006EC9FC /* WSRequestData.swift */,
 			);
 			path = WebService;
 			sourceTree = "<group>";
@@ -273,9 +308,9 @@
 		6F9084D2244065DB00D7E7A2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6F06E1822448ABFF003CABAD /* PickerViewController */,
 				6F97C074243E57D300CDA54C /* IntroViewController.swift */,
 				6F3A47D8243E71410036CF34 /* ImagePickerViewController.swift */,
-				6F9084CF2440658E00D7E7A2 /* PickerViewController.swift */,
 				6F9084CD2440656400D7E7A2 /* RGBViewController_TO_REMOVE.swift */,
 				6FF275922440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift */,
 				6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */,
@@ -287,7 +322,8 @@
 		6F9084D3244065F100D7E7A2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				6F9084D42440660F00D7E7A2 /* RGBModel.swift */,
+				6FF5EAD624488E9E0026BEDE /* ColorModels */,
+				6F9084D42440660F00D7E7A2 /* PickerColorModel.swift */,
 				6F9084DE24406ACF00D7E7A2 /* MainMenuModel.swift */,
 			);
 			path = Model;
@@ -301,7 +337,7 @@
 				6F9084D62440674E00D7E7A2 /* UserData.swift */,
 				6F9084E524407B7800D7E7A2 /* ColorHelper.swift */,
 				6F9D496A244266FA00AF50D6 /* Styles.swift */,
-				6F9D497324426F1600AF50D6 /* CellBuilder.swift */,
+				6F9D497324426F1600AF50D6 /* CellDataBuilder.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -309,8 +345,8 @@
 		6F97C078243E59DA00CDA54C /* CodableObjects */ = {
 			isa = PBXGroup;
 			children = (
-				6F591B2D243E2F0700ECEEEC /* ColorModel.swift */,
-				6F10C647244764EC006EC9FC /* SchemeModel.swift */,
+				6F591B2D243E2F0700ECEEEC /* WSColorModel.swift */,
+				6F10C647244764EC006EC9FC /* WSSchemeModel.swift */,
 			);
 			path = CodableObjects;
 			sourceTree = "<group>";
@@ -334,12 +370,11 @@
 		6F9D49552442517400AF50D6 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				6F06E1872448AC82003CABAD /* SliderCell */,
 				6F9D4958244251CD00AF50D6 /* ColorNameCell.swift */,
 				6F9D4959244251CD00AF50D6 /* ColorNameCell.xib */,
 				6F9D495C244251E100AF50D6 /* ColumnDataCell.swift */,
 				6F9D495D244251E100AF50D6 /* ColumnDataCell.xib */,
-				6F0133B324464A2900D2A25A /* SliderCell.swift */,
-				6F0133B424464A2900D2A25A /* SliderCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -363,6 +398,16 @@
 				6F9D49512442460B00AF50D6 /* LoadingCoordinator.swift */,
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		6FF5EAD624488E9E0026BEDE /* ColorModels */ = {
+			isa = PBXGroup;
+			children = (
+				6FF5EAD924488F510026BEDE /* ColorModel.swift */,
+				6FF5EAD724488ECA0026BEDE /* RgbModel.swift */,
+				6F06E18024489365003CABAD /* HexModel.swift */,
+			);
+			path = ColorModels;
 			sourceTree = "<group>";
 		};
 		A8CD26646ADB296848AF81F8 /* Pods */ = {
@@ -545,42 +590,49 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FF275952440B42B00FDDBAF /* ColorDataViewController.swift in Sources */,
-				6F10C648244764EC006EC9FC /* SchemeModel.swift in Sources */,
+				6F10C648244764EC006EC9FC /* WSSchemeModel.swift in Sources */,
 				6F0133B524464A2900D2A25A /* SliderCell.swift in Sources */,
 				6F9D496B244266FA00AF50D6 /* Styles.swift in Sources */,
 				6F9084CC2440629700D7E7A2 /* CameraControllerDelegate.swift in Sources */,
 				6F591B01243E2E7F00ECEEEC /* Rec_Col_Gnizer.xcdatamodeld in Sources */,
 				6F9084D9244068F000D7E7A2 /* RGBViewModel_TO_REMOVE.swift in Sources */,
+				6F06E18B2448AD96003CABAD /* SliderCellData.swift in Sources */,
 				6F909F3024464D4B001FCF97 /* PickerViewModel.swift in Sources */,
 				6F9138AF243E507C008B8E78 /* ColorRandomiezer.swift in Sources */,
 				6FF275932440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift in Sources */,
 				6F591AF7243E2E7F00ECEEEC /* AppDelegate.swift in Sources */,
-				6F9084D52440660F00D7E7A2 /* RGBModel.swift in Sources */,
+				6F06E18124489365003CABAD /* HexModel.swift in Sources */,
+				6F9084D52440660F00D7E7A2 /* PickerColorModel.swift in Sources */,
 				6F9084E624407B7800D7E7A2 /* ColorHelper.swift in Sources */,
 				6F3A47D9243E71410036CF34 /* ImagePickerViewController.swift in Sources */,
 				6F10C64A24476905006EC9FC /* API.swift in Sources */,
+				6F06E1842448AC1E003CABAD /* PickerViewController+SearchBar.swift in Sources */,
 				6FF275912440A6E200FDDBAF /* WSError.swift in Sources */,
 				6F9084D02440658E00D7E7A2 /* PickerViewController.swift in Sources */,
 				6FF2759B2440D13A00FDDBAF /* MainCoordinator.swift in Sources */,
 				6F9D495A244251CD00AF50D6 /* ColorNameCell.swift in Sources */,
+				6FF5EADA24488F510026BEDE /* ColorModel.swift in Sources */,
 				6F9084DF24406ACF00D7E7A2 /* MainMenuModel.swift in Sources */,
 				6F591B2C243E2EDD00ECEEEC /* WebService.swift in Sources */,
 				6F9D4969244254FC00AF50D6 /* ColorDataViewModel.swift in Sources */,
+				6FF5EAD824488ECA0026BEDE /* RgbModel.swift in Sources */,
 				6F9084C72440620F00D7E7A2 /* CameraController.swift in Sources */,
 				6F591AF9243E2E7F00ECEEEC /* SceneDelegate.swift in Sources */,
 				6F9D49522442460B00AF50D6 /* LoadingCoordinator.swift in Sources */,
 				6F9D495E244251E100AF50D6 /* ColumnDataCell.swift in Sources */,
-				6F591B2E243E2F0700ECEEEC /* ColorModel.swift in Sources */,
-				6F9D497424426F1600AF50D6 /* CellBuilder.swift in Sources */,
+				6F591B2E243E2F0700ECEEEC /* WSColorModel.swift in Sources */,
+				6F9D497424426F1600AF50D6 /* CellDataBuilder.swift in Sources */,
 				6F97C075243E57D300CDA54C /* IntroViewController.swift in Sources */,
-				6F10C64C24476BA9006EC9FC /* WSColorData.swift in Sources */,
+				6F10C64C24476BA9006EC9FC /* WSRequestData.swift in Sources */,
 				6F97C077243E596300CDA54C /* Coordinator.swift in Sources */,
 				6F9084DD24406A2600D7E7A2 /* MainViewModel.swift in Sources */,
+				6F06E1892448AC9B003CABAD /* SliderCellType.swift in Sources */,
 				6F9084D72440674E00D7E7A2 /* UserData.swift in Sources */,
 				6F9D49542442475F00AF50D6 /* LoadingViewController.swift in Sources */,
 				6FF275982440CEBF00FDDBAF /* Storyboarded.swift in Sources */,
 				6F9084CE2440656400D7E7A2 /* RGBViewController_TO_REMOVE.swift in Sources */,
 				6F9084CA2440626100D7E7A2 /* CameraError.swift in Sources */,
+				6F06E1862448AC4F003CABAD /* PickerViewController+TableView.swift in Sources */,
 				6F9D49502442452200AF50D6 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

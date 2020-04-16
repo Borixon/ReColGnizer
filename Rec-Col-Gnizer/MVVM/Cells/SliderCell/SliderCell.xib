@@ -19,6 +19,9 @@
                 <subviews>
                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="O6p-sg-6Qb">
                         <rect key="frame" x="68" y="34" width="238" height="31"/>
+                        <connections>
+                            <action selector="sliderValue:" destination="KGk-i7-Jjw" eventType="valueChanged" id="wgw-Jk-8pT"/>
+                        </connections>
                     </slider>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="250" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Mg-xJ-lE6">
                         <rect key="frame" x="16" y="40" width="42" height="18"/>

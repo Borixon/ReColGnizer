@@ -14,7 +14,8 @@ class PickerViewController: UIViewController, Storyboarded {
     @IBOutlet weak var categoryStackView: UIStackView!
     @IBOutlet weak var textFieldsStack: UIStackView!
     @IBOutlet weak var tableView: UITableView!
-    @IBOutlet var checkDataButton: UIView!
+    @IBOutlet weak var checkDataButton: UIButton!
+    @IBOutlet weak var colorBackgroundView: UIView!
     
     var coordinator: MainCoordinator?
     let vm = PickerViewModel()
@@ -23,23 +24,33 @@ class PickerViewController: UIViewController, Storyboarded {
         super.viewDidLoad()
         setupTableView()
         setupSearchBar()
+        setupViewComponents()
+    }
+    
+    private func setupViewComponents() {
         vm.delegate = self
+        colorBackgroundView.backgroundColor = vm.selectedColor
+        checkDataButton.backgroundColor = .groupTableViewBackground
+        checkDataButton.tintColor = .darkGray
     }
     
     private func setupSearchBar() {
+        searchBar.setShowsCancelButton(true, animated: true)
+        searchBar.returnKeyType = .search
         searchBar.delegate = self
-        searchBar.placeholder = "#AA420C, Yellow..."
+        searchBar.placeholder = "AC12F3, f3c"
     }
     
     private func setupTableView() {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.estimatedRowHeight = vm.rowHeight
-        tableView.register(UINib(nibName: "SliderCell", bundle: Bundle.main), forCellReuseIdentifier: "TMEP")
+        tableView.register(UINib(nibName: "SliderCell", bundle: Bundle.main), forCellReuseIdentifier: vm.sliderCellIdentifier)
     }
     
     @IBAction func checkData(_ sender: Any) {
-        vm.getColor()
+        // TODO: Insert loading screen
+        vm.sendDataRequest()
     }
     
     private func setupCategoryStack() {
@@ -48,43 +59,23 @@ class PickerViewController: UIViewController, Storyboarded {
 }
 
 extension PickerViewController: PickerViewModelDelegate {
-    func show(color: ColorModel) {
+    func show(color: WSColorModel) {
+        // TODO: Remove loading screen -> INSIDE OPEN COLOR???
         coordinator?.openColorData(data: color)
     }
     
     func show(error: Error?) {
+        // TODO: Remove loading screen
         coordinator?.show(error: error)
     }
-}
-
-extension PickerViewController: UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return vm.numberOfRows
-    }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "TMEP")!
-        return cell
+    func didPick(color: UIColor) {
+        colorBackgroundView.backgroundColor = color
     }
 }
 
-extension PickerViewController: UITableViewDelegate {
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return vm.rowHeight
-        
-    }
-}
-
-extension PickerViewController: UISearchBarDelegate {
-    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        
-    }
-    
-    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-    
-    }
-    
-    func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
-        
+extension PickerViewController: SliderCellDelegate {
+    func didChange(value: Float, type: SliderCellType) {
+        vm.sliderDataChange(value, type: type)
     }
 }

@@ -13,9 +13,9 @@ class UserData: NSObject {
     private let defaults = UserDefaults.standard
     
     private let kRedRGBValue = "kRGBRedValue"
-    var redRGBValue: Float {
+    var redRGBValue: Int {
         get {
-            if let rValue = defaults.value(forKey: kRedRGBValue) as? Float {
+            if let rValue = defaults.value(forKey: kRedRGBValue) as? Int {
                 return rValue
             } else {
                 return 100
@@ -27,9 +27,9 @@ class UserData: NSObject {
     }
     
     private let kBlueRGBValue = "kRGBBlueValue"
-    var blueRGBValue: Float {
+    var blueRGBValue: Int {
         get {
-            if let rValue = defaults.value(forKey: kBlueRGBValue) as? Float {
+            if let rValue = defaults.value(forKey: kBlueRGBValue) as? Int {
                 return rValue
             } else {
                 return 100
@@ -41,9 +41,9 @@ class UserData: NSObject {
     }
     
     private let kGreenRGBValue = "kRGBGreenValue"
-    var greenRGBValue: Float {
+    var greenRGBValue: Int {
         get {
-            if let rValue = defaults.value(forKey: kGreenRGBValue) as? Float {
+            if let rValue = defaults.value(forKey: kGreenRGBValue) as? Int {
                 return rValue
             } else {
                 return 100
@@ -55,12 +55,12 @@ class UserData: NSObject {
     }
     
     private let kPickerCategorySelected = "kPickerCategorySelected"
-    var pickerCategory: PickerViewCategory {
+    var pickerCategory: PickerCategory {
         get {
-            if let value = PickerViewCategory(rawValue: defaults.string(forKey: kPickerCategorySelected) ?? "") {
+            if let value = PickerCategory(rawValue: defaults.string(forKey: kPickerCategorySelected) ?? "") {
                 return value
             } else {
-                return PickerViewCategory.RGB
+                return PickerCategory.Rgb
             }
         }
         set {

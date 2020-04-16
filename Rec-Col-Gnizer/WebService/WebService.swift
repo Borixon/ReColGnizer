@@ -11,7 +11,7 @@ import PromiseKit
 
 class WebService: NSObject {
 
-    public func getColorFrom<T: WSColorData>(data: T, completion: @escaping (ColorModel?, Error?) -> ()) {
+    public func getColorFrom<T: WSRequestData>(data: T, completion: @escaping (WSColorModel?, Error?) -> ()) {
         let urlRequest: URLRequest
         do {
             urlRequest = try API().colorRequest(data)
@@ -23,7 +23,7 @@ class WebService: NSObject {
         URLSession.shared.dataTask(with: urlRequest) { data, response, error in
             if let data = data {
                 do { 
-                    let color = try JSONDecoder().decode(ColorModel.self, from: data)
+                    let color = try JSONDecoder().decode(WSColorModel.self, from: data)
                     completion(color, nil)
                 } catch {
                     completion(nil, error)
@@ -33,8 +33,26 @@ class WebService: NSObject {
         }.resume()
     }
     
-    public func getColorScheme() {
+    public func getColorScheme<T: WSRequestData>(data: T, completion: @escaping (WSColorSchemeModel?, Error?) -> ()) {
+        let urlRequest: URLRequest
+        do {
+            urlRequest = try API().schemeRequest(data)
+        } catch {
+            completion(nil, error)
+            return
+        }
         
+        URLSession.shared.dataTask(with: urlRequest) { data, response, error in
+            if let data = data {
+                do {
+                    let color = try JSONDecoder().decode(WSColorSchemeModel.self, from: data)
+                    completion(color, nil)
+                } catch {
+                    completion(nil, error)
+                }
+            }
+            completion(nil, nil)
+        }.resume()
     }
     
 }

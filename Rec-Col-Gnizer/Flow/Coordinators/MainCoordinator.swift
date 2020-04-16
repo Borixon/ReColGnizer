@@ -52,12 +52,12 @@ class MainCoordinator: Coordinator {
     }
     
     func openRGBPicker() {
-        let vc = RGBViewController.instantiate()
-        vc.coordinator = self
+//        let vc = RGBViewController.instantiate()
+//        vc.coordinator = self
 //        navigationController.pushViewController(vc, animated: true)
     }
     
-    func openColorData(data: ColorModel) {
+    func openColorData(data: WSColorModel) {
         let vc = ColorDataViewController.instantiate()
         vc.vm = ColorDataViewModel(model: data)
         DispatchQueue.main.async {

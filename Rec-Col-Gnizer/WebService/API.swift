@@ -25,11 +25,15 @@ struct API {
     private let cmykParameter: String = "cmyk=%@"
     private let hslParameter: String = "hsl=%@"
     private let hexParameter: String = "hex=%@"
+    
+    // Mode Parameter
     private let modeParameter: String = "mode=%@"
     private let countParamter: String = "count=%@"
     
     private func getRequest(from string: String) throws -> URLRequest {
-        guard let url = URL(string: string) else { throw URLError(.badURL) }
+        let strWithJson = string.appending(jsonFormat)
+        guard let url = URL(string: strWithJson) else { throw URLError(.badURL) }
+        
         var request = URLRequest(url: url)
         request.allHTTPHeaderFields = headers
         request.httpMethod = method
@@ -37,26 +41,49 @@ struct API {
         return request
     }
     
-    public func colorRequest<T: WSColorData>(_ data: T) throws -> URLRequest {
+    public func colorRequest<T: WSRequestData>(_ data: T) throws -> URLRequest {
         var requestString = domain + colorEndpoint
-        if let hexData = data.value as? Hex {
-            requestString.append(String(format: hexParameter, arguments: ["(\(hexData.value)"]))
-        } else if let rgbData = data.value as? RGB {
-            requestString.append(String(format: rgbParameter, arguments: ["(\(rgbData.r),\(rgbData.g),\(rgbData.b))"]))
-        } else if let cmykData = data.value as? CMYK {
-            let argument = "(\(cmykData.c ?? 0),\(cmykData.m ?? 0),\(cmykData.y ?? 0),\(cmykData.k ?? 0)"
-            requestString.append(String(format: cmykParameter, arguments: [argument]))
-        } else if let hslData = data.value as? HSL {
-            requestString.append(String(format: hslParameter, arguments: ["(\(hslData.h), \(hslData.s), \(hslData.l)"]))
+        
+        if let hexData = data.value as? HexModel {
+            requestString.append(String(format: hexParameter, arguments: ["\(hexData.value)"]))
+        } else if let rgbData = data.value as? RgbModel {
+            let params = "(\(rgbData.value.r),\(rgbData.value.g),\(rgbData.value.b))"
+            requestString.append(String(format: rgbParameter, arguments: [params]))
         }
-        requestString.append(jsonFormat)
+//        } else if let cmykData = data.value as? CmykModel {
+//            let argument = "(\(cmykData.c ?? 0),\(cmykData.m ?? 0),\(cmykData.y ?? 0),\(cmykData.k ?? 0)"
+//            requestString.append(String(format: cmykParameter, arguments: [argument]))
+//        } else if let hslData = data.value as? HslModel {
+//            requestString.append(String(format: hslParameter, arguments: ["(\(hslData.h), \(hslData.s), \(hslData.l)"]))
+//        }
         
         return try getRequest(from: requestString)
     }
     
-    public func schemeRequest() {
+    public func schemeRequest<T: WSRequestData>(_ data: T) throws -> URLRequest {
+        var requestString = domain + schemeEndpoint
         
+        if let hexData = data.value as? WSHexModel {
+            requestString.append(String(format: hexParameter, arguments: ["\(hexData.value)"]))
+        } else if let rgbData = data.value as? WSRgbModel {
+            requestString.append(String(format: rgbParameter, arguments: ["(\(rgbData.r),\(rgbData.g),\(rgbData.b))"]))
+        }
+        
+        requestString.append(String(format: "&" + modeParameter, SchemeModeTypes.Complement.rawValue))
+        requestString.append(String(format: "&" + countParamter, "6"))
+        
+        return try getRequest(from: requestString)
     }
+    
+    // TODO oczywiscie zmiana
+//    private func dupa() {
+//        switch data {
+//        case is HexRequestData:
+//            print("HEX")
+//        default:
+//            print("B")
+//        }
+//    }
 }
 
 enum SchemeModeTypes: String {

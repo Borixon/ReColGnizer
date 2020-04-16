@@ -11,15 +11,24 @@ import UIKit
 
 final class PickerViewModel {
     
+    public let sliderCellIdentifier = "sliderCellIdentifier"
     public var delegate: PickerViewModelDelegate?
-    private var rgbModel: RGB = RGB(r: 55, g: 23, b: 11, value: "", fraction: nil)
+    private var model: PickerColorModel = PickerColorModel()
     
-    var currentCategory: PickerViewCategory {
-        return UserData().pickerCategory
+    var searchPicker: PickerCategory = UserData().pickerCategory
+    
+    var viewCategory: PickerCategory {
+        get {
+            return UserData().pickerCategory
+        }
+        set {
+            UserData().pickerCategory = newValue
+        }
     }
     
     var numberOfRows: Int {
-        if currentCategory == PickerViewCategory.RGB || currentCategory == PickerViewCategory.HLS {
+        // TODO: Switch?
+        if viewCategory == PickerCategory.Rgb || viewCategory == PickerCategory.Hsl {
             return 3
         } else {
             return 4
@@ -29,17 +38,75 @@ final class PickerViewModel {
     var rowHeight: CGFloat {
         return SliderCell.height
     }
+     
+    var selectedColor: UIColor {
+        if viewCategory == .Rgb {
+            return model.rgbModel.color
+        }
+        return .red
+    }
     
-    func getColor() {
-        // TODO: Resolve this generic way
-        if currentCategory == .RGB {
-            requestColor(from: RGBRequestData(value: rgbModel))
+    public func search(hex: String) {
+        guard HexModel.isValid(hex: hex) else {
+            // TODO: Print alert not valid hex
+            return
+        }
+        model.hexModel = HexModel(value: hex)
+        searchPicker = .Hex
+        sendDataRequest()
+    }
+    
+    public func sliderDataChange(_ value: Float, type: SliderCellType) {
+        let val = Int(value)
+        switch type {
+        case .Red:
+            model.rgbModel.value.r = val
+            UserData().redRGBValue = val
+        case .Green:
+            model.rgbModel.value.g = val
+            UserData().greenRGBValue = val
+        case .Blue:
+            model.rgbModel.value.b = val
+            UserData().blueRGBValue = val
+        default:
+            print("Nuttin")
+        }
+        delegate?.didPick(color: selectedColor)
+    }
+    
+    public func sendDataRequest() {
+        if model.isScheme {
+            sendSchemeRequest()
         } else {
-            
+            sendColorRequest()
         }
     }
     
-    private func requestColor<T: WSColorData>(from data: T) {
+    public func sendColorRequest() {
+        if searchPicker == .Rgb {
+            requestColor(from: RgbRequestData(value: model.rgbModel))
+        } else if searchPicker == .Hex {
+            requestColor(from: HexRequestData(value: model.hexModel))
+            searchPicker = viewCategory
+        }
+    }
+    
+    public func sendSchemeRequest() {
+        
+    }
+    
+    public func cellData<T: SliderCellData>(for indexPath:IndexPath) -> T? {
+        if T.self == SliderData.self {
+            if viewCategory == .Rgb {
+                return CellDataBuilder().getSliderCell(forRow: indexPath.row, model: model.rgbModel) as? T
+            }
+        } else {
+            // Slider Cell Data wth Select ??
+        }
+        return nil
+    }
+    
+    private func requestColor<T: WSRequestData>(from data: T) {
         WebService().getColorFrom(data: data, completion: { model, error in
             if model != nil {
                 self.delegate?.show(color: model!)
@@ -48,15 +115,27 @@ final class PickerViewModel {
             }
         })
     }
+    
+    private func requestScheme<T: WSRequestData>(from data: T, parameters: Dictionary<String, String>) {
+        WebService().getColorScheme(data: data, completion: { scheme, error in
+            if scheme != nil {
+                print("O **** DZIAŁA")
+            } else if error != nil {
+                print("O ku** ch** :(")
+            }
+        })
+    }
 }
 
 protocol PickerViewModelDelegate {
-    func show(color: ColorModel)
+    func didPick(color: UIColor)
+    func show(color: WSColorModel)
     func show(error: Error?)
 }
 
-enum PickerViewCategory: String {
-    case RGB = "RGBPickerViewCategory"
-    case CMYK = "CMYKPickerViewCategory"
-    case HLS = "HLSPickerViewCategory"
+enum PickerCategory: String {
+    case Rgb = "RgbPickerViewCategory"
+    case Cmyk = "CmykPickerViewCategory"
+    case Hsl = "HslPickerViewCategory"
+    case Hex = "HexPickerViewCategory"
 }
