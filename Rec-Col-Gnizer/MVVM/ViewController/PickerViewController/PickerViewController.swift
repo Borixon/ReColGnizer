@@ -12,7 +12,6 @@ class PickerViewController: UIViewController, Storyboarded {
 
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var categoryStackView: UIStackView!
-    @IBOutlet weak var textFieldsStack: UIStackView!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var checkDataButton: UIButton!
     @IBOutlet weak var colorBackgroundView: UIView!
@@ -25,13 +24,21 @@ class PickerViewController: UIViewController, Storyboarded {
         setupTableView()
         setupSearchBar()
         setupViewComponents()
+        setupCategoryStack()
     }
     
     private func setupViewComponents() {
         vm.delegate = self
+        view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(hideKeyboard)))
         colorBackgroundView.backgroundColor = vm.selectedColor
         checkDataButton.backgroundColor = .groupTableViewBackground
         checkDataButton.tintColor = .darkGray
+        checkDataButton.layer.cornerRadius = 15
+        checkDataButton.layer.masksToBounds = true
+        checkDataButton.setTitleColor(.darkGray, for: .normal)
+        colorBackgroundView.layer.masksToBounds = true
+        colorBackgroundView.layer.cornerRadius = 15 // TODO: Przenieśc do jakiegos stylu czy cos
+        
     }
     
     private func setupSearchBar() {
@@ -54,11 +61,42 @@ class PickerViewController: UIViewController, Storyboarded {
     }
     
     private func setupCategoryStack() {
+        // TODO : Remove from here
+        let rgbButton = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 30))
+        rgbButton.layer.masksToBounds = true
+        rgbButton.layer.cornerRadius = 9
+        rgbButton.backgroundColor = .groupTableViewBackground
+        rgbButton.setTitleColor(.darkGray, for: .normal)
+        rgbButton.setTitle("RGB", for: .normal)
+        rgbButton.addTarget(vm, action: #selector(PickerViewModel.rgbPicked), for: .touchUpInside)
         
+        let hslButton = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 30))
+        hslButton.layer.masksToBounds = true
+        hslButton.layer.cornerRadius = 9
+        hslButton.backgroundColor = .groupTableViewBackground
+        hslButton.setTitleColor(.darkGray, for: .normal)
+        hslButton.setTitle("HSL", for: .normal)
+        hslButton.addTarget(vm, action: #selector(PickerViewModel.hslPicked), for: .touchUpInside)
+        
+        categoryStackView.addArrangedSubview(rgbButton)
+        categoryStackView.addArrangedSubview(hslButton)
+    }
+    
+    @objc internal func hideKeyboard() {
+        searchBar.setShowsCancelButton(false, animated: true)
+        view.endEditing(true)
+    }
+    
+    internal func revelKeyboard() {
+        searchBar.setShowsCancelButton(true, animated: true)
     }
 }
 
 extension PickerViewController: PickerViewModelDelegate {
+    func reloadData() {
+        tableView.reloadData()
+    }
+    
     func show(color: WSColorModel) {
         // TODO: Remove loading screen -> INSIDE OPEN COLOR???
         coordinator?.openColorData(data: color)

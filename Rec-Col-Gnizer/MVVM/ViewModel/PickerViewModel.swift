@@ -42,6 +42,8 @@ final class PickerViewModel {
     var selectedColor: UIColor {
         if viewCategory == .Rgb {
             return model.rgbModel.color
+        } else if viewCategory == .Hsl {
+            return model.hslModel.color
         }
         return .red
     }
@@ -68,6 +70,12 @@ final class PickerViewModel {
         case .Blue:
             model.rgbModel.value.b = val
             UserData().blueRGBValue = val
+        case .Hue:
+            model.hslModel.value.h = val
+        case .Saturation:
+            model.hslModel.value.s = val
+        case .Lightness:
+            model.hslModel.value.l = val
         default:
             print("Nuttin")
         }
@@ -85,6 +93,8 @@ final class PickerViewModel {
     public func sendColorRequest() {
         if searchPicker == .Rgb {
             requestColor(from: RgbRequestData(value: model.rgbModel))
+        } else if searchPicker == .Hsl {
+            requestColor(from: HslRequestData(value: model.hslModel))
         } else if searchPicker == .Hex {
             requestColor(from: HexRequestData(value: model.hexModel))
             searchPicker = viewCategory
@@ -99,6 +109,8 @@ final class PickerViewModel {
         if T.self == SliderData.self {
             if viewCategory == .Rgb {
                 return CellDataBuilder().getSliderCell(forRow: indexPath.row, model: model.rgbModel) as? T
+            } else if viewCategory == .Hsl {
+                return CellDataBuilder().getSliderCell(forRow: indexPath.row, model: model.hslModel) as? T
             }
         } else {
             // Slider Cell Data wth Select ??
@@ -125,12 +137,31 @@ final class PickerViewModel {
             }
         })
     }
+     
+    @objc public func rgbPicked() {
+        viewCategory = .Rgb
+        searchPicker = .Rgb
+        delegate?.didPick(color: selectedColor)
+        delegate?.reloadData()
+    }
+
+    @objc public func cmykPicked() {
+        
+    }
+    
+    @objc public func hslPicked() {
+        viewCategory = .Hsl
+        searchPicker = .Hsl
+        delegate?.reloadData()
+        delegate?.didPick(color: selectedColor)
+    }
 }
 
 protocol PickerViewModelDelegate {
     func didPick(color: UIColor)
     func show(color: WSColorModel)
     func show(error: Error?)
+    func reloadData()
 }
 
 enum PickerCategory: String {

@@ -25,6 +25,20 @@ final class CellDataBuilder {
                                   current: Float(rgb.value.b),
                                   type: SliderCellType.Blue)
             }
+        } else if let hsl = model as? HslModel {
+            if row == 0 {
+                return SliderData(max: Float(HslModel.maxValue.h),
+                                  current: Float(hsl.value.h),
+                                  type: SliderCellType.Hue)
+            } else if row == 1 {
+                return SliderData(max: Float(HslModel.maxValue.s),
+                                  current: Float(hsl.value.s),
+                                  type: SliderCellType.Saturation)
+            } else {
+                return SliderData(max: Float(HslModel.maxValue.l),
+                                  current: Float(hsl.value.l),
+                                  type: SliderCellType.Lightness)
+            }
         }
         return nil
     }

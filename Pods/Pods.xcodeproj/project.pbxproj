@@ -7,115 +7,140 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E1C7AAAC7BC03B5D5EAC3551DCCE990 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AF281A4E2CB45CE1967491D7EAFB6 /* Error.swift */; };
-		14B2149DC88A4BB5FCBBB0BDCF61EE79 /* after.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC31193CCBE1830DD1AFA6114DC9B86 /* after.m */; };
-		1BFE93BA7F367122F17A991FEEE05D27 /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612BFB8CC7872F550D3F3EEA4181579C /* race.swift */; };
-		246F650046CB4C437D5F4D7FBE118818 /* PromiseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B7D2C46E367A6C3158544AA0708A7 /* PromiseKit-dummy.m */; };
-		2AC7CC78C7F246C1BF4D435860380158 /* SwiftHEXColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C20DA412A7D9F849868AE14E59771EF /* SwiftHEXColors-dummy.m */; };
-		2CA88B47F549D73514101CB9F4366586 /* Catchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6995AA6FFA087C8C1341C7A2BA4F93C /* Catchable.swift */; };
-		305877481C636F542DCDA8B321CC0E22 /* PromiseKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 773546798066810BF24653C0D6104C39 /* PromiseKit-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3C754B8080F43B01B64988B7E53A5AC7 /* firstly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6177FEA83982AAA2BE45FE521A48F852 /* firstly.swift */; };
-		3CDF997FEE2472BBB567EDE07D26D08B /* hang.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A2EC49059C8EFEA0DA1F56CD63B62D /* hang.m */; };
-		40BB1B416CEA35EBCE89BE9A8CA97AF7 /* Guarantee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39263F2E2EA6CA020378F8E3E7BA6049 /* Guarantee.swift */; };
-		448C4FFDA8F0324AA4E434A273E62F97 /* SwiftHEXColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900C9DA9C3D21A7B3D50154A375127CC /* SwiftHEXColors.swift */; };
-		523B32388EE7098A0A336A409062FB8B /* PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B6A6099D3BA8F2BDCA6553CF5FF89A /* PromiseKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5F14CE5F8A81661B16A725D4CFEE9AB1 /* join.m in Sources */ = {isa = PBXBuildFile; fileRef = D4887CCE836E56185606244D77CFAF8A /* join.m */; };
-		61CC6A5015073B1F61A8E2B64E3241A8 /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B712BE4B3BBA5BF885489474CFEE58DD /* LogEvent.swift */; };
-		66815178947819545D6BAB4F97B85332 /* fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = B35D199A000EE2C32B2B2B56CE15D1C1 /* fwd.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		71ECF52783F7DF34CA7AB50789582574 /* Thenable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CA9B9AA1C2942958C97B36B65D8AF /* Thenable.swift */; };
-		72670E3EB17902E2E3192335CE9FBE0E /* when.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD3781FDB36F53E3977A97AD0654237 /* when.m */; };
-		7D16851B579A5D62F3F02A3E5F05DB43 /* Pods-Rec-Col-Gnizer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD870AEDEFBE2A914885B26C6797742 /* Pods-Rec-Col-Gnizer-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7ED4CBDABF46EC7CDD27EB050C0842A4 /* hang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118FD21D9AC5F3B0689F4CD3B363525E /* hang.swift */; };
-		7F981C048D2D278E3AC21095083CCAAD /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6E4E8DA9330B74A3261FDA9B15306C /* Promise.swift */; };
-		88C4CE5D390771D6C2FBC695706F919F /* dispatch_promise.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1319EA21AADB3D2DEE2C6EB3FBE258 /* dispatch_promise.m */; };
-		89F5F1A13890467B601AA4BEA99052C2 /* AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A4A7F738BC7E2DF5E829E19ECA201FE /* AnyPromise.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9B74BFFFFE79A184949B96B4B8050B73 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB6BB0FACCE6E57B2B1B76C76742896 /* Configuration.swift */; };
-		9C063C24094E80C5FA3C3A9D06AD2D00 /* after.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE604E5E696A7050B2BC96BC02994123 /* after.swift */; };
-		A28F364E9C3689D5DC18B97450DB8F2A /* AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FD8C7D0442799552EE71F97AB3CFD8 /* AnyPromise.swift */; };
-		A4A43B06737173DB847FC611E2CDF788 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1DEAEA1A657E259E3B08408D442D9 /* Box.swift */; };
-		B54F868C638CDD438A07BEFD23E727A5 /* SwiftHEXColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FE01366C09FCE942BB1C934868244C6 /* SwiftHEXColors-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B9D9905C1C0F94705EBD7717791FFFA2 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4AC936F2867DDBC3EF3474C054345B /* Deprecations.swift */; };
-		C1B3CDF767B3FDDB22FAB7EA2A1DCEA9 /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C85383D01C2FA0C6F9B0FD30167492 /* when.swift */; };
-		E33C0770F6FC0E5FF9710981C0D523F1 /* Pods-Rec-Col-Gnizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D055BF71599A1F1E828B4E6585053D /* Pods-Rec-Col-Gnizer-dummy.m */; };
-		ED39360F16C3829DE0AFE9B4A735D5C0 /* race.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF2A2F665A348B6000939EEBDB3C2C /* race.m */; };
-		EE3D53BC478452F398885BC4E0B79920 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E283FF737DAF191C498482197C865BC1 /* Resolver.swift */; };
-		F95172A961C3E01A1A5DCE68FA685820 /* AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE0A1641408FCB6100CC68E52061B14 /* AnyPromise.m */; };
-		F985831086FD58ACA4359B5A3E3B5D63 /* CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8A001E69DF7604D69D6F9F6448B6A /* CustomStringConvertible.swift */; };
+		02551B70F105824C5F8E5D359EB76B08 /* Pods-Rec-Col-Gnizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D055BF71599A1F1E828B4E6585053D /* Pods-Rec-Col-Gnizer-dummy.m */; };
+		0E1C7AAAC7BC03B5D5EAC3551DCCE990 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84291A54C8DEA322F0F90EF2EF05248F /* Error.swift */; };
+		14B2149DC88A4BB5FCBBB0BDCF61EE79 /* after.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DD31C876657FF33C80C30EB67ED179 /* after.m */; };
+		1BFE93BA7F367122F17A991FEEE05D27 /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E4121A355DD7F55121BE0964A7CA3 /* race.swift */; };
+		246F650046CB4C437D5F4D7FBE118818 /* PromiseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BB81DAE9E7B1C3A558B324B28E7100 /* PromiseKit-dummy.m */; };
+		2AC7CC78C7F246C1BF4D435860380158 /* SwiftHEXColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A158ABCF5C18F354DF38CD71C41E6640 /* SwiftHEXColors-dummy.m */; };
+		2CA88B47F549D73514101CB9F4366586 /* Catchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18C424703AFA12E527CED2542473808 /* Catchable.swift */; };
+		305877481C636F542DCDA8B321CC0E22 /* PromiseKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE78C2E55831CBB8246638953973995F /* PromiseKit-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C754B8080F43B01B64988B7E53A5AC7 /* firstly.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A0E658C7E4DDEBC6E2D5C9A04DE8E9 /* firstly.swift */; };
+		3CDF997FEE2472BBB567EDE07D26D08B /* hang.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D19CF7D0FAF0398ADBC143C22CC21D /* hang.m */; };
+		40BB1B416CEA35EBCE89BE9A8CA97AF7 /* Guarantee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B414203B1EC5756C8A6BE39F23E97A3 /* Guarantee.swift */; };
+		448C4FFDA8F0324AA4E434A273E62F97 /* SwiftHEXColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156A8DF01ED58D74983C44717AED693 /* SwiftHEXColors.swift */; };
+		523B32388EE7098A0A336A409062FB8B /* PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 34245B269DBF6743AB5E4799EC19C753 /* PromiseKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F14CE5F8A81661B16A725D4CFEE9AB1 /* join.m in Sources */ = {isa = PBXBuildFile; fileRef = B1314691DF72BC5EB48404CC00B49FA2 /* join.m */; };
+		61CC6A5015073B1F61A8E2B64E3241A8 /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67F07573251AAB4F3AF40854928A7E2 /* LogEvent.swift */; };
+		650BBF145506533ECA37743F8522426B /* Pods-Rec-Col-Gnizer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD870AEDEFBE2A914885B26C6797742 /* Pods-Rec-Col-Gnizer-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66815178947819545D6BAB4F97B85332 /* fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = B18AEC2C2AC86F4E98DD986D6BD1AE14 /* fwd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71ECF52783F7DF34CA7AB50789582574 /* Thenable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E95CDDD52D9F8D5AA1F6BF2033187F /* Thenable.swift */; };
+		72670E3EB17902E2E3192335CE9FBE0E /* when.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F7917938341CB545DEBF0B36321DC2 /* when.m */; };
+		7ED4CBDABF46EC7CDD27EB050C0842A4 /* hang.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6F2126ED1EF2F8D3ED6F821DE35B3D /* hang.swift */; };
+		7F981C048D2D278E3AC21095083CCAAD /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1F4F4BCEC020A90E164E01E8F9B3C /* Promise.swift */; };
+		88C4CE5D390771D6C2FBC695706F919F /* dispatch_promise.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C55C80228816D25A74CF8DCFD524D2 /* dispatch_promise.m */; };
+		89F5F1A13890467B601AA4BEA99052C2 /* AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8DD09BD7D97E29A30742EAF2349854 /* AnyPromise.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9B74BFFFFE79A184949B96B4B8050B73 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E0B8765525460446A0DF38015652A8 /* Configuration.swift */; };
+		9C063C24094E80C5FA3C3A9D06AD2D00 /* after.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68894F7A1F588CD09AB0820018BD457C /* after.swift */; };
+		A28F364E9C3689D5DC18B97450DB8F2A /* AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5D7D528AF66D324D7418D717BB77BB /* AnyPromise.swift */; };
+		A4A43B06737173DB847FC611E2CDF788 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F711DF56DE60622BDA49E2F10A6F49B /* Box.swift */; };
+		B2EA7FB3D039162ACF1777410A291061 /* ColorWithHSL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 159203CA26EDB94EB52EA6B61ABA932C /* ColorWithHSL-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B54F868C638CDD438A07BEFD23E727A5 /* SwiftHEXColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 149DBFAC69970E0988E4E97673D4F2FB /* SwiftHEXColors-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B9D9905C1C0F94705EBD7717791FFFA2 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8988775DEAAF8EDBE6A081292AD1A2 /* Deprecations.swift */; };
+		C067675E916E68DE3DC9D44C36428C61 /* ColorWithHSL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 534FABB8F56A00478F7AB038F23F8407 /* ColorWithHSL-dummy.m */; };
+		C1B3CDF767B3FDDB22FAB7EA2A1DCEA9 /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91F09ECE05026006ECFAB2B45993D30 /* when.swift */; };
+		D6C8B2840BD2A0C7A478017740654A09 /* UIColor+HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB083EDB9D8C35E7E1B2052316116FC /* UIColor+HSL.swift */; };
+		ED39360F16C3829DE0AFE9B4A735D5C0 /* race.m in Sources */ = {isa = PBXBuildFile; fileRef = A92377B94AEB980ACC1A85F5572DF625 /* race.m */; };
+		EE3D53BC478452F398885BC4E0B79920 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC65A529E3B727228DE2FCDA1942F1 /* Resolver.swift */; };
+		F95172A961C3E01A1A5DCE68FA685820 /* AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 6991F37CF13D99CD70DC49003783E988 /* AnyPromise.m */; };
+		F985831086FD58ACA4359B5A3E3B5D63 /* CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E9E53B01FFF4C29F196B2E15FDA114 /* CustomStringConvertible.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5D1860892C1463E975D7321F56205779 /* PBXContainerItemProxy */ = {
+		196CC8487B47392D440E244208A175F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7C579CE66A1E7A9AA33CA5F97F9C22C5;
-			remoteInfo = PromiseKit;
+			remoteGlobalIDString = 76FDFA27503FCA39C3931C7C2B293C12;
+			remoteInfo = ColorWithHSL;
 		};
-		FF13DBC23A18D48996CD145C02BB35EB /* PBXContainerItemProxy */ = {
+		51A13DF81F4F8C042B43F63AD75CB05F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FBCA5614C6DE80E95DB0A68DF224D729;
 			remoteInfo = SwiftHEXColors;
 		};
+		B97408935AA30E8124BB10D55855041F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C579CE66A1E7A9AA33CA5F97F9C22C5;
+			remoteInfo = PromiseKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		002B1E88BA14EBF633CD66EBFBA107E9 /* libPromiseKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPromiseKit.a; path = libPromiseKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		118FD21D9AC5F3B0689F4CD3B363525E /* hang.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = hang.swift; path = Sources/hang.swift; sourceTree = "<group>"; };
-		168834216CC75390BA02F07F46492F21 /* PromiseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.release.xcconfig; sourceTree = "<group>"; };
+		0156A8DF01ED58D74983C44717AED693 /* SwiftHEXColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftHEXColors.swift; path = Sources/SwiftHEXColors/SwiftHEXColors.swift; sourceTree = "<group>"; };
+		034E4121A355DD7F55121BE0964A7CA3 /* race.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = race.swift; path = Sources/race.swift; sourceTree = "<group>"; };
+		149DBFAC69970E0988E4E97673D4F2FB /* SwiftHEXColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-umbrella.h"; sourceTree = "<group>"; };
+		159203CA26EDB94EB52EA6B61ABA932C /* ColorWithHSL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorWithHSL-umbrella.h"; sourceTree = "<group>"; };
+		1F711DF56DE60622BDA49E2F10A6F49B /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
 		1FE5F4D9F7F28E0B62B2F459388F55E6 /* Pods-Rec-Col-Gnizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rec-Col-Gnizer.debug.xcconfig"; sourceTree = "<group>"; };
-		2024C22CB3F2285F373E5B71E2DC7C51 /* SwiftHEXColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-prefix.pch"; sourceTree = "<group>"; };
-		27CE39D72566F7CBFE77EED4D01676A9 /* PromiseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromiseKit.modulemap; sourceTree = "<group>"; };
+		24B295C9A113B4440CFFB03FACA3EB1F /* SwiftHEXColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-prefix.pch"; sourceTree = "<group>"; };
 		29D1F367E3D347084C275A1BA8679C62 /* Pods-Rec-Col-Gnizer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rec-Col-Gnizer-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2A4AF281A4E2CB45CE1967491D7EAFB6 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
-		2AF8A001E69DF7604D69D6F9F6448B6A /* CustomStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomStringConvertible.swift; path = Sources/CustomStringConvertible.swift; sourceTree = "<group>"; };
-		30E1DEAEA1A657E259E3B08408D442D9 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
-		359CA9B9AA1C2942958C97B36B65D8AF /* Thenable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Thenable.swift; path = Sources/Thenable.swift; sourceTree = "<group>"; };
-		39263F2E2EA6CA020378F8E3E7BA6049 /* Guarantee.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Guarantee.swift; path = Sources/Guarantee.swift; sourceTree = "<group>"; };
-		3A4A7F738BC7E2DF5E829E19ECA201FE /* AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyPromise.h; path = Sources/AnyPromise.h; sourceTree = "<group>"; };
-		41A2EC49059C8EFEA0DA1F56CD63B62D /* hang.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = hang.m; path = Sources/hang.m; sourceTree = "<group>"; };
-		4BB6BB0FACCE6E57B2B1B76C76742896 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Configuration.swift; sourceTree = "<group>"; };
-		4C20DA412A7D9F849868AE14E59771EF /* SwiftHEXColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftHEXColors-dummy.m"; sourceTree = "<group>"; };
-		4EC31193CCBE1830DD1AFA6114DC9B86 /* after.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = after.m; path = Sources/after.m; sourceTree = "<group>"; };
+		29DD31C876657FF33C80C30EB67ED179 /* after.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = after.m; path = Sources/after.m; sourceTree = "<group>"; };
+		2A5D7D528AF66D324D7418D717BB77BB /* AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyPromise.swift; path = Sources/AnyPromise.swift; sourceTree = "<group>"; };
+		337A0874344F7EF7BE9698404EBAB6F3 /* ColorWithHSL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ColorWithHSL.modulemap; sourceTree = "<group>"; };
+		34245B269DBF6743AB5E4799EC19C753 /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
+		3E53FCFC9ADFC9077F1FD5D9DFA7364B /* PromiseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-prefix.pch"; sourceTree = "<group>"; };
+		42C55C80228816D25A74CF8DCFD524D2 /* dispatch_promise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dispatch_promise.m; path = Sources/dispatch_promise.m; sourceTree = "<group>"; };
+		48D19CF7D0FAF0398ADBC143C22CC21D /* hang.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = hang.m; path = Sources/hang.m; sourceTree = "<group>"; };
+		4A74D8DA964370BE612890E85C8B74C9 /* ColorWithHSL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorWithHSL-prefix.pch"; sourceTree = "<group>"; };
 		4FD870AEDEFBE2A914885B26C6797742 /* Pods-Rec-Col-Gnizer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rec-Col-Gnizer-umbrella.h"; sourceTree = "<group>"; };
-		612BFB8CC7872F550D3F3EEA4181579C /* race.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = race.swift; path = Sources/race.swift; sourceTree = "<group>"; };
-		6177FEA83982AAA2BE45FE521A48F852 /* firstly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = firstly.swift; path = Sources/firstly.swift; sourceTree = "<group>"; };
-		64464E4418C2157C53039A8E43DCDEDC /* PromiseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.debug.xcconfig; sourceTree = "<group>"; };
-		773546798066810BF24653C0D6104C39 /* PromiseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-umbrella.h"; sourceTree = "<group>"; };
+		52BB81DAE9E7B1C3A558B324B28E7100 /* PromiseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromiseKit-dummy.m"; sourceTree = "<group>"; };
+		534FABB8F56A00478F7AB038F23F8407 /* ColorWithHSL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorWithHSL-dummy.m"; sourceTree = "<group>"; };
+		5CC39DCA919E01C19A885CDCB0FD5681 /* ColorWithHSL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorWithHSL.release.xcconfig; sourceTree = "<group>"; };
+		62E9E53B01FFF4C29F196B2E15FDA114 /* CustomStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomStringConvertible.swift; path = Sources/CustomStringConvertible.swift; sourceTree = "<group>"; };
+		67D1F4F4BCEC020A90E164E01E8F9B3C /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promise.swift; sourceTree = "<group>"; };
+		68894F7A1F588CD09AB0820018BD457C /* after.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = after.swift; path = Sources/after.swift; sourceTree = "<group>"; };
+		68E95CDDD52D9F8D5AA1F6BF2033187F /* Thenable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Thenable.swift; path = Sources/Thenable.swift; sourceTree = "<group>"; };
+		6991F37CF13D99CD70DC49003783E988 /* AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnyPromise.m; path = Sources/AnyPromise.m; sourceTree = "<group>"; };
+		6FAC65A529E3B727228DE2FCDA1942F1 /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
+		7829D4C3266AF9DEC1635B9E793D4119 /* SwiftHEXColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftHEXColors.modulemap; sourceTree = "<group>"; };
 		7DCDFF416CA45349B3A43846BBE8488D /* libPods-Rec-Col-Gnizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Rec-Col-Gnizer.a"; path = "libPods-Rec-Col-Gnizer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EEF2A2F665A348B6000939EEBDB3C2C /* race.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = race.m; path = Sources/race.m; sourceTree = "<group>"; };
-		8F4AC936F2867DDBC3EF3474C054345B /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Sources/Deprecations.swift; sourceTree = "<group>"; };
-		8FE01366C09FCE942BB1C934868244C6 /* SwiftHEXColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-umbrella.h"; sourceTree = "<group>"; };
-		900C9DA9C3D21A7B3D50154A375127CC /* SwiftHEXColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftHEXColors.swift; path = Sources/SwiftHEXColors/SwiftHEXColors.swift; sourceTree = "<group>"; };
+		84291A54C8DEA322F0F90EF2EF05248F /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
+		846113CC0992C30ADBDDCE8D12EA6D08 /* PromiseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.release.xcconfig; sourceTree = "<group>"; };
+		8B414203B1EC5756C8A6BE39F23E97A3 /* Guarantee.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Guarantee.swift; path = Sources/Guarantee.swift; sourceTree = "<group>"; };
 		909027B28EAEB0EEBABA46766E9E9DD8 /* Pods-Rec-Col-Gnizer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rec-Col-Gnizer.modulemap"; sourceTree = "<group>"; };
-		90FD8C7D0442799552EE71F97AB3CFD8 /* AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyPromise.swift; path = Sources/AnyPromise.swift; sourceTree = "<group>"; };
-		9A5B7D2C46E367A6C3158544AA0708A7 /* PromiseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromiseKit-dummy.m"; sourceTree = "<group>"; };
+		9413F1ADA4CA1AB76989B6BD2275B4AB /* SwiftHEXColors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftHEXColors.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4C85383D01C2FA0C6F9B0FD30167492 /* when.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = when.swift; path = Sources/when.swift; sourceTree = "<group>"; };
+		9E8988775DEAAF8EDBE6A081292AD1A2 /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Sources/Deprecations.swift; sourceTree = "<group>"; };
+		A158ABCF5C18F354DF38CD71C41E6640 /* SwiftHEXColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftHEXColors-dummy.m"; sourceTree = "<group>"; };
 		A5D055BF71599A1F1E828B4E6585053D /* Pods-Rec-Col-Gnizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rec-Col-Gnizer-dummy.m"; sourceTree = "<group>"; };
 		A7E777F2DACE402F490B748F488BC42D /* Pods-Rec-Col-Gnizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rec-Col-Gnizer.release.xcconfig"; sourceTree = "<group>"; };
-		AC89F545F5A945E9F860E7124377324D /* SwiftHEXColors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftHEXColors.release.xcconfig; sourceTree = "<group>"; };
-		ADE0A1641408FCB6100CC68E52061B14 /* AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnyPromise.m; path = Sources/AnyPromise.m; sourceTree = "<group>"; };
-		ADF4BFA0A0D5A3677483508E2C12B95F /* PromiseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-prefix.pch"; sourceTree = "<group>"; };
-		B35D199A000EE2C32B2B2B56CE15D1C1 /* fwd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fwd.h; path = Sources/fwd.h; sourceTree = "<group>"; };
-		B712BE4B3BBA5BF885489474CFEE58DD /* LogEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogEvent.swift; path = Sources/LogEvent.swift; sourceTree = "<group>"; };
-		C6995AA6FFA087C8C1341C7A2BA4F93C /* Catchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Catchable.swift; path = Sources/Catchable.swift; sourceTree = "<group>"; };
-		CC6E4E8DA9330B74A3261FDA9B15306C /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promise.swift; sourceTree = "<group>"; };
-		CCD3781FDB36F53E3977A97AD0654237 /* when.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = when.m; path = Sources/when.m; sourceTree = "<group>"; };
-		CE1319EA21AADB3D2DEE2C6EB3FBE258 /* dispatch_promise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dispatch_promise.m; path = Sources/dispatch_promise.m; sourceTree = "<group>"; };
-		CE604E5E696A7050B2BC96BC02994123 /* after.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = after.swift; path = Sources/after.swift; sourceTree = "<group>"; };
-		CFBA43D9CEE2C20FDF5DCCB9273CFB1A /* SwiftHEXColors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftHEXColors.debug.xcconfig; sourceTree = "<group>"; };
-		D4887CCE836E56185606244D77CFAF8A /* join.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = join.m; path = Sources/join.m; sourceTree = "<group>"; };
-		E283FF737DAF191C498482197C865BC1 /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
+		A91F09ECE05026006ECFAB2B45993D30 /* when.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = when.swift; path = Sources/when.swift; sourceTree = "<group>"; };
+		A92377B94AEB980ACC1A85F5572DF625 /* race.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = race.m; path = Sources/race.m; sourceTree = "<group>"; };
+		AE093FDF919A9EEDE2A116D01FA308D4 /* libColorWithHSL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libColorWithHSL.a; path = libColorWithHSL.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1314691DF72BC5EB48404CC00B49FA2 /* join.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = join.m; path = Sources/join.m; sourceTree = "<group>"; };
+		B18AEC2C2AC86F4E98DD986D6BD1AE14 /* fwd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fwd.h; path = Sources/fwd.h; sourceTree = "<group>"; };
+		B18C424703AFA12E527CED2542473808 /* Catchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Catchable.swift; path = Sources/Catchable.swift; sourceTree = "<group>"; };
+		B67F07573251AAB4F3AF40854928A7E2 /* LogEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogEvent.swift; path = Sources/LogEvent.swift; sourceTree = "<group>"; };
+		BE48FFDF918EA5418A6140632A00CA5F /* ColorWithHSL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorWithHSL.debug.xcconfig; sourceTree = "<group>"; };
+		BEB083EDB9D8C35E7E1B2052316116FC /* UIColor+HSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+HSL.swift"; path = "ColorWithHSL-iOS/UIColor+HSL.swift"; sourceTree = "<group>"; };
+		C5A0E658C7E4DDEBC6E2D5C9A04DE8E9 /* firstly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = firstly.swift; path = Sources/firstly.swift; sourceTree = "<group>"; };
+		C9F7917938341CB545DEBF0B36321DC2 /* when.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = when.m; path = Sources/when.m; sourceTree = "<group>"; };
+		CB797EB32E76B6898BA7833349AEAAF6 /* SwiftHEXColors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftHEXColors.release.xcconfig; sourceTree = "<group>"; };
+		CE8DD09BD7D97E29A30742EAF2349854 /* AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyPromise.h; path = Sources/AnyPromise.h; sourceTree = "<group>"; };
+		DA6F2126ED1EF2F8D3ED6F821DE35B3D /* hang.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = hang.swift; path = Sources/hang.swift; sourceTree = "<group>"; };
+		E0E0B8765525460446A0DF38015652A8 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Configuration.swift; sourceTree = "<group>"; };
 		E47040265C34559C1A18B7E3B32AB1E5 /* Pods-Rec-Col-Gnizer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rec-Col-Gnizer-acknowledgements.plist"; sourceTree = "<group>"; };
-		E7B6A6099D3BA8F2BDCA6553CF5FF89A /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
+		E6BA724079CD927AEF77EF0E7F0B17C7 /* PromiseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.debug.xcconfig; sourceTree = "<group>"; };
+		EDFD9BEFB56222289BBF19DF50D1988B /* PromiseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromiseKit.modulemap; sourceTree = "<group>"; };
 		F902B2E372005A249A68B9F2BFBF1489 /* libSwiftHEXColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwiftHEXColors.a; path = libSwiftHEXColors.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F90895DB2C9D0C2E0EB28056D5FDC702 /* SwiftHEXColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftHEXColors.modulemap; sourceTree = "<group>"; };
+		FE78C2E55831CBB8246638953973995F /* PromiseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4125DC3F93B3BB46030AF663D5B75FC9 /* Frameworks */ = {
+		5BFDB057CDAD6DB774B61D990F3EBB78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E35EFB4F05B9166A2BA285F224223E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,28 +164,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D3358F9CF2458A94A1D0EAA02B3E82F /* SwiftHEXColors */ = {
+		0628C8ED2090F8DECC537825D692B838 /* ColorWithHSL */ = {
 			isa = PBXGroup;
 			children = (
-				900C9DA9C3D21A7B3D50154A375127CC /* SwiftHEXColors.swift */,
-				D199BFE35098079EBB2FCB4CF5FB89A4 /* Support Files */,
+				BEB083EDB9D8C35E7E1B2052316116FC /* UIColor+HSL.swift */,
+				9F4D4B28258DE4214DFCF33B545A985A /* Support Files */,
 			);
-			name = SwiftHEXColors;
-			path = SwiftHEXColors;
-			sourceTree = "<group>";
-		};
-		3311A0809C6BA0749FD91F0F893364E4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				27CE39D72566F7CBFE77EED4D01676A9 /* PromiseKit.modulemap */,
-				9A5B7D2C46E367A6C3158544AA0708A7 /* PromiseKit-dummy.m */,
-				ADF4BFA0A0D5A3677483508E2C12B95F /* PromiseKit-prefix.pch */,
-				773546798066810BF24653C0D6104C39 /* PromiseKit-umbrella.h */,
-				64464E4418C2157C53039A8E43DCDEDC /* PromiseKit.debug.xcconfig */,
-				168834216CC75390BA02F07F46492F21 /* PromiseKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PromiseKit";
+			name = ColorWithHSL;
+			path = ColorWithHSL;
 			sourceTree = "<group>";
 		};
 		5DBA916981A0A5507935C6ACFF058830 /* Pods-Rec-Col-Gnizer */ = {
@@ -178,57 +189,107 @@
 			path = "Target Support Files/Pods-Rec-Col-Gnizer";
 			sourceTree = "<group>";
 		};
-		6CF3B2E3A74D6CA0E1728F4CC07EEB41 /* CorePromise */ = {
+		623F8D03C5F2BF221DBDB5AB8E748C36 /* CorePromise */ = {
 			isa = PBXGroup;
 			children = (
-				4EC31193CCBE1830DD1AFA6114DC9B86 /* after.m */,
-				CE604E5E696A7050B2BC96BC02994123 /* after.swift */,
-				3A4A7F738BC7E2DF5E829E19ECA201FE /* AnyPromise.h */,
-				ADE0A1641408FCB6100CC68E52061B14 /* AnyPromise.m */,
-				90FD8C7D0442799552EE71F97AB3CFD8 /* AnyPromise.swift */,
-				30E1DEAEA1A657E259E3B08408D442D9 /* Box.swift */,
-				C6995AA6FFA087C8C1341C7A2BA4F93C /* Catchable.swift */,
-				4BB6BB0FACCE6E57B2B1B76C76742896 /* Configuration.swift */,
-				2AF8A001E69DF7604D69D6F9F6448B6A /* CustomStringConvertible.swift */,
-				8F4AC936F2867DDBC3EF3474C054345B /* Deprecations.swift */,
-				CE1319EA21AADB3D2DEE2C6EB3FBE258 /* dispatch_promise.m */,
-				2A4AF281A4E2CB45CE1967491D7EAFB6 /* Error.swift */,
-				6177FEA83982AAA2BE45FE521A48F852 /* firstly.swift */,
-				B35D199A000EE2C32B2B2B56CE15D1C1 /* fwd.h */,
-				39263F2E2EA6CA020378F8E3E7BA6049 /* Guarantee.swift */,
-				41A2EC49059C8EFEA0DA1F56CD63B62D /* hang.m */,
-				118FD21D9AC5F3B0689F4CD3B363525E /* hang.swift */,
-				D4887CCE836E56185606244D77CFAF8A /* join.m */,
-				B712BE4B3BBA5BF885489474CFEE58DD /* LogEvent.swift */,
-				CC6E4E8DA9330B74A3261FDA9B15306C /* Promise.swift */,
-				E7B6A6099D3BA8F2BDCA6553CF5FF89A /* PromiseKit.h */,
-				8EEF2A2F665A348B6000939EEBDB3C2C /* race.m */,
-				612BFB8CC7872F550D3F3EEA4181579C /* race.swift */,
-				E283FF737DAF191C498482197C865BC1 /* Resolver.swift */,
-				359CA9B9AA1C2942958C97B36B65D8AF /* Thenable.swift */,
-				CCD3781FDB36F53E3977A97AD0654237 /* when.m */,
-				A4C85383D01C2FA0C6F9B0FD30167492 /* when.swift */,
+				29DD31C876657FF33C80C30EB67ED179 /* after.m */,
+				68894F7A1F588CD09AB0820018BD457C /* after.swift */,
+				CE8DD09BD7D97E29A30742EAF2349854 /* AnyPromise.h */,
+				6991F37CF13D99CD70DC49003783E988 /* AnyPromise.m */,
+				2A5D7D528AF66D324D7418D717BB77BB /* AnyPromise.swift */,
+				1F711DF56DE60622BDA49E2F10A6F49B /* Box.swift */,
+				B18C424703AFA12E527CED2542473808 /* Catchable.swift */,
+				E0E0B8765525460446A0DF38015652A8 /* Configuration.swift */,
+				62E9E53B01FFF4C29F196B2E15FDA114 /* CustomStringConvertible.swift */,
+				9E8988775DEAAF8EDBE6A081292AD1A2 /* Deprecations.swift */,
+				42C55C80228816D25A74CF8DCFD524D2 /* dispatch_promise.m */,
+				84291A54C8DEA322F0F90EF2EF05248F /* Error.swift */,
+				C5A0E658C7E4DDEBC6E2D5C9A04DE8E9 /* firstly.swift */,
+				B18AEC2C2AC86F4E98DD986D6BD1AE14 /* fwd.h */,
+				8B414203B1EC5756C8A6BE39F23E97A3 /* Guarantee.swift */,
+				48D19CF7D0FAF0398ADBC143C22CC21D /* hang.m */,
+				DA6F2126ED1EF2F8D3ED6F821DE35B3D /* hang.swift */,
+				B1314691DF72BC5EB48404CC00B49FA2 /* join.m */,
+				B67F07573251AAB4F3AF40854928A7E2 /* LogEvent.swift */,
+				67D1F4F4BCEC020A90E164E01E8F9B3C /* Promise.swift */,
+				34245B269DBF6743AB5E4799EC19C753 /* PromiseKit.h */,
+				A92377B94AEB980ACC1A85F5572DF625 /* race.m */,
+				034E4121A355DD7F55121BE0964A7CA3 /* race.swift */,
+				6FAC65A529E3B727228DE2FCDA1942F1 /* Resolver.swift */,
+				68E95CDDD52D9F8D5AA1F6BF2033187F /* Thenable.swift */,
+				C9F7917938341CB545DEBF0B36321DC2 /* when.m */,
+				A91F09ECE05026006ECFAB2B45993D30 /* when.swift */,
 			);
 			name = CorePromise;
 			sourceTree = "<group>";
 		};
-		8A7C766C2F88B168FCAD4801AAE9BFDF /* Pods */ = {
+		645317A6A4E08847C62F8BFCA592DDB1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9FC333B9E17DB12C953B2F22F3AB1922 /* PromiseKit */,
-				0D3358F9CF2458A94A1D0EAA02B3E82F /* SwiftHEXColors */,
+				0628C8ED2090F8DECC537825D692B838 /* ColorWithHSL */,
+				7871DA29D96A00B4B4E885DDA031FAE4 /* PromiseKit */,
+				740F9F03A0A9775FF7349AEF4DCD9F4B /* SwiftHEXColors */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9FC333B9E17DB12C953B2F22F3AB1922 /* PromiseKit */ = {
+		740F9F03A0A9775FF7349AEF4DCD9F4B /* SwiftHEXColors */ = {
 			isa = PBXGroup;
 			children = (
-				6CF3B2E3A74D6CA0E1728F4CC07EEB41 /* CorePromise */,
-				3311A0809C6BA0749FD91F0F893364E4 /* Support Files */,
+				0156A8DF01ED58D74983C44717AED693 /* SwiftHEXColors.swift */,
+				F3524EE4CADB07C60799F5F9F59DB641 /* Support Files */,
+			);
+			name = SwiftHEXColors;
+			path = SwiftHEXColors;
+			sourceTree = "<group>";
+		};
+		7871DA29D96A00B4B4E885DDA031FAE4 /* PromiseKit */ = {
+			isa = PBXGroup;
+			children = (
+				623F8D03C5F2BF221DBDB5AB8E748C36 /* CorePromise */,
+				A3433015445BEF5581A763E609B65150 /* Support Files */,
 			);
 			name = PromiseKit;
 			path = PromiseKit;
+			sourceTree = "<group>";
+		};
+		81B775BF6478AC28088F88708020DB20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE093FDF919A9EEDE2A116D01FA308D4 /* libColorWithHSL.a */,
+				7DCDFF416CA45349B3A43846BBE8488D /* libPods-Rec-Col-Gnizer.a */,
+				002B1E88BA14EBF633CD66EBFBA107E9 /* libPromiseKit.a */,
+				F902B2E372005A249A68B9F2BFBF1489 /* libSwiftHEXColors.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F4D4B28258DE4214DFCF33B545A985A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				337A0874344F7EF7BE9698404EBAB6F3 /* ColorWithHSL.modulemap */,
+				534FABB8F56A00478F7AB038F23F8407 /* ColorWithHSL-dummy.m */,
+				4A74D8DA964370BE612890E85C8B74C9 /* ColorWithHSL-prefix.pch */,
+				159203CA26EDB94EB52EA6B61ABA932C /* ColorWithHSL-umbrella.h */,
+				BE48FFDF918EA5418A6140632A00CA5F /* ColorWithHSL.debug.xcconfig */,
+				5CC39DCA919E01C19A885CDCB0FD5681 /* ColorWithHSL.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ColorWithHSL";
+			sourceTree = "<group>";
+		};
+		A3433015445BEF5581A763E609B65150 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDFD9BEFB56222289BBF19DF50D1988B /* PromiseKit.modulemap */,
+				52BB81DAE9E7B1C3A558B324B28E7100 /* PromiseKit-dummy.m */,
+				3E53FCFC9ADFC9077F1FD5D9DFA7364B /* PromiseKit-prefix.pch */,
+				FE78C2E55831CBB8246638953973995F /* PromiseKit-umbrella.h */,
+				E6BA724079CD927AEF77EF0E7F0B17C7 /* PromiseKit.debug.xcconfig */,
+				846113CC0992C30ADBDDCE8D12EA6D08 /* PromiseKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PromiseKit";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -236,24 +297,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				8A7C766C2F88B168FCAD4801AAE9BFDF /* Pods */,
-				F9631CE2C73707441014779439E30B9D /* Products */,
+				645317A6A4E08847C62F8BFCA592DDB1 /* Pods */,
+				81B775BF6478AC28088F88708020DB20 /* Products */,
 				F0FB40BCC69B38AA05267A09AAAD1924 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D199BFE35098079EBB2FCB4CF5FB89A4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F90895DB2C9D0C2E0EB28056D5FDC702 /* SwiftHEXColors.modulemap */,
-				4C20DA412A7D9F849868AE14E59771EF /* SwiftHEXColors-dummy.m */,
-				2024C22CB3F2285F373E5B71E2DC7C51 /* SwiftHEXColors-prefix.pch */,
-				8FE01366C09FCE942BB1C934868244C6 /* SwiftHEXColors-umbrella.h */,
-				CFBA43D9CEE2C20FDF5DCCB9273CFB1A /* SwiftHEXColors.debug.xcconfig */,
-				AC89F545F5A945E9F860E7124377324D /* SwiftHEXColors.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftHEXColors";
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -271,24 +318,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F9631CE2C73707441014779439E30B9D /* Products */ = {
+		F3524EE4CADB07C60799F5F9F59DB641 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7DCDFF416CA45349B3A43846BBE8488D /* libPods-Rec-Col-Gnizer.a */,
-				002B1E88BA14EBF633CD66EBFBA107E9 /* libPromiseKit.a */,
-				F902B2E372005A249A68B9F2BFBF1489 /* libSwiftHEXColors.a */,
+				7829D4C3266AF9DEC1635B9E793D4119 /* SwiftHEXColors.modulemap */,
+				A158ABCF5C18F354DF38CD71C41E6640 /* SwiftHEXColors-dummy.m */,
+				24B295C9A113B4440CFFB03FACA3EB1F /* SwiftHEXColors-prefix.pch */,
+				149DBFAC69970E0988E4E97673D4F2FB /* SwiftHEXColors-umbrella.h */,
+				9413F1ADA4CA1AB76989B6BD2275B4AB /* SwiftHEXColors.debug.xcconfig */,
+				CB797EB32E76B6898BA7833349AEAAF6 /* SwiftHEXColors.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftHEXColors";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		710CBF5EE68A3A88DED8DDF2661DFABC /* Headers */ = {
+		29C4E7BCD88B6E26467C9BA23F9328F5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D16851B579A5D62F3F02A3E5F05DB43 /* Pods-Rec-Col-Gnizer-umbrella.h in Headers */,
+				650BBF145506533ECA37743F8522426B /* Pods-Rec-Col-Gnizer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +354,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA99C659B675EDB1C5A94C28EED7CB7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EA7FB3D039162ACF1777410A291061 /* ColorWithHSL-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0E74DB7B0BD6BF3AD9176A2987C3171 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,6 +373,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		76FDFA27503FCA39C3931C7C2B293C12 /* ColorWithHSL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758634967ABE32BCB3194A586D3735D9 /* Build configuration list for PBXNativeTarget "ColorWithHSL" */;
+			buildPhases = (
+				BA99C659B675EDB1C5A94C28EED7CB7A /* Headers */,
+				29A0B577044BC7A943257931A735546B /* Sources */,
+				5BFDB057CDAD6DB774B61D990F3EBB78 /* Frameworks */,
+				D1654222F44AC9EA2B6D8B8BC751CA22 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorWithHSL;
+			productName = ColorWithHSL;
+			productReference = AE093FDF919A9EEDE2A116D01FA308D4 /* libColorWithHSL.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42582A7CF88D45D458A56CE78CF3D9D4 /* Build configuration list for PBXNativeTarget "PromiseKit" */;
@@ -334,17 +411,18 @@
 		};
 		AD03D1A4D1AD72D9805985805DC3B2F7 /* Pods-Rec-Col-Gnizer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F7E0D8D25AA3CC1677E48AD1CB84ED8 /* Build configuration list for PBXNativeTarget "Pods-Rec-Col-Gnizer" */;
+			buildConfigurationList = A7EECE821B319A4F9C49A810C576CE60 /* Build configuration list for PBXNativeTarget "Pods-Rec-Col-Gnizer" */;
 			buildPhases = (
-				710CBF5EE68A3A88DED8DDF2661DFABC /* Headers */,
-				669942A67BA06DD109BF4604A9E0A7A7 /* Sources */,
-				4125DC3F93B3BB46030AF663D5B75FC9 /* Frameworks */,
+				29C4E7BCD88B6E26467C9BA23F9328F5 /* Headers */,
+				99CA234FA0291099D11814037587D90B /* Sources */,
+				67E35EFB4F05B9166A2BA285F224223E /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D15EE38EA9F0AB43AF7196703824616F /* PBXTargetDependency */,
-				A53B9B64C665A30823224F110162D32E /* PBXTargetDependency */,
+				503915014F43227A5247ADE675B0FC1D /* PBXTargetDependency */,
+				818B963A0F063A5C894E400746A3818A /* PBXTargetDependency */,
+				B5101CAB29B83B4954483C3BF62034C8 /* PBXTargetDependency */,
 			);
 			name = "Pods-Rec-Col-Gnizer";
 			productName = "Pods-Rec-Col-Gnizer";
@@ -387,10 +465,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F9631CE2C73707441014779439E30B9D /* Products */;
+			productRefGroup = 81B775BF6478AC28088F88708020DB20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				76FDFA27503FCA39C3931C7C2B293C12 /* ColorWithHSL */,
 				AD03D1A4D1AD72D9805985805DC3B2F7 /* Pods-Rec-Col-Gnizer */,
 				7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */,
 				FBCA5614C6DE80E95DB0A68DF224D729 /* SwiftHEXColors */,
@@ -447,6 +526,30 @@
 			shellPath = /bin/sh;
 			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftHEXColors/SwiftHEXColors.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftHEXColors/SwiftHEXColors-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 		};
+		D1654222F44AC9EA2B6D8B8BC751CA22 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/ColorWithHSL/ColorWithHSL.modulemap",
+				"${PODS_ROOT}/Headers/Public/ColorWithHSL/ColorWithHSL-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/ColorWithHSL-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ColorWithHSL/ColorWithHSL.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ColorWithHSL/ColorWithHSL-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -482,11 +585,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		669942A67BA06DD109BF4604A9E0A7A7 /* Sources */ = {
+		29A0B577044BC7A943257931A735546B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E33C0770F6FC0E5FF9710981C0D523F1 /* Pods-Rec-Col-Gnizer-dummy.m in Sources */,
+				C067675E916E68DE3DC9D44C36428C61 /* ColorWithHSL-dummy.m in Sources */,
+				D6C8B2840BD2A0C7A478017740654A09 /* UIColor+HSL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,20 +603,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		99CA234FA0291099D11814037587D90B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02551B70F105824C5F8E5D359EB76B08 /* Pods-Rec-Col-Gnizer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A53B9B64C665A30823224F110162D32E /* PBXTargetDependency */ = {
+		503915014F43227A5247ADE675B0FC1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SwiftHEXColors;
-			target = FBCA5614C6DE80E95DB0A68DF224D729 /* SwiftHEXColors */;
-			targetProxy = FF13DBC23A18D48996CD145C02BB35EB /* PBXContainerItemProxy */;
+			name = ColorWithHSL;
+			target = 76FDFA27503FCA39C3931C7C2B293C12 /* ColorWithHSL */;
+			targetProxy = 196CC8487B47392D440E244208A175F4 /* PBXContainerItemProxy */;
 		};
-		D15EE38EA9F0AB43AF7196703824616F /* PBXTargetDependency */ = {
+		818B963A0F063A5C894E400746A3818A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PromiseKit;
 			target = 7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */;
-			targetProxy = 5D1860892C1463E975D7321F56205779 /* PBXContainerItemProxy */;
+			targetProxy = B97408935AA30E8124BB10D55855041F /* PBXContainerItemProxy */;
+		};
+		B5101CAB29B83B4954483C3BF62034C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftHEXColors;
+			target = FBCA5614C6DE80E95DB0A68DF224D729 /* SwiftHEXColors */;
+			targetProxy = 51A13DF81F4F8C042B43F63AD75CB05F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -583,7 +701,7 @@
 		};
 		1D427D8EB1EAA095ADD6D510F74B7BA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFBA43D9CEE2C20FDF5DCCB9273CFB1A /* SwiftHEXColors.debug.xcconfig */;
+			baseConfigurationReference = 9413F1ADA4CA1AB76989B6BD2275B4AB /* SwiftHEXColors.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -606,7 +724,58 @@
 			};
 			name = Debug;
 		};
-		71813591403E5750D00A6D5F565A7671 /* Debug */ = {
+		3F9C1CDBD34706FBB16E6589E52FB965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CC39DCA919E01C19A885CDCB0FD5681 /* ColorWithHSL.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ColorWithHSL/ColorWithHSL-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/ColorWithHSL/ColorWithHSL.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ColorWithHSL;
+				PRODUCT_NAME = ColorWithHSL;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49E7B370A3381FD186DB3DE6BCDF2560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE48FFDF918EA5418A6140632A00CA5F /* ColorWithHSL.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ColorWithHSL/ColorWithHSL-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/ColorWithHSL/ColorWithHSL.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ColorWithHSL;
+				PRODUCT_NAME = ColorWithHSL;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CD4FABCAB925BD0655EC542F5942218 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1FE5F4D9F7F28E0B62B2F459388F55E6 /* Pods-Rec-Col-Gnizer.debug.xcconfig */;
 			buildSettings = {
@@ -631,7 +800,7 @@
 		};
 		853FC12FA0A50FC2739A82B3F8DB5F17 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64464E4418C2157C53039A8E43DCDEDC /* PromiseKit.debug.xcconfig */;
+			baseConfigurationReference = E6BA724079CD927AEF77EF0E7F0B17C7 /* PromiseKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -656,7 +825,7 @@
 		};
 		ABFD8591B4092E30A394E53AC287CC74 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 168834216CC75390BA02F07F46492F21 /* PromiseKit.release.xcconfig */;
+			baseConfigurationReference = 846113CC0992C30ADBDDCE8D12EA6D08 /* PromiseKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -680,33 +849,7 @@
 			};
 			name = Release;
 		};
-		B577F0CAF450B2A84C8A1EBC32BF86AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC89F545F5A945E9F860E7124377324D /* SwiftHEXColors.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftHEXColors/SwiftHEXColors-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = Headers/Public/SwiftHEXColors/SwiftHEXColors.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SwiftHEXColors;
-				PRODUCT_NAME = SwiftHEXColors;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D9E59CA27CE42A2268916186FFFF12B6 /* Release */ = {
+		B566842A1224D851310CB0C4D90D70B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A7E777F2DACE402F490B748F488BC42D /* Pods-Rec-Col-Gnizer.release.xcconfig */;
 			buildSettings = {
@@ -725,6 +868,32 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B577F0CAF450B2A84C8A1EBC32BF86AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB797EB32E76B6898BA7833349AEAAF6 /* SwiftHEXColors.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftHEXColors/SwiftHEXColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwiftHEXColors/SwiftHEXColors.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftHEXColors;
+				PRODUCT_NAME = SwiftHEXColors;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -793,15 +962,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F7E0D8D25AA3CC1677E48AD1CB84ED8 /* Build configuration list for PBXNativeTarget "Pods-Rec-Col-Gnizer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				71813591403E5750D00A6D5F565A7671 /* Debug */,
-				D9E59CA27CE42A2268916186FFFF12B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		42582A7CF88D45D458A56CE78CF3D9D4 /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -825,6 +985,24 @@
 			buildConfigurations = (
 				1D427D8EB1EAA095ADD6D510F74B7BA3 /* Debug */,
 				B577F0CAF450B2A84C8A1EBC32BF86AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758634967ABE32BCB3194A586D3735D9 /* Build configuration list for PBXNativeTarget "ColorWithHSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E7B370A3381FD186DB3DE6BCDF2560 /* Debug */,
+				3F9C1CDBD34706FBB16E6589E52FB965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7EECE821B319A4F9C49A810C576CE60 /* Build configuration list for PBXNativeTarget "Pods-Rec-Col-Gnizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD4FABCAB925BD0655EC542F5942218 /* Debug */,
+				B566842A1224D851310CB0C4D90D70B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -47,15 +47,16 @@ struct API {
         if let hexData = data.value as? HexModel {
             requestString.append(String(format: hexParameter, arguments: ["\(hexData.value)"]))
         } else if let rgbData = data.value as? RgbModel {
-            let params = "(\(rgbData.value.r),\(rgbData.value.g),\(rgbData.value.b))"
-            requestString.append(String(format: rgbParameter, arguments: [params]))
+            let param = "(\(rgbData.value.r),\(rgbData.value.g),\(rgbData.value.b))"
+            requestString.append(String(format: rgbParameter, arguments: [param]))
+        } else if let hslData = data.value as? HslModel {
+            let param = "hsl(\(hslData.value.h),\(hslData.value.s),\(hslData.value.l))"
+            requestString.append(String(format: hslParameter, arguments: [param]))
         }
 //        } else if let cmykData = data.value as? CmykModel {
 //            let argument = "(\(cmykData.c ?? 0),\(cmykData.m ?? 0),\(cmykData.y ?? 0),\(cmykData.k ?? 0)"
 //            requestString.append(String(format: cmykParameter, arguments: [argument]))
-//        } else if let hslData = data.value as? HslModel {
-//            requestString.append(String(format: hslParameter, arguments: ["(\(hslData.h), \(hslData.s), \(hslData.l)"]))
-//        }
+
         
         return try getRequest(from: requestString)
     }

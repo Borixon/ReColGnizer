@@ -13,6 +13,7 @@ class PickerColorModel {
      
     var rgbModel: RgbModel = RgbModel(r: UserData().redRGBValue, g: UserData().greenRGBValue, b: UserData().blueRGBValue)
     var hexModel: HexModel = HexModel(value: "")
+    var hslModel: HslModel = HslModel(hue: 0, saturation: 80, lightness: 50)
     var schemeOptions: Dictionary<String, String> = Dictionary()
      
     var isScheme: Bool {

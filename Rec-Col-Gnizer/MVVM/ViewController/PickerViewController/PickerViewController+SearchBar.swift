@@ -28,14 +28,3 @@ extension PickerViewController: UISearchBarDelegate {
         searchBar.text = nil
     }
 }
-
-extension PickerViewController {
-    internal func hideKeyboard() {
-        searchBar.setShowsCancelButton(false, animated: true)
-        view.endEditing(true)
-    }
-    
-    internal func revelKeyboard() {
-        searchBar.setShowsCancelButton(true, animated: true)
-    }
-}

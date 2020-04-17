@@ -14,7 +14,7 @@ enum SliderCellType: String {
     case Blue = "Blue"
     case Hue = "Hue"
     case Saturation = "Saturation"
-    case Brightness = "Brightness"
+    case Lightness = "Lightness"
     case Cyan = "Cyan"
     case Magenta = "Magenta"
     case Yellow = "Yellow"

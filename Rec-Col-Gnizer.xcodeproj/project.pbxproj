@@ -54,6 +54,7 @@
 		6F9D4969244254FC00AF50D6 /* ColorDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D4968244254FC00AF50D6 /* ColorDataViewModel.swift */; };
 		6F9D496B244266FA00AF50D6 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D496A244266FA00AF50D6 /* Styles.swift */; };
 		6F9D497424426F1600AF50D6 /* CellDataBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D497324426F1600AF50D6 /* CellDataBuilder.swift */; };
+		6FAC49962448F18C004971AC /* HslModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC49952448F18C004971AC /* HslModel.swift */; };
 		6FF275912440A6E200FDDBAF /* WSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275902440A6E200FDDBAF /* WSError.swift */; };
 		6FF275932440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275922440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift */; };
 		6FF275952440B42B00FDDBAF /* ColorDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */; };
@@ -136,6 +137,7 @@
 		6F9D4968244254FC00AF50D6 /* ColorDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDataViewModel.swift; sourceTree = "<group>"; };
 		6F9D496A244266FA00AF50D6 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		6F9D497324426F1600AF50D6 /* CellDataBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDataBuilder.swift; sourceTree = "<group>"; };
+		6FAC49952448F18C004971AC /* HslModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HslModel.swift; sourceTree = "<group>"; };
 		6FF275902440A6E200FDDBAF /* WSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSError.swift; sourceTree = "<group>"; };
 		6FF275922440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RGBViewController+TextFieldDelegate.swift"; sourceTree = "<group>"; };
 		6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDataViewController.swift; sourceTree = "<group>"; };
@@ -406,6 +408,7 @@
 				6FF5EAD924488F510026BEDE /* ColorModel.swift */,
 				6FF5EAD724488ECA0026BEDE /* RgbModel.swift */,
 				6F06E18024489365003CABAD /* HexModel.swift */,
+				6FAC49952448F18C004971AC /* HslModel.swift */,
 			);
 			path = ColorModels;
 			sourceTree = "<group>";
@@ -606,6 +609,7 @@
 				6F9084E624407B7800D7E7A2 /* ColorHelper.swift in Sources */,
 				6F3A47D9243E71410036CF34 /* ImagePickerViewController.swift in Sources */,
 				6F10C64A24476905006EC9FC /* API.swift in Sources */,
+				6FAC49962448F18C004971AC /* HslModel.swift in Sources */,
 				6F06E1842448AC1E003CABAD /* PickerViewController+SearchBar.swift in Sources */,
 				6FF275912440A6E200FDDBAF /* WSError.swift in Sources */,
 				6F9084D02440658E00D7E7A2 /* PickerViewController.swift in Sources */,

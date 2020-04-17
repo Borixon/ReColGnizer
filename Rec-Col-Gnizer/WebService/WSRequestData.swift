@@ -29,6 +29,6 @@ struct CmykRequestData: WSRequestData {
 }
 
 struct HslRequestData: WSRequestData {
-    typealias Data = WSHslModel
+    typealias Data = HslModel
     var value: Data
 }
