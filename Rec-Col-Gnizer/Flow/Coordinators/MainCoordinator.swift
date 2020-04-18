@@ -30,7 +30,7 @@ class MainCoordinator: Coordinator {
         // to replace
         let picker = PickerViewController.instantiate()
         picker.coordinator = self
-        let cameraPicker = CameraCaptureViewController.instantiate()
+        let cameraPicker = ImagePickerViewController.instantiate()
         cameraPicker.coordinator = self
         let tabbar = UITabBarController()
         tabbar.setViewControllers([picker, cameraPicker], animated: false)
@@ -39,6 +39,9 @@ class MainCoordinator: Coordinator {
         tabbar.setToolbarItems([buttonRgb, buttonCam], animated: false)
         tabbar.tabBar.tintColor = .red
         
+        
+        
+        
         navigationController.modalTransitionStyle = .crossDissolve
         navigationController.modalPresentationStyle = .fullScreen
         navigationController.pushViewController(tabbar, animated: true)
@@ -46,7 +49,7 @@ class MainCoordinator: Coordinator {
     }
     
     func openCameraPicker() {
-        let vc = CameraCaptureViewController.instantiate()
+        let vc = ImagePickerViewController.instantiate()
         vc.coordinator = self
 //        navigationController.pushViewController(vc, animated: true)
     }

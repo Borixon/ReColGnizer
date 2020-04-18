@@ -9,56 +9,53 @@
 import UIKit
 import AVFoundation
 
-class CameraCaptureViewController: UIViewController, Storyboarded {
+class ImagePickerViewController: UIViewController, Storyboarded {
     
     @IBOutlet weak var viewfinder: UIView!
-     
+    @IBOutlet weak var photoButton: UIButton!
+    
+    var vm = ImagePickerViewModel()
     var coordinator: Coordinator!
     let cameraController = CameraController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        startCamera()
+        vm.controller = self
+        setupPinchGesture()
+        setupCamera()
     }
     
-    private func startCamera() {
-        DispatchQueue.main.async {
-            self.cameraController.startSession(completion: { success, error in
-                if success {
-                    self.cameraController.delegate = self
-                    self.cameraController.displayPreview(on: self.viewfinder)
-                } else {
-                    // Print Error
-                }
-            })
-        }
+    private func setupPinchGesture() {
+        let pinch = UIPinchGestureRecognizer(target: self, action: #selector(handlePinch))
+        view.addGestureRecognizer(pinch)
     }
     
-    private func prepareZoomSlider() {
-//        zoomSlider.minimumValue = Float(cameraController.cameraDevice?.minAvailableVideoZoomFactor ?? 1)
-//        zoomSlider.maximumValue = Float(cameraController.cameraDevice?.maxAvailableVideoZoomFactor ?? 1)
-//        zoomSlider.value = zoomSlider.minimumValue
+    private func setupCamera() {
+        vm.startCamera(on: viewfinder, completion: { success, error in
+            // handle
+        })
     }
     
-    private func prepareView() {
+    @objc func handlePinch(_ sender: UIPinchGestureRecognizer) {
+        vm.zooming(sender.scale, sender.velocity)
+    }
+    
+    @IBAction func snapshot(_ sender: Any) {
+        vm.takeSnapshot()
+    }
+    
+    public func handle(image: UIImage) {
+        let uiimage = UIImageView(image: image)
+        uiimage.frame = view.frame
+        view.addSubview(uiimage)
         
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 5, execute: {
+            uiimage.removeFromSuperview()
+        })
     }
-    
-    @IBAction func valueChange(_ sender: UISlider) {
-//        let zoomValue = CGFloat(sender.value)
-//
-//        do {
-//            try cameraController.cameraDevice?.lockForConfiguration()
-//            cameraController.cameraDevice?.videoZoomFactor = zoomValue
-//            cameraController.cameraDevice?.unlockForConfiguration()
-//        } catch {
-//
-//        }
-    }
-    
 }
 
-extension CameraCaptureViewController: CameraControllerDelegate {
+extension ImagePickerViewController: CameraControllerDelegate {
     func stream(image: UIImage) {
 
     }
