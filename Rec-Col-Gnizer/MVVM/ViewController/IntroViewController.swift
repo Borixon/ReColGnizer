@@ -8,10 +8,10 @@
 
 import UIKit
 
-class IntroViewController: UIViewController, Storyboarded {
+class IntroViewController: BaseViewController, Storyboarded {
     
     @IBOutlet weak var mainTitle: UILabel!
-    var coordinator: Coordinator!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -21,7 +21,7 @@ class IntroViewController: UIViewController, Storyboarded {
             self.mainTitle.alpha = 0
         }, completion: { finish in
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.3, execute: {
-                (self.coordinator as? MainCoordinator)?.openTabBar()
+                self.coordinator?.openTabBar()
             })
         })
     }

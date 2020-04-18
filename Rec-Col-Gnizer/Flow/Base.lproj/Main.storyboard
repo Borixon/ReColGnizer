@@ -81,7 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1667" y="138"/>
+            <point key="canvasLocation" x="899" y="138"/>
         </scene>
         <!--Loading View Controller-->
         <scene sceneID="Iaw-RJ-ebO">
@@ -106,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yuc-0O-Mce" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4725" y="138"/>
+            <point key="canvasLocation" x="3316" y="138"/>
         </scene>
         <!--Color Data View Controller-->
         <scene sceneID="Aia-xm-vx0">
@@ -150,18 +150,37 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c8y-IC-F3Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3982.6086956521744" y="137.94642857142856"/>
+            <point key="canvasLocation" x="2512" y="138"/>
         </scene>
-        <!--Camera Capture View Controller-->
+        <!--Tab Controller-->
+        <scene sceneID="hcD-bI-4QW">
+            <objects>
+                <tabBarController storyboardIdentifier="TabController" id="LRB-s5-mfG" customClass="TabController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="HQW-Hf-z4n">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="MUI-Lo-JhR" kind="relationship" relationship="viewControllers" id="p7n-kZ-djf"/>
+                        <segue destination="j5f-K2-Gh2" kind="relationship" relationship="viewControllers" id="q3x-Fu-dOE"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aIl-Mq-BlP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1670" y="138"/>
+        </scene>
+        <!--Camera Picker-->
         <scene sceneID="SKi-SG-VPk">
             <objects>
                 <viewController storyboardIdentifier="CameraCaptureViewController" id="j5f-K2-Gh2" customClass="CameraCaptureViewController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IsO-tc-stI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aNo-5X-YeT">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             </view>
                         </subviews>
@@ -174,6 +193,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="drZ-hy-wlB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Camera Picker" image="camera" catalog="system" selectedImage="camera" id="kaN-Xd-RAK"/>
                     <navigationItem key="navigationItem" id="sUV-A4-ZSb"/>
                     <connections>
                         <outlet property="viewfinder" destination="aNo-5X-YeT" id="gnf-Ll-exH"/>
@@ -181,14 +201,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2bY-wp-GtR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2467" y="138"/>
+            <point key="canvasLocation" x="2103" y="915"/>
         </scene>
-        <!--Picker View Controller-->
+        <!--Slider Picker-->
         <scene sceneID="2hM-iR-5D8">
             <objects>
                 <viewController storyboardIdentifier="PickerViewController" id="MUI-Lo-JhR" customClass="PickerViewController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pBd-fG-SHt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="gF3-kU-8ao">
@@ -196,7 +216,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vIN-9t-44A">
-                                <rect key="frame" x="10" y="256" width="394" height="531"/>
+                                <rect key="frame" x="10" y="256" width="394" height="482"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5pT-E6-wf9">
@@ -207,7 +227,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukv-su-oWt">
-                                <rect key="frame" x="10" y="797" width="394" height="55"/>
+                                <rect key="frame" x="10" y="748" width="394" height="55"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="nuA-7S-zmr"/>
@@ -247,6 +267,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZUQ-tO-aK2"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Slider Picker" image="slider.horizontal.below.rectangle" selectedImage="slider.horizontal.below.rectangle" catalog="system" id="dpE-b0-scu"/>
                     <connections>
                         <outlet property="categoryStackView" destination="S4s-pA-3CO" id="efO-AD-KNv"/>
                         <outlet property="checkDataButton" destination="ukv-su-oWt" id="z3p-P6-eH9"/>
@@ -257,10 +278,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nfo-up-0kS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3218.840579710145" y="137.94642857142856"/>
+            <point key="canvasLocation" x="1287" y="915"/>
         </scene>
     </scenes>
     <resources>
         <image name="LaunchBackground" width="1096" height="2048"/>
+        <image name="camera" catalog="system" width="128" height="96"/>
+        <image name="slider.horizontal.below.rectangle" catalog="system" width="128" height="115"/>
+        <image name="slider.horizontal.below.rectangle" width="128" height="128"/>
     </resources>
 </document>

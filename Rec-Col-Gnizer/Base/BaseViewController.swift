@@ -8,21 +8,21 @@
 
 import UIKit
 
-open class BaseViewController: UIViewController, BaseViewControllerProtocol{
+open class BaseViewController: UIViewController, BaseViewControllerProtocol {
  
-    var loadingCoordinator: LoadingCoordinator?
+    var coordinator: MainCoordinator?
     
     func openLoadingScreen() {
-        loadingCoordinator?.start()
+//        loadingCoordinator?.start()
     }
     
     func hideLoadingScreen() {
-        loadingCoordinator?.finish()
+//        loadingCoordinator?.finish()
     }
 }
 
 protocol BaseViewControllerProtocol {
     func hideLoadingScreen()
     func openLoadingScreen()
-    var loadingCoordinator: LoadingCoordinator? { get set }
+    var coordinator: MainCoordinator? { get set }
 }

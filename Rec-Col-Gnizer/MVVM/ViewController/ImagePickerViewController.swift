@@ -9,11 +9,10 @@
 import UIKit
 import AVFoundation
 
-class CameraCaptureViewController: UIViewController, Storyboarded {
+class CameraCaptureViewController: BaseViewController, Storyboarded {
     
     @IBOutlet weak var viewfinder: UIView!
      
-    var coordinator: Coordinator!
     let cameraController = CameraController()
     
     override func viewDidLoad() {
@@ -35,9 +34,7 @@ class CameraCaptureViewController: UIViewController, Storyboarded {
     }
     
     private func prepareZoomSlider() {
-//        zoomSlider.minimumValue = Float(cameraController.cameraDevice?.minAvailableVideoZoomFactor ?? 1)
-//        zoomSlider.maximumValue = Float(cameraController.cameraDevice?.maxAvailableVideoZoomFactor ?? 1)
-//        zoomSlider.value = zoomSlider.minimumValue
+
     }
     
     private func prepareView() {

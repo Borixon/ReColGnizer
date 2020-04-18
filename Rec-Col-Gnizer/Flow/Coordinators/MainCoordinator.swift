@@ -26,37 +26,18 @@ class MainCoordinator: Coordinator {
     }
     
     func openTabBar() {
-        
-        // to replace
-        let picker = PickerViewController.instantiate()
-        picker.coordinator = self
-        let cameraPicker = CameraCaptureViewController.instantiate()
-        cameraPicker.coordinator = self
-        let tabbar = UITabBarController()
-        tabbar.setViewControllers([picker, cameraPicker], animated: false)
-        let buttonRgb = UIBarButtonItem(title: "Manual Picker", style: .plain, target: self, action: nil)
-        let buttonCam = UIBarButtonItem(title: "Camera Picker", style: .plain, target: self, action: nil)
-        tabbar.setToolbarItems([buttonRgb, buttonCam], animated: false)
-        tabbar.tabBar.tintColor = .red
-        
+        let tabBar = TabController.instantiate()
+        if let controllers = tabBar.viewControllers {
+            for controller in controllers {
+                (controller as? BaseViewController)?.coordinator = self
+            }
+        }
         navigationController.modalTransitionStyle = .crossDissolve
         navigationController.modalPresentationStyle = .fullScreen
-        navigationController.pushViewController(tabbar, animated: true)
-        
+        navigationController.pushViewController(tabBar, animated: true)
     }
     
-    func openCameraPicker() {
-        let vc = CameraCaptureViewController.instantiate()
-        vc.coordinator = self
-//        navigationController.pushViewController(vc, animated: true)
-    }
-    
-    func openRGBPicker() {
-//        let vc = RGBViewController.instantiate()
-//        vc.coordinator = self
-//        navigationController.pushViewController(vc, animated: true)
-    }
-    
+    // TODO zmiana color model
     func openColorData(data: WSColorModel) {
         let vc = ColorDataViewController.instantiate()
         vc.vm = ColorDataViewModel(model: data)
@@ -65,12 +46,15 @@ class MainCoordinator: Coordinator {
         }
     }
     
+    func openColorScheme() {
+        
+    }
+    
     func show(error: Error?) {
         
     }
     
     func insertLoadingScreen() {
 //        let loading = LoadingViewController()
-//
     }
 }
