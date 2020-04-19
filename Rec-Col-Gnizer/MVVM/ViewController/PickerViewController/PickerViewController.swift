@@ -55,7 +55,7 @@ class PickerViewController: BaseViewController, Storyboarded {
     }
     
     @IBAction func checkData(_ sender: Any) {
-        // TODO: Insert loading screen
+        openLoadingScreen()
         vm.sendDataRequest()
     }
     
@@ -97,7 +97,7 @@ extension PickerViewController: PickerViewModelDelegate {
     }
     
     func show(color: WSColorModel) {
-        // TODO: Remove loading screen -> INSIDE OPEN COLOR???
+        hideLoadingScreen()
         coordinator?.openColorData(data: color)
     }
     

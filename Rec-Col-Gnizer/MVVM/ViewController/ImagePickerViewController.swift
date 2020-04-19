@@ -30,7 +30,7 @@ class ImagePickerViewController: BaseViewController, Storyboarded {
     
     private func setupCamera() {
         vm.startCamera(on: viewfinder, completion: { success, error in
-            // handle
+            // TODO: handle
         })
     }
     

@@ -10,8 +10,10 @@ import UIKit
 
 class MainCoordinator: Coordinator {
     
+    var window = (UIApplication.shared.delegate as? AppDelegate)?.appWindow
     var childCoordinators: [Coordinator] = []
     var navigationController: UINavigationController
+    let windowTag: Int = 69
     
     required init() {
         navigationController = UINavigationController()
@@ -55,6 +57,12 @@ class MainCoordinator: Coordinator {
     }
     
     func insertLoadingScreen() {
-//        let loading = LoadingViewController()
+        let loading = LoadingViewController.instantiate()
+        loading.view.tag = windowTag
+        window?.addSubview(loading.view)
+    }
+    
+    func removeLoadingScreen() {
+        window?.subviews.filter({ $0.tag == windowTag }).first?.removeFromSuperview()
     }
 }

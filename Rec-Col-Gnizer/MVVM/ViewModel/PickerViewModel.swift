@@ -152,8 +152,8 @@ final class PickerViewModel {
     @objc public func hslPicked() {
         viewCategory = .Hsl
         searchPicker = .Hsl
-        delegate?.reloadData()
         delegate?.didPick(color: selectedColor)
+        delegate?.reloadData()
     }
 }
 

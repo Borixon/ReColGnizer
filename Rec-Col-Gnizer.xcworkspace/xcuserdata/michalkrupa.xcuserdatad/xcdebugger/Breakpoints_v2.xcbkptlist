@@ -167,49 +167,81 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9D76D4B4-D55A-4AA7-9B41-1289A0B978E7"
+            uuid = "54CF1C18-B52B-4E41-8E98-CE8F31A63547"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rec-Col-Gnizer/Helpers/CameraController/CameraController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "handle(zoom:velocity:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECC5E780-4F9F-4F80-B5C8-1C30120DBE4B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Rec-Col-Gnizer/WebService/API.swift"
+            filePath = "Rec-Col-Gnizer/Flow/Coordinators/MainCoordinator.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "getRequest(from:)"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "insertLoadingScreen()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "54CF1C18-B52B-4E41-8E98-CE8F31A63547"
-            shouldBeEnabled = "No"
+            uuid = "5912F82E-29E8-41A7-BA68-3BC24E56D44A"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Rec-Col-Gnizer/Helpers/CameraController/CameraController.swift"
+            filePath = "Rec-Col-Gnizer/Flow/Coordinators/MainCoordinator.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "prepareCameraSession()"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "removeLoadingScreen()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "54CF1C18-B52B-4E41-8E98-CE8F31A63547"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Rec-Col-Gnizer/Helpers/CameraController/CameraController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "5912F82E-29E8-41A7-BA68-3BC24E56D44A - 8daacbc958bf7e96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rec_Col_Gnizer.MainCoordinator.removeLoadingScreen() -&gt; ()"
+                  moduleName = "Rec-Col-Gnizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michalkrupa/Documents/Projekty/RecColGnizer/Rec-Col-Gnizer/Rec-Col-Gnizer/Flow/Coordinators/MainCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "5912F82E-29E8-41A7-BA68-3BC24E56D44A - 409b32eab4e898ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIView) -&gt; Swift.Bool in Rec_Col_Gnizer.MainCoordinator.removeLoadingScreen() -&gt; ()"
+                  moduleName = "Rec-Col-Gnizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michalkrupa/Documents/Projekty/RecColGnizer/Rec-Col-Gnizer/Rec-Col-Gnizer/Flow/Coordinators/MainCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

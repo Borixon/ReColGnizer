@@ -13,11 +13,11 @@ open class BaseViewController: UIViewController, BaseViewControllerProtocol {
     var coordinator: MainCoordinator?
     
     func openLoadingScreen() {
-//        loadingCoordinator?.start()
+        coordinator?.insertLoadingScreen()
     }
     
     func hideLoadingScreen() {
-//        loadingCoordinator?.finish()
+        coordinator?.removeLoadingScreen()
     }
 }
 
