@@ -10,7 +10,7 @@ import UIKit
 
 final class CellDataBuilder {
 
-    public func getSliderCell<T: ColorModel>(forRow row: Int, model: T) -> SliderData? {
+    public func getSliderCell<T: ColorTypeModel>(forRow row: Int, model: T) -> SliderData? {
         if let rgb = model as? RgbModel {
             if row == 0 {
                 return SliderData(max: Float(RgbModel.maxValue.r),

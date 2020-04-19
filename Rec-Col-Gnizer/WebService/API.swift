@@ -76,15 +76,6 @@ struct API {
         return try getRequest(from: requestString)
     }
     
-    // TODO oczywiscie zmiana
-//    private func dupa() {
-//        switch data {
-//        case is HexRequestData:
-//            print("HEX")
-//        default:
-//            print("B")
-//        }
-//    }
 }
 
 enum SchemeModeTypes: String {

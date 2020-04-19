@@ -60,25 +60,22 @@ class PickerViewController: BaseViewController, Storyboarded {
     }
     
     private func setupCategoryStack() {
-        // TODO : Remove from here
-        let rgbButton = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 30))
-        rgbButton.layer.masksToBounds = true
-        rgbButton.layer.cornerRadius = 9
-        rgbButton.backgroundColor = .groupTableViewBackground
-        rgbButton.setTitleColor(.darkGray, for: .normal)
-        rgbButton.setTitle("RGB", for: .normal)
-        rgbButton.addTarget(vm, action: #selector(PickerViewModel.rgbPicked), for: .touchUpInside)
-        
-        let hslButton = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 30))
-        hslButton.layer.masksToBounds = true
-        hslButton.layer.cornerRadius = 9
-        hslButton.backgroundColor = .groupTableViewBackground
-        hslButton.setTitleColor(.darkGray, for: .normal)
-        hslButton.setTitle("HSL", for: .normal)
-        hslButton.addTarget(vm, action: #selector(PickerViewModel.hslPicked), for: .touchUpInside)
-        
+        let rgbButton = createButton(title: "RGB", selector: #selector(PickerViewModel.rgbPicked))
+        let hslButton = createButton(title: "HSL", selector: #selector(PickerViewModel.hslPicked))
         categoryStackView.addArrangedSubview(rgbButton)
         categoryStackView.addArrangedSubview(hslButton)
+    }
+    
+    func createButton(title: String, selector: Selector) -> UIButton {
+        let button = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 30))
+        button.layer.masksToBounds = true
+        button.layer.cornerRadius = 9
+        button.backgroundColor = .groupTableViewBackground
+        button.setTitleColor(.darkGray, for: .normal)
+        button.setTitle(title, for: .normal)
+        button.addTarget(vm, action: selector, for: .touchUpInside)
+        
+        return button
     }
     
     @objc internal func hideKeyboard() {

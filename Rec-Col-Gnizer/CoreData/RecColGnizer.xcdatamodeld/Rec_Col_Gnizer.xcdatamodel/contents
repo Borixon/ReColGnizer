@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E266" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CmykEntity" representedClassName="CmykEntity" syncable="YES">
+        <attribute name="cyan" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="key" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="magenta" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="yellow" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="color" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ColorEntity" inverseName="cmyk" inverseEntity="ColorEntity"/>
+    </entity>
+    <entity name="ColorEntity" representedClassName="ColorEntity" syncable="YES">
+        <attribute name="contrast" optional="YES" attributeType="String"/>
+        <attribute name="distance" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="exactMatch" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="hex" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="cmyk" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CmykEntity" inverseName="color" inverseEntity="CmykEntity"/>
+        <relationship name="derivativeColor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ColorEntity" inverseName="exactColor" inverseEntity="ColorEntity"/>
+        <relationship name="exactColor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ColorEntity" inverseName="derivativeColor" inverseEntity="ColorEntity"/>
+        <relationship name="hsl" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HslEntity" inverseName="color" inverseEntity="HslEntity"/>
+        <relationship name="rgb" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RgbEntity" inverseName="color" inverseEntity="RgbEntity"/>
+    </entity>
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class"/>
+    <entity name="HslEntity" representedClassName="HslEntity" syncable="YES">
+        <attribute name="hue" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lightness" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="saturation" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="color" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ColorEntity" inverseName="hsl" inverseEntity="ColorEntity"/>
+    </entity>
+    <entity name="RgbEntity" representedClassName="RgbEntity" syncable="YES">
+        <attribute name="blue" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="green" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="red" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="color" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ColorEntity" inverseName="rgb" inverseEntity="ColorEntity"/>
+    </entity>
+    <entity name="SchemeEntity" representedClassName="SchemeEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CmykEntity" positionX="-36" positionY="36" width="128" height="118"/>
+        <element name="ColorEntity" positionX="-63" positionY="-18" width="128" height="193"/>
+        <element name="Entity" positionX="-27" positionY="81" width="128" height="43"/>
+        <element name="HslEntity" positionX="-36" positionY="63" width="128" height="103"/>
+        <element name="RgbEntity" positionX="-54" positionY="0" width="128" height="103"/>
+        <element name="SchemeEntity" positionX="-45" positionY="54" width="128" height="58"/>
+    </elements>
+</model>

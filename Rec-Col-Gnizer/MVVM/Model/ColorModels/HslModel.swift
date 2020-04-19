@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import ColorWithHSL
 
-class HslModel: ColorModel {
+class HslModel: ColorTypeModel {
     
     typealias ColorData = (h: Int, s: Int, l: Int)
     static var maxValue: ColorData = (h: 359, s: 100, l: 100)

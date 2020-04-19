@@ -2,24 +2,28 @@
 //  ColorModel.swift
 //  Rec-Col-Gnizer
 //
-//  Created by Michał Krupa on 16/04/2020.
+//  Created by Michał Krupa on 19/04/2020.
 //  Copyright © 2020 Michał Krupa. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
-protocol ColorModel {
-    associatedtype ColorData
+class ColorModel: NSObject {
     
-    static var maxValue: ColorData { get }
-    var value: ColorData { get set }
-    var color: UIColor { get }
+    let rgb: RgbModel
+    let cmyk: CmykModel
+    let hsl: HslModel
+    let hex: HexModel
+    let name: NameModel
+    let contrast: HexModel
     
-    func toRgb() -> RgbModel
-    func toHex() -> HexModel
+    init(color: WSColorModel) {
+        rgb = color.rgb.toModel()
+        cmyk = color.cmyk.toModel()
+        hsl = color.hsl.toModel()
+        hex = color.hex.toModel()
+        name = color.name.toModel()
+        contrast = color.contrast.toModel()
+    }
     
-//    Next episode
-//    func toCmyk() -> RgbModel
-//    func toHsl() -> RgbModel
 }

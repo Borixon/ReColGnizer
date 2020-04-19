@@ -43,6 +43,7 @@ class ImagePickerViewController: BaseViewController, Storyboarded {
     }
     
     public func handle(image: UIImage) {
+        // TODO remove
         let uiimage = UIImageView(image: image)
         uiimage.frame = view.frame
         view.addSubview(uiimage)

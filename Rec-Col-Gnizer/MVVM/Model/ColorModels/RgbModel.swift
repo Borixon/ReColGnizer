@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RgbModel: ColorModel {
+class RgbModel: ColorTypeModel {
     
     typealias ColorData = (r: Int, g: Int, b: Int)
     var value: ColorData

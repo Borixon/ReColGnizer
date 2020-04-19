@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class HexModel: ColorModel {
+class HexModel: ColorTypeModel {
     
     typealias ColorData = String
     

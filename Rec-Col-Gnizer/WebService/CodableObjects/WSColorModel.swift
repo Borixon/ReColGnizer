@@ -19,7 +19,7 @@ struct WSColorModel: Codable {
 
 struct WSHexModel: Codable {
     let value: String
-    let clean: String?
+    let clean: String? // what is this
 }
 
 struct WSRgbModel: Codable {
