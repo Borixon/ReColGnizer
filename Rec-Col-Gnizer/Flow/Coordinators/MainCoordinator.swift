@@ -40,7 +40,7 @@ class MainCoordinator: Coordinator {
     }
     
     // TODO zmiana color model
-    func openColorData(data: WSColorModel) {
+    func openColorData(data: ColorModel) {
         let vc = ColorDataViewController.instantiate()
         vc.vm = ColorDataViewModel(model: data)
         DispatchQueue.main.async {
@@ -57,6 +57,7 @@ class MainCoordinator: Coordinator {
     }
     
     func insertLoadingScreen() {
+        // todo
         let loading = LoadingViewController.instantiate()
         loading.view.tag = windowTag
         window?.addSubview(loading.view)

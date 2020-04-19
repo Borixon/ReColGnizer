@@ -40,6 +40,10 @@ class ColorDataViewController: UIViewController, Storyboarded {
         tableView.estimatedRowHeight = UITableView.automaticDimension
     }
     
+    @IBAction func saveColor(_ sender: Any) {
+        CoreDataManager.shared.saveColor(vm.model)
+    }
+    
 }
 
 extension ColorDataViewController: UITableViewDataSource {

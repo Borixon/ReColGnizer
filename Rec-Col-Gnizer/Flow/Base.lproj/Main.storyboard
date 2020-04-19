@@ -81,7 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="899" y="138"/>
+            <point key="canvasLocation" x="1294" y="190"/>
         </scene>
         <!--Loading View Controller-->
         <scene sceneID="Iaw-RJ-ebO">
@@ -106,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yuc-0O-Mce" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3316" y="138"/>
+            <point key="canvasLocation" x="3712" y="190"/>
         </scene>
         <!--Color Data View Controller-->
         <scene sceneID="Aia-xm-vx0">
@@ -129,6 +129,9 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="tintColor" red="0.1219589189" green="0.12912842629999999" blue="0.1411769688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Add to favorite"/>
+                                <connections>
+                                    <action selector="saveColor:" destination="hNB-IX-Df9" eventType="touchUpInside" id="1sZ-lO-vUt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -150,7 +153,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c8y-IC-F3Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2512" y="138"/>
+            <point key="canvasLocation" x="2907" y="190"/>
         </scene>
         <!--Tab Controller-->
         <scene sceneID="hcD-bI-4QW">
@@ -171,7 +174,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aIl-Mq-BlP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1670" y="138"/>
+            <point key="canvasLocation" x="2065" y="190"/>
         </scene>
         <!--Image Picker-->
         <scene sceneID="SKi-SG-VPk">
@@ -232,7 +235,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2bY-wp-GtR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1670" y="915"/>
+            <point key="canvasLocation" x="1670" y="925"/>
         </scene>
         <!--Favourite-->
         <scene sceneID="hxR-VS-d7X">
@@ -268,7 +271,7 @@
         <!--Info-->
         <scene sceneID="F4N-3G-9jh">
             <objects>
-                <viewController id="DEC-f0-NJe" customClass="AboutViewController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AboutViewController" id="DEC-f0-NJe" customClass="AboutViewController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Slb-EH-BOE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -356,7 +359,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nfo-up-0kS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="899" y="915"/>
+            <point key="canvasLocation" x="874" y="925"/>
         </scene>
     </scenes>
     <resources>

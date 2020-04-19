@@ -896,7 +896,7 @@
 				INFOPLIST_FILE = "Rec-Col-Gnizer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = AplikacjeMobilne.RecColGnizer;
+				PRODUCT_BUNDLE_IDENTIFIER = AplikacjeMobilne.RecColGnizera;
 				PRODUCT_NAME = RecColGnizer;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -913,7 +913,7 @@
 				INFOPLIST_FILE = "Rec-Col-Gnizer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = AplikacjeMobilne.RecColGnizer;
+				PRODUCT_BUNDLE_IDENTIFIER = AplikacjeMobilne.RecColGnizera;
 				PRODUCT_NAME = RecColGnizer;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
