@@ -9,14 +9,12 @@
 import UIKit
 import AVFoundation
 
-class ImagePickerViewController: UIViewController, Storyboarded {
+class ImagePickerViewController: BaseViewController, Storyboarded {
     
     @IBOutlet weak var viewfinder: UIView!
     @IBOutlet weak var photoButton: UIButton!
     
     var vm = ImagePickerViewModel()
-    var coordinator: Coordinator!
-    let cameraController = CameraController()
     
     override func viewDidLoad() {
         super.viewDidLoad()

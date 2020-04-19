@@ -11,10 +11,6 @@ import UIKit
 class ImagePickerViewModel {
     
     public var controller: ImagePickerViewController!
-//    private var zoomValue: CGFloat = 1
-//    private let maxZoomValue: CGFloat = 10 // ??
-//    private let minZoomValue: CGFloat = 1
-    
     public let cameraController = CameraController()
     
     init() {

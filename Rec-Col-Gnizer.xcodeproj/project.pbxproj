@@ -15,6 +15,7 @@
 		6F06E1862448AC4F003CABAD /* PickerViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F06E1852448AC4F003CABAD /* PickerViewController+TableView.swift */; };
 		6F06E1892448AC9B003CABAD /* SliderCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F06E1882448AC9B003CABAD /* SliderCellType.swift */; };
 		6F06E18B2448AD96003CABAD /* SliderCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F06E18A2448AD96003CABAD /* SliderCellData.swift */; };
+		6F0F59192449EA18003E6B6F /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0F59182449EA18003E6B6F /* TabController.swift */; };
 		6F10C648244764EC006EC9FC /* WSSchemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10C647244764EC006EC9FC /* WSSchemeModel.swift */; };
 		6F10C64A24476905006EC9FC /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10C64924476905006EC9FC /* API.swift */; };
 		6F10C64C24476BA9006EC9FC /* WSRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10C64B24476BA9006EC9FC /* WSRequestData.swift */; };
@@ -33,11 +34,9 @@
 		6F9084C72440620F00D7E7A2 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084C62440620F00D7E7A2 /* CameraController.swift */; };
 		6F9084CA2440626100D7E7A2 /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084C92440626100D7E7A2 /* CameraError.swift */; };
 		6F9084CC2440629700D7E7A2 /* CameraControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084CB2440629700D7E7A2 /* CameraControllerDelegate.swift */; };
-		6F9084CE2440656400D7E7A2 /* RGBViewController_TO_REMOVE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084CD2440656400D7E7A2 /* RGBViewController_TO_REMOVE.swift */; };
 		6F9084D02440658E00D7E7A2 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084CF2440658E00D7E7A2 /* PickerViewController.swift */; };
 		6F9084D52440660F00D7E7A2 /* PickerColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084D42440660F00D7E7A2 /* PickerColorModel.swift */; };
 		6F9084D72440674E00D7E7A2 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084D62440674E00D7E7A2 /* UserData.swift */; };
-		6F9084D9244068F000D7E7A2 /* RGBViewModel_TO_REMOVE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084D8244068F000D7E7A2 /* RGBViewModel_TO_REMOVE.swift */; };
 		6F9084DD24406A2600D7E7A2 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084DC24406A2600D7E7A2 /* MainViewModel.swift */; };
 		6F9084DF24406ACF00D7E7A2 /* MainMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084DE24406ACF00D7E7A2 /* MainMenuModel.swift */; };
 		6F9084E624407B7800D7E7A2 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084E524407B7800D7E7A2 /* ColorHelper.swift */; };
@@ -57,7 +56,6 @@
 		6F9D497424426F1600AF50D6 /* CellDataBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D497324426F1600AF50D6 /* CellDataBuilder.swift */; };
 		6FAC49962448F18C004971AC /* HslModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC49952448F18C004971AC /* HslModel.swift */; };
 		6FF275912440A6E200FDDBAF /* WSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275902440A6E200FDDBAF /* WSError.swift */; };
-		6FF275932440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275922440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift */; };
 		6FF275952440B42B00FDDBAF /* ColorDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */; };
 		6FF275982440CEBF00FDDBAF /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275972440CEBF00FDDBAF /* Storyboarded.swift */; };
 		6FF2759B2440D13A00FDDBAF /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF2759A2440D13A00FDDBAF /* MainCoordinator.swift */; };
@@ -91,6 +89,7 @@
 		6F06E1852448AC4F003CABAD /* PickerViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PickerViewController+TableView.swift"; sourceTree = "<group>"; };
 		6F06E1882448AC9B003CABAD /* SliderCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCellType.swift; sourceTree = "<group>"; };
 		6F06E18A2448AD96003CABAD /* SliderCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCellData.swift; sourceTree = "<group>"; };
+		6F0F59182449EA18003E6B6F /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
 		6F10C647244764EC006EC9FC /* WSSchemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSSchemeModel.swift; sourceTree = "<group>"; };
 		6F10C64924476905006EC9FC /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		6F10C64B24476BA9006EC9FC /* WSRequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSRequestData.swift; sourceTree = "<group>"; };
@@ -115,11 +114,9 @@
 		6F9084C62440620F00D7E7A2 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		6F9084C92440626100D7E7A2 /* CameraError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
 		6F9084CB2440629700D7E7A2 /* CameraControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraControllerDelegate.swift; sourceTree = "<group>"; };
-		6F9084CD2440656400D7E7A2 /* RGBViewController_TO_REMOVE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBViewController_TO_REMOVE.swift; sourceTree = "<group>"; };
 		6F9084CF2440658E00D7E7A2 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		6F9084D42440660F00D7E7A2 /* PickerColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerColorModel.swift; sourceTree = "<group>"; };
 		6F9084D62440674E00D7E7A2 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
-		6F9084D8244068F000D7E7A2 /* RGBViewModel_TO_REMOVE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBViewModel_TO_REMOVE.swift; sourceTree = "<group>"; };
 		6F9084DC24406A2600D7E7A2 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		6F9084DE24406ACF00D7E7A2 /* MainMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuModel.swift; sourceTree = "<group>"; };
 		6F9084E524407B7800D7E7A2 /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
@@ -141,7 +138,6 @@
 		6F9D497324426F1600AF50D6 /* CellDataBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDataBuilder.swift; sourceTree = "<group>"; };
 		6FAC49952448F18C004971AC /* HslModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HslModel.swift; sourceTree = "<group>"; };
 		6FF275902440A6E200FDDBAF /* WSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSError.swift; sourceTree = "<group>"; };
-		6FF275922440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RGBViewController+TextFieldDelegate.swift"; sourceTree = "<group>"; };
 		6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDataViewController.swift; sourceTree = "<group>"; };
 		6FF275972440CEBF00FDDBAF /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		6FF2759A2440D13A00FDDBAF /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
@@ -301,7 +297,6 @@
 		6F9084D1244065D200D7E7A2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				6F9084D8244068F000D7E7A2 /* RGBViewModel_TO_REMOVE.swift */,
 				6F9084DC24406A2600D7E7A2 /* MainViewModel.swift */,
 				6F9D4968244254FC00AF50D6 /* ColorDataViewModel.swift */,
 				6F909F2F24464D4B001FCF97 /* PickerViewModel.swift */,
@@ -316,10 +311,9 @@
 				6F06E1822448ABFF003CABAD /* PickerViewController */,
 				6F97C074243E57D300CDA54C /* IntroViewController.swift */,
 				6F3A47D8243E71410036CF34 /* ImagePickerViewController.swift */,
-				6F9084CD2440656400D7E7A2 /* RGBViewController_TO_REMOVE.swift */,
-				6FF275922440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift */,
 				6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */,
 				6F9D49532442475F00AF50D6 /* LoadingViewController.swift */,
+				6F0F59182449EA18003E6B6F /* TabController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -606,7 +600,6 @@
 				6F06E18B2448AD96003CABAD /* SliderCellData.swift in Sources */,
 				6F909F3024464D4B001FCF97 /* PickerViewModel.swift in Sources */,
 				6F9138AF243E507C008B8E78 /* ColorRandomiezer.swift in Sources */,
-				6FF275932440AEE400FDDBAF /* RGBViewController+TextFieldDelegate.swift in Sources */,
 				6F591AF7243E2E7F00ECEEEC /* AppDelegate.swift in Sources */,
 				6F06E18124489365003CABAD /* HexModel.swift in Sources */,
 				6F9084D52440660F00D7E7A2 /* PickerColorModel.swift in Sources */,
@@ -622,6 +615,7 @@
 				6FF5EADA24488F510026BEDE /* ColorModel.swift in Sources */,
 				6F9084DF24406ACF00D7E7A2 /* MainMenuModel.swift in Sources */,
 				6F591B2C243E2EDD00ECEEEC /* WebService.swift in Sources */,
+				6F0F59192449EA18003E6B6F /* TabController.swift in Sources */,
 				6F9D4969244254FC00AF50D6 /* ColorDataViewModel.swift in Sources */,
 				6FF5EAD824488ECA0026BEDE /* RgbModel.swift in Sources */,
 				6F9084C72440620F00D7E7A2 /* CameraController.swift in Sources */,
@@ -638,7 +632,6 @@
 				6F9084D72440674E00D7E7A2 /* UserData.swift in Sources */,
 				6F9D49542442475F00AF50D6 /* LoadingViewController.swift in Sources */,
 				6FF275982440CEBF00FDDBAF /* Storyboarded.swift in Sources */,
-				6F9084CE2440656400D7E7A2 /* RGBViewController_TO_REMOVE.swift in Sources */,
 				6F9084CA2440626100D7E7A2 /* CameraError.swift in Sources */,
 				6F06E1862448AC4F003CABAD /* PickerViewController+TableView.swift in Sources */,
 				6F9D49502442452200AF50D6 /* BaseViewController.swift in Sources */,

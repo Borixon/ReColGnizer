@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PickerViewController: UIViewController, Storyboarded {
+class PickerViewController: BaseViewController, Storyboarded {
 
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var categoryStackView: UIStackView!
@@ -16,7 +16,6 @@ class PickerViewController: UIViewController, Storyboarded {
     @IBOutlet weak var checkDataButton: UIButton!
     @IBOutlet weak var colorBackgroundView: UIView!
     
-    var coordinator: MainCoordinator?
     let vm = PickerViewModel()
     
     override func viewDidLoad() {
