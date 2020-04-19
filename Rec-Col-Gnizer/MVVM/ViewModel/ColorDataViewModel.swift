@@ -11,11 +11,11 @@ import SwiftHEXColors
 
 class ColorDataViewModel: NSObject {
 
-    private let model: WSColorModel
+    public let model: ColorModel
     public let nameCellIndentifier = "ColorCellNameIdentifier"
     public let rgbCellIdentifier = "rgbCellIdentifier"
     
-    init(model: WSColorModel) {
+    init(model: ColorModel) {
         self.model = model
     }
     
@@ -28,15 +28,15 @@ class ColorDataViewModel: NSObject {
     }
     
     var closestDefinedColor: UIColor {
-        if model.name.exact_match_name {
+        if model.name.value.exactMatch {
             return UIColor(hexString: model.hex.value) ?? .white
         } else {
-            return UIColor(hexString: model.name.closest_named_hex) ?? .white
+            return UIColor(hexString: model.name.value.closestNamedHex) ?? .white
         }
     }
     
     var numberOfRows: Int {
-        if model.name.exact_match_name {
+        if model.name.value.exactMatch {
             return 4
         } else {
             return 5
@@ -44,14 +44,14 @@ class ColorDataViewModel: NSObject {
     }
     
     var nameData: (name: String, hex: String) {
-        return (model.name.value, model.hex.value)
+        return (model.name.value.name, model.hex.value)
     }
     
-    var rgbData: WSRgbModel {
+    var rgbData: RgbModel {
         return model.rgb
     }
     
-    var cmykData: WSCmykModel {
+    var cmykData: CmykModel {
         return model.cmyk
     }
 }

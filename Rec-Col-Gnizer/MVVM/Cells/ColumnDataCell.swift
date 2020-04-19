@@ -18,26 +18,26 @@ class ColumnDataCell: UITableViewCell {
         return heightConstraint.constant
     }
     
-    func setup(data: WSRgbModel, contrast: UIColor) {
+    func setup(data: RgbModel, contrast: UIColor) {
         
         label.textColor = contrast
         label.text = "RGB"
         backgroundColor = .clear
         stackView.backgroundColor = .clear
         
-        let rFraction = CGFloat(data.fraction?.r ?? 0)
-        let gFraction = CGFloat(data.fraction?.g ?? 0)
-        let bFraction = CGFloat(data.fraction?.b ?? 0)
+        let rFraction: CGFloat = 0//CGFloat(data.fraction?.r ?? 0)
+        let gFraction: CGFloat = 0//CGFloat(data.fraction?.g ?? 0)
+        let bFraction: CGFloat = 0//CGFloat(data.fraction?.b ?? 0)
         
         let rColor = UIColor.red
         let gColor = UIColor.green
         let bColor = UIColor.blue
         
-        let rColumn = ColumnBuilder.createColumn(title: "\(data.r)\nRed",
+        let rColumn = ColumnBuilder.createColumn(title: "\(data.value.r)\nRed",
             fraction: rFraction, columnColor: rColor, contrast: contrast, width: 55, height: heightConstraint.constant)
-        let gColumn = ColumnBuilder.createColumn(title: "\(data.g)\nGreen",
+        let gColumn = ColumnBuilder.createColumn(title: "\(data.value.g)\nGreen",
             fraction: gFraction, columnColor: gColor, contrast: contrast, width: 55, height: heightConstraint.constant)
-        let bColumn = ColumnBuilder.createColumn(title: "\(data.b)\nBlue",
+        let bColumn = ColumnBuilder.createColumn(title: "\(data.value.b)\nBlue",
             fraction: bFraction, columnColor: bColor, contrast: contrast, width: 55, height: heightConstraint.constant)
          
         stackView.insertArrangedSubview(rColumn, at: 0)
@@ -45,33 +45,33 @@ class ColumnDataCell: UITableViewCell {
         stackView.insertArrangedSubview(bColumn, at: 2)
     }
     
-    func setup(data: WSCmykModel, contrast: UIColor) {
+    func setup(data: CmykModel, contrast: UIColor) {
         
         label.textColor = contrast
         label.text = "CMYK"
         backgroundColor = .clear
         stackView.backgroundColor = .clear
         
-        let cFraction = CGFloat(data.fraction?.c ?? 0)
-        let mFraction = CGFloat(data.fraction?.m ?? 0)
-        let yFraction = CGFloat(data.fraction?.y ?? 0)
-        let kFraction = CGFloat(data.fraction?.k ?? 0)
+        let cFraction: CGFloat = 0//CGFloat(data.fraction?.c ?? 0)
+        let mFraction: CGFloat = 0//CGFloat(data.fraction?.m ?? 0)
+        let yFraction: CGFloat = 0//CGFloat(data.fraction?.y ?? 0)
+        let kFraction: CGFloat = 0//CGFloat(data.fraction?.k ?? 0)
         
         let cColor = UIColor.cyan
         let mColor = UIColor.magenta
         let yColor = UIColor.yellow
         let kColor = UIColor.black
         
-        let cColumn = ColumnBuilder.createColumn(title: "\(data.c ?? 0)\nCyan",
+        let cColumn = ColumnBuilder.createColumn(title: "\(data.value.c)\nCyan",
             fraction: cFraction, columnColor: cColor, contrast: contrast, width: 35, height: heightConstraint.constant)
         
-        let mColumn = ColumnBuilder.createColumn(title: "\(data.m ?? 0)\nMagenta",
+        let mColumn = ColumnBuilder.createColumn(title: "\(data.value.m)\nMagenta",
             fraction: mFraction, columnColor: mColor, contrast: contrast, width: 35, height: heightConstraint.constant)
         
-        let yColumn = ColumnBuilder.createColumn(title: "\(data.y ?? 0)\nYellow",
+        let yColumn = ColumnBuilder.createColumn(title: "\(data.value.y)\nYellow",
             fraction: yFraction, columnColor: yColor, contrast: contrast, width: 35, height: heightConstraint.constant)
         
-        let kColumn = ColumnBuilder.createColumn(title: "\(data.k ?? 0)\nKey",
+        let kColumn = ColumnBuilder.createColumn(title: "\(data.value.k)\nKey",
             fraction: kFraction, columnColor: kColor, contrast: contrast, width: 35, height: heightConstraint.constant)
         
         stackView.addArrangedSubview(cColumn)

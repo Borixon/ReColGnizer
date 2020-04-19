@@ -30,4 +30,8 @@ public class ColorEntity: NSManagedObject {
 //          @NSManaged public var hsl: HslEntity?
         
     }
+    
+    override public init(entity: NSEntityDescription, insertInto context: NSManagedObjectContext?) {
+        super.init(entity: entity, insertInto: context)
+    }
 }

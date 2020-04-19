@@ -62,13 +62,11 @@ class CoreDataStack: NSObject {
     }
     
     public func get<T: NSManagedObject>(predicate: NSPredicate?) -> [T]? {
-        let fetchRequest = NSFetchRequest<T>()
+        let fetchRequest = NSFetchRequest<T>(entityName: entityName(forObject: T.self))
         fetchRequest.predicate = predicate
         do {
             let data = try persistentContainer.viewContext.fetch(fetchRequest)
-            if data.count > 0 {
-                return data
-            }
+            return data
         } catch {
             print(error)
         }
@@ -79,4 +77,13 @@ class CoreDataStack: NSObject {
         return persistentContainer.newBackgroundContext()
     }
     
+    private func entityName<T: NSManagedObject>(forObject obj: T.Type) -> String {
+        switch obj {
+        case is ColorEntity.Type:
+            return "ColorEntity"
+        default:
+            return ""
+        }
+    }
 }
+

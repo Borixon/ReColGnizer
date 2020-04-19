@@ -36,6 +36,7 @@
 		6F364217244CA38500018953 /* HslEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F36420D244CA38500018953 /* HslEntity+CoreDataClass.swift */; };
 		6F364218244CA38500018953 /* HslEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F36420E244CA38500018953 /* HslEntity+CoreDataProperties.swift */; };
 		6F3A47D9243E71410036CF34 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A47D8243E71410036CF34 /* ImagePickerViewController.swift */; };
+		6F407230244CB17700E9C686 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3641E6244C821500018953 /* FavoriteViewController.swift */; };
 		6F591AF7243E2E7F00ECEEEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AF6243E2E7F00ECEEEC /* AppDelegate.swift */; };
 		6F591AF9243E2E7F00ECEEEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AF8243E2E7F00ECEEEC /* SceneDelegate.swift */; };
 		6F591AFE243E2E7F00ECEEEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F591AFC243E2E7F00ECEEEC /* Main.storyboard */; };
@@ -675,6 +676,7 @@
 				6F9D495A244251CD00AF50D6 /* ColorNameCell.swift in Sources */,
 				6FF5EADA24488F510026BEDE /* ColorTypeModel.swift in Sources */,
 				6F591B2C243E2EDD00ECEEEC /* WebService.swift in Sources */,
+				6F407230244CB17700E9C686 /* FavoriteViewController.swift in Sources */,
 				6F0F59192449EA18003E6B6F /* TabController.swift in Sources */,
 				6F9D4969244254FC00AF50D6 /* ColorDataViewModel.swift in Sources */,
 				6FF5EAD824488ECA0026BEDE /* RgbModel.swift in Sources */,

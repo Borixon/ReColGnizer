@@ -42,7 +42,7 @@ class MainCoordinator: Coordinator {
     // TODO zmiana color model
     func openColorData(data: WSColorModel) {
         let vc = ColorDataViewController.instantiate()
-        vc.vm = ColorDataViewModel(model: data)
+        vc.vm = ColorDataViewModel(model: ColorModel(color: data))
         DispatchQueue.main.async {
             self.navigationController.present(vc, animated: true, completion: nil)
         }
@@ -57,6 +57,7 @@ class MainCoordinator: Coordinator {
     }
     
     func insertLoadingScreen() {
+        // todo
         let loading = LoadingViewController.instantiate()
         loading.view.tag = windowTag
         window?.addSubview(loading.view)

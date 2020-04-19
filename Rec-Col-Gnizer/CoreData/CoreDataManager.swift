@@ -25,9 +25,15 @@ class CoreDataManager: NSObject {
     }
     
     public func saveColor(_ color: ColorModel) {
+        // TODO premyslec
         let context = stack.getPrivateContext()
         let entity = ColorEntity(context: context, model: color)
         context.insert(entity)
+        do {
+            try context.save()
+        } catch {
+            print(error)
+        }
     }
     
     public func removeColor() {
