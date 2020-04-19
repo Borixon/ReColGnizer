@@ -10,21 +10,41 @@ import UIKit
 
 class FavoriteViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    let vm = FavoriteViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupTableView()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewWillAppear(_ animated: Bool) {
+        vm.refreshData()
     }
-    */
+    
+    private func setupTableView() {
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.register(UINib(nibName: "ColorCell", bundle: Bundle.main), forCellReuseIdentifier: vm.cellIdentifier)
+    }
 
+}
+
+extension FavoriteViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return vm.numberOfRows
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: vm.cellIdentifier) as! ColorCell
+        if let color = vm.data(forIndex: indexPath.row) {
+            cell.setup(name: color.name, hex: color.hex, color: UIColor(hexString: color.hex) ?? .black)
+        }
+        return cell
+    }
+}
+
+extension FavoriteViewController: UITableViewDelegate {
+    
 }

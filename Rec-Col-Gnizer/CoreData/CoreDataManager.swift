@@ -13,7 +13,7 @@ class CoreDataManager: NSObject {
     static let shared = CoreDataManager()
     private let stack = CoreDataStack()
     
-    public func getColorsList() -> [String]? {
+    public func getColorsList() -> [(name: String, hex: String)]? {
         if let colors = stack.getColors() {
             return colors
         }

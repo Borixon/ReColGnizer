@@ -54,14 +54,14 @@ class CoreDataStack: NSObject {
         }
     }
     
-    public func getColors() -> [String]? {
-        if let data: [ColorEntity] = get(predicate: nil) {
-            return data.map({ $0.name })
+    public func getColors() -> [(String, String)]? {
+        if let data: [ColorEntity] = getEntity(predicate: nil) {
+            return data.map({ return ($0.name, $0.hex) })
         }
         return nil
     }
     
-    public func get<T: NSManagedObject>(predicate: NSPredicate?) -> [T]? {
+    public func getEntity<T: NSManagedObject>(predicate: NSPredicate?) -> [T]? {
         let fetchRequest = NSFetchRequest<T>()
         fetchRequest.predicate = predicate
         do {

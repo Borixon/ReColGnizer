@@ -11,7 +11,7 @@
         <!--Intro View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="IntroViewController" id="BYZ-38-t0r" customClass="IntroViewController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="IntroViewController" id="BYZ-38-t0r" customClass="IntroViewController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -86,7 +86,7 @@
         <!--Loading View Controller-->
         <scene sceneID="Iaw-RJ-ebO">
             <objects>
-                <viewController storyboardIdentifier="LoadingViewController" id="SUR-To-sA2" customClass="LoadingViewController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoadingViewController" id="SUR-To-sA2" customClass="LoadingViewController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="LoadingViewController" id="Igx-au-ov2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -111,7 +111,7 @@
         <!--Color Data View Controller-->
         <scene sceneID="Aia-xm-vx0">
             <objects>
-                <viewController storyboardIdentifier="ColorDataViewController" id="hNB-IX-Df9" customClass="ColorDataViewController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ColorDataViewController" id="hNB-IX-Df9" customClass="ColorDataViewController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Zw-Le-Kwe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -155,7 +155,7 @@
         <!--Tab Controller-->
         <scene sceneID="hcD-bI-4QW">
             <objects>
-                <tabBarController storyboardIdentifier="TabController" id="LRB-s5-mfG" customClass="TabController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabController" id="LRB-s5-mfG" customClass="TabController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="HQW-Hf-z4n">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -176,7 +176,7 @@
         <!--Image Picker-->
         <scene sceneID="SKi-SG-VPk">
             <objects>
-                <viewController storyboardIdentifier="ImagePickerViewController" id="j5f-K2-Gh2" customClass="ImagePickerViewController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ImagePickerViewController" id="j5f-K2-Gh2" customClass="ImagePickerViewController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IsO-tc-stI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -237,14 +237,29 @@
         <!--Favourite-->
         <scene sceneID="hxR-VS-d7X">
             <objects>
-                <viewController id="WO5-Og-pJV" customClass="FavoriteViewController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="WO5-Og-pJV" customClass="FavoriteViewController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1a0-VB-RHp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="v76-v2-tLP">
+                                <rect key="frame" x="10" y="56" width="394" height="769"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="v76-v2-tLP" firstAttribute="leading" secondItem="9xX-50-afY" secondAttribute="leading" constant="10" id="Iab-7w-4cw"/>
+                            <constraint firstItem="9xX-50-afY" firstAttribute="bottom" secondItem="v76-v2-tLP" secondAttribute="bottom" id="Xdf-1T-fXv"/>
+                            <constraint firstItem="v76-v2-tLP" firstAttribute="top" secondItem="9xX-50-afY" secondAttribute="top" id="lT9-YM-PEF"/>
+                            <constraint firstItem="9xX-50-afY" firstAttribute="trailing" secondItem="v76-v2-tLP" secondAttribute="trailing" constant="10" id="tda-3D-Hg5"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="9xX-50-afY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Favourite" image="star" catalog="system" id="dxl-lb-3ls"/>
+                    <connections>
+                        <outlet property="tableView" destination="v76-v2-tLP" id="6p7-Jh-okc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UKI-4G-SBL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -253,7 +268,7 @@
         <!--Info-->
         <scene sceneID="F4N-3G-9jh">
             <objects>
-                <viewController id="DEC-f0-NJe" customClass="AboutViewController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="DEC-f0-NJe" customClass="AboutViewController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Slb-EH-BOE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -269,7 +284,7 @@
         <!--Slider Picker-->
         <scene sceneID="2hM-iR-5D8">
             <objects>
-                <viewController storyboardIdentifier="PickerViewController" id="MUI-Lo-JhR" customClass="PickerViewController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PickerViewController" id="MUI-Lo-JhR" customClass="PickerViewController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pBd-fG-SHt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
