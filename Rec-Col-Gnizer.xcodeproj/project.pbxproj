@@ -19,8 +19,7 @@
 		6F10C648244764EC006EC9FC /* WSSchemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10C647244764EC006EC9FC /* WSSchemeModel.swift */; };
 		6F10C64A24476905006EC9FC /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10C64924476905006EC9FC /* API.swift */; };
 		6F10C64C24476BA9006EC9FC /* WSRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10C64B24476BA9006EC9FC /* WSRequestData.swift */; };
-		6F3641E7244C821500018953 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3641E6244C821500018953 /* FavoriteViewController.swift */; };
-		6F3641E9244C823900018953 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3641E8244C823900018953 /* AboutViewController.swift */; };
+		6F2BB5AD244ADDB000FCD451 /* ImagePickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2BB5AC244ADDB000FCD451 /* ImagePickerViewModel.swift */; };
 		6F3A47D9243E71410036CF34 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A47D8243E71410036CF34 /* ImagePickerViewController.swift */; };
 		6F591AF7243E2E7F00ECEEEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AF6243E2E7F00ECEEEC /* AppDelegate.swift */; };
 		6F591AF9243E2E7F00ECEEEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AF8243E2E7F00ECEEEC /* SceneDelegate.swift */; };
@@ -302,6 +301,7 @@
 				6F9084DC24406A2600D7E7A2 /* MainViewModel.swift */,
 				6F9D4968244254FC00AF50D6 /* ColorDataViewModel.swift */,
 				6F909F2F24464D4B001FCF97 /* PickerViewModel.swift */,
+				6F2BB5AC244ADDB000FCD451 /* ImagePickerViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -599,6 +599,8 @@
 				6F3641E7244C821500018953 /* FavoriteViewController.swift in Sources */,
 				6F9084CC2440629700D7E7A2 /* CameraControllerDelegate.swift in Sources */,
 				6F591B01243E2E7F00ECEEEC /* Rec_Col_Gnizer.xcdatamodeld in Sources */,
+				6F9084D9244068F000D7E7A2 /* RGBViewModel_TO_REMOVE.swift in Sources */,
+				6F2BB5AD244ADDB000FCD451 /* ImagePickerViewModel.swift in Sources */,
 				6F06E18B2448AD96003CABAD /* SliderCellData.swift in Sources */,
 				6F909F3024464D4B001FCF97 /* PickerViewModel.swift in Sources */,
 				6F9138AF243E507C008B8E78 /* ColorRandomiezer.swift in Sources */,

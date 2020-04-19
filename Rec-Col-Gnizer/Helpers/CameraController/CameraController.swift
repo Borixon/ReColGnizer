@@ -24,6 +24,35 @@ class CameraController: NSObject {
         self.captureSession = AVCaptureSession()
     }
     
+    public func handle(zoom: CGFloat, velocity: CGFloat) {
+        guard let cam = cameraDevice else { return }
+        
+        let customVelocityFactor: CGFloat = zoom > 0 ? 0.05 : 200.0
+        let zoomComponent = zoom * velocity * customVelocityFactor
+        let finalZoomComponent: CGFloat
+        
+        print("zoom \(zoom)\tvelocity \(velocity)\tcustomZoom \(zoomComponent)")
+        
+        if (zoomComponent < 0 && cam.videoZoomFactor + zoomComponent > cam.minAvailableVideoZoomFactor) ||
+            (zoomComponent > 0 && cam.videoZoomFactor + zoomComponent < cam.maxAvailableVideoZoomFactor) {
+            finalZoomComponent = cam.videoZoomFactor + zoomComponent
+        } else if zoomComponent > 0 && cam.videoZoomFactor + zoomComponent > cam.maxAvailableVideoZoomFactor {
+            finalZoomComponent = cam.maxAvailableVideoZoomFactor
+        } else if zoomComponent < 0 && cam.videoZoomFactor + zoomComponent <= cam.minAvailableVideoZoomFactor {
+            finalZoomComponent = cam.minAvailableVideoZoomFactor
+        } else {
+            finalZoomComponent = cam.videoZoomFactor
+        }
+        
+        do {
+            try cam.lockForConfiguration()
+            cam.videoZoomFactor = finalZoomComponent
+            cam.unlockForConfiguration()
+        } catch {
+            
+        }
+    }
+    
     private func prepareCameraSession() throws {
         let discoverySession = AVCaptureDevice.DiscoverySession(deviceTypes: [.builtInWideAngleCamera],
                                                                 mediaType: .video,
@@ -89,7 +118,7 @@ class CameraController: NSObject {
     func captureImage(completion: @escaping (UIImage?, Error?) -> Void) {
         
         let settings = AVCapturePhotoSettings()
-        settings.flashMode = .off
+        settings.flashMode = .auto
         
         self.photoOutput?.capturePhoto(with: settings, delegate: self)
         self.photoCaptureCompletionBlock = completion

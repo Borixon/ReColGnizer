@@ -173,17 +173,45 @@
             </objects>
             <point key="canvasLocation" x="1670" y="138"/>
         </scene>
-        <!--Camera Picker-->
+        <!--Image Picker-->
         <scene sceneID="SKi-SG-VPk">
             <objects>
-                <viewController storyboardIdentifier="CameraCaptureViewController" id="j5f-K2-Gh2" customClass="CameraCaptureViewController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ImagePickerViewController" id="j5f-K2-Gh2" customClass="ImagePickerViewController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IsO-tc-stI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aNo-5X-YeT">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Under construction" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRw-c4-I1e">
+                                        <rect key="frame" x="0.0" y="70" width="414" height="21"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YeZ-Ey-hsw">
+                                        <rect key="frame" x="179.5" y="712.5" width="55" height="54"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="YeZ-Ey-hsw" secondAttribute="height" multiplier="1:1" id="7Rd-l2-ZPS"/>
+                                            <constraint firstAttribute="height" constant="55" id="XK5-Ce-cUu"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" backgroundImage="camera.circle" catalog="system"/>
+                                        <connections>
+                                            <action selector="snapshot:" destination="j5f-K2-Gh2" eventType="touchUpInside" id="OIP-s1-cxX"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="XRw-c4-I1e" secondAttribute="trailing" id="4TL-3H-WZs"/>
+                                    <constraint firstItem="YeZ-Ey-hsw" firstAttribute="centerX" secondItem="aNo-5X-YeT" secondAttribute="centerX" id="DWA-UR-UYe"/>
+                                    <constraint firstItem="XRw-c4-I1e" firstAttribute="leading" secondItem="aNo-5X-YeT" secondAttribute="leading" id="NUO-03-ah3"/>
+                                    <constraint firstAttribute="bottom" secondItem="YeZ-Ey-hsw" secondAttribute="bottom" constant="46" id="YwI-tg-k6m"/>
+                                    <constraint firstItem="XRw-c4-I1e" firstAttribute="top" secondItem="aNo-5X-YeT" secondAttribute="top" constant="70" id="dHi-Nr-Si1"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -195,10 +223,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="drZ-hy-wlB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Camera Picker" image="camera" catalog="system" selectedImage="camera" id="kaN-Xd-RAK"/>
+                    <tabBarItem key="tabBarItem" title="Image Picker" image="camera" catalog="system" selectedImage="camera" id="kaN-Xd-RAK"/>
                     <navigationItem key="navigationItem" id="sUV-A4-ZSb"/>
                     <connections>
-                        <outlet property="viewfinder" destination="aNo-5X-YeT" id="gnf-Ll-exH"/>
+                        <outlet property="photoButton" destination="YeZ-Ey-hsw" id="pEf-5X-Bgo"/>
+                        <outlet property="viewfinder" destination="aNo-5X-YeT" id="kAf-6S-4KR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2bY-wp-GtR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -318,6 +347,7 @@
     <resources>
         <image name="LaunchBackground" width="1096" height="2048"/>
         <image name="camera" catalog="system" width="128" height="96"/>
+        <image name="camera.circle" catalog="system" width="128" height="121"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="slider.horizontal.below.rectangle" catalog="system" width="128" height="115"/>
         <image name="star" catalog="system" width="128" height="116"/>
