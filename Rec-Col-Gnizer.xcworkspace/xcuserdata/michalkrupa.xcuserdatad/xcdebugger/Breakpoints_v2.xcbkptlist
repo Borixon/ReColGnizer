@@ -183,16 +183,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A302F1D9-7094-451B-9D0E-FF8FEF06D8D6"
-            shouldBeEnabled = "Yes"
+            uuid = "54CF1C18-B52B-4E41-8E98-CE8F31A63547"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pods/ColorWithHSL/ColorWithHSL-iOS/UIColor+HSL.swift"
+            filePath = "Rec-Col-Gnizer/Helpers/CameraController/CameraController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "colorWithHSL(hue:saturation:lightness:)"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "prepareCameraSession()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

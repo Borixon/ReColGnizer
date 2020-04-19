@@ -19,6 +19,8 @@
 		6F10C648244764EC006EC9FC /* WSSchemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10C647244764EC006EC9FC /* WSSchemeModel.swift */; };
 		6F10C64A24476905006EC9FC /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10C64924476905006EC9FC /* API.swift */; };
 		6F10C64C24476BA9006EC9FC /* WSRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10C64B24476BA9006EC9FC /* WSRequestData.swift */; };
+		6F3641E7244C821500018953 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3641E6244C821500018953 /* FavoriteViewController.swift */; };
+		6F3641E9244C823900018953 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3641E8244C823900018953 /* AboutViewController.swift */; };
 		6F3A47D9243E71410036CF34 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A47D8243E71410036CF34 /* ImagePickerViewController.swift */; };
 		6F591AF7243E2E7F00ECEEEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AF6243E2E7F00ECEEEC /* AppDelegate.swift */; };
 		6F591AF9243E2E7F00ECEEEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AF8243E2E7F00ECEEEC /* SceneDelegate.swift */; };
@@ -92,6 +94,8 @@
 		6F10C647244764EC006EC9FC /* WSSchemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSSchemeModel.swift; sourceTree = "<group>"; };
 		6F10C64924476905006EC9FC /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		6F10C64B24476BA9006EC9FC /* WSRequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSRequestData.swift; sourceTree = "<group>"; };
+		6F3641E6244C821500018953 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		6F3641E8244C823900018953 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		6F3A47D8243E71410036CF34 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
 		6F591AF3243E2E7F00ECEEEC /* Rec-Col-Gnizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rec-Col-Gnizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F591AF6243E2E7F00ECEEEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -311,6 +315,8 @@
 				6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */,
 				6F9D49532442475F00AF50D6 /* LoadingViewController.swift */,
 				6F0F59182449EA18003E6B6F /* TabController.swift */,
+				6F3641E6244C821500018953 /* FavoriteViewController.swift */,
+				6F3641E8244C823900018953 /* AboutViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -590,6 +596,7 @@
 				6F10C648244764EC006EC9FC /* WSSchemeModel.swift in Sources */,
 				6F0133B524464A2900D2A25A /* SliderCell.swift in Sources */,
 				6F9D496B244266FA00AF50D6 /* Styles.swift in Sources */,
+				6F3641E7244C821500018953 /* FavoriteViewController.swift in Sources */,
 				6F9084CC2440629700D7E7A2 /* CameraControllerDelegate.swift in Sources */,
 				6F591B01243E2E7F00ECEEEC /* Rec_Col_Gnizer.xcdatamodeld in Sources */,
 				6F06E18B2448AD96003CABAD /* SliderCellData.swift in Sources */,
@@ -607,6 +614,7 @@
 				6F9084D02440658E00D7E7A2 /* PickerViewController.swift in Sources */,
 				6FF2759B2440D13A00FDDBAF /* MainCoordinator.swift in Sources */,
 				6F9D495A244251CD00AF50D6 /* ColorNameCell.swift in Sources */,
+				6F3641E9244C823900018953 /* AboutViewController.swift in Sources */,
 				6FF5EADA24488F510026BEDE /* ColorModel.swift in Sources */,
 				6F9084DF24406ACF00D7E7A2 /* MainMenuModel.swift in Sources */,
 				6F591B2C243E2EDD00ECEEEC /* WebService.swift in Sources */,

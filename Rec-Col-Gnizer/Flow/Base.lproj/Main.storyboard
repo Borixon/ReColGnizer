@@ -165,6 +165,8 @@
                     <connections>
                         <segue destination="MUI-Lo-JhR" kind="relationship" relationship="viewControllers" id="p7n-kZ-djf"/>
                         <segue destination="j5f-K2-Gh2" kind="relationship" relationship="viewControllers" id="q3x-Fu-dOE"/>
+                        <segue destination="WO5-Og-pJV" kind="relationship" relationship="viewControllers" id="l3L-3z-IRj"/>
+                        <segue destination="DEC-f0-NJe" kind="relationship" relationship="viewControllers" id="wc5-iP-0cY"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aIl-Mq-BlP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -201,7 +203,39 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2bY-wp-GtR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2103" y="915"/>
+            <point key="canvasLocation" x="1670" y="915"/>
+        </scene>
+        <!--Favourite-->
+        <scene sceneID="hxR-VS-d7X">
+            <objects>
+                <viewController id="WO5-Og-pJV" customClass="FavoriteViewController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1a0-VB-RHp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="9xX-50-afY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Favourite" image="star" catalog="system" id="dxl-lb-3ls"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UKI-4G-SBL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2504" y="925"/>
+        </scene>
+        <!--Info-->
+        <scene sceneID="F4N-3G-9jh">
+            <objects>
+                <viewController id="DEC-f0-NJe" customClass="AboutViewController" customModule="Rec_Col_Gnizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Slb-EH-BOE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="CX1-ll-LXT"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Info" image="info.circle" catalog="system" id="QXL-5g-sUc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LN8-gy-F0S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3316" y="915"/>
         </scene>
         <!--Slider Picker-->
         <scene sceneID="2hM-iR-5D8">
@@ -267,7 +301,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZUQ-tO-aK2"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Slider Picker" image="slider.horizontal.below.rectangle" selectedImage="slider.horizontal.below.rectangle" catalog="system" id="dpE-b0-scu"/>
+                    <tabBarItem key="tabBarItem" title="Slider Picker" image="slider.horizontal.below.rectangle" catalog="system" selectedImage="slider.horizontal.below.rectangle" id="dpE-b0-scu"/>
                     <connections>
                         <outlet property="categoryStackView" destination="S4s-pA-3CO" id="efO-AD-KNv"/>
                         <outlet property="checkDataButton" destination="ukv-su-oWt" id="z3p-P6-eH9"/>
@@ -278,13 +312,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nfo-up-0kS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1287" y="915"/>
+            <point key="canvasLocation" x="899" y="915"/>
         </scene>
     </scenes>
     <resources>
         <image name="LaunchBackground" width="1096" height="2048"/>
         <image name="camera" catalog="system" width="128" height="96"/>
+        <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="slider.horizontal.below.rectangle" catalog="system" width="128" height="115"/>
-        <image name="slider.horizontal.below.rectangle" width="128" height="128"/>
+        <image name="star" catalog="system" width="128" height="116"/>
     </resources>
 </document>
