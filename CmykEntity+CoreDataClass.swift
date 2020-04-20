@@ -12,5 +12,7 @@ import CoreData
 
 @objc(CmykEntity)
 public class CmykEntity: NSManagedObject {
-
+    func toModel() -> CmykModel {
+        return CmykModel(c: Int(cyan), m: Int(magenta), y: Int(yellow), k: Int(key))
+    }
 }

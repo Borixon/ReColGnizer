@@ -41,7 +41,7 @@ class ColorDataViewController: UIViewController, Storyboarded {
     }
     
     @IBAction func saveColor(_ sender: Any) {
-        CoreDataManager.shared.saveColor(vm.model)
+        DataManager.shared.saveColor(vm.model)
     }
     
 }

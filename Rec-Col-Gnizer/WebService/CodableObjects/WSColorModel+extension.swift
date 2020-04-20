@@ -27,7 +27,7 @@ extension WSRgbModel: ModelConverter {
 extension WSHslModel: ModelConverter {
     typealias ReturnModel = HslModel
     func toModel() -> HslModel {
-        return HslModel(hue: h, saturation: s, lightness: l)
+        return HslModel(h: h, s: s, l: l)
     }
 }
 

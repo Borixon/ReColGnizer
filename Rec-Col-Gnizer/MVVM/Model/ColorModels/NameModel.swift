@@ -11,7 +11,7 @@ import UIKit
 
 class NameModel: ColorTypeModel {
     
-    typealias ColorData = (name: String, closestNamedHex: String, exactMatch: Bool, distance: Int)
+    typealias ColorData = (name: String, closestNamedHex: String?, exactMatch: Bool, distance: Int)
     static var maxValue: ColorData = ("name", "closestName", true, 0)
     var value: ColorData
     
@@ -20,7 +20,7 @@ class NameModel: ColorTypeModel {
         return UIColor.red
     }
     
-    init(name: String, closestNamedHex: String, exactMatch: Bool, distance: Int) {
+    init(name: String, closestNamedHex: String?, exactMatch: Bool, distance: Int) {
         value.name = name
         value.closestNamedHex = closestNamedHex
         value.exactMatch = exactMatch
@@ -28,10 +28,12 @@ class NameModel: ColorTypeModel {
     }
     
     func toRgb() -> RgbModel {
+        // TODO
         return RgbModel(r: 0, g: 0, b: 0)
     }
     
     func toHex() -> HexModel {
+        // TODO
         return HexModel(value: "")
     }
     

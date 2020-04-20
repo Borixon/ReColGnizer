@@ -21,7 +21,7 @@ public class ColorEntity: NSManagedObject {
         hex = model.hex.value
         name = model.name.value.name
         contrast = model.contrast.value
-
+        
 //          TODO
 //          @NSManaged public var cmyk: CmykEntity?
 //          @NSManaged public var derivativeColor: ColorEntity?

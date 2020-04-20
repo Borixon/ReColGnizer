@@ -55,7 +55,7 @@ class UserData: NSObject {
     }
     
     private let kPickerCategorySelected = "kPickerCategorySelected"
-    var pickerCategory: PickerCategory {
+    var selectedPickerCategory: PickerCategory {
         get {
             if let value = PickerCategory(rawValue: defaults.string(forKey: kPickerCategorySelected) ?? "") {
                 return value
@@ -65,6 +65,20 @@ class UserData: NSObject {
         }
         set {
             defaults.setValue(newValue.rawValue, forKey: kPickerCategorySelected)
+        }
+    }
+    
+    private let kDidUserSawTutorial = "kDidUserSawTutorial"
+    var didShownTutorial: Bool {
+        get {
+            if let value = defaults.value(forKey: kDidUserSawTutorial) as? Bool {
+                return value
+            } else {
+                return false
+            }
+        }
+        set {
+            defaults.setValue(newValue, forKey: kDidUserSawTutorial)
         }
     }
 }

@@ -17,6 +17,7 @@ class FavoriteViewController: BaseViewController, Storyboarded {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableView()
+        vm.delegate = self
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -29,6 +30,16 @@ class FavoriteViewController: BaseViewController, Storyboarded {
         tableView.register(UINib(nibName: "ColorCell", bundle: Bundle.main), forCellReuseIdentifier: vm.cellIdentifier)
     }
 
+}
+
+extension FavoriteViewController: FavoriteViewModelDelegate {
+    func refreshData() {
+        tableView.reloadData()
+    }
+    
+    func openColor(_ color: ColorModel) {
+        coordinator?.openColorData(data: color)
+    }
 }
 
 extension FavoriteViewController: UITableViewDataSource {
@@ -51,6 +62,6 @@ extension FavoriteViewController: UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        coordinator?.openColorData(data: <#T##WSColorModel#>)
+        vm.getColorModel(forIndex: indexPath.row)
     }
 }

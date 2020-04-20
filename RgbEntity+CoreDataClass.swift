@@ -12,5 +12,7 @@ import CoreData
 
 @objc(RgbEntity)
 public class RgbEntity: NSManagedObject {
-
+    func toModel() -> RgbModel {
+        return RgbModel(r: Int(self.red), g: Int(self.green), b: Int(self.blue))
+    }
 }

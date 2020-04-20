@@ -22,15 +22,17 @@ class HslModel: ColorTypeModel {
                                     lightness: CGFloat(value.l)/CGFloat(HslModel.maxValue.l)) ?? .black
     }
     
-    init(hue: Int, saturation: Int, lightness: Int) {
-        value = (hue, saturation, lightness)
+    init(h: Int, s: Int, l: Int) {
+        value = (h, s, l)
     }
     
     func toRgb() -> RgbModel {
+        // TODO:
         return RgbModel(r: 0, g: 0, b: 0)
     }
     
     func toHex() -> HexModel {
+        // TODO
         return HexModel(value: "")
     }
 }

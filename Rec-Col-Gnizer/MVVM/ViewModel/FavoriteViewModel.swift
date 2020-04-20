@@ -8,25 +8,33 @@
 
 import UIKit
 
+protocol FavoriteViewModelDelegate {
+    func openColor(_ color: ColorModel)
+    func refreshData()
+}
+
 class FavoriteViewModel: NSObject {
 
     let cellIdentifier = "ColorCellIdentifier"
-    private var dataModel: [(String, String)] = []
+    public var delegate: FavoriteViewModelDelegate? = nil
+    private var dataModel: [(String, String)] = [] {
+        didSet {
+            self.delegate?.refreshData()
+        }
+    }
     
     var numberOfRows: Int {
         return dataModel.count
-    }
-    
-    override init() {
-        
-    }
+    } 
     
     func refreshData() {
-        if let data = CoreDataManager.shared.getColorsList() {
-            dataModel = data
-        } else {
-            dataModel.removeAll()
-        }
+        DataManager.shared.getColorsList(completion: { data in
+            if let colorData = data {
+                self.dataModel = colorData
+            } else {
+                self.dataModel.removeAll()
+            }
+        })
     }
     
     func data(forIndex i: Int) -> (name: String, hex: String)? {
@@ -35,6 +43,15 @@ class FavoriteViewModel: NSObject {
         } else {
             return nil
         }
+    }
+    
+    func getColorModel(forIndex i: Int) {
+        guard let hex = data(forIndex: i)?.hex else { return }
+        DataManager.shared.getColor(hex: hex, completion: { model in
+            if let colorModel = model {
+                self.delegate?.openColor(colorModel)
+            }
+        })
     }
 
 }

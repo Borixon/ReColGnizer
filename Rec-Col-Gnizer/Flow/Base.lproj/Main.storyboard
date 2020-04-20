@@ -297,63 +297,66 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vIN-9t-44A">
-                                <rect key="frame" x="10" y="256" width="394" height="482"/>
+                                <rect key="frame" x="10" y="304" width="394" height="509"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5pT-E6-wf9">
-                                <rect key="frame" x="8" y="100" width="398" height="100"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <rect key="frame" x="137" y="108" width="140" height="140"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukv-su-oWt">
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="tintColor" red="0.1219589189" green="0.12912842629999999" blue="0.1411769688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <action selector="checkData:" destination="MUI-Lo-JhR" eventType="touchUpInside" id="slw-TZ-icM"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="qLd-0c-cDh"/>
+                                    <constraint firstAttribute="trailing" secondItem="ukv-su-oWt" secondAttribute="trailing" id="3hk-9d-NEJ"/>
+                                    <constraint firstAttribute="width" secondItem="5pT-E6-wf9" secondAttribute="height" id="dAz-Qn-Kcc"/>
+                                    <constraint firstItem="ukv-su-oWt" firstAttribute="leading" secondItem="5pT-E6-wf9" secondAttribute="leading" id="pjs-kV-JEJ"/>
+                                    <constraint firstAttribute="height" constant="140" id="qLd-0c-cDh"/>
+                                    <constraint firstItem="ukv-su-oWt" firstAttribute="top" secondItem="5pT-E6-wf9" secondAttribute="top" id="uX9-fO-3oz"/>
+                                    <constraint firstAttribute="bottom" secondItem="ukv-su-oWt" secondAttribute="bottom" id="vtd-m6-odH"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukv-su-oWt">
-                                <rect key="frame" x="10" y="748" width="394" height="55"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="55" id="nuA-7S-zmr"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="tintColor" red="0.1219589189" green="0.12912842629999999" blue="0.1411769688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Check color data"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="JIh-wJ-Oy6">
+                                <rect key="frame" x="141.5" y="266" width="131" height="32"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
                                 <connections>
-                                    <action selector="checkData:" destination="MUI-Lo-JhR" eventType="touchUpInside" id="slw-TZ-icM"/>
+                                    <action selector="selectSegment:" destination="MUI-Lo-JhR" eventType="valueChanged" id="Wmg-F5-KLE"/>
                                 </connections>
-                            </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="S4s-pA-3CO">
-                                <rect key="frame" x="10" y="208" width="394" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="L7z-nC-4Gi"/>
-                                </constraints>
-                            </stackView>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="gF3-kU-8ao" firstAttribute="leading" secondItem="ZUQ-tO-aK2" secondAttribute="leading" id="374-mt-7mS"/>
-                            <constraint firstItem="ukv-su-oWt" firstAttribute="bottom" secondItem="ZUQ-tO-aK2" secondAttribute="bottom" constant="-10" id="57N-f1-ENa"/>
                             <constraint firstItem="gF3-kU-8ao" firstAttribute="top" secondItem="ZUQ-tO-aK2" secondAttribute="top" id="5qb-vG-pf6"/>
                             <constraint firstItem="vIN-9t-44A" firstAttribute="leading" secondItem="ZUQ-tO-aK2" secondAttribute="leading" constant="10" id="AGf-Ip-pAm"/>
+                            <constraint firstItem="ZUQ-tO-aK2" firstAttribute="bottom" secondItem="vIN-9t-44A" secondAttribute="bottom" id="AYP-GN-PZt"/>
                             <constraint firstItem="gF3-kU-8ao" firstAttribute="trailing" secondItem="ZUQ-tO-aK2" secondAttribute="trailing" id="CBB-7v-Emk"/>
-                            <constraint firstItem="5pT-E6-wf9" firstAttribute="top" secondItem="gF3-kU-8ao" secondAttribute="bottom" id="Nd2-wt-Rdq"/>
-                            <constraint firstItem="5pT-E6-wf9" firstAttribute="leading" secondItem="pBd-fG-SHt" secondAttribute="leading" constant="8" id="Oqm-3V-UG6"/>
-                            <constraint firstItem="ukv-su-oWt" firstAttribute="width" secondItem="vIN-9t-44A" secondAttribute="width" id="RMm-v8-stX"/>
+                            <constraint firstItem="JIh-wJ-Oy6" firstAttribute="centerX" secondItem="vIN-9t-44A" secondAttribute="centerX" id="FbD-aF-fyw"/>
+                            <constraint firstItem="5pT-E6-wf9" firstAttribute="centerX" secondItem="ZUQ-tO-aK2" secondAttribute="centerX" id="IZU-xc-Cno"/>
+                            <constraint firstItem="5pT-E6-wf9" firstAttribute="top" secondItem="gF3-kU-8ao" secondAttribute="bottom" constant="8" id="Nd2-wt-Rdq"/>
+                            <constraint firstItem="vIN-9t-44A" firstAttribute="top" secondItem="JIh-wJ-Oy6" secondAttribute="bottom" constant="7" id="OHZ-Vl-Hee"/>
                             <constraint firstItem="vIN-9t-44A" firstAttribute="trailing" secondItem="ZUQ-tO-aK2" secondAttribute="trailing" constant="-10" id="SCW-7s-8ua"/>
-                            <constraint firstItem="S4s-pA-3CO" firstAttribute="trailing" secondItem="vIN-9t-44A" secondAttribute="trailing" id="Srz-2p-3Wc"/>
-                            <constraint firstItem="ukv-su-oWt" firstAttribute="centerX" secondItem="vIN-9t-44A" secondAttribute="centerX" id="dH9-Mn-1r2"/>
-                            <constraint firstItem="S4s-pA-3CO" firstAttribute="top" secondItem="5pT-E6-wf9" secondAttribute="bottom" constant="8" id="nJn-1N-lzu"/>
-                            <constraint firstItem="ukv-su-oWt" firstAttribute="top" secondItem="vIN-9t-44A" secondAttribute="bottom" constant="10" id="qyQ-3Y-Cnp"/>
-                            <constraint firstAttribute="trailing" secondItem="5pT-E6-wf9" secondAttribute="trailing" constant="8" id="uZG-iJ-DU3"/>
-                            <constraint firstItem="vIN-9t-44A" firstAttribute="top" secondItem="S4s-pA-3CO" secondAttribute="bottom" constant="8" id="ul1-I0-b4O"/>
-                            <constraint firstItem="S4s-pA-3CO" firstAttribute="leading" secondItem="vIN-9t-44A" secondAttribute="leading" id="ywr-Qx-ZsC"/>
+                            <constraint firstItem="ZUQ-tO-aK2" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JIh-wJ-Oy6" secondAttribute="trailing" constant="8" id="hEZ-cg-SaR"/>
+                            <constraint firstItem="JIh-wJ-Oy6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ZUQ-tO-aK2" secondAttribute="leading" id="o2P-iG-mIh"/>
+                            <constraint firstItem="JIh-wJ-Oy6" firstAttribute="top" secondItem="5pT-E6-wf9" secondAttribute="bottom" constant="18" id="zIu-JI-wY4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZUQ-tO-aK2"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Slider Picker" image="slider.horizontal.below.rectangle" catalog="system" selectedImage="slider.horizontal.below.rectangle" id="dpE-b0-scu"/>
                     <connections>
-                        <outlet property="categoryStackView" destination="S4s-pA-3CO" id="efO-AD-KNv"/>
                         <outlet property="checkDataButton" destination="ukv-su-oWt" id="z3p-P6-eH9"/>
                         <outlet property="colorBackgroundView" destination="5pT-E6-wf9" id="al0-VB-GFs"/>
                         <outlet property="searchBar" destination="gF3-kU-8ao" id="jGE-JC-gaJ"/>
+                        <outlet property="segmentedControl" destination="JIh-wJ-Oy6" id="ZBE-4V-gs5"/>
                         <outlet property="tableView" destination="vIN-9t-44A" id="j1S-hb-OkY"/>
                     </connections>
                 </viewController>

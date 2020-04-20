@@ -27,11 +27,14 @@ class ColorDataViewModel: NSObject {
         return UIColor(hexString: model.hex.value) ?? .white
     }
     
-    var closestDefinedColor: UIColor {
+    var closestDefinedColor: UIColor? {
         if model.name.value.exactMatch {
             return UIColor(hexString: model.hex.value) ?? .white
         } else {
-            return UIColor(hexString: model.name.value.closestNamedHex) ?? .white
+            if let closestHex = model.name.value.closestNamedHex {
+                return UIColor(hexString: closestHex)
+            }
+            return nil
         }
     }
     

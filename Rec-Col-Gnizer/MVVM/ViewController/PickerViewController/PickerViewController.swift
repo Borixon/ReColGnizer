@@ -11,7 +11,7 @@ import UIKit
 class PickerViewController: BaseViewController, Storyboarded {
 
     @IBOutlet weak var searchBar: UISearchBar!
-    @IBOutlet weak var categoryStackView: UIStackView!
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var checkDataButton: UIButton!
     @IBOutlet weak var colorBackgroundView: UIView!
@@ -23,20 +23,18 @@ class PickerViewController: BaseViewController, Storyboarded {
         setupTableView()
         setupSearchBar()
         setupViewComponents()
-        setupCategoryStack()
+        setupSegmentedControl()
     }
     
     private func setupViewComponents() {
         vm.delegate = self
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(hideKeyboard)))
         colorBackgroundView.backgroundColor = vm.selectedColor
-        checkDataButton.backgroundColor = .groupTableViewBackground
-        checkDataButton.tintColor = .darkGray
-        checkDataButton.layer.cornerRadius = 15
-        checkDataButton.layer.masksToBounds = true
-        checkDataButton.setTitleColor(.darkGray, for: .normal)
+        checkDataButton.backgroundColor = .clear
+        checkDataButton.tintColor = .clear
+        checkDataButton.setTitleColor(.clear, for: .normal)
         colorBackgroundView.layer.masksToBounds = true
-        colorBackgroundView.layer.cornerRadius = 15 // TODO: Przenieśc do jakiegos stylu czy cos
+        colorBackgroundView.layer.cornerRadius = colorBackgroundView.frame.width / 2
         
     }
     
@@ -59,23 +57,16 @@ class PickerViewController: BaseViewController, Storyboarded {
         vm.sendDataRequest()
     }
     
-    private func setupCategoryStack() {
-        let rgbButton = createButton(title: "RGB", selector: #selector(PickerViewModel.rgbPicked))
-        let hslButton = createButton(title: "HSL", selector: #selector(PickerViewModel.hslPicked))
-        categoryStackView.addArrangedSubview(rgbButton)
-        categoryStackView.addArrangedSubview(hslButton)
+    private func setupSegmentedControl() {
+        segmentedControl.removeAllSegments()
+        for i in 0...(vm.segmentedItems.count - 1) {
+            segmentedControl.insertSegment(withTitle: vm.segmentedItems[i], at: i, animated: false)
+        }
+        segmentedControl.selectedSegmentIndex = vm.indexOfSelectedPicker
     }
     
-    func createButton(title: String, selector: Selector) -> UIButton {
-        let button = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 30))
-        button.layer.masksToBounds = true
-        button.layer.cornerRadius = 9
-        button.backgroundColor = .groupTableViewBackground
-        button.setTitleColor(.darkGray, for: .normal)
-        button.setTitle(title, for: .normal)
-        button.addTarget(vm, action: selector, for: .touchUpInside)
-        
-        return button
+    @IBAction func selectSegment(_ sender: UISegmentedControl) {
+        vm.segmentSelected(index: sender.selectedSegmentIndex)
     }
     
     @objc internal func hideKeyboard() {
@@ -95,7 +86,7 @@ extension PickerViewController: PickerViewModelDelegate {
     
     func show(color: WSColorModel) {
         hideLoadingScreen()
-        coordinator?.openColorData(data: color)
+        coordinator?.openColorData(data: ColorModel(color: color))
     }
     
     func show(error: Error?) {

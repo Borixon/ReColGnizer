@@ -14,15 +14,15 @@ final class PickerViewModel {
     public let sliderCellIdentifier = "sliderCellIdentifier"
     public var delegate: PickerViewModelDelegate?
     private var model: PickerColorModel = PickerColorModel()
-    
-    var searchPicker: PickerCategory = UserData().pickerCategory
+    let segmentedItems: [String] = [PickerCategory.Rgb.rawValue, PickerCategory.Hsl.rawValue]
+    var searchPicker: PickerCategory = UserData().selectedPickerCategory
     
     var viewCategory: PickerCategory {
         get {
-            return UserData().pickerCategory
+            return UserData().selectedPickerCategory
         }
         set {
-            UserData().pickerCategory = newValue
+            UserData().selectedPickerCategory = newValue
         }
     }
     
@@ -33,6 +33,12 @@ final class PickerViewModel {
         } else {
             return 4
         }
+    }
+    
+    var indexOfSelectedPicker: Int {
+        let picker = UserData().selectedPickerCategory
+        let index = segmentedItems.firstIndex(of: picker.rawValue) ?? 0
+        return index
     }
     
     var rowHeight: CGFloat {
@@ -131,25 +137,40 @@ final class PickerViewModel {
     private func requestScheme<T: WSRequestData>(from data: T, parameters: Dictionary<String, String>) {
         WebService().getColorScheme(data: data, completion: { scheme, error in
             if scheme != nil {
-                print("O **** DZIAŁA")
+                // TODO: Future implementation
             } else if error != nil {
-                print("O ku** ch** :(")
+                
             }
         })
     }
      
-    @objc public func rgbPicked() {
+    public func segmentSelected(index: Int) {
+        let typeString = segmentedItems[index]
+        guard let type = PickerCategory(rawValue: typeString) else { return }
+        switch type {
+        case .Rgb:
+            rgbPicked()
+        case .Hsl:
+            hslPicked()
+        case .Cmyk:
+            cmykPicked()
+        case .Hex:
+            let _ = 0
+        }
+    }
+    
+    private func rgbPicked() {
         viewCategory = .Rgb
         searchPicker = .Rgb
         delegate?.didPick(color: selectedColor)
         delegate?.reloadData()
     }
 
-    @objc public func cmykPicked() {
+    private func cmykPicked() {
         
     }
     
-    @objc public func hslPicked() {
+    private func hslPicked() {
         viewCategory = .Hsl
         searchPicker = .Hsl
         delegate?.didPick(color: selectedColor)
@@ -165,8 +186,8 @@ protocol PickerViewModelDelegate {
 }
 
 enum PickerCategory: String {
-    case Rgb = "RgbPickerViewCategory"
-    case Cmyk = "CmykPickerViewCategory"
-    case Hsl = "HslPickerViewCategory"
-    case Hex = "HexPickerViewCategory"
+    case Rgb = "RGB"
+    case Cmyk = "CMYK"
+    case Hsl = "HSL"
+    case Hex = "HEX"
 }
