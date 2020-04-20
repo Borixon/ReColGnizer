@@ -26,4 +26,8 @@ class ColorModel: NSObject {
         contrast = color.contrast.toModel()
     }
     
+    init(color: ColorEntity) {
+        
+    }
+    
 }

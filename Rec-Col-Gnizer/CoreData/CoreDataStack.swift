@@ -54,6 +54,14 @@ class CoreDataStack: NSObject {
         }
     }
     
+    public func getColor(forHex hex: String) -> ColorEntity? {
+        let predicate = NSPredicate(format: "hex = %@", hex)
+        if let entity: ColorEntity = getEntity(predicate: predicate)?.first {
+            return entity
+        }
+        return nil
+    }
+    
     public func getColors() -> [(String, String)]? {
         if let data: [ColorEntity] = getEntity(predicate: nil) {
             return data.map({ return ($0.name, $0.hex) })
@@ -61,7 +69,7 @@ class CoreDataStack: NSObject {
         return nil
     }
     
-    public func getEntity<T: NSManagedObject>(predicate: NSPredicate?) -> [T]? {
+    private func getEntity<T: NSManagedObject>(predicate: NSPredicate?) -> [T]? {
         let fetchRequest = NSFetchRequest<T>(entityName: entityName(forObject: T.self))
         fetchRequest.predicate = predicate
         do {

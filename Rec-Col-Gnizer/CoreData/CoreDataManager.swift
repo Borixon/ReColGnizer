@@ -20,8 +20,11 @@ class CoreDataManager: NSObject {
         return nil
     }
     
-    public func getColor(hex: String) {
-        
+    public func getColor(hex: String) -> ColorModel? {
+        if let entity = stack.getColor(forHex: hex) {
+//            let model = ColorModel(color: <#T##WSColorModel#>)
+        }
+        return nil
     }
     
     public func saveColor(_ color: ColorModel) {
