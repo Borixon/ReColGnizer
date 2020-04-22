@@ -24,6 +24,18 @@ class PickerViewController: BaseViewController, Storyboarded {
         setupSearchBar()
         setupViewComponents()
         setupSegmentedControl()
+        view.layoutSubviews()
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        stupeAfterLayout()
+    }
+    
+    private func stupeAfterLayout() {
+        colorBackgroundView.layoutIfNeeded()
+        colorBackgroundView.layer.masksToBounds = true
+        colorBackgroundView.layer.cornerRadius = colorBackgroundView.frame.width / 2
     }
     
     private func setupViewComponents() {
@@ -33,16 +45,13 @@ class PickerViewController: BaseViewController, Storyboarded {
         checkDataButton.backgroundColor = .clear
         checkDataButton.tintColor = .clear
         checkDataButton.setTitleColor(.clear, for: .normal)
-        colorBackgroundView.layer.masksToBounds = true
-        colorBackgroundView.layer.cornerRadius = colorBackgroundView.frame.width / 2
-        
     }
     
     private func setupSearchBar() {
-        searchBar.setShowsCancelButton(true, animated: true)
+        searchBar.setShowsCancelButton(false, animated: false)
         searchBar.returnKeyType = .search
         searchBar.delegate = self
-        searchBar.placeholder = "AC12F3, f3c"
+        searchBar.placeholder = vm.placeholder
     }
     
     private func setupTableView() {
@@ -85,12 +94,13 @@ extension PickerViewController: PickerViewModelDelegate {
     }
     
     func show(color: WSColorModel) {
-        hideLoadingScreen()
-        coordinator?.openColorData(data: ColorModel(color: color))
+        DispatchQueue.main.async {
+            self.hideLoadingScreen()
+            self.coordinator?.openColorData(data: ColorModel(color: color))
+        }
     }
     
     func show(error: Error?) {
-        // TODO: Remove loading screen
         coordinator?.show(error: error)
     }
     
@@ -104,3 +114,25 @@ extension PickerViewController: SliderCellDelegate {
         vm.sliderDataChange(value, type: type)
     }
 }
+
+
+/* TODO Zbiorczy
+ CD Zapis wszytkiego 
+ CD Baza REMOVE!!!!!
+ Modele - colory exact i derivative
+ Kolory w aplikacji Tint - Styl?
+ Layout głownego pickera
+ Konwersja RGB-HLS
+ Loading screen add / remove
+ Kamera wyłączanie sesji
+ Alerty: Zły hex, bład kolorów, brak kamery, inne catche
+ Kamera dodanie flash
+ 
+ Optionale
+ Dodanie CMYK?
+ Kamera naprawa pinch zoom
+ 
+ Kolejny etam
+ Schematy kolorów
+ */
+

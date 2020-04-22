@@ -11,15 +11,15 @@ import UIKit
 
 class CmykModel: ColorTypeModel {
     
-    typealias ColorData = (c: Int, m: Int, y: Int, k: Int)
-    static var maxValue: (c: Int, m: Int, y: Int, k: Int) = (100, 100, 100, 100)
-    var value: (c: Int, m: Int, y: Int, k: Int)
+    typealias ColorData = (c: Int16, m: Int16, y: Int16, k: Int16)
+    static var maxValue: (c: Int16, m: Int16, y: Int16, k: Int16) = (100, 100, 100, 100)
+    var value: (c: Int16, m: Int16, y: Int16, k: Int16)
     
     var color: UIColor {
         return UIColor.red
     }
     
-    init(c: Int, m: Int, y: Int, k: Int) {
+    init(c: Int16, m: Int16, y: Int16, k: Int16) {
         value.c = c
         value.m = m
         value.y = y
@@ -27,7 +27,7 @@ class CmykModel: ColorTypeModel {
     }
     
     func toRgb() -> RgbModel {
-        return RgbModel(r: 255, g: 0, b: 0)
+        return RgbModel(r: 0, g: 0, b: 0)
     }
     
     func toHex() -> HexModel {

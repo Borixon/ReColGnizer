@@ -35,7 +35,7 @@ class HexModel: ColorTypeModel {
         
         color.getRed(&rComp, green: &gComp, blue: &bComp, alpha: nil)
         
-        return RgbModel(r: rComp, g: gComp, b: bComp)
+        return RgbModel(r: Int16(rComp), g: Int16(gComp), b: Int16(bComp))
     }
     
     func toHex() -> HexModel {

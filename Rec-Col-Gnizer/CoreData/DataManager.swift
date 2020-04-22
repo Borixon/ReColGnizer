@@ -8,10 +8,20 @@
 
 import UIKit
 
-class DataManager: NSObject {
+protocol DataManagerDelegate {
+    func dataHasChanged()
+}
+
+class DataManager {
 
     static let shared = DataManager()
-    private let stack = CoreDataStack()
+    public var delegate: DataManagerDelegate?
+    private let stack: CoreDataStack
+    
+    init() {
+        stack = CoreDataStack()
+        stack.manager = self
+    }
     
     public func getColorsList(completion: @escaping ([(name: String, hex: String)]?) -> ()) {
         stack.getColorsStrings(completion: { data in
@@ -29,20 +39,36 @@ class DataManager: NSObject {
         })
     }
     
+    public func isColorSaved(_ hex: String, completion: @escaping (Bool) -> ()) {
+        stack.getColor(forHex: hex, completion: { entity in
+            if entity != nil {
+                completion(true)
+            } else {
+                completion(false)
+            }
+        })
+    }
+    
     public func saveColor(_ color: ColorModel) {
         stack.saveColor(color)
     }
     
-    public func removeColor() {
-        
+    public func removeColor(_ hex: String) {
+        stack.removeColor(hex)
     }
     
-    
     public func saveContext() {
+        stack.savePrivateContext()
         stack.saveContext()
     }
     
     deinit {
         saveContext()
+    }
+}
+
+extension DataManager: CoreDataStackManager {
+    func contextHasChanged() {
+        delegate?.dataHasChanged()
     }
 }

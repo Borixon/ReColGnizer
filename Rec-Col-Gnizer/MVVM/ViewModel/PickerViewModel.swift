@@ -12,10 +12,11 @@ import UIKit
 final class PickerViewModel {
     
     public let sliderCellIdentifier = "sliderCellIdentifier"
+    public let placeholder = "AC12F3, f3c"
+    public let segmentedItems: [String] = [PickerCategory.Rgb.rawValue, PickerCategory.Hsl.rawValue]
+    public var searchPicker: PickerCategory = UserData().selectedPickerCategory
     public var delegate: PickerViewModelDelegate?
     private var model: PickerColorModel = PickerColorModel()
-    let segmentedItems: [String] = [PickerCategory.Rgb.rawValue, PickerCategory.Hsl.rawValue]
-    var searchPicker: PickerCategory = UserData().selectedPickerCategory
     
     var viewCategory: PickerCategory {
         get {
@@ -27,12 +28,7 @@ final class PickerViewModel {
     }
     
     var numberOfRows: Int {
-        // TODO: Switch?
-        if viewCategory == PickerCategory.Rgb || viewCategory == PickerCategory.Hsl {
-            return 3
-        } else {
-            return 4
-        }
+        return viewCategory.numberOfComponents
     }
     
     var indexOfSelectedPicker: Int {
@@ -56,7 +52,6 @@ final class PickerViewModel {
     
     public func search(hex: String) {
         guard HexModel.isValid(hex: hex) else {
-            // TODO: Print alert not valid hex
             return
         }
         model.hexModel = HexModel(value: hex)
@@ -65,7 +60,7 @@ final class PickerViewModel {
     }
     
     public func sliderDataChange(_ value: Float, type: SliderCellType) {
-        let val = Int(value)
+        let val = Int16(value)
         switch type {
         case .Red:
             model.rgbModel.value.r = val
@@ -190,4 +185,17 @@ enum PickerCategory: String {
     case Cmyk = "CMYK"
     case Hsl = "HSL"
     case Hex = "HEX"
+    
+    var numberOfComponents: Int {
+        switch self {
+        case .Rgb:
+            return 3
+        case .Cmyk:
+            return 4
+        case .Hsl:
+            return 3
+        case .Hex:
+            return 0
+        }
+    }
 }

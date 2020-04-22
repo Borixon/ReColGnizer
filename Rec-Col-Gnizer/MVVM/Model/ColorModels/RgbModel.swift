@@ -10,7 +10,7 @@ import UIKit
 
 class RgbModel: ColorTypeModel {
     
-    typealias ColorData = (r: Int, g: Int, b: Int)
+    typealias ColorData = (r: Int16, g: Int16, b: Int16)
     var value: ColorData
     
     static var maxValue: ColorData {
@@ -25,22 +25,10 @@ class RgbModel: ColorTypeModel {
         return UIColor(red: red, green: green, blue: blue, alpha: 1)
     }
     
-    init(r: Int, g: Int, b: Int) {
+    init(r: Int16, g: Int16, b: Int16) {
         value.r = r
         value.g = g
         value.b = b
-    }
-    
-    init(r: Float, g: Float, b: Float) {
-        value.r = Int(r * Float(RgbModel.maxValue.r))
-        value.g = Int(g * Float(RgbModel.maxValue.g))
-        value.b = Int(b * Float(RgbModel.maxValue.b))
-    }
-    
-    init(r: CGFloat, g: CGFloat, b: CGFloat) {
-        value.r = Int(r * CGFloat(RgbModel.maxValue.r))
-        value.g = Int(g * CGFloat(RgbModel.maxValue.g))
-        value.b = Int(b * CGFloat(RgbModel.maxValue.b))
     }
     
     func toRgb() -> RgbModel {
@@ -48,7 +36,10 @@ class RgbModel: ColorTypeModel {
     }
 
     func toHex() -> HexModel {
-        return HexModel(value: "12ffcc")
+        let hexValue =  String(format:"%02X", value.r) +
+                        String(format:"%02X", value.g) +
+                        String(format:"%02X", value.b)
+        return HexModel(value: hexValue)
     }
 }
 

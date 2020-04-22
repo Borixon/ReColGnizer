@@ -12,7 +12,17 @@ import CoreData
 
 @objc(HslEntity)
 public class HslEntity: NSManagedObject {
+    
+    init(context: NSManagedObjectContext, model: HslModel, parent: ColorEntity) {
+        let entity = NSEntityDescription.entity(forEntityName: "HslEntity", in: context)!
+        super.init(entity: entity, insertInto: context)
+        hue = model.value.h
+        saturation = model.value.s
+        lightness = model.value.l
+        color = parent
+    }
+    
     func toModel() -> HslModel {
-        return HslModel(h: Int(hue), s: Int(saturation), l: Int(lightness))
+        return HslModel(h: hue, s: saturation, l: lightness)
     }
 }

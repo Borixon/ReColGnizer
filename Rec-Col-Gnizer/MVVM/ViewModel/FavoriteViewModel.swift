@@ -19,6 +19,7 @@ class FavoriteViewModel: NSObject {
     public var delegate: FavoriteViewModelDelegate? = nil
     private var dataModel: [(String, String)] = [] {
         didSet {
+            dataModel.sort(by: { $0.0 < $1.0 })
             self.delegate?.refreshData()
         }
     }
@@ -26,6 +27,14 @@ class FavoriteViewModel: NSObject {
     var numberOfRows: Int {
         return dataModel.count
     } 
+    
+    func removeDataDelegate() {
+        DataManager.shared.delegate = nil
+    }
+    
+    func addDataDelegate() {
+        DataManager.shared.delegate = self
+    }
     
     func refreshData() {
         DataManager.shared.getColorsList(completion: { data in
@@ -53,5 +62,10 @@ class FavoriteViewModel: NSObject {
             }
         })
     }
+}
 
+extension FavoriteViewModel: DataManagerDelegate {
+    func dataHasChanged() {
+        refreshData()
+    }
 }

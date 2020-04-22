@@ -15,7 +15,6 @@ class PickerColorModel {
     var hexModel: HexModel = HexModel(value: "")
     var hslModel: HslModel = HslModel(h: 0, s: 80, l: 50)
     
-    // TODO: next time baby
     var schemeOptions: Dictionary<String, String> = Dictionary()
      
     var isScheme: Bool {

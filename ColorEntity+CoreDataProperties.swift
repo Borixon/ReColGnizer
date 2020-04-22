@@ -23,7 +23,7 @@ extension ColorEntity {
     @NSManaged public var name: String
     @NSManaged public var contrast: String
     @NSManaged public var cmyk: CmykEntity?
-    @NSManaged public var derivativeColor: ColorEntity?
+    @NSManaged public var derivedColor: ColorEntity?
     @NSManaged public var exactColor: ColorEntity?
     @NSManaged public var rgb: RgbEntity?
     @NSManaged public var hsl: HslEntity?

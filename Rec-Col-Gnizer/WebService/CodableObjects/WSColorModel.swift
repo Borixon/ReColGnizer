@@ -23,9 +23,9 @@ struct WSHexModel: Codable {
 }
 
 struct WSRgbModel: Codable {
-    let r: Int
-    let g: Int
-    let b: Int
+    let r: Int16
+    let g: Int16
+    let b: Int16
     let value: String
     let fraction: WSRgbFraction?
 }
@@ -37,9 +37,9 @@ struct WSRgbFraction: Codable {
 }
 
 struct WSHslModel: Codable {
-    let h: Int
-    let s: Int
-    let l: Int
+    let h: Int16
+    let s: Int16
+    let l: Int16
     let value: String
     let fraction: WSHslFraction?
 }
@@ -51,10 +51,10 @@ struct WSHslFraction: Codable {
 }
 
 struct WSCmykModel: Codable {
-    let c: Int?
-    let m: Int?
-    let y: Int?
-    let k: Int?
+    let c: Int16?
+    let m: Int16?
+    let y: Int16?
+    let k: Int16?
     let value: String?
     let fraction: WSCmykFraction?
 }
@@ -70,7 +70,7 @@ struct WSColorNameModel: Codable {
     let value :String
     let closest_named_hex: String
     let exact_match_name: Bool
-    let distance: Int
+    let distance: Int16
 }
 
 struct WSContrastColorModel: Codable {

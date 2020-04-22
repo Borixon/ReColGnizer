@@ -19,6 +19,7 @@ class ColorDataViewController: UIViewController, Storyboarded {
         super.viewDidLoad()
         setupViewComponents()
         setupTableView()
+        vm.delegate = self
     }
 
     private func setupViewComponents() {
@@ -40,10 +41,16 @@ class ColorDataViewController: UIViewController, Storyboarded {
         tableView.estimatedRowHeight = UITableView.automaticDimension
     }
     
-    @IBAction func saveColor(_ sender: Any) {
-        DataManager.shared.saveColor(vm.model)
+    @IBAction func saveRemoveColor(_ sender: Any) {
+        vm.saveRemovePressed()
     }
     
+}
+
+extension ColorDataViewController: ColorDataViewModelDelegate {
+    func setButtonTitle(_ title: String) {
+        saveButton.setTitle(title, for: .normal)
+    }
 }
 
 extension ColorDataViewController: UITableViewDataSource {

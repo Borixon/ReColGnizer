@@ -21,13 +21,17 @@ public class ColorEntity: NSManagedObject {
         hex = model.hex.value
         name = model.name.value.name
         contrast = model.contrast.value
+        cmyk = CmykEntity(context: context, model: model.cmyk, parent: self)
+        rgb = RgbEntity(context: context, model: model.rgb, parent: self)
+        hsl = HslEntity(context: context, model: model.hsl, parent: self)
         
-//          TODO
-//          @NSManaged public var cmyk: CmykEntity?
-//          @NSManaged public var derivativeColor: ColorEntity?
-//          @NSManaged public var exactColor: ColorEntity?
-//          @NSManaged public var rgb: RgbEntity?
-//          @NSManaged public var hsl: HslEntity?
+        if let derivedColor = model.derivedColor {
+            // self.derivedColor = nil
+        }
+        
+        if let exactColor = model.exactColor {
+            // self.exactColor = nil
+        }
         
     }
     

@@ -30,7 +30,7 @@ class CameraController: NSObject {
         let customVelocityFactor: CGFloat = zoom > 0 ? 0.05 : 200.0
         let zoomComponent = zoom * velocity * customVelocityFactor
         let finalZoomComponent: CGFloat
-        // TODO: Resolve from big zoom to small
+    
         print("zoom \(zoom)\tvelocity \(velocity)\tcustomZoom \(zoomComponent)")
         
         if (zoomComponent < 0 && cam.videoZoomFactor + zoomComponent > cam.minAvailableVideoZoomFactor) ||

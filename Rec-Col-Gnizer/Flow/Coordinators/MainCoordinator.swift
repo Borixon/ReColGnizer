@@ -39,13 +39,13 @@ class MainCoordinator: Coordinator {
         navigationController.pushViewController(tabBar, animated: true)
     }
     
-    // TODO zmiana color model
     func openColorData(data: ColorModel) {
         let vc = ColorDataViewController.instantiate()
         vc.vm = ColorDataViewModel(model: data)
-        DispatchQueue.main.async {
-            self.navigationController.present(vc, animated: true, completion: nil)
-        }
+        
+        self.navigationController.modalPresentationStyle = .overFullScreen
+        self.navigationController.present(vc, animated: true, completion: nil)
+
     }
     
     func openColorScheme() {
@@ -57,7 +57,7 @@ class MainCoordinator: Coordinator {
     }
     
     func insertLoadingScreen() {
-        // todo
+        
         let loading = LoadingViewController.instantiate()
         loading.view.tag = windowTag
         window?.addSubview(loading.view)

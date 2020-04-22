@@ -12,7 +12,17 @@ import CoreData
 
 @objc(RgbEntity)
 public class RgbEntity: NSManagedObject {
+    
+    init(context: NSManagedObjectContext, model: RgbModel, parent: ColorEntity) {
+        let entity = NSEntityDescription.entity(forEntityName: "RgbEntity", in: context)!
+        super.init(entity: entity, insertInto: context)
+        red = model.value.r
+        green = model.value.g
+        blue = model.value.b
+        color = parent
+    }
+    
     func toModel() -> RgbModel {
-        return RgbModel(r: Int(self.red), g: Int(self.green), b: Int(self.blue))
+        return RgbModel(r: red, g: green, b: blue)
     }
 }

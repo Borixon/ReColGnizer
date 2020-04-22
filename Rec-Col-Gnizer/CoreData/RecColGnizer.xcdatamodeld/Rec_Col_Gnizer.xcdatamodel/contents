@@ -14,8 +14,8 @@
         <attribute name="hex" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>
         <relationship name="cmyk" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CmykEntity" inverseName="color" inverseEntity="CmykEntity"/>
-        <relationship name="derivativeColor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ColorEntity" inverseName="exactColor" inverseEntity="ColorEntity"/>
-        <relationship name="exactColor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ColorEntity" inverseName="derivativeColor" inverseEntity="ColorEntity"/>
+        <relationship name="derivedColor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ColorEntity" inverseName="exactColor" inverseEntity="ColorEntity"/>
+        <relationship name="exactColor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ColorEntity" inverseName="derivedColor" inverseEntity="ColorEntity"/>
         <relationship name="hsl" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HslEntity" inverseName="color" inverseEntity="HslEntity"/>
         <relationship name="rgb" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RgbEntity" inverseName="color" inverseEntity="RgbEntity"/>
     </entity>

@@ -12,9 +12,9 @@ import ColorWithHSL
 
 class HslModel: ColorTypeModel {
     
-    typealias ColorData = (h: Int, s: Int, l: Int)
+    typealias ColorData = (h: Int16, s: Int16, l: Int16)
     static var maxValue: ColorData = (h: 359, s: 100, l: 100)
-    var value: (h: Int, s: Int, l: Int)
+    var value: (h: Int16, s: Int16, l: Int16)
     
     var color: UIColor {
         return UIColor.colorWithHSL(hue: CGFloat(value.h),
@@ -22,13 +22,13 @@ class HslModel: ColorTypeModel {
                                     lightness: CGFloat(value.l)/CGFloat(HslModel.maxValue.l)) ?? .black
     }
     
-    init(h: Int, s: Int, l: Int) {
+    init(h: Int16, s: Int16, l: Int16) {
         value = (h, s, l)
     }
     
     func toRgb() -> RgbModel {
         // TODO:
-        return RgbModel(r: 0, g: 0, b: 0)
+        return RgbModel(r: Int16(0), g: Int16(0), b: Int16(0))
     }
     
     func toHex() -> HexModel {

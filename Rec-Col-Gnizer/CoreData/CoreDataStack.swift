@@ -9,13 +9,26 @@
 import CoreData
 import UIKit
 
-class CoreDataStack: NSObject {
+protocol CoreDataStackManager {
+    func contextHasChanged()
+}
+
+final class CoreDataStack: NSObject {
     
-    private var privateContext: NSManagedObjectContext!
+    private var privateContext: NSManagedObjectContext?
+    public var manager: CoreDataStackManager?
     
     override init() {
         super.init()
         privateContext = persistentContainer.newBackgroundContext()
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(contexHasChanged),
+                                               name: NSNotification.Name.NSManagedObjectContextObjectsDidChange,
+                                               object: privateContext)
+    }
+    
+    @objc func contexHasChanged() {
+        manager?.contextHasChanged()
     }
     
     lazy var persistentContainer: NSPersistentContainer = {
@@ -56,20 +69,29 @@ class CoreDataStack: NSObject {
     }
     
     public func saveColor(_ model: ColorModel) {
-        let entity = ColorEntity(context: privateContext, model: model)
-        privateContext.insert(entity)
-        do {
-            try privateContext.save()
-        } catch {
-            print(error)
-        }
+        guard let context = privateContext else { return }
+        getColor(forHex: model.hex.value, completion: { color in
+            guard color == nil else { return }
+            let entity = ColorEntity(context: context, model: model)
+            context.insert(entity)
+            try? context.save()
+        })
+    }
+    
+    public func removeColor(_ hex: String) {
+        guard let context = privateContext else { return }
+        getColor(forHex: hex, completion: { color in
+            guard let colorToRemove = color else { return }
+            context.delete(colorToRemove)
+            try? context.save()
+        })
     }
     
     private func getEntity<T: NSManagedObject>(predicate: NSPredicate?) -> [T]? {
         let fetchRequest = NSFetchRequest<T>(entityName: entityName(forObject: T.self))
         fetchRequest.predicate = predicate
         do {
-            let data = try privateContext.fetch(fetchRequest)
+            let data = try privateContext?.fetch(fetchRequest)
             return data
         } catch {
             print(error)
@@ -83,6 +105,14 @@ class CoreDataStack: NSObject {
             return "ColorEntity"
         default:
             return ""
+        }
+    }
+    
+    public func savePrivateContext() {
+        do {
+            try self.privateContext?.save()
+        } catch {
+            print(error)
         }
     }
 }

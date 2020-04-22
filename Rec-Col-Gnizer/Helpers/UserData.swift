@@ -13,9 +13,9 @@ class UserData: NSObject {
     private let defaults = UserDefaults.standard
     
     private let kRedRGBValue = "kRGBRedValue"
-    var redRGBValue: Int {
+    var redRGBValue: Int16 {
         get {
-            if let rValue = defaults.value(forKey: kRedRGBValue) as? Int {
+            if let rValue = defaults.value(forKey: kRedRGBValue) as? Int16 {
                 return rValue
             } else {
                 return 100
@@ -27,9 +27,9 @@ class UserData: NSObject {
     }
     
     private let kBlueRGBValue = "kRGBBlueValue"
-    var blueRGBValue: Int {
+    var blueRGBValue: Int16 {
         get {
-            if let rValue = defaults.value(forKey: kBlueRGBValue) as? Int {
+            if let rValue = defaults.value(forKey: kBlueRGBValue) as? Int16 {
                 return rValue
             } else {
                 return 100
@@ -41,9 +41,9 @@ class UserData: NSObject {
     }
     
     private let kGreenRGBValue = "kRGBGreenValue"
-    var greenRGBValue: Int {
+    var greenRGBValue: Int16 {
         get {
-            if let rValue = defaults.value(forKey: kGreenRGBValue) as? Int {
+            if let rValue = defaults.value(forKey: kGreenRGBValue) as? Int16 {
                 return rValue
             } else {
                 return 100

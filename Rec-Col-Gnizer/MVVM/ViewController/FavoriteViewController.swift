@@ -21,7 +21,12 @@ class FavoriteViewController: BaseViewController, Storyboarded {
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        vm.addDataDelegate()
         vm.refreshData()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        vm.removeDataDelegate()
     }
     
     private func setupTableView() {

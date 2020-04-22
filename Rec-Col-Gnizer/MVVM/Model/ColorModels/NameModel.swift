@@ -11,16 +11,15 @@ import UIKit
 
 class NameModel: ColorTypeModel {
     
-    typealias ColorData = (name: String, closestNamedHex: String?, exactMatch: Bool, distance: Int)
+    typealias ColorData = (name: String, closestNamedHex: String?, exactMatch: Bool, distance: Int16)
     static var maxValue: ColorData = ("name", "closestName", true, 0)
     var value: ColorData
     
-    // TODO: wszystko
     var color: UIColor {
         return UIColor.red
     }
     
-    init(name: String, closestNamedHex: String?, exactMatch: Bool, distance: Int) {
+    init(name: String, closestNamedHex: String?, exactMatch: Bool, distance: Int16) {
         value.name = name
         value.closestNamedHex = closestNamedHex
         value.exactMatch = exactMatch
