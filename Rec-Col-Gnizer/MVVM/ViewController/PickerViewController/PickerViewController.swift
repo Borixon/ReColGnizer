@@ -8,13 +8,14 @@
 
 import UIKit
 
-class PickerViewController: BaseViewController, Storyboarded {
+class PickerViewController: BaseViewController {
 
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var checkDataButton: UIButton!
     @IBOutlet weak var colorBackgroundView: UIView!
+    @IBOutlet weak var tableViewHeightConstraint: NSLayoutConstraint!
     
     let vm = PickerViewModel()
     
@@ -24,15 +25,38 @@ class PickerViewController: BaseViewController, Storyboarded {
         setupSearchBar()
         setupViewComponents()
         setupSegmentedControl()
-        view.layoutSubviews()
+        styleView()
     }
-    
+     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        stupeAfterLayout()
+        setupAfterLayout()
     }
     
-    private func stupeAfterLayout() {
+    private func styleView() {
+        if #available(iOS 13.0, *) {
+            searchBar.searchTextField.backgroundColor = Style.keyColor
+            searchBar.searchTextField.textColor = Style.keyContrastColor
+            if let icon = searchBar.searchTextField.leftView as? UIImageView {
+                let newImage = icon.image?.withTintColor(Style.accentKeyColor, renderingMode: .alwaysTemplate)
+                searchBar.searchTextField.leftView = UIImageView(image: newImage)
+            }
+        } else if let serchField = searchBar.value(forKey: "searchField") as? UITextField {
+            
+        }
+ 
+        searchBar.tintColor = Style.accentKeyColor
+        searchBar.backgroundImage = UIImage()
+        tableView.allowsSelection = false
+    }
+    
+    private func setupAfterLayout() {
+        if colorBackgroundView.bounds.height > colorBackgroundView.bounds.width {
+            
+        } else {
+            tableViewHeightConstraint.constant = 3 * SliderCell.height
+        }
+        
         colorBackgroundView.layoutIfNeeded()
         colorBackgroundView.layer.masksToBounds = true
         colorBackgroundView.layer.cornerRadius = colorBackgroundView.frame.width / 2
@@ -40,6 +64,7 @@ class PickerViewController: BaseViewController, Storyboarded {
     
     private func setupViewComponents() {
         vm.delegate = self
+        vm.setController(self)
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(hideKeyboard)))
         colorBackgroundView.backgroundColor = vm.selectedColor
         checkDataButton.backgroundColor = .clear
@@ -60,12 +85,6 @@ class PickerViewController: BaseViewController, Storyboarded {
         tableView.estimatedRowHeight = vm.rowHeight
         tableView.register(UINib(nibName: "SliderCell", bundle: Bundle.main), forCellReuseIdentifier: vm.sliderCellIdentifier)
     }
-    
-    @IBAction func checkData(_ sender: Any) {
-        openLoadingScreen()
-        vm.sendDataRequest()
-    }
-    
     private func setupSegmentedControl() {
         segmentedControl.removeAllSegments()
         for i in 0...(vm.segmentedItems.count - 1) {
@@ -76,6 +95,11 @@ class PickerViewController: BaseViewController, Storyboarded {
     
     @IBAction func selectSegment(_ sender: UISegmentedControl) {
         vm.segmentSelected(index: sender.selectedSegmentIndex)
+    }
+    
+    @IBAction func checkData(_ sender: Any) {
+        openLoadingScreen()
+        vm.sendDataRequest()
     }
     
     @objc internal func hideKeyboard() {
@@ -101,7 +125,7 @@ extension PickerViewController: PickerViewModelDelegate {
     }
     
     func show(error: Error?) {
-        coordinator?.show(error: error)
+        // coordinator?.show(error: error)
     }
     
     func didPick(color: UIColor) {
@@ -117,20 +141,23 @@ extension PickerViewController: SliderCellDelegate {
 
 
 /* TODO Zbiorczy
- CD Zapis wszytkiego 
  CD Baza REMOVE!!!!!
  Modele - colory exact i derivative
  Kolory w aplikacji Tint - Styl?
  Layout głownego pickera
- Konwersja RGB-HLS
+ Konwersja RGB-HLS-CMYK
  Loading screen add / remove
  Kamera wyłączanie sesji
- Alerty: Zły hex, bład kolorów, brak kamery, inne catche
- Kamera dodanie flash
+ Alerty:
+    Zły hex,
+    bład kolorów,
+    brak kamery,
+    inne catche
  
  Optionale
  Dodanie CMYK?
  Kamera naprawa pinch zoom
+ Kamera dodanie flash
  
  Kolejny etam
  Schematy kolorów

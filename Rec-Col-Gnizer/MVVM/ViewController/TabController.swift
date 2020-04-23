@@ -8,10 +8,16 @@
 
 import UIKit
 
-class TabController: UITabBarController, Storyboarded {
+class TabController: UITabBarController, StoryboardedProtocol {
 
     override func viewDidLoad() {
-        super.viewDidLoad() 
+        super.viewDidLoad()
+        styleView()
     }
 
+    private func styleView() {
+        tabBar.tintColor = Style.accentColor
+        tabBar.unselectedItemTintColor = Style.keyHelperColor
+    }
+    
 }

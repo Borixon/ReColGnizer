@@ -22,6 +22,10 @@ public class RgbEntity: NSManagedObject {
         color = parent
     }
     
+    public override init(entity: NSEntityDescription, insertInto context: NSManagedObjectContext?) {
+        super.init(entity: entity, insertInto: context)
+    }
+    
     func toModel() -> RgbModel {
         return RgbModel(r: red, g: green, b: blue)
     }

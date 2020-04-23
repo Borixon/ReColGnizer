@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ColorDataViewController: UIViewController, Storyboarded {
+class ColorDataViewController: UIViewController, StoryboardedProtocol {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var saveButton: UIButton!

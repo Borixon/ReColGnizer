@@ -10,7 +10,7 @@ import UIKit
 
 class MainCoordinator: Coordinator {
     
-    var window = (UIApplication.shared.delegate as? AppDelegate)?.appWindow
+    var window = (UIApplication.shared.delegate as? AppDelegate)?.appWindow // TODO: why nil
     var childCoordinators: [Coordinator] = []
     var navigationController: UINavigationController
     let windowTag: Int = 69
@@ -42,22 +42,21 @@ class MainCoordinator: Coordinator {
     func openColorData(data: ColorModel) {
         let vc = ColorDataViewController.instantiate()
         vc.vm = ColorDataViewModel(model: data)
-        
         self.navigationController.modalPresentationStyle = .overFullScreen
         self.navigationController.present(vc, animated: true, completion: nil)
-
     }
     
     func openColorScheme() {
         
     }
     
-    func show(error: Error?) {
-        
+    func showAlert(title: String?, message: String?) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: nil))
+        navigationController.topViewController?.present(alert, animated: true, completion: nil)
     }
     
     func insertLoadingScreen() {
-        
         let loading = LoadingViewController.instantiate()
         loading.view.tag = windowTag
         window?.addSubview(loading.view)

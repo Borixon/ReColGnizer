@@ -19,6 +19,10 @@ class CmykModel: ColorTypeModel {
         return UIColor.red
     }
     
+    var typeName: String {
+        return "Cyan Magenta Yellow Key"
+    }
+    
     init(c: Int16, m: Int16, y: Int16, k: Int16) {
         value.c = c
         value.m = m

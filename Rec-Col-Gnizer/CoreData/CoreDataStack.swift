@@ -74,7 +74,11 @@ final class CoreDataStack: NSObject {
             guard color == nil else { return }
             let entity = ColorEntity(context: context, model: model)
             context.insert(entity)
-            try? context.save()
+            do {
+                try context.save()
+            } catch { error
+                print(error)
+            }
         })
     }
     
@@ -83,7 +87,11 @@ final class CoreDataStack: NSObject {
         getColor(forHex: hex, completion: { color in
             guard let colorToRemove = color else { return }
             context.delete(colorToRemove)
-            try? context.save()
+            do {
+                try context.save()
+            } catch { error
+                print(error)
+            }
         })
     }
     

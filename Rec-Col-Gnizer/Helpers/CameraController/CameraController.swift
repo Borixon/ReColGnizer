@@ -124,6 +124,10 @@ class CameraController: NSObject {
         self.photoCaptureCompletionBlock = completion
     }
     
+    public func pause() {
+        
+    }
+    
 }
 
 extension CameraController: AVCapturePhotoCaptureDelegate {

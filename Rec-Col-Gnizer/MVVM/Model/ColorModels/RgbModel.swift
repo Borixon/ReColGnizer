@@ -13,6 +13,10 @@ class RgbModel: ColorTypeModel {
     typealias ColorData = (r: Int16, g: Int16, b: Int16)
     var value: ColorData
     
+    var typeName: String {
+        return "Red Green Blue"
+    }
+    
     static var maxValue: ColorData {
         return (255, 255, 255)
     }

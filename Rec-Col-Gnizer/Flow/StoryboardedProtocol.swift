@@ -9,11 +9,11 @@
 import UIKit
 import Foundation
 
-protocol Storyboarded { 
+protocol StoryboardedProtocol { 
     static func instantiate() -> Self
 }
 
-extension Storyboarded where Self: UIViewController {
+extension StoryboardedProtocol where Self: UIViewController {
     static func instantiate() -> Self {
         let id = String(describing: self)
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)

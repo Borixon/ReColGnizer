@@ -16,6 +16,10 @@ class HslModel: ColorTypeModel {
     static var maxValue: ColorData = (h: 359, s: 100, l: 100)
     var value: (h: Int16, s: Int16, l: Int16)
     
+    var typeName: String {
+        return "Hue Saturation Lightness"
+    }
+    
     var color: UIColor {
         return UIColor.colorWithHSL(hue: CGFloat(value.h),
                                     saturation: CGFloat(value.s)/CGFloat(HslModel.maxValue.s),

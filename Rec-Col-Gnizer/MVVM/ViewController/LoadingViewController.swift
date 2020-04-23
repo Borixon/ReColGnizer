@@ -8,6 +8,6 @@
 
 import UIKit
 
-class LoadingViewController: UIViewController, Storyboarded {
+class LoadingViewController: UIViewController, StoryboardedProtocol {
  
 }

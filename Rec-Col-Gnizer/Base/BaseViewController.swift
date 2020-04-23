@@ -8,7 +8,7 @@
 
 import UIKit
 
-open class BaseViewController: UIViewController, BaseViewControllerProtocol {
+open class BaseViewController: UIViewController, BaseViewControllerProtocol, StoryboardedProtocol {
  
     var coordinator: MainCoordinator?
     

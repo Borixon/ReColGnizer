@@ -72,10 +72,11 @@
 		6F9D496B244266FA00AF50D6 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D496A244266FA00AF50D6 /* Styles.swift */; };
 		6F9D497424426F1600AF50D6 /* CellDataBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D497324426F1600AF50D6 /* CellDataBuilder.swift */; };
 		6FAC49962448F18C004971AC /* HslModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC49952448F18C004971AC /* HslModel.swift */; };
+		6FBBE2542450CAB40020DD12 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBBE2532450CAB40020DD12 /* Style.swift */; };
 		6FE81B42244CF19D00B0F835 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3641E6244C821500018953 /* FavoriteViewController.swift */; };
 		6FF275912440A6E200FDDBAF /* WSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275902440A6E200FDDBAF /* WSError.swift */; };
 		6FF275952440B42B00FDDBAF /* ColorDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */; };
-		6FF275982440CEBF00FDDBAF /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275972440CEBF00FDDBAF /* Storyboarded.swift */; };
+		6FF275982440CEBF00FDDBAF /* StoryboardedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275972440CEBF00FDDBAF /* StoryboardedProtocol.swift */; };
 		6FF2759B2440D13A00FDDBAF /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF2759A2440D13A00FDDBAF /* MainCoordinator.swift */; };
 		6FF5EAD824488ECA0026BEDE /* RgbModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5EAD724488ECA0026BEDE /* RgbModel.swift */; };
 		6FF5EADA24488F510026BEDE /* ColorTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5EAD924488F510026BEDE /* ColorTypeModel.swift */; };
@@ -173,9 +174,10 @@
 		6F9D496A244266FA00AF50D6 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		6F9D497324426F1600AF50D6 /* CellDataBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDataBuilder.swift; sourceTree = "<group>"; };
 		6FAC49952448F18C004971AC /* HslModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HslModel.swift; sourceTree = "<group>"; };
+		6FBBE2532450CAB40020DD12 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		6FF275902440A6E200FDDBAF /* WSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSError.swift; sourceTree = "<group>"; };
 		6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDataViewController.swift; sourceTree = "<group>"; };
-		6FF275972440CEBF00FDDBAF /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		6FF275972440CEBF00FDDBAF /* StoryboardedProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardedProtocol.swift; sourceTree = "<group>"; };
 		6FF2759A2440D13A00FDDBAF /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		6FF5EAD724488ECA0026BEDE /* RgbModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RgbModel.swift; sourceTree = "<group>"; };
 		6FF5EAD924488F510026BEDE /* ColorTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTypeModel.swift; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 				6FF275962440CEAC00FDDBAF /* Flow */,
 				6F9138AD243E5060008B8E78 /* Helpers */,
 				6F591B2F243E2F0A00ECEEEC /* CoreData */,
+				6F9D49552442517400AF50D6 /* Cells */,
 				6F591B2A243E2EC000ECEEEC /* WebService */,
 				6F591B29243E2EB500ECEEEC /* MVVM */,
 				6F591AF6243E2E7F00ECEEEC /* AppDelegate.swift */,
@@ -307,7 +310,6 @@
 		6F591B29243E2EB500ECEEEC /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				6F9D49552442517400AF50D6 /* Cells */,
 				6F9084D1244065D200D7E7A2 /* ViewModel */,
 				6F9084D3244065F100D7E7A2 /* Model */,
 				6F9084D2244065DB00D7E7A2 /* ViewController */,
@@ -393,6 +395,7 @@
 				6F9084E524407B7800D7E7A2 /* ColorHelper.swift */,
 				6F9D496A244266FA00AF50D6 /* Styles.swift */,
 				6F9D497324426F1600AF50D6 /* CellDataBuilder.swift */,
+				6FBBE2532450CAB40020DD12 /* Style.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -444,7 +447,7 @@
 				6F591B04243E2E8500ECEEEC /* LaunchScreen.storyboard */,
 				6F591AFC243E2E7F00ECEEEC /* Main.storyboard */,
 				6F97C076243E596300CDA54C /* Coordinator.swift */,
-				6FF275972440CEBF00FDDBAF /* Storyboarded.swift */,
+				6FF275972440CEBF00FDDBAF /* StoryboardedProtocol.swift */,
 			);
 			path = Flow;
 			sourceTree = "<group>";
@@ -653,6 +656,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FF275952440B42B00FDDBAF /* ColorDataViewController.swift in Sources */,
+				6FBBE2542450CAB40020DD12 /* Style.swift in Sources */,
 				6F10C648244764EC006EC9FC /* WSSchemeModel.swift in Sources */,
 				6F3641EB244C85B100018953 /* ImagePickerViewModel.swift in Sources */,
 				6F3641FC244C907B00018953 /* CoreDataStack.swift in Sources */,
@@ -710,7 +714,7 @@
 				6F407233244CEB5700E9C686 /* ColorCell.swift in Sources */,
 				6F9D49542442475F00AF50D6 /* LoadingViewController.swift in Sources */,
 				6F364215244CA38500018953 /* RgbEntity+CoreDataClass.swift in Sources */,
-				6FF275982440CEBF00FDDBAF /* Storyboarded.swift in Sources */,
+				6FF275982440CEBF00FDDBAF /* StoryboardedProtocol.swift in Sources */,
 				6F9084CA2440626100D7E7A2 /* CameraError.swift in Sources */,
 				6F06E1862448AC4F003CABAD /* PickerViewController+TableView.swift in Sources */,
 				6F9D49502442452200AF50D6 /* BaseViewController.swift in Sources */,

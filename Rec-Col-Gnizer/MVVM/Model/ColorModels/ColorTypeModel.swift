@@ -14,6 +14,7 @@ protocol ColorTypeModel {
     
     static var maxValue: ColorData { get }
     var value: ColorData { get set }
+    var typeName: String { get }
     var color: UIColor { get }
     
     func toRgb() -> RgbModel

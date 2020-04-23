@@ -19,6 +19,10 @@ class NameModel: ColorTypeModel {
         return UIColor.red
     }
     
+    var typeName: String {
+        return "Color name"
+    }
+    
     init(name: String, closestNamedHex: String?, exactMatch: Bool, distance: Int16) {
         value.name = name
         value.closestNamedHex = closestNamedHex

@@ -22,9 +22,13 @@ class HexModel: ColorTypeModel {
         return UIColor(hexString: value) ?? HexModel.defaultColor
     }
     
+    var typeName: String {
+        return "Hexadecimal"
+    }
+    
     init(value: String) {
         // Filter ? throw ?
-        self.value = value.lowercased()
+        self.value = value.uppercased()
     }
     
     func toRgb() -> RgbModel {
@@ -40,12 +44,5 @@ class HexModel: ColorTypeModel {
     
     func toHex() -> HexModel {
         return self
-    }
-
-    static func isValid(hex: String) -> Bool {
-        let lowHex = hex.lowercased()
-        guard lowHex.count == 6 else { return false }
-        let regex = try! NSRegularExpression(pattern: "^[0-9a-f]{6}", options: [])
-        return regex.firstMatch(in: lowHex, options: [], range: NSRange(location: 0, length: 6)) != nil
     }
 }

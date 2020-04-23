@@ -8,9 +8,10 @@
 
 import UIKit
 
-class FavoriteViewController: BaseViewController, Storyboarded {
+class FavoriteViewController: BaseViewController {
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var infoScreen: UIView!
     
     let vm = FavoriteViewModel()
     
@@ -39,6 +40,13 @@ class FavoriteViewController: BaseViewController, Storyboarded {
 
 extension FavoriteViewController: FavoriteViewModelDelegate {
     func refreshData() {
+        if vm.colorArrayIsEmpty {
+            tableView.isHidden = true
+            infoScreen.isHidden = false
+        } else {
+            tableView.isHidden = false
+            infoScreen.isHidden = true
+        }
         tableView.reloadData()
     }
     
@@ -63,7 +71,7 @@ extension FavoriteViewController: UITableViewDataSource {
 
 extension FavoriteViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 60
+        return ColorCell.height
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class ImagePickerViewController: BaseViewController, Storyboarded {
+class ImagePickerViewController: BaseViewController {
     
     @IBOutlet weak var viewfinder: UIView!
     @IBOutlet weak var photoButton: UIButton!
@@ -29,6 +29,8 @@ class ImagePickerViewController: BaseViewController, Storyboarded {
     }
     
     private func setupCamera() {
+        // Async
+        // Loading
         vm.startCamera(on: viewfinder, completion: { success, error in
             // TODO: handle error
         })

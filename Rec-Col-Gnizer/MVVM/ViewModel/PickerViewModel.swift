@@ -16,7 +16,10 @@ final class PickerViewModel {
     public let segmentedItems: [String] = [PickerCategory.Rgb.rawValue, PickerCategory.Hsl.rawValue]
     public var searchPicker: PickerCategory = UserData().selectedPickerCategory
     public var delegate: PickerViewModelDelegate?
+    private var controller: BaseViewController? = nil
     private var model: PickerColorModel = PickerColorModel()
+    
+    // MARK: Vars
     
     var viewCategory: PickerCategory {
         get {
@@ -50,13 +53,21 @@ final class PickerViewModel {
         return .red
     }
     
+    // MARK: Public functions
+    
     public func search(hex: String) {
-        guard HexModel.isValid(hex: hex) else {
+        guard ColorHelper.isHexValid(hex: hex) else {
+            controller?.coordinator?.showAlert(title: ColorHelper.invalidHexValueTitle,
+                                               message: ColorHelper.invalidHexValueInfo)
             return
         }
         model.hexModel = HexModel(value: hex)
         searchPicker = .Hex
         sendDataRequest()
+    }
+    
+    public func setController(_ controller: BaseViewController) {
+        self.controller = controller
     }
     
     public func sliderDataChange(_ value: Float, type: SliderCellType) {
@@ -106,6 +117,23 @@ final class PickerViewModel {
         
     }
     
+    public func segmentSelected(index: Int) {
+        let typeString = segmentedItems[index]
+        guard let type = PickerCategory(rawValue: typeString) else { return }
+        switch type {
+        case .Rgb:
+            rgbPicked()
+        case .Hsl:
+            hslPicked()
+        case .Cmyk:
+            cmykPicked()
+        case .Hex:
+            let _ = 0
+        }
+    }
+    
+    // MARK: Private functions
+    
     public func cellData<T: SliderCellData>(for indexPath:IndexPath) -> T? {
         if T.self == SliderData.self {
             if viewCategory == .Rgb {
@@ -124,7 +152,7 @@ final class PickerViewModel {
             if model != nil {
                 self.delegate?.show(color: model!)
             } else {
-                self.delegate?.show(error: error)
+                // Error
             }
         })
     }
@@ -139,21 +167,6 @@ final class PickerViewModel {
         })
     }
      
-    public func segmentSelected(index: Int) {
-        let typeString = segmentedItems[index]
-        guard let type = PickerCategory(rawValue: typeString) else { return }
-        switch type {
-        case .Rgb:
-            rgbPicked()
-        case .Hsl:
-            hslPicked()
-        case .Cmyk:
-            cmykPicked()
-        case .Hex:
-            let _ = 0
-        }
-    }
-    
     private func rgbPicked() {
         viewCategory = .Rgb
         searchPicker = .Rgb
@@ -176,7 +189,6 @@ final class PickerViewModel {
 protocol PickerViewModelDelegate {
     func didPick(color: UIColor)
     func show(color: WSColorModel)
-    func show(error: Error?)
     func reloadData()
 }
 

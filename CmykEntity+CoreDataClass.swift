@@ -23,6 +23,10 @@ public class CmykEntity: NSManagedObject {
         color = parent
     }
     
+    override public init(entity: NSEntityDescription, insertInto context: NSManagedObjectContext?) {
+        super.init(entity: entity, insertInto: context)
+    }
+    
     func toModel() -> CmykModel {
         return CmykModel(c: cyan, m: magenta, y: yellow, k: key)
     }

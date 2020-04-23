@@ -10,7 +10,7 @@ import UIKit
 
 final class SliderCell: UITableViewCell {
 
-    static let height: CGFloat = 80
+    static let height: CGFloat = 75
     private var type: SliderCellType!
     public var delegate: SliderCellDelegate?
     
@@ -20,6 +20,12 @@ final class SliderCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        typeLabel.font = Style.fontBold
+        typeLabel.textColor = Style.keyColor
+        valueLabel.font = Style.fontSmallRegular
+        valueLabel.textColor = Style.keyColor
+        slider.minimumTrackTintColor = Style.keyColor
+        slider.maximumTrackTintColor = Style.keyHelperColor
     }
 
     public func setup(data: SliderCellData) {

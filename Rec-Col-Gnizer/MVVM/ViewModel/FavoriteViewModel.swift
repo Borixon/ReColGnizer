@@ -17,15 +17,19 @@ class FavoriteViewModel: NSObject {
 
     let cellIdentifier = "ColorCellIdentifier"
     public var delegate: FavoriteViewModelDelegate? = nil
-    private var dataModel: [(String, String)] = [] {
+    private var colorStrings: [(String, String)] = [] {
         didSet {
-            dataModel.sort(by: { $0.0 < $1.0 })
+            colorStrings.sort(by: { $0.0 < $1.0 })
             self.delegate?.refreshData()
         }
     }
     
+    var colorArrayIsEmpty: Bool {
+        return colorStrings.isEmpty
+    }
+    
     var numberOfRows: Int {
-        return dataModel.count
+        return colorStrings.count
     } 
     
     func removeDataDelegate() {
@@ -39,16 +43,16 @@ class FavoriteViewModel: NSObject {
     func refreshData() {
         DataManager.shared.getColorsList(completion: { data in
             if let colorData = data {
-                self.dataModel = colorData
+                self.colorStrings = colorData
             } else {
-                self.dataModel.removeAll()
+                self.colorStrings.removeAll()
             }
         })
     }
     
     func data(forIndex i: Int) -> (name: String, hex: String)? {
-        if i < dataModel.count {
-            return dataModel[i]
+        if i < colorStrings.count {
+            return colorStrings[i]
         } else {
             return nil
         }

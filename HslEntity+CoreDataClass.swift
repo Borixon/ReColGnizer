@@ -21,6 +21,10 @@ public class HslEntity: NSManagedObject {
         lightness = model.value.l
         color = parent
     }
+     
+    override public init(entity: NSEntityDescription, insertInto context: NSManagedObjectContext?) {
+        super.init(entity: entity, insertInto: context)
+    }
     
     func toModel() -> HslModel {
         return HslModel(h: hue, s: saturation, l: lightness)

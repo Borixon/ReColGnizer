@@ -47,6 +47,14 @@ class ImagePickerViewModel {
         })
     }
     
+    public func pauseSession() {
+        
+    }
+    
+    public func resumeSession() {
+        
+    }
+    
     public func zooming(_ zoom: CGFloat, _ velocity: CGFloat) {
         cameraController.handle(zoom: zoom, velocity: velocity)
     }
