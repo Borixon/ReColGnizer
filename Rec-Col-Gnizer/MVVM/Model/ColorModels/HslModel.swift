@@ -11,10 +11,20 @@ import UIKit
 import ColorWithHSL
 
 class HslModel: ColorTypeModel {
-    
     typealias ColorData = (h: Int16, s: Int16, l: Int16)
-    static var maxValue: ColorData = (h: 359, s: 100, l: 100)
+    static var maxValue: ColorData = (h: 360, s: 100, l: 100)
     var value: (h: Int16, s: Int16, l: Int16)
+    
+    var components: [String] {
+        return ["H", "S", "L"]
+    }
+    
+    var columnData: [String : (val: Int16, max: Int16)]? {
+        let data = [components[0]: (val: value.h, max: HslModel.maxValue.h),
+                    components[1]: (val: value.s, max: HslModel.maxValue.s),
+                    components[2]: (val: value.l, max: HslModel.maxValue.l)]
+        return data
+    }
     
     var typeName: String {
         return "Hue Saturation Lightness"

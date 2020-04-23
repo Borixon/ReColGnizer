@@ -10,13 +10,16 @@ import Foundation
 import UIKit
 
 class HexModel: ColorTypeModel {
-    
     typealias ColorData = String
     
     static let hexLenght: Int = 6
     static let defaultColor: UIColor = .lightText
     static var maxValue: ColorData = "0123456789abcdef"
     var value: String
+    
+    var components: [String] { return ["Hex"] } 
+    
+    var columnData: [String : (val: Int16, max: Int16)]? { return nil }
   
     var color: UIColor {
         return UIColor(hexString: value) ?? HexModel.defaultColor

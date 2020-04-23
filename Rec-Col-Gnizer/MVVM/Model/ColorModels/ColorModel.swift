@@ -10,6 +10,7 @@ import UIKit
 
 class ColorModel: NSObject {
     
+    let color: UIColor
     let rgb: RgbModel
     let cmyk: CmykModel
     let hsl: HslModel
@@ -20,6 +21,7 @@ class ColorModel: NSObject {
     let exactColor: ColorModel? = nil
     
     init(color: WSColorModel) {
+        self.color = color.rgb.toModel().color
         rgb = color.rgb.toModel()
         cmyk = color.cmyk.toModel()
         hsl = color.hsl.toModel()
@@ -29,6 +31,7 @@ class ColorModel: NSObject {
     }
     
     init(color: ColorEntity) {
+        self.color = color.rgb?.toModel().color ?? .black
         rgb = color.rgb?.toModel() ?? RgbModel(r: Int16(0), g: Int16(0), b: Int16(0))
         cmyk = color.cmyk?.toModel() ?? CmykModel(c: 0, m: 0, y: 0, k:  0)
         hsl = color.hsl?.toModel() ?? HslModel(h: 0, s: 0, l: 0)

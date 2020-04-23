@@ -13,6 +13,8 @@ protocol ColorTypeModel {
     associatedtype ColorData
     
     static var maxValue: ColorData { get }
+    var components: [String] { get }
+    var columnData: [String : (val: Int16, max: Int16)]? { get }
     var value: ColorData { get set }
     var typeName: String { get }
     var color: UIColor { get }

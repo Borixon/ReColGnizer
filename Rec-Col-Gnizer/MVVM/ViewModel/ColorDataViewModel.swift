@@ -17,9 +17,10 @@ class ColorDataViewModel: NSObject {
 
     public let model: ColorModel
     public let nameCellIndentifier = "ColorCellNameIdentifier"
-    public let rgbCellIdentifier = "rgbCellIdentifier"
+    public let columnDataCellIdentifier = "columnDataCellIdentifier"
     private let addToFav: String = "Add to favorite"
     private let removeFromFav: String = "Remove from favorite"
+    private let columnBuilder: ColumnBuilder
     public var delegate: ColorDataViewModelDelegate? = nil {
         didSet {
             self.checkForButtonLabel()
@@ -28,6 +29,7 @@ class ColorDataViewModel: NSObject {
     
     init(model: ColorModel) {
         self.model = model
+        self.columnBuilder = ColumnBuilder(contrast: UIColor(hexString: model.contrast.value) ?? .black)
     }
     
     var contrastColor: UIColor {
@@ -50,6 +52,7 @@ class ColorDataViewModel: NSObject {
     }
     
     var numberOfRows: Int {
+        return 4 //TEMP
         if model.name.value.exactMatch {
             return 4
         } else {
@@ -61,12 +64,18 @@ class ColorDataViewModel: NSObject {
         return (model.name.value.name, model.hex.value)
     }
     
-    var rgbData: RgbModel {
-        return model.rgb
-    }
-    
-    var cmykData: CmykModel {
-        return model.cmyk
+    public func colorData(forIndex indexPath: IndexPath) -> (name: String, columns: [UIView], contrast: UIColor)? {
+        if indexPath.row == 1 {
+            let columns = columnBuilder.getColumns(data: model.cmyk.columnData!, orderedKeys: model.cmyk.components)
+            return (name: model.cmyk.typeName, columns: columns, contrast: columnBuilder.columnColor)
+        } else if indexPath.row == 2 {
+            let columns = columnBuilder.getColumns(data: model.rgb.columnData!, orderedKeys: model.rgb.components)
+            return (name: model.rgb.typeName, columns: columns, contrast: columnBuilder.columnColor)
+        } else if indexPath.row == 3 {
+            let columns = columnBuilder.getColumns(data: model.hsl.columnData!, orderedKeys: model.hsl.components)
+            return (name: model.hsl.typeName, columns: columns, contrast: columnBuilder.columnColor)
+        }
+        return nil
     }
     
     private func checkForButtonLabel() {

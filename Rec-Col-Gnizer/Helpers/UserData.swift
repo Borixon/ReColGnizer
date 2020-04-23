@@ -18,7 +18,7 @@ class UserData: NSObject {
             if let rValue = defaults.value(forKey: kRedRGBValue) as? Int16 {
                 return rValue
             } else {
-                return 100
+                return 202
             }
         }
         set {
@@ -32,7 +32,7 @@ class UserData: NSObject {
             if let rValue = defaults.value(forKey: kBlueRGBValue) as? Int16 {
                 return rValue
             } else {
-                return 100
+                return 91
             }
         }
         set {
@@ -46,7 +46,7 @@ class UserData: NSObject {
             if let rValue = defaults.value(forKey: kGreenRGBValue) as? Int16 {
                 return rValue
             } else {
-                return 100
+                return 91
             }
         }
         set {

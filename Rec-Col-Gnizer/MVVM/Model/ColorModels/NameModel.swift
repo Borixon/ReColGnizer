@@ -15,6 +15,10 @@ class NameModel: ColorTypeModel {
     static var maxValue: ColorData = ("name", "closestName", true, 0)
     var value: ColorData
     
+    var components: [String] { return ["Name", "Closest named hexadecimal", "Exact match", "Distance"] }
+    
+    var columnData: [String : (val: Int16, max: Int16)]? { return nil }
+    
     var color: UIColor {
         return UIColor.red
     }

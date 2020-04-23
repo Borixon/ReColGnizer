@@ -13,6 +13,17 @@ class RgbModel: ColorTypeModel {
     typealias ColorData = (r: Int16, g: Int16, b: Int16)
     var value: ColorData
     
+    var components: [String] {
+        return ["R", "G", "B"]
+    }
+    
+    var columnData: [String : (val: Int16, max: Int16)]? {
+        let data = [components[0]: (val: value.r, max: RgbModel.maxValue.r),
+                    components[1]: (val: value.g, max: RgbModel.maxValue.g),
+                    components[2]: (val: value.b, max: RgbModel.maxValue.b)]
+        return data
+    }
+    
     var typeName: String {
         return "Red Green Blue"
     }

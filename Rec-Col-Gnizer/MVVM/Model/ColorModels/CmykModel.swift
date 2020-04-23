@@ -15,6 +15,18 @@ class CmykModel: ColorTypeModel {
     static var maxValue: (c: Int16, m: Int16, y: Int16, k: Int16) = (100, 100, 100, 100)
     var value: (c: Int16, m: Int16, y: Int16, k: Int16)
     
+    var components: [String] {
+        return ["C", "M", "Y", "K"]
+    }
+    
+    var columnData: [String : (val: Int16, max: Int16)]? {
+        let data = [components[0]: (val: value.c, max: CmykModel.maxValue.c),
+                    components[1]: (val: value.m, max: CmykModel.maxValue.m),
+                    components[2]: (val: value.y, max: CmykModel.maxValue.y),
+                    components[3]: (val: value.k, max: CmykModel.maxValue.k)]
+        return data
+    }
+    
     var color: UIColor {
         return UIColor.red
     }
@@ -37,7 +49,4 @@ class CmykModel: ColorTypeModel {
     func toHex() -> HexModel {
         return HexModel(value: "FF0000")
     }
-    
-    
-    
 }
