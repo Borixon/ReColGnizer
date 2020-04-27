@@ -33,8 +33,6 @@ class MainCoordinator: Coordinator {
                 (controller as? BaseViewController)?.coordinator = self
             }
         }
-//        navigationController.modalTransitionStyle = .crossDissolve
-//        navigationController.modalPresentationStyle = .fullScreen
         navigationController.pushViewController(tabBar, animated: true)
     }
     

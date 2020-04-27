@@ -43,6 +43,7 @@
 		6F407233244CEB5700E9C686 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F407231244CEB5700E9C686 /* ColorCell.swift */; };
 		6F407234244CEB5700E9C686 /* ColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F407232244CEB5700E9C686 /* ColorCell.xib */; };
 		6F407236244CEF6300E9C686 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F407235244CEF6300E9C686 /* FavoriteViewModel.swift */; };
+		6F546ACB245711A0007FAA7A /* ColumnBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F546ACA2457119F007FAA7A /* ColumnBuilder.swift */; };
 		6F591AF7243E2E7F00ECEEEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AF6243E2E7F00ECEEEC /* AppDelegate.swift */; };
 		6F591AF9243E2E7F00ECEEEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AF8243E2E7F00ECEEEC /* SceneDelegate.swift */; };
 		6F591AFE243E2E7F00ECEEEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F591AFC243E2E7F00ECEEEC /* Main.storyboard */; };
@@ -73,7 +74,6 @@
 		6F9D495E244251E100AF50D6 /* ColumnDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D495C244251E100AF50D6 /* ColumnDataCell.swift */; };
 		6F9D495F244251E100AF50D6 /* ColumnDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9D495D244251E100AF50D6 /* ColumnDataCell.xib */; };
 		6F9D4969244254FC00AF50D6 /* ColorDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D4968244254FC00AF50D6 /* ColorDataViewModel.swift */; };
-		6F9D496B244266FA00AF50D6 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D496A244266FA00AF50D6 /* Styles.swift */; };
 		6F9D497424426F1600AF50D6 /* CellDataBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9D497324426F1600AF50D6 /* CellDataBuilder.swift */; };
 		6FAC49962448F18C004971AC /* HslModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC49952448F18C004971AC /* HslModel.swift */; };
 		6FBBE2542450CAB40020DD12 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBBE2532450CAB40020DD12 /* Style.swift */; };
@@ -141,6 +141,7 @@
 		6F407231244CEB5700E9C686 /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
 		6F407232244CEB5700E9C686 /* ColorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorCell.xib; sourceTree = "<group>"; };
 		6F407235244CEF6300E9C686 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
+		6F546ACA2457119F007FAA7A /* ColumnBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnBuilder.swift; sourceTree = "<group>"; };
 		6F591AF3243E2E7F00ECEEEC /* RecColGnizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecColGnizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F591AF6243E2E7F00ECEEEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F591AF8243E2E7F00ECEEEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -179,7 +180,6 @@
 		6F9D495C244251E100AF50D6 /* ColumnDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnDataCell.swift; sourceTree = "<group>"; };
 		6F9D495D244251E100AF50D6 /* ColumnDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColumnDataCell.xib; sourceTree = "<group>"; };
 		6F9D4968244254FC00AF50D6 /* ColorDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDataViewModel.swift; sourceTree = "<group>"; };
-		6F9D496A244266FA00AF50D6 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		6F9D497324426F1600AF50D6 /* CellDataBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDataBuilder.swift; sourceTree = "<group>"; };
 		6FAC49952448F18C004971AC /* HslModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HslModel.swift; sourceTree = "<group>"; };
 		6FBBE2532450CAB40020DD12 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
@@ -411,7 +411,6 @@
 				6F9138AE243E507C008B8E78 /* ColorRandomiezer.swift */,
 				6F9084D62440674E00D7E7A2 /* UserData.swift */,
 				6F9084E524407B7800D7E7A2 /* ColorHelper.swift */,
-				6F9D496A244266FA00AF50D6 /* Styles.swift */,
 				6F9D497324426F1600AF50D6 /* CellDataBuilder.swift */,
 				6FBBE2532450CAB40020DD12 /* Style.swift */,
 				6F1B44642456E5B4005372D6 /* ConnectionHelper.swift */,
@@ -456,6 +455,7 @@
 				6F9D495D244251E100AF50D6 /* ColumnDataCell.xib */,
 				6F407231244CEB5700E9C686 /* ColorCell.swift */,
 				6F407232244CEB5700E9C686 /* ColorCell.xib */,
+				6F546ACA2457119F007FAA7A /* ColumnBuilder.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -684,7 +684,6 @@
 				6F0133B524464A2900D2A25A /* SliderCell.swift in Sources */,
 				6F364210244CA38500018953 /* CmykEntity+CoreDataProperties.swift in Sources */,
 				6F1B4463245584A4005372D6 /* Job.swift in Sources */,
-				6F9D496B244266FA00AF50D6 /* Styles.swift in Sources */,
 				6F9084CC2440629700D7E7A2 /* CameraControllerDelegate.swift in Sources */,
 				6F591B01243E2E7F00ECEEEC /* RecColGnizer.xcdatamodeld in Sources */,
 				6F2BB5AD244ADDB000FCD451 /* (null) in Sources */,
@@ -692,6 +691,7 @@
 				6F364218244CA38500018953 /* HslEntity+CoreDataProperties.swift in Sources */,
 				6F06E18B2448AD96003CABAD /* SliderCellData.swift in Sources */,
 				6F909F3024464D4B001FCF97 /* PickerViewModel.swift in Sources */,
+				6F546ACB245711A0007FAA7A /* ColumnBuilder.swift in Sources */,
 				6F9138AF243E507C008B8E78 /* ColorRandomiezer.swift in Sources */,
 				6F591AF7243E2E7F00ECEEEC /* AppDelegate.swift in Sources */,
 				6F36420F244CA38500018953 /* CmykEntity+CoreDataClass.swift in Sources */,

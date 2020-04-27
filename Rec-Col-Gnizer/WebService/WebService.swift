@@ -58,8 +58,9 @@ class WebService: NSObject {
         do {
             try isConnectedToInternet()
             let urlRequest: URLRequest
+            urlRequest = try API().colorRequest(data)
 //            if data.self {
-                urlRequest = try API().colorRequest(data)
+                
 //            } else {
 //                urlRequest = try API().schemeRequest(data)
 //            }
