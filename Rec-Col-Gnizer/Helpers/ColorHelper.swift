@@ -15,9 +15,10 @@ final class ColorHelper: NSObject {
     
     static func isHexValid(hex: String) -> Bool {
         let lowHex = hex.lowercased()
-        guard lowHex.count == 6 else { return false }
-        let regex = try! NSRegularExpression(pattern: "^[0-9a-f]{6}", options: [])
-        return regex.firstMatch(in: lowHex, options: [], range: NSRange(location: 0, length: 6)) != nil
+        let count = hex.count
+        guard count == 6 || count == 3 else { return false }
+        let regex = try! NSRegularExpression(pattern: "^[0-9a-f]{\(count)}", options: [])
+        return regex.firstMatch(in: lowHex, options: [], range: NSRange(location: 0, length: count)) != nil
     }
     
     func hueToRgb(hue: Int16, saturation: Int16, lightness: Int16) -> (r: Int16, g:Int16, b:Int16) {

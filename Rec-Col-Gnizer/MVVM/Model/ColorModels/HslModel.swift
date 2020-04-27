@@ -8,7 +8,6 @@
 
 import Foundation
 import UIKit
-import ColorWithHSL
 
 class HslModel: ColorTypeModel {
     typealias ColorData = (h: Int16, s: Int16, l: Int16)
