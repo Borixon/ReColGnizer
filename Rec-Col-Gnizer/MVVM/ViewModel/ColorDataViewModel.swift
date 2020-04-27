@@ -53,11 +53,11 @@ class ColorDataViewModel: NSObject {
     
     var numberOfRows: Int {
         return 4 //TEMP
-        if model.name.value.exactMatch {
-            return 4
-        } else {
-            return 5
-        }
+//        if model.name.value.exactMatch {
+//            return 4
+//        } else {
+//            return 5
+//        }
     }
     
     var nameData: (name: String, hex: String) {

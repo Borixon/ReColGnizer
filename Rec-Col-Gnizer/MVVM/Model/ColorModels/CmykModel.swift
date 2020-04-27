@@ -42,11 +42,16 @@ class CmykModel: ColorTypeModel {
         value.k = k
     }
     
+    // TODO
     func toRgb() -> RgbModel {
         return RgbModel(r: 0, g: 0, b: 0)
     }
     
     func toHex() -> HexModel {
         return HexModel(value: "FF0000")
+    }
+    
+    func toHsl() -> HslModel {
+        return HslModel(h: 0, s: 0, l: 0)
     }
 }

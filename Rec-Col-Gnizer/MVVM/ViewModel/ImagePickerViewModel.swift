@@ -48,11 +48,13 @@ class ImagePickerViewModel {
     }
     
     public func pauseSession() {
-        
+        cameraController.pause()
     }
     
     public func resumeSession() {
-        
+        if cameraController.isCameraEnabled {
+            cameraController.resume()
+        }
     }
     
     public func zooming(_ zoom: CGFloat, _ velocity: CGFloat) {

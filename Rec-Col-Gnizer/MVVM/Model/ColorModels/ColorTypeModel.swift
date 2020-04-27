@@ -21,8 +21,6 @@ protocol ColorTypeModel {
     
     func toRgb() -> RgbModel
     func toHex() -> HexModel
+    func toHsl() -> HslModel
     
-//    Next episode
-//    func toCmyk() -> RgbModel
-//    func toHsl() -> RgbModel
 }

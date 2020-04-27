@@ -56,5 +56,10 @@ class RgbModel: ColorTypeModel {
                         String(format:"%02X", value.b)
         return HexModel(value: hexValue)
     }
+    
+    func toHsl() -> HslModel {
+        let values = ColorHelper().rgbToHue(red: value.r, green: value.g, blue: value.b)
+        return HslModel(h: values.h, s: values.s, l: values.l)
+    }
 }
 

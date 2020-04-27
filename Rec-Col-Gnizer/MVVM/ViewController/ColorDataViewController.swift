@@ -12,6 +12,7 @@ class ColorDataViewController: UIViewController, StoryboardedProtocol {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var saveButton: UIButton!
+    @IBOutlet weak var backButton: UIButton!
     
     var vm: ColorDataViewModel!
     
@@ -27,7 +28,8 @@ class ColorDataViewController: UIViewController, StoryboardedProtocol {
         saveButton.tintColor = vm.color
         saveButton.layer.masksToBounds = true
         saveButton.layer.cornerRadius = Styles.applyButtonCornerRadius
-        saveButton.backgroundColor = vm.contrastColor 
+        saveButton.backgroundColor = vm.contrastColor
+        backButton.tintColor = vm.contrastColor
         navigationController?.navigationBar.tintColor = vm.contrastColor
         navigationController?.navigationBar.barTintColor = vm.color
     }
@@ -47,6 +49,9 @@ class ColorDataViewController: UIViewController, StoryboardedProtocol {
         vm.saveRemovePressed()
     }
     
+    @IBAction func goBack(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
 }
 
 extension ColorDataViewController: ColorDataViewModelDelegate {
@@ -76,7 +81,6 @@ extension ColorDataViewController: UITableViewDataSource {
             }
             return dataCell
         }
-        return UITableViewCell()
     }
     
     

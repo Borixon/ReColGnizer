@@ -12,7 +12,7 @@ import ColorWithHSL
 
 class HslModel: ColorTypeModel {
     typealias ColorData = (h: Int16, s: Int16, l: Int16)
-    static var maxValue: ColorData = (h: 360, s: 100, l: 100)
+    static var maxValue: ColorData = (h: 359, s: 100, l: 100)
     var value: (h: Int16, s: Int16, l: Int16)
     
     var components: [String] {
@@ -31,9 +31,10 @@ class HslModel: ColorTypeModel {
     }
     
     var color: UIColor {
-        return UIColor.colorWithHSL(hue: CGFloat(value.h),
-                                    saturation: CGFloat(value.s)/CGFloat(HslModel.maxValue.s),
-                                    lightness: CGFloat(value.l)/CGFloat(HslModel.maxValue.l)) ?? .black
+        let color = ColorHelper().hueToRgb(hue: value.h, saturation: value.s, lightness: value.l)
+        return UIColor(displayP3Red: CGFloat(color.r) / CGFloat(RgbModel.maxValue.r),
+                       green: CGFloat(color.g) / CGFloat(RgbModel.maxValue.g),
+                       blue: CGFloat(color.b) / CGFloat(RgbModel.maxValue.b), alpha: 1)
     }
     
     init(h: Int16, s: Int16, l: Int16) {
@@ -41,12 +42,16 @@ class HslModel: ColorTypeModel {
     }
     
     func toRgb() -> RgbModel {
-        // TODO:
-        return RgbModel(r: Int16(0), g: Int16(0), b: Int16(0))
+        let values = ColorHelper().hueToRgb(hue: value.h, saturation: value.s, lightness: value.l)
+        return RgbModel(r: values.r, g: values.g, b: values.b)
     }
     
     func toHex() -> HexModel {
         // TODO
         return HexModel(value: "")
+    }
+    
+    func toHsl() -> HslModel {
+        return self
     }
 }

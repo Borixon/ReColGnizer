@@ -10,7 +10,6 @@ import UIKit
 
 class MainCoordinator: Coordinator {
     
-    var window = (UIApplication.shared.delegate as? AppDelegate)?.appWindow // TODO: why nil
     var childCoordinators: [Coordinator] = []
     var navigationController: UINavigationController
     let windowTag: Int = 69
@@ -34,8 +33,8 @@ class MainCoordinator: Coordinator {
                 (controller as? BaseViewController)?.coordinator = self
             }
         }
-        navigationController.modalTransitionStyle = .crossDissolve
-        navigationController.modalPresentationStyle = .fullScreen
+//        navigationController.modalTransitionStyle = .crossDissolve
+//        navigationController.modalPresentationStyle = .fullScreen
         navigationController.pushViewController(tabBar, animated: true)
     }
     
@@ -51,18 +50,29 @@ class MainCoordinator: Coordinator {
     }
     
     func showAlert(title: String?, message: String?) {
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: nil))
-        navigationController.topViewController?.present(alert, animated: true, completion: nil)
+        DispatchQueue.main.async {
+            let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: nil))
+            self.navigationController.topViewController?.present(alert, animated: true, completion: nil)
+        }
     }
     
     func insertLoadingScreen() {
         let loading = LoadingViewController.instantiate()
         loading.view.tag = windowTag
-        window?.addSubview(loading.view)
+        loading.view.alpha = 0
+        navigationController.topViewController?.view.addSubview(loading.view)
+        UIView.animate(withDuration: 0.1, animations: {
+            loading.view.alpha = 1
+        })
     }
     
     func removeLoadingScreen() {
-        window?.subviews.filter({ $0.tag == windowTag }).first?.removeFromSuperview()
+        let loading = navigationController.topViewController?.view.subviews.filter({ $0.tag == windowTag }).first
+        UIView.animate(withDuration: 0.1, animations: {
+            loading?.alpha = 0
+        }, completion: { finish in
+            loading?.removeFromSuperview()
+        })
     }
 }

@@ -36,7 +36,7 @@ struct ColorRandomiezer {
         "#0F4C81"]
     
     private static var randomColorString: String {
-        guard let rand = colors.randomElement() else { return "#9BB7D4" }
+        guard let rand = colors.randomElement() else { return colors.first! }
         return rand
     }
     
@@ -45,6 +45,6 @@ struct ColorRandomiezer {
         if let color = UIColor(hexString: randomHex) {
             return color
         }
-        return UIColor.purple
+        return UIColor.black
     }
 }

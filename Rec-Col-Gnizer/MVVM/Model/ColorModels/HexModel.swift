@@ -48,4 +48,9 @@ class HexModel: ColorTypeModel {
     func toHex() -> HexModel {
         return self
     }
+    
+    func toHsl() -> HslModel {
+        // TODO
+        return HslModel(h: 0, s: 0, l: 0)
+    }
 }

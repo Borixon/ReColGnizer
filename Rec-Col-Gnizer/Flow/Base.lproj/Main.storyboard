@@ -96,7 +96,7 @@
                                 <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </activityIndicatorView>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="0.66409912109375002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.19663085937499999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Kid-hD-QN1" firstAttribute="centerY" secondItem="ImX-yB-rNh" secondAttribute="centerY" id="REi-Zf-a3l"/>
                             <constraint firstItem="Kid-hD-QN1" firstAttribute="centerX" secondItem="ImX-yB-rNh" secondAttribute="centerX" id="gV7-hp-TY5"/>
@@ -117,7 +117,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LZm-hA-mA4">
-                                <rect key="frame" x="0.0" y="44" width="414" height="721"/>
+                                <rect key="frame" x="0.0" y="54" width="414" height="711"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wlV-xj-gBn">
@@ -132,20 +132,34 @@
                                     <action selector="saveRemoveColor:" destination="hNB-IX-Df9" eventType="touchUpInside" id="sTs-ke-ks8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NKb-mM-mlm">
+                                <rect key="frame" x="10" y="54.5" width="30" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="6HL-f8-frn"/>
+                                    <constraint firstAttribute="height" constant="30" id="SbB-0g-mhd"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="xmark.circle" catalog="system"/>
+                                <connections>
+                                    <action selector="goBack:" destination="hNB-IX-Df9" eventType="touchUpInside" id="yEy-dt-dEQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="NKb-mM-mlm" firstAttribute="leading" secondItem="Hrn-v2-pTo" secondAttribute="leading" constant="10" id="509-BE-XYh"/>
+                            <constraint firstItem="NKb-mM-mlm" firstAttribute="top" secondItem="Hrn-v2-pTo" secondAttribute="top" constant="10" id="DwE-Jt-F9S"/>
                             <constraint firstItem="wlV-xj-gBn" firstAttribute="leading" secondItem="Hrn-v2-pTo" secondAttribute="leading" constant="30" id="Izf-i0-nJ4"/>
                             <constraint firstItem="LZm-hA-mA4" firstAttribute="leading" secondItem="Hrn-v2-pTo" secondAttribute="leading" id="OLS-sg-GDn"/>
                             <constraint firstItem="Hrn-v2-pTo" firstAttribute="bottom" secondItem="wlV-xj-gBn" secondAttribute="bottom" constant="21" id="Pxu-d5-SKV"/>
                             <constraint firstItem="Hrn-v2-pTo" firstAttribute="trailing" secondItem="LZm-hA-mA4" secondAttribute="trailing" id="QjW-7P-Ifc"/>
                             <constraint firstItem="Hrn-v2-pTo" firstAttribute="trailing" secondItem="wlV-xj-gBn" secondAttribute="trailing" constant="30" id="Vwm-WS-BdN"/>
                             <constraint firstItem="wlV-xj-gBn" firstAttribute="top" secondItem="LZm-hA-mA4" secondAttribute="bottom" constant="21" id="fy4-x6-Tft"/>
-                            <constraint firstItem="LZm-hA-mA4" firstAttribute="top" secondItem="Hrn-v2-pTo" secondAttribute="top" id="zGs-Mg-zjp"/>
+                            <constraint firstItem="LZm-hA-mA4" firstAttribute="top" secondItem="Hrn-v2-pTo" secondAttribute="top" constant="10" id="zGs-Mg-zjp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Hrn-v2-pTo"/>
                     </view>
                     <connections>
+                        <outlet property="backButton" destination="NKb-mM-mlm" id="uXf-Kq-75a"/>
                         <outlet property="saveButton" destination="wlV-xj-gBn" id="0VX-r8-dcK"/>
                         <outlet property="tableView" destination="LZm-hA-mA4" id="LeW-ms-Omr"/>
                     </connections>
@@ -168,7 +182,6 @@
                         <segue destination="MUI-Lo-JhR" kind="relationship" relationship="viewControllers" id="p7n-kZ-djf"/>
                         <segue destination="j5f-K2-Gh2" kind="relationship" relationship="viewControllers" id="q3x-Fu-dOE"/>
                         <segue destination="WO5-Og-pJV" kind="relationship" relationship="viewControllers" id="l3L-3z-IRj"/>
-                        <segue destination="DEC-f0-NJe" kind="relationship" relationship="viewControllers" id="wc5-iP-0cY"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aIl-Mq-BlP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -299,9 +312,22 @@ You have no favorite colors yet!</string>
             <objects>
                 <viewController storyboardIdentifier="AboutViewController" id="DEC-f0-NJe" customClass="AboutViewController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Slb-EH-BOE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="h74-65-onc">
+                                <rect key="frame" x="141.5" y="44" width="131" height="32"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="h74-65-onc" firstAttribute="centerX" secondItem="CX1-ll-LXT" secondAttribute="centerX" id="UB8-hv-ckG"/>
+                            <constraint firstItem="h74-65-onc" firstAttribute="top" secondItem="CX1-ll-LXT" secondAttribute="top" id="zQa-se-vlK"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="CX1-ll-LXT"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Info" image="info.circle" catalog="system" id="QXL-5g-sUc"/>
@@ -319,9 +345,9 @@ You have no favorite colors yet!</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="gF3-kU-8ao">
-                                <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="ITQ-D2-Bfs"/>
+                                    <constraint firstAttribute="height" constant="44" id="ITQ-D2-Bfs"/>
                                 </constraints>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
@@ -346,13 +372,13 @@ You have no favorite colors yet!</string>
                                 </connections>
                             </segmentedControl>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="00G-wY-xfk">
-                                <rect key="frame" x="0.0" y="94" width="414" height="450"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="456"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5pT-E6-wf9">
-                                        <rect key="frame" x="4.5" y="22.5" width="405" height="405"/>
+                                        <rect key="frame" x="2" y="23" width="410" height="410"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukv-su-oWt">
-                                                <rect key="frame" x="0.0" y="0.0" width="405" height="405"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="410" height="410"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <color key="tintColor" red="0.1219589189" green="0.12912842629999999" blue="0.1411769688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <connections>
@@ -397,6 +423,7 @@ You have no favorite colors yet!</string>
                     </view>
                     <tabBarItem key="tabBarItem" title="Slider Picker" image="slider.horizontal.below.rectangle" catalog="system" selectedImage="slider.horizontal.below.rectangle" id="dpE-b0-scu"/>
                     <connections>
+                        <outlet property="buttonContainer" destination="00G-wY-xfk" id="5kg-yZ-EVu"/>
                         <outlet property="checkDataButton" destination="ukv-su-oWt" id="z3p-P6-eH9"/>
                         <outlet property="colorBackgroundView" destination="5pT-E6-wf9" id="al0-VB-GFs"/>
                         <outlet property="searchBar" destination="gF3-kU-8ao" id="jGE-JC-gaJ"/>
@@ -417,5 +444,6 @@ You have no favorite colors yet!</string>
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="slider.horizontal.below.rectangle" catalog="system" width="128" height="115"/>
         <image name="star" catalog="system" width="128" height="116"/>
+        <image name="xmark.circle" catalog="system" width="128" height="121"/>
     </resources>
 </document>

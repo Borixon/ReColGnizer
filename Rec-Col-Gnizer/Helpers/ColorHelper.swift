@@ -20,59 +20,14 @@ final class ColorHelper: NSObject {
         return regex.firstMatch(in: lowHex, options: [], range: NSRange(location: 0, length: 6)) != nil
     }
     
-    func hueToRgb(hue: Int16, saturation: Int16, lightness: Int16) {
-        
-    }
-    
-    func rgbToHue(red: Int16, green: Int16, blue: Int16) {
-        
-//          r /= 255;
-//          g /= 255;
-//          b /= 255;
-//          var max = Math.max(r, g, b);
-//          var min = Math.min(r, g, b);
-//          var c   = max - min;
-//          var hue;
-//          if (c == 0) {
-//            hue = 0;
-//          } else {
-//            switch(max) {
-//              case r:
-//                var segment = (g - b) / c;
-//                var shift   = 0 / 60;       // R° / (360° / hex sides)
-//                if (segment < 0) {          // hue > 180, full rotation
-//                  shift = 360 / 60;         // R° / (360° / hex sides)
-//                }
-//                hue = segment + shift;
-//                break;
-//              case g:
-//                var segment = (b - r) / c;
-//                var shift   = 120 / 60;     // G° / (360° / hex sides)
-//                hue = segment + shift;
-//                break;
-//              case b:
-//                var segment = (r - g) / c;
-//                var shift   = 240 / 60;     // B° / (360° / hex sides)
-//                hue = segment + shift;
-//                break;
-//            }
-//          }
-//          return hue * 60; // hue is in [0,6], scale it up
-//        }
-    }
-    
-    func colorWithHSL(hue: CGFloat, saturation: CGFloat, lightness: CGFloat) -> UIColor? {
-        
+    func hueToRgb(hue: Int16, saturation: Int16, lightness: Int16) -> (r: Int16, g:Int16, b:Int16) {
         var r: CGFloat = 0
         var g: CGFloat = 0
         var b: CGFloat = 0
-        
-        guard hue <= 360 && hue >= 0.0 else { return nil }
-        guard saturation <= 1.0 && saturation >= 0.0 else { return nil }
-        guard lightness <= 1.0 && lightness >= 0.0 else { return nil }
-        
-        let chroma: CGFloat = (1 - abs((2 * lightness) - 1)) * saturation
-        let h60: CGFloat = hue / 60.0
+        let sat: CGFloat = CGFloat(saturation) / 100.0
+        let light: CGFloat = CGFloat(lightness) / 100.0
+        let chroma: CGFloat = (1 - abs((2 * light) - 1)) * sat
+        let h60: CGFloat = CGFloat(hue) / 60.0
         let x: CGFloat = chroma * (1 - abs((h60.truncatingRemainder(dividingBy: 2)) - 1))
         
         if (h60 < 1) {
@@ -95,12 +50,58 @@ final class ColorHelper: NSObject {
             b = x
         }
         
-        let m: CGFloat = lightness - (chroma / 2)
+        let m: CGFloat = light - (chroma / 2)
         
         r = r + m
         g = g + m
         b = b + m
         
-        return UIColor(red: r, green: g, blue: b, alpha: 1.0)
+        return (r: Int16(r * CGFloat(RgbModel.maxValue.r)),
+                g: Int16(g * CGFloat(RgbModel.maxValue.g)),
+                b: Int16(b * CGFloat(RgbModel.maxValue.b)))
     }
+    
+    func rgbToHue(red: Int16, green: Int16, blue: Int16) -> (h: Int16, s: Int16, l: Int16) {
+        
+        let r = CGFloat(red) / CGFloat(RgbModel.maxValue.r)
+        let g = CGFloat(green) / CGFloat(RgbModel.maxValue.g)
+        let b = CGFloat(blue) / CGFloat(RgbModel.maxValue.b)
+        let maxVal = max(r, g, b)
+        let minVal = min(r, g, b)
+        
+        let lightness = ((maxVal + minVal) / 2)
+        
+        var saturation: CGFloat
+        if r == b && b == g {
+            saturation = 0
+        } else {
+            if lightness < 0.5 {
+                saturation = (maxVal - minVal) / (maxVal + minVal)
+            } else {
+                saturation = (maxVal - minVal) / (2.0 - maxVal - minVal)
+            }
+        }
+        
+        var hue: CGFloat = 0
+        if maxVal - minVal != 0 {
+            if maxVal == r {
+                hue = (g - b) / (maxVal - minVal)
+            } else if maxVal == g {
+                hue = 2.0 + (b - r) / (maxVal - minVal)
+            } else if maxVal == b {
+                hue = 4.0 + (r - g) / (maxVal - minVal)
+            }
+        }
+        
+        hue = hue * 60
+        
+        if hue < 0 {
+            hue = hue + CGFloat(HslModel.maxValue.h)
+        }
+        
+        return (h: Int16(hue),
+                s: Int16(saturation * CGFloat(HslModel.maxValue.s)),
+                l: Int16(lightness * CGFloat(HslModel.maxValue.l)))
+    }
+
 }

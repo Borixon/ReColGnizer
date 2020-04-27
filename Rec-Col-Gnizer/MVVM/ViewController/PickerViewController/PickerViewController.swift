@@ -10,6 +10,7 @@ import UIKit
 
 class PickerViewController: BaseViewController {
 
+    @IBOutlet weak var buttonContainer: UIView!
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var tableView: UITableView!
@@ -26,11 +27,15 @@ class PickerViewController: BaseViewController {
         setupViewComponents()
         setupSegmentedControl()
         styleView()
+        
+        if UserData().userShouldSeeColorHint {
+            setButtonTitle(visible: true)
+        }
     }
-     
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        setupAfterLayout()
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        layoutSubviews()
     }
     
     private func styleView() {
@@ -41,8 +46,8 @@ class PickerViewController: BaseViewController {
                 let newImage = icon.image?.withTintColor(Style.accentKeyColor, renderingMode: .alwaysTemplate)
                 searchBar.searchTextField.leftView = UIImageView(image: newImage)
             }
-        } else if let serchField = searchBar.value(forKey: "searchField") as? UITextField {
-            
+        } else if let _ = searchBar.value(forKey: "searchField") as? UITextField {
+            // TODO:
         }
  
         searchBar.tintColor = Style.accentKeyColor
@@ -50,13 +55,16 @@ class PickerViewController: BaseViewController {
         tableView.allowsSelection = false
     }
     
-    private func setupAfterLayout() {
-        if colorBackgroundView.bounds.height > colorBackgroundView.bounds.width {
-            
+    private func layoutSubviews() {
+        buttonContainer.layoutIfNeeded()
+        if buttonContainer.bounds.height > buttonContainer.bounds.width {
+            let diff = buttonContainer.bounds.height - buttonContainer.bounds.width
+            tableViewHeightConstraint.constant = 3 * SliderCell.height + diff
         } else {
             tableViewHeightConstraint.constant = 3 * SliderCell.height
         }
         
+        tableView.layoutIfNeeded()
         colorBackgroundView.layoutIfNeeded()
         colorBackgroundView.layer.masksToBounds = true
         colorBackgroundView.layer.cornerRadius = colorBackgroundView.frame.width / 2
@@ -92,6 +100,15 @@ class PickerViewController: BaseViewController {
         }
         segmentedControl.selectedSegmentIndex = vm.indexOfSelectedPicker
     }
+     
+    private func setButtonTitle(visible: Bool) {
+        if visible {
+            checkDataButton.setTitleColor(.black, for: .normal)
+            checkDataButton.setTitle("Tap me", for: .normal)
+        } else {
+            checkDataButton.setTitle(nil, for: .normal)
+        }
+    }
     
     @IBAction func selectSegment(_ sender: UISegmentedControl) {
         vm.segmentSelected(index: sender.selectedSegmentIndex)
@@ -100,6 +117,10 @@ class PickerViewController: BaseViewController {
     @IBAction func checkData(_ sender: Any) {
         openLoadingScreen()
         vm.sendDataRequest()
+        if UserData().userShouldSeeColorHint {
+            UserData().userShouldSeeColorHint = false
+            setButtonTitle(visible: false)
+        }
     }
     
     @objc internal func hideKeyboard() {
@@ -124,8 +145,10 @@ extension PickerViewController: PickerViewModelDelegate {
         }
     }
     
-    func show(error: Error?) {
-        // coordinator?.show(error: error)
+    func show(error: Error) {
+        hideLoadingScreen()
+        let message = (error as? WebError)?.rawValue
+        coordinator?.showAlert(title: "Error", message: message)
     }
     
     func didPick(color: UIColor) {
@@ -141,25 +164,19 @@ extension PickerViewController: SliderCellDelegate {
 
 
 /* TODO Zbiorczy
- CD Baza REMOVE!!!!!
- Modele - colory exact i derivative
- Kolory w aplikacji Tint - Styl?
- Layout głownego pickera
- Konwersja RGB-HLS-CMYK
- Loading screen add / remove
- Kamera wyłączanie sesji
  Alerty:
-    Zły hex,
+   >Zły hex,
     bład kolorów,
     brak kamery,
     inne catche
  
- Optionale
- Dodanie CMYK?
+ Kolejny etap
+ Schematy kolorów
+ ios12?
+ Tutorial
+ View o mnie
  Kamera naprawa pinch zoom
  Kamera dodanie flash
- 
- Kolejny etam
- Schematy kolorów
+ Konwersja RGB-HLS-CMYK
  */
 

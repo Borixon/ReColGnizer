@@ -1,24 +1,24 @@
 PODS:
-  - ColorWithHSL (1.0.6)
+  - Connectivity (3.3.4)
   - PromiseKit/CorePromise (6.13.1)
   - SwiftHEXColors (1.4.0)
 
 DEPENDENCIES:
-  - ColorWithHSL
+  - Connectivity (~> 3.3)
   - PromiseKit/CorePromise (~> 6.8)
   - SwiftHEXColors
 
 SPEC REPOS:
   trunk:
-    - ColorWithHSL
+    - Connectivity
     - PromiseKit
     - SwiftHEXColors
 
 SPEC CHECKSUMS:
-  ColorWithHSL: 61798c9c2d91a12570874c048ea65cea11300158
+  Connectivity: 6494e28e023bc3c9d2a5d99775293d61a35d01da
   PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
   SwiftHEXColors: c5baa53cf2412ce6391633ce74999437cc025efc
 
-PODFILE CHECKSUM: a79db57e8d84d90f0f5ecd14385fd558fb178999
+PODFILE CHECKSUM: 5ebd429ecba6bea5b104788e878f5921db09e5bb
 
 COCOAPODS: 1.9.1

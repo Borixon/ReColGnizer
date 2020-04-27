@@ -54,6 +54,48 @@ class UserData: NSObject {
         }
     }
     
+    private let kHueHSLValue = "kHueHSLValue"
+    var hue: Int16 {
+        get {
+            if let val = defaults.value(forKey: kHueHSLValue) as? Int16 {
+                return val
+            } else {
+                return 127
+            }
+        }
+        set {
+            defaults.setValue(newValue, forKey: kHueHSLValue)
+        }
+    }
+    
+    private let kSaturationHSLValue = "kSaturationHSLValue"
+    var saturation: Int16 {
+        get {
+            if let val = defaults.value(forKey: kSaturationHSLValue) as? Int16 {
+                return val
+            } else {
+                return 78
+            }
+        }
+        set {
+            defaults.setValue(newValue, forKey: kSaturationHSLValue)
+        }
+    }
+    
+    private let kLightnessHSLValue = "kLightnessHSLValue"
+    var lightness: Int16 {
+        get {
+            if let val = defaults.value(forKey: kLightnessHSLValue) as? Int16 {
+                return val
+            } else {
+                return 78
+            }
+        }
+        set {
+            defaults.setValue(newValue, forKey: kLightnessHSLValue)
+        }
+    }
+    
     private let kPickerCategorySelected = "kPickerCategorySelected"
     var selectedPickerCategory: PickerCategory {
         get {
@@ -68,17 +110,17 @@ class UserData: NSObject {
         }
     }
     
-    private let kDidUserSawTutorial = "kDidUserSawTutorial"
-    var didShownTutorial: Bool {
+    private let kUserShouldSeeColorHint = "kUserShouldSeeColorHint"
+    var userShouldSeeColorHint: Bool {
         get {
-            if let value = defaults.value(forKey: kDidUserSawTutorial) as? Bool {
+            if let value = defaults.value(forKey: kUserShouldSeeColorHint) as? Bool {
                 return value
             } else {
-                return false
+                return true
             }
         }
         set {
-            defaults.setValue(newValue, forKey: kDidUserSawTutorial)
+            defaults.setValue(newValue, forKey: kUserShouldSeeColorHint)
         }
     }
 }

@@ -19,6 +19,10 @@
 		6F10C648244764EC006EC9FC /* WSSchemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10C647244764EC006EC9FC /* WSSchemeModel.swift */; };
 		6F10C64A24476905006EC9FC /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10C64924476905006EC9FC /* API.swift */; };
 		6F10C64C24476BA9006EC9FC /* WSRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10C64B24476BA9006EC9FC /* WSRequestData.swift */; };
+		6F1B445F2455836B005372D6 /* Jobs.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B445E2455836A005372D6 /* Jobs.json */; };
+		6F1B4461245583E3005372D6 /* AboutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B4460245583E3005372D6 /* AboutViewModel.swift */; };
+		6F1B4463245584A4005372D6 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B4462245584A4005372D6 /* Job.swift */; };
+		6F1B44652456E5B4005372D6 /* ConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B44642456E5B4005372D6 /* ConnectionHelper.swift */; };
 		6F2BB5AD244ADDB000FCD451 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		6F3641EB244C85B100018953 /* ImagePickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3641EA244C85B100018953 /* ImagePickerViewModel.swift */; };
 		6F3641ED244C8E1400018953 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3641EC244C8E1400018953 /* DataManager.swift */; };
@@ -74,7 +78,7 @@
 		6FAC49962448F18C004971AC /* HslModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC49952448F18C004971AC /* HslModel.swift */; };
 		6FBBE2542450CAB40020DD12 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBBE2532450CAB40020DD12 /* Style.swift */; };
 		6FE81B42244CF19D00B0F835 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3641E6244C821500018953 /* FavoriteViewController.swift */; };
-		6FF275912440A6E200FDDBAF /* WSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275902440A6E200FDDBAF /* WSError.swift */; };
+		6FF275912440A6E200FDDBAF /* WebError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275902440A6E200FDDBAF /* WebError.swift */; };
 		6FF275952440B42B00FDDBAF /* ColorDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */; };
 		6FF275982440CEBF00FDDBAF /* StoryboardedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275972440CEBF00FDDBAF /* StoryboardedProtocol.swift */; };
 		6FF2759B2440D13A00FDDBAF /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF2759A2440D13A00FDDBAF /* MainCoordinator.swift */; };
@@ -112,6 +116,10 @@
 		6F10C647244764EC006EC9FC /* WSSchemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSSchemeModel.swift; sourceTree = "<group>"; };
 		6F10C64924476905006EC9FC /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		6F10C64B24476BA9006EC9FC /* WSRequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSRequestData.swift; sourceTree = "<group>"; };
+		6F1B445E2455836A005372D6 /* Jobs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Jobs.json; sourceTree = "<group>"; };
+		6F1B4460245583E3005372D6 /* AboutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewModel.swift; sourceTree = "<group>"; };
+		6F1B4462245584A4005372D6 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		6F1B44642456E5B4005372D6 /* ConnectionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionHelper.swift; sourceTree = "<group>"; };
 		6F3641E6244C821500018953 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		6F3641E8244C823900018953 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		6F3641EA244C85B100018953 /* ImagePickerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerViewModel.swift; sourceTree = "<group>"; };
@@ -175,7 +183,7 @@
 		6F9D497324426F1600AF50D6 /* CellDataBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDataBuilder.swift; sourceTree = "<group>"; };
 		6FAC49952448F18C004971AC /* HslModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HslModel.swift; sourceTree = "<group>"; };
 		6FBBE2532450CAB40020DD12 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
-		6FF275902440A6E200FDDBAF /* WSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSError.swift; sourceTree = "<group>"; };
+		6FF275902440A6E200FDDBAF /* WebError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebError.swift; sourceTree = "<group>"; };
 		6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDataViewController.swift; sourceTree = "<group>"; };
 		6FF275972440CEBF00FDDBAF /* StoryboardedProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardedProtocol.swift; sourceTree = "<group>"; };
 		6FF2759A2440D13A00FDDBAF /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
@@ -233,6 +241,14 @@
 			path = SliderCell;
 			sourceTree = "<group>";
 		};
+		6F1B445D24558220005372D6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6F1B445E2455836A005372D6 /* Jobs.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		6F3641EE244C8E8D00018953 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,11 +290,13 @@
 		6F591AF5243E2E7F00ECEEEC /* Rec-Col-Gnizer */ = {
 			isa = PBXGroup;
 			children = (
+				6F1B445D24558220005372D6 /* Data */,
 				6F9D494E2442451200AF50D6 /* Base */,
 				6FF275962440CEAC00FDDBAF /* Flow */,
 				6F9138AD243E5060008B8E78 /* Helpers */,
 				6F591B2F243E2F0A00ECEEEC /* CoreData */,
 				6F9D49552442517400AF50D6 /* Cells */,
+				6F97C078243E59DA00CDA54C /* CodableObjects */,
 				6F591B2A243E2EC000ECEEEC /* WebService */,
 				6F591B29243E2EB500ECEEEC /* MVVM */,
 				6F591AF6243E2E7F00ECEEEC /* AppDelegate.swift */,
@@ -320,10 +338,9 @@
 		6F591B2A243E2EC000ECEEEC /* WebService */ = {
 			isa = PBXGroup;
 			children = (
-				6F97C078243E59DA00CDA54C /* CodableObjects */,
 				6F591B2B243E2EDD00ECEEEC /* WebService.swift */,
 				6F10C64924476905006EC9FC /* API.swift */,
-				6FF275902440A6E200FDDBAF /* WSError.swift */,
+				6FF275902440A6E200FDDBAF /* WebError.swift */,
 				6F10C64B24476BA9006EC9FC /* WSRequestData.swift */,
 			);
 			path = WebService;
@@ -358,6 +375,7 @@
 				6F9D4968244254FC00AF50D6 /* ColorDataViewModel.swift */,
 				6F909F2F24464D4B001FCF97 /* PickerViewModel.swift */,
 				6F407235244CEF6300E9C686 /* FavoriteViewModel.swift */,
+				6F1B4460245583E3005372D6 /* AboutViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -396,6 +414,7 @@
 				6F9D496A244266FA00AF50D6 /* Styles.swift */,
 				6F9D497324426F1600AF50D6 /* CellDataBuilder.swift */,
 				6FBBE2532450CAB40020DD12 /* Style.swift */,
+				6F1B44642456E5B4005372D6 /* ConnectionHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -406,6 +425,7 @@
 				6F591B2D243E2F0700ECEEEC /* WSColorModel.swift */,
 				6F10C647244764EC006EC9FC /* WSSchemeModel.swift */,
 				6F364203244C9F0000018953 /* WSColorModel+extension.swift */,
+				6F1B4462245584A4005372D6 /* Job.swift */,
 			);
 			path = CodableObjects;
 			sourceTree = "<group>";
@@ -606,6 +626,7 @@
 				6F9D495F244251E100AF50D6 /* ColumnDataCell.xib in Resources */,
 				6F591AFE243E2E7F00ECEEEC /* Main.storyboard in Resources */,
 				6F407234244CEB5700E9C686 /* ColorCell.xib in Resources */,
+				6F1B445F2455836B005372D6 /* Jobs.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,6 +683,7 @@
 				6F3641FC244C907B00018953 /* CoreDataStack.swift in Sources */,
 				6F0133B524464A2900D2A25A /* SliderCell.swift in Sources */,
 				6F364210244CA38500018953 /* CmykEntity+CoreDataProperties.swift in Sources */,
+				6F1B4463245584A4005372D6 /* Job.swift in Sources */,
 				6F9D496B244266FA00AF50D6 /* Styles.swift in Sources */,
 				6F9084CC2440629700D7E7A2 /* CameraControllerDelegate.swift in Sources */,
 				6F591B01243E2E7F00ECEEEC /* RecColGnizer.xcdatamodeld in Sources */,
@@ -684,7 +706,7 @@
 				6FAC49962448F18C004971AC /* HslModel.swift in Sources */,
 				6F06E1842448AC1E003CABAD /* PickerViewController+SearchBar.swift in Sources */,
 				6F364202244C9A4100018953 /* NameModel.swift in Sources */,
-				6FF275912440A6E200FDDBAF /* WSError.swift in Sources */,
+				6FF275912440A6E200FDDBAF /* WebError.swift in Sources */,
 				6F9084D02440658E00D7E7A2 /* PickerViewController.swift in Sources */,
 				6FF2759B2440D13A00FDDBAF /* MainCoordinator.swift in Sources */,
 				6F9D495A244251CD00AF50D6 /* ColorNameCell.swift in Sources */,
@@ -695,6 +717,7 @@
 				6FF5EAD824488ECA0026BEDE /* RgbModel.swift in Sources */,
 				6F9084C72440620F00D7E7A2 /* CameraController.swift in Sources */,
 				6F591AF9243E2E7F00ECEEEC /* SceneDelegate.swift in Sources */,
+				6F1B44652456E5B4005372D6 /* ConnectionHelper.swift in Sources */,
 				6F364216244CA38500018953 /* RgbEntity+CoreDataProperties.swift in Sources */,
 				6F9D49522442460B00AF50D6 /* LoadingCoordinator.swift in Sources */,
 				6F9D495E244251E100AF50D6 /* ColumnDataCell.swift in Sources */,
@@ -709,6 +732,7 @@
 				6F9084DD24406A2600D7E7A2 /* MainViewModel.swift in Sources */,
 				6F06E1892448AC9B003CABAD /* SliderCellType.swift in Sources */,
 				6F407236244CEF6300E9C686 /* FavoriteViewModel.swift in Sources */,
+				6F1B4461245583E3005372D6 /* AboutViewModel.swift in Sources */,
 				6F9084D72440674E00D7E7A2 /* UserData.swift in Sources */,
 				6FE81B42244CF19D00B0F835 /* FavoriteViewController.swift in Sources */,
 				6F407233244CEB5700E9C686 /* ColorCell.swift in Sources */,
@@ -822,7 +846,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -876,7 +900,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

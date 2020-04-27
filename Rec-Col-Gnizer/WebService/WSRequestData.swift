@@ -32,3 +32,4 @@ struct HslRequestData: WSRequestData {
     typealias Data = HslModel
     var value: Data
 }
+

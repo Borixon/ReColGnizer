@@ -57,8 +57,7 @@ class DataManager {
         stack.removeColor(hex)
     }
     
-    public func saveContext() {
-        stack.savePrivateContext()
+    public func saveContext() { 
         stack.saveContext()
     }
     
@@ -69,6 +68,8 @@ class DataManager {
 
 extension DataManager: CoreDataStackManager {
     func contextHasChanged() {
-        delegate?.dataHasChanged()
+        DispatchQueue.main.async {
+            self.delegate?.dataHasChanged()
+        }
     }
 }

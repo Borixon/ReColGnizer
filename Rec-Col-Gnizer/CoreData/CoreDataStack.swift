@@ -27,6 +27,7 @@ final class CoreDataStack: NSObject {
                                                object: privateContext)
     }
     
+    // TODO: implement more sophisticated way to inform about context changes
     @objc func contexHasChanged() {
         manager?.contextHasChanged()
     }
@@ -74,11 +75,7 @@ final class CoreDataStack: NSObject {
             guard color == nil else { return }
             let entity = ColorEntity(context: context, model: model)
             context.insert(entity)
-            do {
-                try context.save()
-            } catch { error
-                print(error)
-            }
+            self.savePrivateContext()
         })
     }
     
@@ -87,11 +84,7 @@ final class CoreDataStack: NSObject {
         getColor(forHex: hex, completion: { color in
             guard let colorToRemove = color else { return }
             context.delete(colorToRemove)
-            do {
-                try context.save()
-            } catch { error
-                print(error)
-            }
+            self.savePrivateContext()
         })
     }
     
@@ -117,10 +110,12 @@ final class CoreDataStack: NSObject {
     }
     
     public func savePrivateContext() {
-        do {
-            try self.privateContext?.save()
-        } catch {
-            print(error)
+        privateContext?.perform {
+            do {
+                try self.privateContext?.save()
+            } catch {
+                // TODO: Handle
+            }
         }
     }
 }

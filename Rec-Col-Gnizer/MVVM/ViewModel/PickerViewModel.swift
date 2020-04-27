@@ -84,10 +84,13 @@ final class PickerViewModel {
             UserData().blueRGBValue = val
         case .Hue:
             model.hslModel.value.h = val
+            UserData().hue = val
         case .Saturation:
             model.hslModel.value.s = val
+            UserData().saturation = val
         case .Lightness:
             model.hslModel.value.l = val
+            UserData().lightness = val
         default:
             print("Nuttin")
         }
@@ -135,24 +138,32 @@ final class PickerViewModel {
     // MARK: Private functions
     
     public func cellData<T: SliderCellData>(for indexPath:IndexPath) -> T? {
-        if T.self == SliderData.self {
-            if viewCategory == .Rgb {
-                return CellDataBuilder().getSliderCell(forRow: indexPath.row, model: model.rgbModel) as? T
-            } else if viewCategory == .Hsl {
-                return CellDataBuilder().getSliderCell(forRow: indexPath.row, model: model.hslModel) as? T
-            }
+        guard T.self == SliderData.self else { return nil }
+        if viewCategory == .Rgb {
+            return CellDataBuilder().getSliderCell(forRow: indexPath.row, model: model.rgbModel) as? T
+        } else if viewCategory == .Hsl {
+            return CellDataBuilder().getSliderCell(forRow: indexPath.row, model: model.hslModel) as? T
         } else {
-            // Slider Cell Data wth Select ??
+            return nil
         }
-        return nil
+    }
+    
+    private func convertModelTo(_ category: PickerCategory) {
+        if viewCategory == .Rgb && category == .Hsl {
+            model.hslModel = model.rgbModel.toHsl()
+        } else if viewCategory == .Hsl && category == .Rgb {
+            model.rgbModel = model.hslModel.toRgb()
+        }
+        viewCategory = category
+        searchPicker = category
     }
     
     private func requestColor<T: WSRequestData>(from data: T) {
         WebService().getColorFrom(data: data, completion: { model, error in
             if model != nil {
                 self.delegate?.show(color: model!)
-            } else {
-                // Error
+            } else if error != nil {
+                self.delegate?.show(error: error!)
             }
         })
     }
@@ -168,19 +179,17 @@ final class PickerViewModel {
     }
      
     private func rgbPicked() {
-        viewCategory = .Rgb
-        searchPicker = .Rgb
+        convertModelTo(.Rgb)
         delegate?.didPick(color: selectedColor)
         delegate?.reloadData()
     }
 
     private func cmykPicked() {
-        
+        // TODO
     }
     
     private func hslPicked() {
-        viewCategory = .Hsl
-        searchPicker = .Hsl
+        convertModelTo(.Hsl)
         delegate?.didPick(color: selectedColor)
         delegate?.reloadData()
     }
@@ -189,6 +198,7 @@ final class PickerViewModel {
 protocol PickerViewModelDelegate {
     func didPick(color: UIColor)
     func show(color: WSColorModel)
+    func show(error: Error)
     func reloadData()
 }
 

@@ -23,14 +23,20 @@ class ImagePickerViewController: BaseViewController {
         setupCamera()
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        vm.pauseSession()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        vm.resumeSession()
+    }
+    
     private func setupPinchGesture() {
         let pinch = UIPinchGestureRecognizer(target: self, action: #selector(handlePinch))
         view.addGestureRecognizer(pinch)
     }
     
     private func setupCamera() {
-        // Async
-        // Loading
         vm.startCamera(on: viewfinder, completion: { success, error in
             // TODO: handle error
         })
@@ -45,12 +51,11 @@ class ImagePickerViewController: BaseViewController {
     }
     
     public func handle(image: UIImage) {
-        // TODO remove
+        // TODO temp
         let uiimage = UIImageView(image: image)
         uiimage.frame = view.frame
         view.addSubview(uiimage)
-        
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 5, execute: {
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1, execute: {
             uiimage.removeFromSuperview()
         })
     }

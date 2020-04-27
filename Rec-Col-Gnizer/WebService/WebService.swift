@@ -14,12 +14,11 @@ class WebService: NSObject {
     public func getColorFrom<T: WSRequestData>(data: T, completion: @escaping (WSColorModel?, Error?) -> ()) {
         let urlRequest: URLRequest
         do {
-            urlRequest = try API().colorRequest(data)
+            urlRequest = try getRequest(data: data)
         } catch {
             completion(nil, error)
             return
         }
-        
         URLSession.shared.dataTask(with: urlRequest) { data, response, error in
             if let data = data {
                 do { 
@@ -36,7 +35,7 @@ class WebService: NSObject {
     public func getColorScheme<T: WSRequestData>(data: T, completion: @escaping (WSColorSchemeModel?, Error?) -> ()) {
         let urlRequest: URLRequest
         do {
-            urlRequest = try API().schemeRequest(data)
+            urlRequest = try getRequest(data: data)
         } catch {
             completion(nil, error)
             return
@@ -55,4 +54,24 @@ class WebService: NSObject {
         }.resume()
     }
     
+    private func getRequest<T:WSRequestData>(data: T) throws -> URLRequest {
+        do {
+            try isConnectedToInternet()
+            let urlRequest: URLRequest
+//            if data.self {
+                urlRequest = try API().colorRequest(data)
+//            } else {
+//                urlRequest = try API().schemeRequest(data)
+//            }
+            return urlRequest
+        } catch {
+            throw error
+        }
+    }
+    
+    private func isConnectedToInternet() throws {
+        if ConnectionHelper.shared.status == .notConnected {
+            throw WebError.NoConnection
+        }
+    }
 }

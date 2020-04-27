@@ -19,9 +19,18 @@ class CameraController: NSObject {
     var previewLayer: AVCaptureVideoPreviewLayer?
     var photoCaptureCompletionBlock: ((UIImage?, Error?) -> Void)?
     var delegate: CameraControllerDelegate?
+    public var isCameraEnabled: Bool = false
     
     override init() {
         self.captureSession = AVCaptureSession()
+    }
+    
+    public func pause() {
+        captureSession.stopRunning()
+    }
+    
+    public func resume() {
+        captureSession.startRunning()
     }
     
     public func handle(zoom: CGFloat, velocity: CGFloat) {
@@ -92,6 +101,7 @@ class CameraController: NSObject {
             try prepareCameraSession()
         } catch {
             completion(false, error)
+            return
         }
         
         self.photoOutput = AVCapturePhotoOutput()
@@ -99,6 +109,7 @@ class CameraController: NSObject {
         
         if captureSession.canAddOutput(self.photoOutput!) { captureSession.addOutput(self.photoOutput!) }
         captureSession.startRunning()
+        isCameraEnabled = true
         
         completion(true, nil)
     }
@@ -123,11 +134,6 @@ class CameraController: NSObject {
         self.photoOutput?.capturePhoto(with: settings, delegate: self)
         self.photoCaptureCompletionBlock = completion
     }
-    
-    public func pause() {
-        
-    }
-    
 }
 
 extension CameraController: AVCapturePhotoCaptureDelegate {

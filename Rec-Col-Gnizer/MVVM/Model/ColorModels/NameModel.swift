@@ -44,5 +44,7 @@ class NameModel: ColorTypeModel {
         return HexModel(value: "")
     }
     
-    
+    func toHsl() -> HslModel {
+        return HslModel(h: 0, s: 0, l: 0)
+    }
 }
