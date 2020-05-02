@@ -139,10 +139,8 @@ extension PickerViewController: PickerViewModelDelegate {
     }
     
     func show(color: WSColorModel) {
-        DispatchQueue.main.async {
-            self.hideLoadingScreen()
-            self.coordinator?.openColorData(data: ColorModel(color: color))
-        }
+        hideLoadingScreen()
+        coordinator?.openColorData(data: ColorModel(color: color))
     }
     
     func show(error: Error) {

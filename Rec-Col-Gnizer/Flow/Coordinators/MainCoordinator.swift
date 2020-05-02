@@ -37,14 +37,23 @@ class MainCoordinator: Coordinator {
     }
     
     func openColorData(data: ColorModel) {
-        let vc = ColorDataViewController.instantiate()
-        vc.vm = ColorDataViewModel(model: data)
-        self.navigationController.modalPresentationStyle = .overFullScreen
-        self.navigationController.present(vc, animated: true, completion: nil)
+        DispatchQueue.main.async {
+            let vc = ColorDataViewController.instantiate()
+            vc.vm = ColorDataViewModel(model: data)
+            self.navigationController.modalPresentationStyle = .pageSheet
+            self.navigationController.present(vc, animated: true, completion: nil)
+        }
     }
     
     func openColorScheme() {
         
+    }
+    
+    func openPhoto(_ image: UIImage) {
+        let vc = ImageOutputViewController.instantiate()
+        vc.coordinator = self
+        vc.setImage(image)
+        navigationController.pushViewController(vc, animated: true)
     }
     
     func showAlert(title: String?, message: String?) {
@@ -72,5 +81,9 @@ class MainCoordinator: Coordinator {
         }, completion: { finish in
             loading?.removeFromSuperview()
         })
+    }
+    
+    func popViewController() {
+        navigationController.popViewController(animated: true)
     }
 }

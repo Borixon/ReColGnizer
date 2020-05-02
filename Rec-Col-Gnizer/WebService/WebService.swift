@@ -11,68 +11,39 @@ import PromiseKit
 
 class WebService: NSObject {
 
-    public func getColorFrom<T: WSRequestData>(data: T, completion: @escaping (WSColorModel?, Error?) -> ()) {
-        let urlRequest: URLRequest
-        do {
-            urlRequest = try getRequest(data: data)
-        } catch {
-            completion(nil, error)
-            return
-        }
-        URLSession.shared.dataTask(with: urlRequest) { data, response, error in
-            if let data = data {
-                do { 
-                    let color = try JSONDecoder().decode(WSColorModel.self, from: data)
-                    completion(color, nil)
-                } catch {
-                    completion(nil, error)
-                }
+    public func getColorFrom<T: WSRequestData>(data: T) -> Promise<WSColorModel> {
+        return Promise { seal in
+            createRequest(data: data).then { request in
+                URLSession.shared.dataTask(.promise, with: request)
+            } .done { response in
+                let model = try JSONDecoder().decode(WSColorModel.self, from: response.data)
+                seal.fulfill(model)
+            }.catch { error in
+                seal.reject(error)
             }
-            completion(nil, nil)
-        }.resume()
+        }
     }
     
     public func getColorScheme<T: WSRequestData>(data: T, completion: @escaping (WSColorSchemeModel?, Error?) -> ()) {
-        let urlRequest: URLRequest
-        do {
-            urlRequest = try getRequest(data: data)
-        } catch {
-            completion(nil, error)
-            return
-        }
-        
-        URLSession.shared.dataTask(with: urlRequest) { data, response, error in
-            if let data = data {
-                do {
-                    let color = try JSONDecoder().decode(WSColorSchemeModel.self, from: data)
-                    completion(color, nil)
-                } catch {
-                    completion(nil, error)
-                }
-            }
-            completion(nil, nil)
-        }.resume()
+
     }
     
-    private func getRequest<T:WSRequestData>(data: T) throws -> URLRequest {
-        do {
-            try isConnectedToInternet()
-            let urlRequest: URLRequest
-            urlRequest = try API().colorRequest(data)
-//            if data.self {
-                
-//            } else {
-//                urlRequest = try API().schemeRequest(data)
-//            }
-            return urlRequest
-        } catch {
-            throw error
-        }
-    }
-    
-    private func isConnectedToInternet() throws {
+    private func isConnectedToInternet() -> Bool {
         if ConnectionHelper.shared.status == .notConnected {
-            throw WebError.NoConnection
+            return false
+        }
+        return true
+    }
+    
+    private func createRequest<T:WSRequestData>(data:T) -> Promise<URLRequest> {
+        return Promise { seal in
+            do {
+                let urlRequest: URLRequest
+                urlRequest = try API().colorRequest(data)
+                seal.fulfill(urlRequest)
+            } catch {
+                seal.reject(error)
+            }
         }
     }
 }

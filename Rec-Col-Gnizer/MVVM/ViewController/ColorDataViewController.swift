@@ -27,7 +27,7 @@ class ColorDataViewController: UIViewController, StoryboardedProtocol {
         view.backgroundColor = vm.color
         saveButton.tintColor = vm.color
         saveButton.layer.masksToBounds = true
-        saveButton.layer.cornerRadius = Styles.applyButtonCornerRadius
+        saveButton.layer.cornerRadius = Style.cornerRadiusBig
         saveButton.backgroundColor = vm.contrastColor
         backButton.tintColor = vm.contrastColor
         navigationController?.navigationBar.tintColor = vm.contrastColor

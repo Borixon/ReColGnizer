@@ -24,6 +24,7 @@
 		6F1B4463245584A4005372D6 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B4462245584A4005372D6 /* Job.swift */; };
 		6F1B44652456E5B4005372D6 /* ConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B44642456E5B4005372D6 /* ConnectionHelper.swift */; };
 		6F2BB5AD244ADDB000FCD451 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		6F2E216C245752B900952FD5 /* ImageOutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E216A245752B900952FD5 /* ImageOutputViewController.swift */; };
 		6F3641EB244C85B100018953 /* ImagePickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3641EA244C85B100018953 /* ImagePickerViewModel.swift */; };
 		6F3641ED244C8E1400018953 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3641EC244C8E1400018953 /* DataManager.swift */; };
 		6F3641FC244C907B00018953 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3641FB244C907B00018953 /* CoreDataStack.swift */; };
@@ -43,6 +44,7 @@
 		6F407233244CEB5700E9C686 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F407231244CEB5700E9C686 /* ColorCell.swift */; };
 		6F407234244CEB5700E9C686 /* ColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F407232244CEB5700E9C686 /* ColorCell.xib */; };
 		6F407236244CEF6300E9C686 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F407235244CEF6300E9C686 /* FavoriteViewModel.swift */; };
+		6F4349E5245D977D006CC0AF /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4349E4245D977D006CC0AF /* ImageHelper.swift */; };
 		6F546ACB245711A0007FAA7A /* ColumnBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F546ACA2457119F007FAA7A /* ColumnBuilder.swift */; };
 		6F591AF7243E2E7F00ECEEEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AF6243E2E7F00ECEEEC /* AppDelegate.swift */; };
 		6F591AF9243E2E7F00ECEEEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AF8243E2E7F00ECEEEC /* SceneDelegate.swift */; };
@@ -120,6 +122,7 @@
 		6F1B4460245583E3005372D6 /* AboutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewModel.swift; sourceTree = "<group>"; };
 		6F1B4462245584A4005372D6 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 		6F1B44642456E5B4005372D6 /* ConnectionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionHelper.swift; sourceTree = "<group>"; };
+		6F2E216A245752B900952FD5 /* ImageOutputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOutputViewController.swift; sourceTree = "<group>"; };
 		6F3641E6244C821500018953 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		6F3641E8244C823900018953 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		6F3641EA244C85B100018953 /* ImagePickerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerViewModel.swift; sourceTree = "<group>"; };
@@ -141,6 +144,7 @@
 		6F407231244CEB5700E9C686 /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
 		6F407232244CEB5700E9C686 /* ColorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorCell.xib; sourceTree = "<group>"; };
 		6F407235244CEF6300E9C686 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
+		6F4349E4245D977D006CC0AF /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
 		6F546ACA2457119F007FAA7A /* ColumnBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnBuilder.swift; sourceTree = "<group>"; };
 		6F591AF3243E2E7F00ECEEEC /* RecColGnizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecColGnizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F591AF6243E2E7F00ECEEEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -391,6 +395,7 @@
 				6F0F59182449EA18003E6B6F /* TabController.swift */,
 				6F3641E6244C821500018953 /* FavoriteViewController.swift */,
 				6F3641E8244C823900018953 /* AboutViewController.swift */,
+				6F2E216A245752B900952FD5 /* ImageOutputViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -414,6 +419,7 @@
 				6F9D497324426F1600AF50D6 /* CellDataBuilder.swift */,
 				6FBBE2532450CAB40020DD12 /* Style.swift */,
 				6F1B44642456E5B4005372D6 /* ConnectionHelper.swift */,
+				6F4349E4245D977D006CC0AF /* ImageHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -726,6 +732,7 @@
 				6F9D497424426F1600AF50D6 /* CellDataBuilder.swift in Sources */,
 				6F97C075243E57D300CDA54C /* IntroViewController.swift in Sources */,
 				6F10C64C24476BA9006EC9FC /* WSRequestData.swift in Sources */,
+				6F2E216C245752B900952FD5 /* ImageOutputViewController.swift in Sources */,
 				6F97C077243E596300CDA54C /* Coordinator.swift in Sources */,
 				6F364217244CA38500018953 /* HslEntity+CoreDataClass.swift in Sources */,
 				6F364200244C990A00018953 /* CmykModel.swift in Sources */,
@@ -742,6 +749,7 @@
 				6F9084CA2440626100D7E7A2 /* CameraError.swift in Sources */,
 				6F06E1862448AC4F003CABAD /* PickerViewController+TableView.swift in Sources */,
 				6F9D49502442452200AF50D6 /* BaseViewController.swift in Sources */,
+				6F4349E5245D977D006CC0AF /* ImageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

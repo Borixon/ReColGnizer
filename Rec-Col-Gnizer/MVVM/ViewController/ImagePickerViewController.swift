@@ -38,7 +38,9 @@ class ImagePickerViewController: BaseViewController {
     
     private func setupCamera() {
         vm.startCamera(on: viewfinder, completion: { success, error in
-            // TODO: handle error
+            if error != nil {
+                
+            }
         })
     }
     
@@ -51,18 +53,6 @@ class ImagePickerViewController: BaseViewController {
     }
     
     public func handle(image: UIImage) {
-        // TODO temp
-        let uiimage = UIImageView(image: image)
-        uiimage.frame = view.frame
-        view.addSubview(uiimage)
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1, execute: {
-            uiimage.removeFromSuperview()
-        })
+        coordinator?.openPhoto(image)
     }
 }
-
-extension ImagePickerViewController: CameraControllerDelegate {
-    func stream(image: UIImage) {
-
-    }
-} 

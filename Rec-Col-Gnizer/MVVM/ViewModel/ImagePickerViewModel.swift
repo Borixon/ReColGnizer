@@ -13,22 +13,17 @@ class ImagePickerViewModel {
     public var controller: ImagePickerViewController!
     public let cameraController = CameraController()
     
-    init() {
-        
-    }
-    
     public func startCamera(on view: UIView, completion: @escaping(Bool, Error?) -> ()) {
         DispatchQueue.main.async {
             self.cameraController.startSession(completion: { success, error in
                 if success {
-//                    self.cameraController.delegate = self
                     self.cameraController.displayPreview(on: view)
                     completion(true, nil)
                 } else {
                     if error != nil {
                         completion(false, error)
                     } else {
-                        completion(false, nil)
+                        completion(false, CameraError.noCamerasAvailable)
                     }
                 }
             })

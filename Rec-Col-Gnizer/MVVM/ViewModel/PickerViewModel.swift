@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import PromiseKit
 
 final class PickerViewModel {
     
@@ -159,23 +160,15 @@ final class PickerViewModel {
     }
     
     private func requestColor<T: WSRequestData>(from data: T) {
-        WebService().getColorFrom(data: data, completion: { model, error in
-            if model != nil {
-                self.delegate?.show(color: model!)
-            } else if error != nil {
-                self.delegate?.show(error: error!)
-            }
-        })
+        WebService().getColorFrom(data: data).done { color in
+            self.delegate?.show(color: color)
+        } .catch { error in
+            self.delegate?.show(error: error)
+        }
     }
     
     private func requestScheme<T: WSRequestData>(from data: T, parameters: Dictionary<String, String>) {
-        WebService().getColorScheme(data: data, completion: { scheme, error in
-            if scheme != nil {
-                // TODO: Future implementation
-            } else if error != nil {
-                
-            }
-        })
+       
     }
      
     private func rgbPicked() {
