@@ -86,6 +86,8 @@
 		6FF275952440B42B00FDDBAF /* ColorDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */; };
 		6FF275982440CEBF00FDDBAF /* StoryboardedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF275972440CEBF00FDDBAF /* StoryboardedProtocol.swift */; };
 		6FF2759B2440D13A00FDDBAF /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF2759A2440D13A00FDDBAF /* MainCoordinator.swift */; };
+		6FF4646B2469B18E000E45F9 /* PinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF464692469B18E000E45F9 /* PinViewController.swift */; };
+		6FF4646C2469B18E000E45F9 /* PinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FF4646A2469B18E000E45F9 /* PinViewController.xib */; };
 		6FF5EAD824488ECA0026BEDE /* RgbModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5EAD724488ECA0026BEDE /* RgbModel.swift */; };
 		6FF5EADA24488F510026BEDE /* ColorTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5EAD924488F510026BEDE /* ColorTypeModel.swift */; };
 /* End PBXBuildFile section */
@@ -195,6 +197,8 @@
 		6FF275942440B42B00FDDBAF /* ColorDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDataViewController.swift; sourceTree = "<group>"; };
 		6FF275972440CEBF00FDDBAF /* StoryboardedProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardedProtocol.swift; sourceTree = "<group>"; };
 		6FF2759A2440D13A00FDDBAF /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		6FF464692469B18E000E45F9 /* PinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewController.swift; sourceTree = "<group>"; };
+		6FF4646A2469B18E000E45F9 /* PinViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinViewController.xib; sourceTree = "<group>"; };
 		6FF5EAD724488ECA0026BEDE /* RgbModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RgbModel.swift; sourceTree = "<group>"; };
 		6FF5EAD924488F510026BEDE /* ColorTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTypeModel.swift; sourceTree = "<group>"; };
 		C4D5C22154C061014E40017D /* libPods-Rec-Col-Gnizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rec-Col-Gnizer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -416,6 +420,7 @@
 		6F9138AD243E5060008B8E78 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				6FF464682469B169000E45F9 /* PinViewController */,
 				6F9084C82440624A00D7E7A2 /* CameraController */,
 				6F9138AE243E507C008B8E78 /* ColorRandomiezer.swift */,
 				6F9084D62440674E00D7E7A2 /* UserData.swift */,
@@ -489,6 +494,15 @@
 				6F9D49512442460B00AF50D6 /* LoadingCoordinator.swift */,
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		6FF464682469B169000E45F9 /* PinViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6FF464692469B18E000E45F9 /* PinViewController.swift */,
+				6FF4646A2469B18E000E45F9 /* PinViewController.xib */,
+			);
+			path = PinViewController;
 			sourceTree = "<group>";
 		};
 		6FF5EAD624488E9E0026BEDE /* ColorModels */ = {
@@ -631,6 +645,7 @@
 			files = (
 				6F0133B624464A2900D2A25A /* SliderCell.xib in Resources */,
 				6F591B06243E2E8500ECEEEC /* LaunchScreen.storyboard in Resources */,
+				6FF4646C2469B18E000E45F9 /* PinViewController.xib in Resources */,
 				6F591B03243E2E8500ECEEEC /* Assets.xcassets in Resources */,
 				6F9D495B244251CD00AF50D6 /* ColorNameCell.xib in Resources */,
 				6F9D495F244251E100AF50D6 /* ColumnDataCell.xib in Resources */,
@@ -719,6 +734,7 @@
 				6F364202244C9A4100018953 /* NameModel.swift in Sources */,
 				6F1B67B0246337A70092A9F1 /* ImageOutputViewModel.swift in Sources */,
 				6FF275912440A6E200FDDBAF /* WebError.swift in Sources */,
+				6FF4646B2469B18E000E45F9 /* PinViewController.swift in Sources */,
 				6F9084D02440658E00D7E7A2 /* PickerViewController.swift in Sources */,
 				6FF2759B2440D13A00FDDBAF /* MainCoordinator.swift in Sources */,
 				6F9D495A244251CD00AF50D6 /* ColorNameCell.swift in Sources */,
@@ -938,7 +954,7 @@
 				INFOPLIST_FILE = "Rec-Col-Gnizer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 0.8;
+				MARKETING_VERSION = 0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = AplikacjeMobilne.RecColGnizera;
 				PRODUCT_NAME = RecColGnizer;
 				SWIFT_VERSION = 5.0;
@@ -956,7 +972,7 @@
 				INFOPLIST_FILE = "Rec-Col-Gnizer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 0.8;
+				MARKETING_VERSION = 0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = AplikacjeMobilne.RecColGnizera;
 				PRODUCT_NAME = RecColGnizer;
 				SWIFT_VERSION = 5.0;

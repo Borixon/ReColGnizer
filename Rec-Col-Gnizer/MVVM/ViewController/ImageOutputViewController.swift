@@ -16,13 +16,12 @@ class ImageOutputViewController: BaseViewController {
     @IBOutlet var gestureRecognizer: UIGestureRecognizer!
     
     let vm = ImageOutputViewModel()
-    var colorView: UIView! // Zmiana na jakis klase/struktore/view
+    var colorView: PinViewController!
     var image: UIImage!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        colorView = UIView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
-        view.addSubview(colorView!)
+        setupPinColorView()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -31,6 +30,14 @@ class ImageOutputViewController: BaseViewController {
         setupImageView()
         setupViewModel()
         setupGestureRecognizer()
+    }
+    
+    private func setupPinColorView() {
+        colorView = PinViewController()
+        view.addSubview(colorView.view)
+        addChild(colorView)
+        vm.pinSize = colorView.viewSize
+        colorView.view.frame.origin = CGPoint(x: -100, y: -100)
     }
     
     private func setupGestureRecognizer() {
@@ -56,32 +63,30 @@ class ImageOutputViewController: BaseViewController {
     }
     
     @IBAction func checkColorData(_ sender: Any) {
-//        let data = RgbRequestData(value: RgbModel(r: Int16(r * 255), g: Int16(g * 255), b: Int16(b * 255)))
-//        WebService().getColorFrom(data: data).done { model in
-//            self.coordinator?.openColorData(data: ColorModel(color: model))
-//        }.catch { error in //todo
-//            self.coordinator?.showAlert(title: "Error", message: error.localizedDescription)
-//        }
+        WebService().getColorFrom(data: vm.requestData).done { model in
+            self.coordinator?.openColorData(data: ColorModel(color: model))
+        }.catch { error in // todo
+            self.coordinator?.showAlert(title: "Error", message: error.localizedDescription)
+        }
     }
 }
 
 extension ImageOutputViewController: UIGestureRecognizerDelegate {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         guard let touch = touches.first else { return }
-        let position = touch.location(in: imageView)
+        var position = touch.location(in: imageView)
+        vm.convertPoint(position: &position)
         vm.receive(position)
-        colorView?.frame.origin = CGPoint(x: position.x - 25, y: position.y - 60)
+        colorView.view.frame.origin = vm.pointForPin(position: position)
     }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         guard let touch = touches.first else { return }
-        let position = touch.location(in: imageView)
+        var position = touch.location(in: imageView)
+        vm.convertPoint(position: &position)
         vm.receive(position)
         UIView.animate(withDuration: 0.1, animations: {
-            self.colorView?.frame.origin = CGPoint(x: position.x - 25, y: position.y - 60)
-
-        }, completion: { finish in
-
+            self.colorView.view.frame.origin = self.vm.pointForPin(position: position)
         })
     }
     
@@ -96,6 +101,6 @@ extension ImageOutputViewController: ImageOutputViewModelDelegate {
     }
     
     func receiveColor(_ color: UIColor?) {
-        colorView?.backgroundColor = color
+        colorView.setColor(color)
     }
 }
