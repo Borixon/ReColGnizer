@@ -151,38 +151,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "99C14B5C-5126-4365-8CC4-26753B462E78"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Rec-Col-Gnizer/MVVM/ViewController/PickerViewController/PickerViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "148"
-            endingLineNumber = "148"
-            landmarkName = "show(error:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5B402306-C0A1-43D9-93A2-F04B3CDB05E2"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Rec-Col-Gnizer/Flow/Coordinators/MainCoordinator.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "openColorData(data:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "0FA3FF98-CCB4-4634-9017-E2E3AC1E43C7"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -257,6 +225,134 @@
             startingLineNumber = "34"
             endingLineNumber = "34"
             landmarkName = "init(image:uiImageSize:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4CC0A01B-B674-4A2C-9C85-902D45BCC5D2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rec-Col-Gnizer/MVVM/ViewController/ImagePickerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "setupCamera()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4CC0A01B-B674-4A2C-9C85-902D45BCC5D2 - b179bbb39cecdb20"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecColGnizer.ImagePickerViewController.(setupCamera in _6C36BB8B44695E60BE605B891B641279)() -&gt; ()"
+                  moduleName = "RecColGnizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michalkrupa/Documents/Projekty/RecColGnizer/Rec-Col-Gnizer/Rec-Col-Gnizer/MVVM/ViewController/ImagePickerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "4CC0A01B-B674-4A2C-9C85-902D45BCC5D2 - e39083e7b91f89e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in RecColGnizer.ImagePickerViewController.(setupCamera in _6C36BB8B44695E60BE605B891B641279)() -&gt; ()"
+                  moduleName = "RecColGnizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michalkrupa/Documents/Projekty/RecColGnizer/Rec-Col-Gnizer/Rec-Col-Gnizer/MVVM/ViewController/ImagePickerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "717FAD92-BCD4-4871-B2B9-FD9680A56437"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rec-Col-Gnizer/MVVM/ViewController/ImagePickerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "setupPinchGesture()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00C7BA3E-D390-43B9-9DE4-D26B22E30455"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rec-Col-Gnizer/MVVM/ViewController/ImagePickerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "handle(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15ACCF61-28B7-49EC-A964-576D24ED0D75"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rec-Col-Gnizer/MVVM/ViewController/ImagePickerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98AD9F67-94D1-4F49-B5B5-32B1A2036C88"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rec-Col-Gnizer/MVVM/ViewController/ImagePickerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewWillDisappear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB35CB9E-D94C-4D10-BC00-C75935675EB1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rec-Col-Gnizer/MVVM/ViewController/ImagePickerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

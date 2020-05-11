@@ -56,7 +56,16 @@ class MainCoordinator: Coordinator {
         navigationController.pushViewController(vc, animated: true)
     }
     
-    func showAlert(title: String = "Error", message: String?) {
+    
+    func showError(_ error: Error) {
+        DispatchQueue.main.async {
+            let alert = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: nil))
+            self.navigationController.topViewController?.present(alert, animated: true, completion: nil)
+        }
+    }
+    
+    func showAlert(title: String, message: String) {
         DispatchQueue.main.async {
             let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: nil))

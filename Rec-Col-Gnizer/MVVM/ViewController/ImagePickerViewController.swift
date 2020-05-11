@@ -44,7 +44,7 @@ class ImagePickerViewController: BaseViewController {
     private func setupCamera() {
         vm.startCamera(on: viewfinder, completion: { success, error in
             if error != nil {
-                
+                self.coordinator?.showError(error!)
             }
         })
     }

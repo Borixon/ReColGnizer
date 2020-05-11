@@ -145,8 +145,7 @@ extension PickerViewController: PickerViewModelDelegate {
     
     func show(error: Error) {
         hideLoadingScreen()
-        let message = (error as? WebError)?.rawValue
-        coordinator?.showAlert(title: "Error", message: message)
+        coordinator?.showError(error)
     }
     
     func didPick(color: UIColor) {

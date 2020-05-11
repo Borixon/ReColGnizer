@@ -32,6 +32,10 @@ class ImageOutputViewController: BaseViewController {
         setupGestureRecognizer()
     }
     
+    private func setupCheckButton() {
+        checkButton.layer.zPosition = 1
+    }
+    
     private func setupPinColorView() {
         colorView = PinViewController()
         view.addSubview(colorView.view)
@@ -54,7 +58,7 @@ class ImageOutputViewController: BaseViewController {
             vm.delegate = self
             try vm.setup(imageViewSize: imageView.bounds.size, image: image)
         } catch {
-            coordinator?.showAlert(message: error.localizedDescription)
+            coordinator?.showError(error)
         }
     }
     
@@ -65,8 +69,8 @@ class ImageOutputViewController: BaseViewController {
     @IBAction func checkColorData(_ sender: Any) {
         WebService().getColorFrom(data: vm.requestData).done { model in
             self.coordinator?.openColorData(data: ColorModel(color: model))
-        }.catch { error in // todo
-            self.coordinator?.showAlert(title: "Error", message: error.localizedDescription)
+        }.catch { error in
+            self.coordinator?.showError(error)
         }
     }
 }

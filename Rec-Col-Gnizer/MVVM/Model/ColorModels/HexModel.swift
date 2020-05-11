@@ -50,7 +50,6 @@ class HexModel: ColorTypeModel {
     }
     
     func toHsl() -> HslModel {
-        // TODO
         return HslModel(h: 0, s: 0, l: 0)
     }
 }
