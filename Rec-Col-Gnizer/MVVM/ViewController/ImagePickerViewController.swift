@@ -11,6 +11,7 @@ import AVFoundation
 
 class ImagePickerViewController: BaseViewController {
     
+    @IBOutlet weak var flashButton: UIButton!
     @IBOutlet weak var viewfinder: UIView!
     @IBOutlet weak var photoButton: UIButton!
     
@@ -31,6 +32,10 @@ class ImagePickerViewController: BaseViewController {
         vm.resumeSession()
     }
     
+    public func handle(image: UIImage) {
+        coordinator?.openPhoto(image)
+    }
+
     private func setupPinchGesture() {
         let pinch = UIPinchGestureRecognizer(target: self, action: #selector(handlePinch))
         view.addGestureRecognizer(pinch)
@@ -44,15 +49,27 @@ class ImagePickerViewController: BaseViewController {
         })
     }
     
+    private func setButtonImage() {
+        if #available(iOS 13.0, *) {
+            if flashButton.backgroundImage(for: .normal) == UIImage(systemName: "bolt") {
+                flashButton.setImage(UIImage(systemName: "bolt.fill"), for: .normal)
+            } else {
+                flashButton.setImage(UIImage(systemName: "bolt"), for: .normal)
+            }
+        } else {
+            
+        }
+    }
+    
     @objc func handlePinch(_ sender: UIPinchGestureRecognizer) {
         vm.zooming(sender.scale, sender.velocity)
     }
     
-    @IBAction func snapshot(_ sender: Any) {
-        vm.takeSnapshot()
+    @IBAction func flashAction(_ sender: Any) {
+        vm.changeFlashState()
     }
     
-    public func handle(image: UIImage) {
-        coordinator?.openPhoto(image)
+    @IBAction func snapshot(_ sender: Any) {
+        vm.takeSnapshot()
     }
 }

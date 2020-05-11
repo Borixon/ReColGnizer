@@ -3,7 +3,7 @@ GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Connectivity" "${PODS_ROOT}/Headers/Public/PromiseKit"
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Connectivity" "${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftHEXColors"
 OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Connectivity/Connectivity.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit/PromiseKit.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftHEXColors/SwiftHEXColors.modulemap"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Connectivity" -l"PromiseKit" -l"SwiftHEXColors" -framework "Foundation" -framework "SystemConfiguration" -weak_framework "Network"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Connectivity" -l"PromiseKit" -l"SwiftHEXColors" -framework "Foundation" -framework "SystemConfiguration" -weak_framework "Combine" -weak_framework "Network"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Connectivity/Connectivity.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit/PromiseKit.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftHEXColors/SwiftHEXColors.modulemap"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

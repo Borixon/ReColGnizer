@@ -52,11 +52,11 @@ class MainCoordinator: Coordinator {
     func openPhoto(_ image: UIImage) {
         let vc = ImageOutputViewController.instantiate()
         vc.coordinator = self
-        vc.setImage(image)
+        vc.image = image
         navigationController.pushViewController(vc, animated: true)
     }
     
-    func showAlert(title: String?, message: String?) {
+    func showAlert(title: String = "Error", message: String?) {
         DispatchQueue.main.async {
             let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: nil))

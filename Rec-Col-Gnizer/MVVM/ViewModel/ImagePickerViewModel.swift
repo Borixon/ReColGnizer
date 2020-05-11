@@ -42,6 +42,10 @@ class ImagePickerViewModel {
         })
     }
     
+    public func changeFlashState() {
+        cameraController.updateFlashState()
+    }
+    
     public func pauseSession() {
         cameraController.pause()
     }

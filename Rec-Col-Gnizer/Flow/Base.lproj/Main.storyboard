@@ -96,7 +96,7 @@
                                 <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </activityIndicatorView>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="0.19663085937499999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.35396728515624998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Kid-hD-QN1" firstAttribute="centerY" secondItem="ImX-yB-rNh" secondAttribute="centerY" id="REi-Zf-a3l"/>
                             <constraint firstItem="Kid-hD-QN1" firstAttribute="centerX" secondItem="ImX-yB-rNh" secondAttribute="centerX" id="gV7-hp-TY5"/>
@@ -200,14 +200,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aNo-5X-YeT">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Under construction" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRw-c4-I1e">
-                                        <rect key="frame" x="0.0" y="70" width="414" height="21"/>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YeZ-Ey-hsw">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YeZ-Ey-hsw">
                                         <rect key="frame" x="179.5" y="746.5" width="55" height="54"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="YeZ-Ey-hsw" secondAttribute="height" multiplier="1:1" id="7Rd-l2-ZPS"/>
@@ -226,17 +219,17 @@
                                             <constraint firstAttribute="width" secondItem="ypj-OV-cMz" secondAttribute="height" multiplier="6:5" id="PQb-Ey-RKj"/>
                                         </constraints>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" image="bolt.fill" catalog="system"/>
+                                        <state key="normal" backgroundImage="bolt"/>
+                                        <connections>
+                                            <action selector="flashAction:" destination="j5f-K2-Gh2" eventType="touchUpInside" id="XdU-Ax-rO2"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="XRw-c4-I1e" secondAttribute="trailing" id="4TL-3H-WZs"/>
                                     <constraint firstItem="YeZ-Ey-hsw" firstAttribute="centerX" secondItem="aNo-5X-YeT" secondAttribute="centerX" id="DWA-UR-UYe"/>
                                     <constraint firstItem="ypj-OV-cMz" firstAttribute="leading" secondItem="aNo-5X-YeT" secondAttribute="leading" constant="24" id="MqZ-1C-x82"/>
-                                    <constraint firstItem="XRw-c4-I1e" firstAttribute="leading" secondItem="aNo-5X-YeT" secondAttribute="leading" id="NUO-03-ah3"/>
                                     <constraint firstAttribute="bottom" secondItem="YeZ-Ey-hsw" secondAttribute="bottom" constant="12" id="YwI-tg-k6m"/>
-                                    <constraint firstItem="XRw-c4-I1e" firstAttribute="top" secondItem="aNo-5X-YeT" secondAttribute="top" constant="70" id="dHi-Nr-Si1"/>
                                     <constraint firstItem="ypj-OV-cMz" firstAttribute="centerY" secondItem="YeZ-Ey-hsw" secondAttribute="centerY" id="w7d-n5-RuK"/>
                                 </constraints>
                             </view>
@@ -253,6 +246,7 @@
                     <tabBarItem key="tabBarItem" title="Image Picker" image="camera" catalog="system" selectedImage="camera" id="kaN-Xd-RAK"/>
                     <navigationItem key="navigationItem" id="sUV-A4-ZSb"/>
                     <connections>
+                        <outlet property="flashButton" destination="ypj-OV-cMz" id="uco-gT-O4j"/>
                         <outlet property="photoButton" destination="YeZ-Ey-hsw" id="pEf-5X-Bgo"/>
                         <outlet property="viewfinder" destination="aNo-5X-YeT" id="kAf-6S-4KR"/>
                     </connections>
@@ -457,9 +451,13 @@ You have no favorite colors yet!</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="m5a-ef-itb">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="jOG-T4-Gex" appends="YES" id="GuZ-Rm-5rX"/>
+                                </connections>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleAspectFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CuK-O2-evJ">
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CuK-O2-evJ">
                                 <rect key="frame" x="10" y="55.5" width="30" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="3GG-AZ-pwz"/>
@@ -494,27 +492,29 @@ You have no favorite colors yet!</string>
                             <constraint firstItem="CuK-O2-evJ" firstAttribute="leading" secondItem="Rw4-b3-WAx" secondAttribute="leading" constant="10" id="RzV-Ns-g65"/>
                             <constraint firstItem="Rw4-b3-WAx" firstAttribute="bottom" secondItem="6hz-Bp-f9o" secondAttribute="bottom" constant="21" id="iDO-G6-51e"/>
                             <constraint firstItem="Rw4-b3-WAx" firstAttribute="trailing" secondItem="6hz-Bp-f9o" secondAttribute="trailing" constant="30" id="ihn-pa-Tf7"/>
-                            <constraint firstItem="m5a-ef-itb" firstAttribute="top" secondItem="Rw4-b3-WAx" secondAttribute="top" id="otM-BU-6eI"/>
+                            <constraint firstItem="m5a-ef-itb" firstAttribute="top" secondItem="zeK-Bm-eE3" secondAttribute="top" id="otM-BU-6eI"/>
                             <constraint firstItem="m5a-ef-itb" firstAttribute="leading" secondItem="Rw4-b3-WAx" secondAttribute="leading" id="p7X-Wu-eP7"/>
-                            <constraint firstItem="CuK-O2-evJ" firstAttribute="top" secondItem="Rw4-b3-WAx" secondAttribute="top" constant="10" id="uPd-US-KN2"/>
-                            <constraint firstItem="Rw4-b3-WAx" firstAttribute="bottom" secondItem="m5a-ef-itb" secondAttribute="bottom" id="vGn-Tc-FMX"/>
+                            <constraint firstItem="CuK-O2-evJ" firstAttribute="top" secondItem="zeK-Bm-eE3" secondAttribute="top" constant="55" id="uPd-US-KN2"/>
+                            <constraint firstAttribute="bottom" secondItem="m5a-ef-itb" secondAttribute="bottom" id="vGn-Tc-FMX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Rw4-b3-WAx"/>
                     </view>
                     <connections>
                         <outlet property="checkButton" destination="6hz-Bp-f9o" id="0RU-l5-xGw"/>
                         <outlet property="dismissButton" destination="CuK-O2-evJ" id="1In-34-2w4"/>
+                        <outlet property="gestureRecognizer" destination="jOG-T4-Gex" id="dWa-3g-n3Z"/>
                         <outlet property="imageView" destination="m5a-ef-itb" id="VNJ-E9-VF2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FPC-j6-UoB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <gestureRecognizer id="jOG-T4-Gex"/>
             </objects>
             <point key="canvasLocation" x="3722" y="190"/>
         </scene>
     </scenes>
     <resources>
         <image name="LaunchBackground" width="1096" height="2048"/>
-        <image name="bolt.fill" catalog="system" width="101" height="128"/>
+        <image name="bolt" width="128" height="128"/>
         <image name="camera" catalog="system" width="128" height="96"/>
         <image name="camera.circle" catalog="system" width="128" height="121"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>

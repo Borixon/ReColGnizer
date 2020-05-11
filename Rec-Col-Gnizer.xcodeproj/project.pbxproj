@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A3E64FA308D95077F90669C /* libPods-Rec-Col-Gnizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D25CDF86F488C7CDA6CF20 /* libPods-Rec-Col-Gnizer.a */; };
+		0030D8AD01B478D503144457 /* libPods-Rec-Col-Gnizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D5C22154C061014E40017D /* libPods-Rec-Col-Gnizer.a */; };
 		6F0133B524464A2900D2A25A /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0133B324464A2900D2A25A /* SliderCell.swift */; };
 		6F0133B624464A2900D2A25A /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F0133B424464A2900D2A25A /* SliderCell.xib */; };
 		6F06E18124489365003CABAD /* HexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F06E18024489365003CABAD /* HexModel.swift */; };
@@ -23,6 +23,7 @@
 		6F1B4461245583E3005372D6 /* AboutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B4460245583E3005372D6 /* AboutViewModel.swift */; };
 		6F1B4463245584A4005372D6 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B4462245584A4005372D6 /* Job.swift */; };
 		6F1B44652456E5B4005372D6 /* ConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B44642456E5B4005372D6 /* ConnectionHelper.swift */; };
+		6F1B67B0246337A70092A9F1 /* ImageOutputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B67AF246337A70092A9F1 /* ImageOutputViewModel.swift */; };
 		6F2BB5AD244ADDB000FCD451 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		6F2E216C245752B900952FD5 /* ImageOutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E216A245752B900952FD5 /* ImageOutputViewController.swift */; };
 		6F3641EB244C85B100018953 /* ImagePickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3641EA244C85B100018953 /* ImagePickerViewModel.swift */; };
@@ -44,7 +45,7 @@
 		6F407233244CEB5700E9C686 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F407231244CEB5700E9C686 /* ColorCell.swift */; };
 		6F407234244CEB5700E9C686 /* ColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F407232244CEB5700E9C686 /* ColorCell.xib */; };
 		6F407236244CEF6300E9C686 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F407235244CEF6300E9C686 /* FavoriteViewModel.swift */; };
-		6F4349E5245D977D006CC0AF /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4349E4245D977D006CC0AF /* ImageHelper.swift */; };
+		6F4349E5245D977D006CC0AF /* PixelProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4349E4245D977D006CC0AF /* PixelProcessor.swift */; };
 		6F546ACB245711A0007FAA7A /* ColumnBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F546ACA2457119F007FAA7A /* ColumnBuilder.swift */; };
 		6F591AF7243E2E7F00ECEEEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AF6243E2E7F00ECEEEC /* AppDelegate.swift */; };
 		6F591AF9243E2E7F00ECEEEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591AF8243E2E7F00ECEEEC /* SceneDelegate.swift */; };
@@ -56,6 +57,7 @@
 		6F591B1C243E2E8500ECEEEC /* Rec_Col_GnizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591B1B243E2E8500ECEEEC /* Rec_Col_GnizerUITests.swift */; };
 		6F591B2C243E2EDD00ECEEEC /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591B2B243E2EDD00ECEEEC /* WebService.swift */; };
 		6F591B2E243E2F0700ECEEEC /* WSColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F591B2D243E2F0700ECEEEC /* WSColorModel.swift */; };
+		6F5D0DA124647BBA00441960 /* ImageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5D0DA024647BBA00441960 /* ImageError.swift */; };
 		6F9084C72440620F00D7E7A2 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084C62440620F00D7E7A2 /* CameraController.swift */; };
 		6F9084CA2440626100D7E7A2 /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084C92440626100D7E7A2 /* CameraError.swift */; };
 		6F9084CC2440629700D7E7A2 /* CameraControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9084CB2440629700D7E7A2 /* CameraControllerDelegate.swift */; };
@@ -106,7 +108,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1FB3AF0B30260BE62C362D6D /* Pods-Rec-Col-Gnizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rec-Col-Gnizer.debug.xcconfig"; path = "Target Support Files/Pods-Rec-Col-Gnizer/Pods-Rec-Col-Gnizer.debug.xcconfig"; sourceTree = "<group>"; };
+		5A809A4428817243B972DC1B /* Pods-Rec-Col-Gnizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rec-Col-Gnizer.debug.xcconfig"; path = "Target Support Files/Pods-Rec-Col-Gnizer/Pods-Rec-Col-Gnizer.debug.xcconfig"; sourceTree = "<group>"; };
 		6F0133B324464A2900D2A25A /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
 		6F0133B424464A2900D2A25A /* SliderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderCell.xib; sourceTree = "<group>"; };
 		6F06E18024489365003CABAD /* HexModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexModel.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		6F1B4460245583E3005372D6 /* AboutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewModel.swift; sourceTree = "<group>"; };
 		6F1B4462245584A4005372D6 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 		6F1B44642456E5B4005372D6 /* ConnectionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionHelper.swift; sourceTree = "<group>"; };
+		6F1B67AF246337A70092A9F1 /* ImageOutputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOutputViewModel.swift; sourceTree = "<group>"; };
 		6F2E216A245752B900952FD5 /* ImageOutputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOutputViewController.swift; sourceTree = "<group>"; };
 		6F3641E6244C821500018953 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		6F3641E8244C823900018953 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
@@ -144,7 +147,7 @@
 		6F407231244CEB5700E9C686 /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
 		6F407232244CEB5700E9C686 /* ColorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorCell.xib; sourceTree = "<group>"; };
 		6F407235244CEF6300E9C686 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
-		6F4349E4245D977D006CC0AF /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		6F4349E4245D977D006CC0AF /* PixelProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelProcessor.swift; sourceTree = "<group>"; };
 		6F546ACA2457119F007FAA7A /* ColumnBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnBuilder.swift; sourceTree = "<group>"; };
 		6F591AF3243E2E7F00ECEEEC /* RecColGnizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecColGnizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F591AF6243E2E7F00ECEEEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -162,6 +165,7 @@
 		6F591B1D243E2E8500ECEEEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F591B2B243E2EDD00ECEEEC /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		6F591B2D243E2F0700ECEEEC /* WSColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSColorModel.swift; sourceTree = "<group>"; };
+		6F5D0DA024647BBA00441960 /* ImageError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageError.swift; sourceTree = "<group>"; };
 		6F9084C62440620F00D7E7A2 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		6F9084C92440626100D7E7A2 /* CameraError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
 		6F9084CB2440629700D7E7A2 /* CameraControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraControllerDelegate.swift; sourceTree = "<group>"; };
@@ -193,9 +197,8 @@
 		6FF2759A2440D13A00FDDBAF /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		6FF5EAD724488ECA0026BEDE /* RgbModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RgbModel.swift; sourceTree = "<group>"; };
 		6FF5EAD924488F510026BEDE /* ColorTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTypeModel.swift; sourceTree = "<group>"; };
-		79D25CDF86F488C7CDA6CF20 /* libPods-Rec-Col-Gnizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rec-Col-Gnizer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91D6104C4CD6635364E222C4 /* Pods-Rec-Col-Gnizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rec-Col-Gnizer.release.xcconfig"; path = "Target Support Files/Pods-Rec-Col-Gnizer/Pods-Rec-Col-Gnizer.release.xcconfig"; sourceTree = "<group>"; };
-		A5023B34A503F01DC9C7DE38 /* Pods_Rec_Col_Gnizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rec_Col_Gnizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D5C22154C061014E40017D /* libPods-Rec-Col-Gnizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rec-Col-Gnizer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4AE2AC53901179C47861E9E /* Pods-Rec-Col-Gnizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rec-Col-Gnizer.release.xcconfig"; path = "Target Support Files/Pods-Rec-Col-Gnizer/Pods-Rec-Col-Gnizer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,7 +206,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A3E64FA308D95077F90669C /* libPods-Rec-Col-Gnizer.a in Frameworks */,
+				0030D8AD01B478D503144457 /* libPods-Rec-Col-Gnizer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +383,7 @@
 				6F909F2F24464D4B001FCF97 /* PickerViewModel.swift */,
 				6F407235244CEF6300E9C686 /* FavoriteViewModel.swift */,
 				6F1B4460245583E3005372D6 /* AboutViewModel.swift */,
+				6F1B67AF246337A70092A9F1 /* ImageOutputViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -419,7 +423,8 @@
 				6F9D497324426F1600AF50D6 /* CellDataBuilder.swift */,
 				6FBBE2532450CAB40020DD12 /* Style.swift */,
 				6F1B44642456E5B4005372D6 /* ConnectionHelper.swift */,
-				6F4349E4245D977D006CC0AF /* ImageHelper.swift */,
+				6F4349E4245D977D006CC0AF /* PixelProcessor.swift */,
+				6F5D0DA024647BBA00441960 /* ImageError.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -438,7 +443,6 @@
 		6F97C083243E6CBE00CDA54C /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				A5023B34A503F01DC9C7DE38 /* Pods_Rec_Col_Gnizer.framework */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -504,8 +508,8 @@
 		A8CD26646ADB296848AF81F8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1FB3AF0B30260BE62C362D6D /* Pods-Rec-Col-Gnizer.debug.xcconfig */,
-				91D6104C4CD6635364E222C4 /* Pods-Rec-Col-Gnizer.release.xcconfig */,
+				5A809A4428817243B972DC1B /* Pods-Rec-Col-Gnizer.debug.xcconfig */,
+				D4AE2AC53901179C47861E9E /* Pods-Rec-Col-Gnizer.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -515,7 +519,7 @@
 			children = (
 				6F97C087243E6E6300CDA54C /* libSwiftHEXColors.a */,
 				6F97C079243E6B4800CDA54C /* SwiftHEXColors.framework */,
-				79D25CDF86F488C7CDA6CF20 /* libPods-Rec-Col-Gnizer.a */,
+				C4D5C22154C061014E40017D /* libPods-Rec-Col-Gnizer.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -527,7 +531,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F591B20243E2E8500ECEEEC /* Build configuration list for PBXNativeTarget "Rec-Col-Gnizer" */;
 			buildPhases = (
-				E2C4F1315A94ED3E13D90A9E /* [CP] Check Pods Manifest.lock */,
+				EE34A5B0EC70AEEA2FD8E481 /* [CP] Check Pods Manifest.lock */,
 				6F591AEF243E2E7F00ECEEEC /* Sources */,
 				6F591AF0243E2E7F00ECEEEC /* Frameworks */,
 				6F591AF1243E2E7F00ECEEEC /* Resources */,
@@ -653,7 +657,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		E2C4F1315A94ED3E13D90A9E /* [CP] Check Pods Manifest.lock */ = {
+		EE34A5B0EC70AEEA2FD8E481 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -700,6 +704,7 @@
 				6F546ACB245711A0007FAA7A /* ColumnBuilder.swift in Sources */,
 				6F9138AF243E507C008B8E78 /* ColorRandomiezer.swift in Sources */,
 				6F591AF7243E2E7F00ECEEEC /* AppDelegate.swift in Sources */,
+				6F5D0DA124647BBA00441960 /* ImageError.swift in Sources */,
 				6F36420F244CA38500018953 /* CmykEntity+CoreDataClass.swift in Sources */,
 				6F06E18124489365003CABAD /* HexModel.swift in Sources */,
 				6F9084D52440660F00D7E7A2 /* PickerColorModel.swift in Sources */,
@@ -712,6 +717,7 @@
 				6FAC49962448F18C004971AC /* HslModel.swift in Sources */,
 				6F06E1842448AC1E003CABAD /* PickerViewController+SearchBar.swift in Sources */,
 				6F364202244C9A4100018953 /* NameModel.swift in Sources */,
+				6F1B67B0246337A70092A9F1 /* ImageOutputViewModel.swift in Sources */,
 				6FF275912440A6E200FDDBAF /* WebError.swift in Sources */,
 				6F9084D02440658E00D7E7A2 /* PickerViewController.swift in Sources */,
 				6FF2759B2440D13A00FDDBAF /* MainCoordinator.swift in Sources */,
@@ -749,7 +755,7 @@
 				6F9084CA2440626100D7E7A2 /* CameraError.swift in Sources */,
 				6F06E1862448AC4F003CABAD /* PickerViewController+TableView.swift in Sources */,
 				6F9D49502442452200AF50D6 /* BaseViewController.swift in Sources */,
-				6F4349E5245D977D006CC0AF /* ImageHelper.swift in Sources */,
+				6F4349E5245D977D006CC0AF /* PixelProcessor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -920,7 +926,7 @@
 		};
 		6F591B21243E2E8500ECEEEC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FB3AF0B30260BE62C362D6D /* Pods-Rec-Col-Gnizer.debug.xcconfig */;
+			baseConfigurationReference = 5A809A4428817243B972DC1B /* Pods-Rec-Col-Gnizer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -942,7 +948,7 @@
 		};
 		6F591B22243E2E8500ECEEEC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91D6104C4CD6635364E222C4 /* Pods-Rec-Col-Gnizer.release.xcconfig */;
+			baseConfigurationReference = D4AE2AC53901179C47861E9E /* Pods-Rec-Col-Gnizer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,12 +1,12 @@
 PODS:
-  - Connectivity (3.3.4)
+  - Connectivity (4.0.0)
   - PromiseKit/CorePromise (6.13.1)
   - PromiseKit/Foundation (6.13.1):
     - PromiseKit/CorePromise
   - SwiftHEXColors (1.4.0)
 
 DEPENDENCIES:
-  - Connectivity (~> 3.3)
+  - Connectivity
   - PromiseKit/CorePromise (~> 6.8)
   - PromiseKit/Foundation
   - SwiftHEXColors
@@ -18,10 +18,10 @@ SPEC REPOS:
     - SwiftHEXColors
 
 SPEC CHECKSUMS:
-  Connectivity: 6494e28e023bc3c9d2a5d99775293d61a35d01da
+  Connectivity: c40b8de0a331b8081f790c8a3e6ada9f1d418065
   PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
   SwiftHEXColors: c5baa53cf2412ce6391633ce74999437cc025efc
 
-PODFILE CHECKSUM: 0f175474c6ab9c9950c0073ca4e64f4c6bd43eeb
+PODFILE CHECKSUM: f900c7be73a3a81234ea47bd5e52978c68ee6ff9
 
 COCOAPODS: 1.9.1

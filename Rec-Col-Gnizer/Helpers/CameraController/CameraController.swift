@@ -21,6 +21,8 @@ class CameraController: NSObject {
     var delegate: CameraControllerDelegate?
     
     var flashMode: AVCaptureDevice.FlashMode = .off
+    var torchMode: AVCaptureDevice.TorchMode = .off
+    
     var isCameraEnabled: Bool = false
     
     override init() {
@@ -59,6 +61,24 @@ class CameraController: NSObject {
             try cam.lockForConfiguration()
             cam.videoZoomFactor = finalZoomComponent
             cam.unlockForConfiguration()
+        } catch {
+            
+        }
+    }
+    
+    public func updateFlashState() {
+        if torchMode == .off {
+            torchMode = .on
+            flashMode = .on
+        } else {
+            torchMode = .off
+            flashMode = .off
+        }
+        
+        do {
+            try cameraDevice?.lockForConfiguration()
+            cameraDevice?.torchMode = torchMode
+            cameraDevice?.unlockForConfiguration()
         } catch {
             
         }
@@ -110,7 +130,7 @@ class CameraController: NSObject {
     
     func displayPreview(on subview: UIView)  {
         previewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
-        previewLayer?.videoGravity = .resizeAspect
+        previewLayer?.videoGravity = .resizeAspectFill
         previewLayer?.connection?.videoOrientation = .portrait
         previewLayer?.frame = subview.bounds
         
