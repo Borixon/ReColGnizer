@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.40000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="Qms-dc-Soo">
-                                <rect key="frame" x="64" y="419.33333333333331" width="286" height="65.666666666666686"/>
+                                <rect key="frame" x="41.333333333333343" y="399.33333333333331" width="331.33333333333326" height="65.666666666666686"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Re">
                                         <attributes>
@@ -64,12 +64,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="dhR-k5-Ifm" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" id="0gZ-e8-Nsj"/>
-                            <constraint firstItem="Qms-dc-Soo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="8ED-fv-3XF"/>
                             <constraint firstItem="dhR-k5-Ifm" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Dk2-CB-mKz"/>
                             <constraint firstItem="dhR-k5-Ifm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="P3B-oL-OdU"/>
-                            <constraint firstItem="Qms-dc-Soo" firstAttribute="centerY" secondItem="dhR-k5-Ifm" secondAttribute="centerY" constant="4" id="Zh0-Bh-iNJ"/>
+                            <constraint firstItem="Qms-dc-Soo" firstAttribute="centerY" secondItem="dhR-k5-Ifm" secondAttribute="centerY" constant="-16" id="Zh0-Bh-iNJ"/>
                             <constraint firstAttribute="trailing" secondItem="dhR-k5-Ifm" secondAttribute="trailing" id="fv6-pA-GJv"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qms-dc-Soo" secondAttribute="trailing" constant="64" id="veg-s8-1sF"/>
+                            <constraint firstItem="Qms-dc-Soo" firstAttribute="width" secondItem="dhR-k5-Ifm" secondAttribute="width" multiplier="0.8" id="gop-1j-caD"/>
                             <constraint firstItem="Qms-dc-Soo" firstAttribute="centerX" secondItem="dhR-k5-Ifm" secondAttribute="centerX" id="vx8-eZ-2PH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

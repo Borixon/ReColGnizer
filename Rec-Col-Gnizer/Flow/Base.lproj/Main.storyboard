@@ -96,7 +96,7 @@
                                 <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </activityIndicatorView>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="0.35396728515624998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.54716796874999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Kid-hD-QN1" firstAttribute="centerY" secondItem="ImX-yB-rNh" secondAttribute="centerY" id="REi-Zf-a3l"/>
                             <constraint firstItem="Kid-hD-QN1" firstAttribute="centerX" secondItem="ImX-yB-rNh" secondAttribute="centerX" id="gV7-hp-TY5"/>
@@ -212,14 +212,14 @@
                                             <action selector="snapshot:" destination="j5f-K2-Gh2" eventType="touchUpInside" id="OIP-s1-cxX"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypj-OV-cMz">
-                                        <rect key="frame" x="24" y="751" width="54" height="45"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypj-OV-cMz">
+                                        <rect key="frame" x="24" y="750" width="45" height="46.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="5bR-VI-pYg"/>
-                                            <constraint firstAttribute="width" secondItem="ypj-OV-cMz" secondAttribute="height" multiplier="6:5" id="PQb-Ey-RKj"/>
+                                            <constraint firstAttribute="width" secondItem="ypj-OV-cMz" secondAttribute="height" id="PQb-Ey-RKj"/>
                                         </constraints>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" backgroundImage="bolt"/>
+                                        <state key="normal" backgroundImage="bolt" catalog="system"/>
                                         <connections>
                                             <action selector="flashAction:" destination="j5f-K2-Gh2" eventType="touchUpInside" id="XdU-Ax-rO2"/>
                                         </connections>
@@ -514,7 +514,7 @@ You have no favorite colors yet!</string>
     </scenes>
     <resources>
         <image name="LaunchBackground" width="1096" height="2048"/>
-        <image name="bolt" width="128" height="128"/>
+        <image name="bolt" catalog="system" width="101" height="128"/>
         <image name="camera" catalog="system" width="128" height="96"/>
         <image name="camera.circle" catalog="system" width="128" height="121"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>

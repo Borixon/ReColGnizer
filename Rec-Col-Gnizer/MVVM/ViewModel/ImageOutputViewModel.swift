@@ -9,7 +9,7 @@
 import UIKit
 
 protocol ImageOutputViewModelDelegate {
-    func animateTouchToPosition()
+    func show(color: ColorModel?, error: Error?)
     func receiveColor(_ color: UIColor?)
 }
 
@@ -20,8 +20,13 @@ class ImageOutputViewModel {
     var delegate: ImageOutputViewModelDelegate?
     var pinSize: CGSize!
     
-    var requestData: HexRequestData {
-        return HexRequestData(value: HexModel(value: pixelProcessor.hexValue))
+    func checkColor() {
+        let data = HexRequestData(value: HexModel(value: pixelProcessor.hexValue))
+        WebService().getColorFrom(data: data).done { model in
+            self.delegate?.show(color: ColorModel(color: model), error: nil)
+        }.catch { error in
+            self.delegate?.show(color: nil, error: error)
+        }
     }
     
     func setup(imageViewSize: CGSize, image: UIImage) throws {

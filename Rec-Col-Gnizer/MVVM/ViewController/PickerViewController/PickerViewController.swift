@@ -134,18 +134,17 @@ class PickerViewController: BaseViewController {
 }
 
 extension PickerViewController: PickerViewModelDelegate {
+    func show(color: ColorModel?, error: Error?) {
+        hideLoadingScreen()
+        if let color = color {
+            coordinator?.openColorData(data: color)
+        } else if let error = error {
+            coordinator?.showError(error)
+        }
+    }
+    
     func reloadData() {
         tableView.reloadData()
-    }
-    
-    func show(color: WSColorModel) {
-        hideLoadingScreen()
-        coordinator?.openColorData(data: ColorModel(color: color))
-    }
-    
-    func show(error: Error) {
-        hideLoadingScreen()
-        coordinator?.showError(error)
     }
     
     func didPick(color: UIColor) {

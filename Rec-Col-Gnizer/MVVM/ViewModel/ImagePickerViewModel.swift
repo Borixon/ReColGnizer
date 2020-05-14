@@ -7,11 +7,17 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ImagePickerViewModel {
     
     public var controller: ImagePickerViewController!
     public let cameraController = CameraController()
+    private var torchMode: AVCaptureDevice.TorchMode = .off
+    
+    public var isTorchOn: Bool {
+        return torchMode == .on ? true : false
+    }
     
     public func startCamera(on view: UIView, completion: @escaping(Bool, Error?) -> ()) {
         DispatchQueue.main.async {
@@ -43,7 +49,8 @@ class ImagePickerViewModel {
     }
     
     public func changeFlashState() {
-        cameraController.updateFlashState()
+        torchMode = (torchMode == .on ? .off : .on)
+        cameraController.updateFlashState(torchMode: torchMode)
     }
     
     public func pauseSession() {

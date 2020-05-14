@@ -51,11 +51,13 @@ class ImagePickerViewController: BaseViewController {
     
     private func setButtonImage() {
         if #available(iOS 13.0, *) {
-            if flashButton.backgroundImage(for: .normal) == UIImage(systemName: "bolt") {
-                flashButton.setImage(UIImage(systemName: "bolt.fill"), for: .normal)
+            let bolt: UIImage?
+            if vm.isTorchOn {
+                bolt = UIImage(systemName: "bolt.fill")
             } else {
-                flashButton.setImage(UIImage(systemName: "bolt"), for: .normal)
+                bolt = UIImage(systemName: "bolt")
             }
+            flashButton.setBackgroundImage(bolt, for: .normal)
         } else {
             
         }
@@ -67,6 +69,7 @@ class ImagePickerViewController: BaseViewController {
     
     @IBAction func flashAction(_ sender: Any) {
         vm.changeFlashState()
+        setButtonImage()
     }
     
     @IBAction func snapshot(_ sender: Any) {

@@ -67,11 +67,8 @@ class ImageOutputViewController: BaseViewController {
     }
     
     @IBAction func checkColorData(_ sender: Any) {
-        WebService().getColorFrom(data: vm.requestData).done { model in
-            self.coordinator?.openColorData(data: ColorModel(color: model))
-        }.catch { error in
-            self.coordinator?.showError(error)
-        }
+        openLoadingScreen()
+        vm.checkColor()
     }
 }
 
@@ -93,15 +90,16 @@ extension ImageOutputViewController: UIGestureRecognizerDelegate {
             self.colorView.view.frame.origin = self.vm.pointForPin(position: position)
         })
     }
-    
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-
-    }
 }
 
 extension ImageOutputViewController: ImageOutputViewModelDelegate {
-    func animateTouchToPosition() {
-        
+    func show(color: ColorModel?, error: Error?) {
+        hideLoadingScreen()
+        if let color = color {
+            self.coordinator?.openColorData(data: color)
+        } else if let error = error {
+            self.coordinator?.showError(error)
+        }
     }
     
     func receiveColor(_ color: UIColor?) {

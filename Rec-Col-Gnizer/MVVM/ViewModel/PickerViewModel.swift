@@ -160,10 +160,10 @@ final class PickerViewModel {
     }
     
     private func requestColor<T: WSRequestData>(from data: T) {
-        WebService().getColorFrom(data: data).done { color in
-            self.delegate?.show(color: color)
+        WebService().getColorFrom(data: data).done { model in
+            self.delegate?.show(color: ColorModel(color: model), error: nil)
         } .catch { error in
-            self.delegate?.show(error: error)
+            self.delegate?.show(color: nil, error: error)
         }
     }
     
@@ -190,8 +190,7 @@ final class PickerViewModel {
 
 protocol PickerViewModelDelegate {
     func didPick(color: UIColor)
-    func show(color: WSColorModel)
-    func show(error: Error)
+    func show(color: ColorModel?, error: Error?)
     func reloadData()
 }
 

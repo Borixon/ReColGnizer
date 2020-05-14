@@ -66,12 +66,12 @@ class CameraController: NSObject {
         }
     }
     
-    public func updateFlashState() {
+    public func updateFlashState(torchMode: AVCaptureDevice.TorchMode) {
         if torchMode == .off {
-            torchMode = .on
+            self.torchMode = .on
             flashMode = .on
         } else {
-            torchMode = .off
+            self.torchMode = .off
             flashMode = .off
         }
         
