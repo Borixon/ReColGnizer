@@ -12,20 +12,7 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
-    let navigationController = UINavigationController()
-    var coordinator: MainCoordinator!
-    var appWindow: UIWindow!
-    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        coordinator = MainCoordinator()
-        coordinator.start()
-        appWindow = UIWindow (frame: UIScreen.main.bounds)
-        appWindow.rootViewController = coordinator.navigationController
-        appWindow.makeKeyAndVisible()
-        
-        ConnectionHelper.shared.startMonitoring()
-        
         return true
     }
     

@@ -11,11 +11,11 @@ import UIKit
 class MainCoordinator: Coordinator {
     
     var childCoordinators: [Coordinator] = []
-    var navigationController: UINavigationController
-    let windowTag: Int = 69
+    var navigationController: NavigationController
+    var tabBar: TabController?
     
     required init() {
-        navigationController = UINavigationController()
+        navigationController = NavigationController()
         navigationController.modalPresentationStyle = .fullScreen
     }
     
@@ -27,22 +27,21 @@ class MainCoordinator: Coordinator {
     }
     
     func openTabBar() {
-        let tabBar = TabController.instantiate()
-        if let controllers = tabBar.viewControllers {
-            for controller in controllers {
-                (controller as? BaseViewController)?.coordinator = self
-            }
+        tabBar = TabController.instantiate()
+        tabBar?.setupViewControllers()
+        tabBar?.viewControllers?.forEach { vc in
+            ((vc as? NavigationController)?.viewControllers.first as? BaseViewController)?.coordinator = self
         }
-        navigationController.pushViewController(tabBar, animated: true)
+        tabBar?.modalPresentationStyle = .fullScreen
+        navigationController.present(tabBar!, animated: true, completion: nil)
     }
     
     func openColorData(data: ColorModel) {
-        DispatchQueue.main.async {
-            let vc = ColorDataViewController.instantiate()
-            vc.vm = ColorDataViewModel(model: data)
-            self.navigationController.modalPresentationStyle = .pageSheet
-            self.navigationController.present(vc, animated: true, completion: nil)
-        }
+        guard let navigation = selectedTabNavigationController else { return }
+        let vc = ColorDataViewController.instantiate()
+        vc.vm = ColorDataViewModel(model: data)
+        navigation.modalPresentationStyle = .overCurrentContext
+        navigation.present(vc, animated: true, completion: nil)
     }
     
     func openColorScheme() {
@@ -50,41 +49,41 @@ class MainCoordinator: Coordinator {
     }
     
     func openPhoto(_ image: UIImage) {
+        guard let navigation = selectedTabNavigationController else { return }
         let vc = ImageOutputViewController.instantiate()
         vc.coordinator = self
         vc.image = image
-        navigationController.pushViewController(vc, animated: true)
+        navigation.pushViewController(vc, animated: true)
     }
     
     
     func showError(_ error: Error) {
-        DispatchQueue.main.async {
-            let alert = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: nil))
-            self.navigationController.topViewController?.present(alert, animated: true, completion: nil)
-        }
+        guard let navigation = selectedTabNavigationController else { return }
+        let alert = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: nil))
+        navigation.topViewController?.present(alert, animated: true, completion: nil)
+        
     }
     
     func showAlert(title: String, message: String) {
-        DispatchQueue.main.async {
-            let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: nil))
-            self.navigationController.topViewController?.present(alert, animated: true, completion: nil)
-        }
+        guard let navigation = selectedTabNavigationController else { return }
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: nil))
+        navigation.topViewController?.present(alert, animated: true, completion: nil)
     }
     
     func insertLoadingScreen() {
         let loading = LoadingViewController.instantiate()
-        loading.view.tag = windowTag
+        loading.view.tag = ViewTags.loadingViewTag.rawValue
         loading.view.alpha = 0
-        navigationController.topViewController?.view.addSubview(loading.view)
+        UIApplication.shared.keyWindow?.addSubview(loading.view)
         UIView.animate(withDuration: 0.1, animations: {
             loading.view.alpha = 1
         })
     }
     
-    func removeLoadingScreen() {
-        let loading = navigationController.topViewController?.view.subviews.filter({ $0.tag == windowTag }).first
+    func removeLoadingScreen() { 
+        let loading = UIApplication.shared.keyWindow?.subviews.filter({ $0.tag == ViewTags.loadingViewTag.rawValue }).first
         UIView.animate(withDuration: 0.1, animations: {
             loading?.alpha = 0
         }, completion: { finish in
@@ -95,4 +94,12 @@ class MainCoordinator: Coordinator {
     func popViewController() {
         navigationController.popViewController(animated: true)
     }
+    
+    private var selectedTabNavigationController: NavigationController? {
+        return tabBar?.selectedViewController as? NavigationController
+    }
+}
+
+enum ViewTags: Int {
+    case loadingViewTag = 100
 }

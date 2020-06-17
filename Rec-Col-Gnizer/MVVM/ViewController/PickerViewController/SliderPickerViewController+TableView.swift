@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension PickerViewController: UITableViewDataSource {
+extension SliderPickerViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return vm.numberOfRows
     }
@@ -26,7 +26,7 @@ extension PickerViewController: UITableViewDataSource {
     }
 }
 
-extension PickerViewController: UITableViewDelegate {
+extension SliderPickerViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return vm.rowHeight
         

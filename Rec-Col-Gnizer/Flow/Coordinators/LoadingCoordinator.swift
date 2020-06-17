@@ -12,11 +12,11 @@ import UIKit
 class LoadingCoordinator: Coordinator {
 
     var childCoordinators: [Coordinator] = []
-    var navigationController: UINavigationController
+    var navigationController: NavigationController
      
     var vc: LoadingViewController?
     
-    required init(withNavigationController navigation: UINavigationController) {
+    required init(withNavigationController navigation: NavigationController) {
         navigationController = navigation
     }
     

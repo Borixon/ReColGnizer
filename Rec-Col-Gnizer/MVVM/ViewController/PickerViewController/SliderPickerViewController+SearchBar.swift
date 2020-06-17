@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension PickerViewController: UISearchBarDelegate {
+extension SliderPickerViewController: UISearchBarDelegate {
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         hideKeyboard()
     }

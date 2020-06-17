@@ -8,17 +8,17 @@
 
 import UIKit
 
-class PickerViewController: BaseViewController {
-
-    @IBOutlet weak var buttonContainer: UIView!
-    @IBOutlet weak var searchBar: UISearchBar!
+class SliderPickerViewController: BaseViewController {
+ 
+    // @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var checkDataButton: UIButton!
     @IBOutlet weak var colorBackgroundView: UIView!
     @IBOutlet weak var tableViewHeightConstraint: NSLayoutConstraint!
     
-    let vm = PickerViewModel()
+    let vm = SliderPickerViewModel()
+    var searchBar: UISearchBar = UISearchBar()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,11 +26,6 @@ class PickerViewController: BaseViewController {
         setupSearchBar()
         setupViewComponents()
         setupSegmentedControl()
-        styleView()
-        
-        if UserData().userShouldSeeColorHint {
-            setButtonTitle(visible: true)
-        }
     }
     
     override func viewWillLayoutSubviews() {
@@ -38,36 +33,11 @@ class PickerViewController: BaseViewController {
         layoutSubviews()
     }
     
-    private func styleView() {
-        if #available(iOS 13.0, *) {
-            searchBar.searchTextField.backgroundColor = Style.keyColor
-            searchBar.searchTextField.textColor = Style.keyContrastColor
-            if let icon = searchBar.searchTextField.leftView as? UIImageView {
-                let newImage = icon.image?.withTintColor(Style.accentKeyColor, renderingMode: .alwaysTemplate)
-                searchBar.searchTextField.leftView = UIImageView(image: newImage)
-            }
-        } else if let _ = searchBar.value(forKey: "searchField") as? UITextField {
-            // TODO:
-        }
- 
-        searchBar.tintColor = Style.accentKeyColor
-        searchBar.backgroundImage = UIImage()
-        tableView.allowsSelection = false
-    }
-    
     private func layoutSubviews() {
-        buttonContainer.layoutIfNeeded()
-        if buttonContainer.bounds.height > buttonContainer.bounds.width {
-            let diff = buttonContainer.bounds.height - buttonContainer.bounds.width
-            tableViewHeightConstraint.constant = 3 * SliderCell.height + diff
-        } else {
-            tableViewHeightConstraint.constant = 3 * SliderCell.height
-        }
-        
         tableView.layoutIfNeeded()
         colorBackgroundView.layoutIfNeeded()
         colorBackgroundView.layer.masksToBounds = true
-        colorBackgroundView.layer.cornerRadius = colorBackgroundView.frame.width / 2
+        colorBackgroundView.layer.cornerRadius = Style.cornerRadiusBig
     }
     
     private func setupViewComponents() {
@@ -85,6 +55,22 @@ class PickerViewController: BaseViewController {
         searchBar.returnKeyType = .search
         searchBar.delegate = self
         searchBar.placeholder = vm.placeholder
+        
+        if #available(iOS 13.0, *) {
+            searchBar.searchTextField.backgroundColor = Style.keyColor
+            searchBar.searchTextField.textColor = Style.keyContrastColor
+            if let icon = searchBar.searchTextField.leftView as? UIImageView {
+                let newImage = icon.image?.withTintColor(Style.accentKeyColor, renderingMode: .alwaysTemplate)
+                searchBar.searchTextField.leftView = UIImageView(image: newImage)
+            }
+        } else if let _ = searchBar.value(forKey: "searchField") as? UITextField {
+            // TODO:
+        }
+
+        searchBar.tintColor = Style.accentKeyColor
+        searchBar.backgroundImage = UIImage()
+        
+        navigationItem.titleView = searchBar
     }
     
     private func setupTableView() {
@@ -92,22 +78,15 @@ class PickerViewController: BaseViewController {
         tableView.dataSource = self
         tableView.estimatedRowHeight = vm.rowHeight
         tableView.register(UINib(nibName: "SliderCell", bundle: Bundle.main), forCellReuseIdentifier: vm.sliderCellIdentifier)
+        tableView.allowsSelection = false
     }
+    
     private func setupSegmentedControl() {
         segmentedControl.removeAllSegments()
         for i in 0...(vm.segmentedItems.count - 1) {
             segmentedControl.insertSegment(withTitle: vm.segmentedItems[i], at: i, animated: false)
         }
         segmentedControl.selectedSegmentIndex = vm.indexOfSelectedPicker
-    }
-     
-    private func setButtonTitle(visible: Bool) {
-        if visible {
-            checkDataButton.setTitleColor(.black, for: .normal)
-            checkDataButton.setTitle("Tap me", for: .normal)
-        } else {
-            checkDataButton.setTitle(nil, for: .normal)
-        }
     }
     
     @IBAction func selectSegment(_ sender: UISegmentedControl) {
@@ -117,15 +96,11 @@ class PickerViewController: BaseViewController {
     @IBAction func checkData(_ sender: Any) {
         openLoadingScreen()
         vm.sendDataRequest()
-        if UserData().userShouldSeeColorHint {
-            UserData().userShouldSeeColorHint = false
-            setButtonTitle(visible: false)
-        }
     }
     
     @objc internal func hideKeyboard() {
         searchBar.setShowsCancelButton(false, animated: true)
-        view.endEditing(true)
+        searchBar.endEditing(true)
     }
     
     internal func revelKeyboard() {
@@ -133,7 +108,7 @@ class PickerViewController: BaseViewController {
     }
 }
 
-extension PickerViewController: PickerViewModelDelegate {
+extension SliderPickerViewController: PickerViewModelDelegate {
     func show(color: ColorModel?, error: Error?) {
         hideLoadingScreen()
         if let color = color {
@@ -152,7 +127,7 @@ extension PickerViewController: PickerViewModelDelegate {
     }
 }
 
-extension PickerViewController: SliderCellDelegate {
+extension SliderPickerViewController: SliderCellDelegate {
     func didChange(value: Float, type: SliderCellType) {
         vm.sliderDataChange(value, type: type)
     }
@@ -161,7 +136,6 @@ extension PickerViewController: SliderCellDelegate {
 
 /* TODO Zbiorczy
  Alerty:
-   >Zły hex,
     bład kolorów,
     brak kamery,
     inne catche

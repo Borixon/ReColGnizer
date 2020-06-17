@@ -109,18 +109,4 @@ class UserData: NSObject {
             defaults.setValue(newValue.rawValue, forKey: kPickerCategorySelected)
         }
     }
-    
-    private let kUserShouldSeeColorHint = "kUserShouldSeeColorHint"
-    var userShouldSeeColorHint: Bool {
-        get {
-            if let value = defaults.value(forKey: kUserShouldSeeColorHint) as? Bool {
-                return value
-            } else {
-                return true
-            }
-        }
-        set {
-            defaults.setValue(newValue, forKey: kUserShouldSeeColorHint)
-        }
-    }
 }

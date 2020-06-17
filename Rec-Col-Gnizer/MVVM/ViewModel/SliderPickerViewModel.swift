@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import PromiseKit
 
-final class PickerViewModel {
+final class SliderPickerViewModel {
     
     public let sliderCellIdentifier = "sliderCellIdentifier"
     public let placeholder = "AC12F3, f3c"

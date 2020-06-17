@@ -11,6 +11,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     var window: UIWindow?
+    var coordinator: MainCoordinator!
      
     @available(iOS 13.0, *)
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -19,9 +20,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
-        guard let coordinator = (UIApplication.shared.delegate as? AppDelegate)?.coordinator else { return }
         
+        coordinator = MainCoordinator()
         coordinator.start()
+        
         window = UIWindow(windowScene: windowScene)
         window?.rootViewController = coordinator.navigationController
         window?.makeKeyAndVisible()
@@ -38,6 +40,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneDidBecomeActive(_ scene: UIScene) {
         // Called when the scene has moved from an inactive state to an active state.
         // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
+        ConnectionHelper.shared.startMonitoring()
     }
     @available(iOS 13.0, *)
     func sceneWillResignActive(_ scene: UIScene) {
@@ -57,6 +60,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         // Save changes in the application's managed object context when the application transitions to the background.
         DataManager.shared.saveContext()
+        ConnectionHelper.shared.stopMonitoring()
     }
     
     

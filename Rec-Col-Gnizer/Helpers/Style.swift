@@ -28,7 +28,7 @@ struct Style {
     private static let fontSizeBig: CGFloat = 20
     private static let fontSizeXXL: CGFloat = 25
     
-    private static let fontFamilyLight: String =  "Helvetica-Thin"
+    private static let fontFamilyLight: String =  "Helvetica-Light"
     private static let fontFamilyRegular: String =  "Helvetica"
     private static let fontFamilyBold: String =  "Helvetica-Bold"
     
