@@ -21,5 +21,12 @@ extension StoryboardedProtocol where Self: UIViewController {
         let selfVC = vc as! Self
         return selfVC
     }
+    
+    static func instantiate(withIdentifier id: String) -> Self {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let vc = storyboard.instantiateViewController(withIdentifier: id)
+        let selfVC = vc as! Self
+        return selfVC
+    }
 }
 

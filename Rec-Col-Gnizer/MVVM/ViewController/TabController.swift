@@ -18,15 +18,15 @@ class TabController: UITabBarController, StoryboardedProtocol {
     public func setupViewControllers() {
         let nav1 = NavigationController()
         nav1.setViewControllers([SliderPickerViewController.instantiate()], animated: true)
-        let nav2 = NavigationController()
-        nav2.setViewControllers([ImagePickerViewController.instantiate()], animated: true)
-        let nav3 = NavigationController()
-        nav3.setViewControllers([FavoriteViewController.instantiate()], animated: true)
         
-        setViewControllers([SliderPickerViewController.instantiate(),
-                                 ImagePickerViewController.instantiate(),
-                                 FavoriteViewController.instantiate()], animated: false)
-
+        let nav2 = NavigationController()
+        let imgPicker = ImagePickerViewController.instantiate()
+        imgPicker.startCameraSession()
+        nav2.setViewControllers([imgPicker], animated: true)
+        
+        let nav3 = NavigationController()
+        nav3.setViewControllers([FavouriteViewController.instantiate()], animated: true)
+        
         setViewControllers([nav1, nav2, nav3], animated: false)
     }
 

@@ -63,7 +63,7 @@ class ImageOutputViewController: BaseViewController {
     }
     
     @IBAction func dismiss(_ sender: Any) {
-        coordinator?.popViewController()
+        coordinator?.dismissViewController()
     }
     
     @IBAction func checkColorData(_ sender: Any) {

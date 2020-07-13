@@ -27,6 +27,10 @@ class CmykModel: ColorTypeModel {
         return data
     }
     
+    var brightness: CGFloat {
+        toRgb().brightness
+    }
+    
     var color: UIColor {
         return UIColor.red
     }

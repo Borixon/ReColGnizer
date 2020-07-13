@@ -39,6 +39,10 @@ class RgbModel: ColorTypeModel {
         
         return UIColor(red: red, green: green, blue: blue, alpha: 1)
     }
+     
+    var brightness: CGFloat {
+        return CGFloat(Int64(value.r) * 299 + Int64(value.g) * 587 + Int64(value.b) * 114) / 1000.0
+    }
     
     init(r: Int16, g: Int16, b: Int16) {
         value.r = r

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PromiseKit
 
 class MainCoordinator: Coordinator {
     
@@ -40,7 +41,8 @@ class MainCoordinator: Coordinator {
         guard let navigation = selectedTabNavigationController else { return }
         let vc = ColorDataViewController.instantiate()
         vc.vm = ColorDataViewModel(model: data)
-        navigation.modalPresentationStyle = .overCurrentContext
+        vc.modalPresentationStyle = .overFullScreen
+        vc.modalTransitionStyle = .coverVertical
         navigation.present(vc, animated: true, completion: nil)
     }
     
@@ -48,12 +50,24 @@ class MainCoordinator: Coordinator {
         
     }
     
+    func openSortingView(withTypeSelected type: SortingType, delegate: SortingViewDelegate) {
+        guard let navigation = selectedTabNavigationController else { return }
+        let vc = SortingViewController.instantiate()
+        vc.setCurrent(sortingType: type)
+        vc.coordinator = self
+        vc.delegate = delegate
+        navigation.modalPresentationStyle = .overCurrentContext
+        navigation.present(vc, animated: true, completion: nil)
+    }
+    
     func openPhoto(_ image: UIImage) {
         guard let navigation = selectedTabNavigationController else { return }
         let vc = ImageOutputViewController.instantiate()
         vc.coordinator = self
+        vc.modalTransitionStyle = .crossDissolve
+        vc.modalPresentationStyle = .overCurrentContext
         vc.image = image
-        navigation.pushViewController(vc, animated: true)
+        navigation.present(vc, animated: true, completion: nil)
     }
     
     
@@ -91,8 +105,8 @@ class MainCoordinator: Coordinator {
         })
     }
     
-    func popViewController() {
-        navigationController.popViewController(animated: true)
+    func dismissViewController() {
+        selectedTabNavigationController?.dismiss(animated: true, completion: nil)
     }
     
     private var selectedTabNavigationController: NavigationController? {

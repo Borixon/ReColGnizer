@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class ColorHelper: NSObject {
+struct ColorHelper {
     
     static let invalidHexValueTitle = "Invalid hexadecimal value!"
     static let invalidHexValueInfo = "Given value must contain digits or letters between a - f and must consist of six or three components"

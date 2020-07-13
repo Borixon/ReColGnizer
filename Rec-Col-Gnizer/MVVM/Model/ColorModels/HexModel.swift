@@ -20,7 +20,7 @@ class HexModel: ColorTypeModel {
     var components: [String] { return ["Hex"] } 
     
     var columnData: [String : (val: Int16, max: Int16)]? { return nil }
-  
+    
     var color: UIColor {
         return UIColor(hexString: value) ?? HexModel.defaultColor
     }
@@ -29,8 +29,11 @@ class HexModel: ColorTypeModel {
         return "Hexadecimal"
     }
     
+    var brightness: CGFloat {
+        toRgb().brightness
+    }
+    
     init(value: String) {
-        // Filter ? throw ?
         self.value = value.uppercased()
     }
     

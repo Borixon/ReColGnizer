@@ -60,9 +60,19 @@ final class CoreDataStack: NSObject {
         completion(entity)
     }
     
+    // TODO: To remove
     public func getColorsStrings(completion: @escaping ([(String, String)]?) -> ()) {
         if let data: [ColorEntity] = getEntity(predicate: nil) {
             let mapped = data.map({ return ($0.name, $0.hex) })
+            completion(mapped)
+        } else {
+            completion(nil)
+        }
+    }
+    
+    public func getColors(completion: @escaping ([ColorModel]?) -> ()) {
+        if let data: [ColorEntity] = getEntity(predicate: nil) {
+            let mapped = data.map({ return ColorModel(color: $0) })
             completion(mapped)
         } else {
             completion(nil)
@@ -86,6 +96,18 @@ final class CoreDataStack: NSObject {
             context.delete(colorToRemove)
             self.savePrivateContext()
         })
+    }
+    
+    private func getEntieties<T: NSManagedObject>(completion: @escaping ([T]?) -> ()){
+        let fetchRequest = NSFetchRequest<T>(entityName: entityName(forObject: T.self))
+        do {
+            if let data = try privateContext?.fetch(fetchRequest) {
+                completion(data)
+            }
+        } catch {
+            print(error)
+        }
+        completion(nil)
     }
     
     private func getEntity<T: NSManagedObject>(predicate: NSPredicate?) -> [T]? {

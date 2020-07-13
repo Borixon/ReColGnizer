@@ -23,9 +23,9 @@ class DataManager {
         stack.manager = self
     }
     
-    public func getColorsList(completion: @escaping ([(name: String, hex: String)]?) -> ()) {
-        stack.getColorsStrings(completion: { data in
-            completion(data)
+    public func getColorsList(completion: @escaping ([ColorModel]?) -> ()) {
+        stack.getColors(completion: { model in
+            completion(model)
         })
     }
     

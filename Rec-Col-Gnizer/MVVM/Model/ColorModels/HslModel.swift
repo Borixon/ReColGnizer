@@ -36,6 +36,10 @@ class HslModel: ColorTypeModel {
                        blue: CGFloat(color.b) / CGFloat(RgbModel.maxValue.b), alpha: 1)
     }
     
+    var brightness: CGFloat {
+        toRgb().brightness
+    }
+    
     init(h: Int16, s: Int16, l: Int16) {
         value = (h, s, l)
     }

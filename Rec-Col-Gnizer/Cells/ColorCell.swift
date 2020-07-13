@@ -9,22 +9,27 @@
 import UIKit
 
 class ColorCell: UITableViewCell {
-
-    @IBOutlet weak var colorView: UIView!
-    @IBOutlet weak var nameLabel: UILabel!
     
-    static let height: CGFloat = 90
+    @IBOutlet weak var colorView: UIView!
+    @IBOutlet weak var mainLabel: UILabel!
+    @IBOutlet weak var additionalLabel: UILabel!
+    
+    static let height: CGFloat = 110
     
     override func awakeFromNib() {
         super.awakeFromNib()
         colorView.layer.masksToBounds = true
         colorView.layer.cornerRadius = Style.cornerRadiusSmall
-        nameLabel.font = Style.fontLight
-        nameLabel.textColor = Style.keyColor
+        mainLabel.font = Style.fontNormalBold
+        mainLabel.textColor = Style.keyColor
+        additionalLabel.font = Style.fontSmallLight
+        additionalLabel.textColor = Style.keyColor
+        selectionStyle = .none
     }
     
-    public func setup(name: String, hex: String, color: UIColor) {
-        nameLabel.text = [hex, name].joined(separator: " ")
+    public func setup(label1: String, label2: String, color: UIColor) {
         colorView.backgroundColor = color
+        mainLabel.text = label1
+        additionalLabel.text = label2
     }
 }

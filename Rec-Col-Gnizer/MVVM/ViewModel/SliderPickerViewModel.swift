@@ -12,11 +12,12 @@ import PromiseKit
 
 final class SliderPickerViewModel {
     
-    public let sliderCellIdentifier = "sliderCellIdentifier"
-    public let placeholder = "AC12F3, f3c"
-    public let segmentedItems: [String] = [PickerCategory.Rgb.rawValue, PickerCategory.Hsl.rawValue]
-    public var searchPicker: PickerCategory = UserData().selectedPickerCategory
-    public var delegate: PickerViewModelDelegate?
+    let sliderCellIdentifier = "sliderCellIdentifier"
+    let placeholder = "AC12F3, f3c"
+    let nibName = "SliderCell"
+    let segmentedItems: [String] = [PickerCategory.Rgb.rawValue, PickerCategory.Hsl.rawValue]
+    var searchPicker: PickerCategory = UserData().selectedPickerCategory
+    var delegate: PickerViewModelDelegate?
     private var controller: BaseViewController? = nil
     private var model: PickerColorModel = PickerColorModel()
     

@@ -8,15 +8,27 @@
 
 import UIKit
 
-protocol FavoriteViewModelDelegate {
+protocol FavouriteViewModelDelegate {
     func openColor(_ color: ColorModel)
     func refreshData()
 }
 
-class FavoriteViewModel: NSObject {
+class FavouriteViewModel: NSObject {
 
     let cellIdentifier = "ColorCellIdentifier"
-    public var delegate: FavoriteViewModelDelegate? = nil
+    let navigationTitle = "Favourite colours"
+    let nibName = "ColorCell"
+    var delegate: FavouriteViewModelDelegate? = nil
+    var isSearching: Bool = false
+    var sortingType: SortingType {
+        get {
+            return UserData().favouriteSortingType
+        }
+        set {
+            UserData().favouriteSortingType = newValue
+        }
+    }
+    
     private var colorStrings: [(String, String)] = [] {
         didSet {
             colorStrings.sort(by: { $0.0 < $1.0 })
@@ -38,6 +50,10 @@ class FavoriteViewModel: NSObject {
     
     func addDataDelegate() {
         DataManager.shared.delegate = self
+    }
+    
+    func setSearchPhrase(_ phrase: String) {
+        colorStrings = colorStrings.filter({ $0.0.contains(phrase) || $0.1.contains(phrase )})
     }
     
     func refreshData() {
@@ -68,7 +84,7 @@ class FavoriteViewModel: NSObject {
     }
 }
 
-extension FavoriteViewModel: DataManagerDelegate {
+extension FavouriteViewModel: DataManagerDelegate {
     func dataHasChanged() {
         refreshData()
     }

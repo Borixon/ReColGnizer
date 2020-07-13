@@ -18,6 +18,7 @@ protocol ColorTypeModel {
     var value: ColorData { get set }
     var typeName: String { get }
     var color: UIColor { get }
+    var brightness: CGFloat { get }
     
     func toRgb() -> RgbModel
     func toHex() -> HexModel

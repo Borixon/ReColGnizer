@@ -253,7 +253,7 @@
         <!--Favourite-->
         <scene sceneID="hxR-VS-d7X">
             <objects>
-                <viewController storyboardIdentifier="FavoriteViewController" id="WO5-Og-pJV" customClass="FavoriteViewController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FavouriteViewController" id="WO5-Og-pJV" customClass="FavouriteViewController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1a0-VB-RHp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -281,7 +281,7 @@ You have no favorite colors yet!</string>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="v76-v2-tLP">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="8" y="44" width="398" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
                         </subviews>
@@ -290,16 +290,17 @@ You have no favorite colors yet!</string>
                             <constraint firstItem="9xX-50-afY" firstAttribute="bottom" secondItem="8wv-aJ-apy" secondAttribute="bottom" id="6dg-si-2gi"/>
                             <constraint firstItem="8wv-aJ-apy" firstAttribute="top" secondItem="9xX-50-afY" secondAttribute="top" id="98D-n0-wkX"/>
                             <constraint firstItem="9xX-50-afY" firstAttribute="trailing" secondItem="8wv-aJ-apy" secondAttribute="trailing" id="AuU-If-DII"/>
-                            <constraint firstItem="v76-v2-tLP" firstAttribute="leading" secondItem="9xX-50-afY" secondAttribute="leading" id="Iab-7w-4cw"/>
+                            <constraint firstItem="v76-v2-tLP" firstAttribute="leading" secondItem="9xX-50-afY" secondAttribute="leading" constant="8" id="Iab-7w-4cw"/>
                             <constraint firstItem="8wv-aJ-apy" firstAttribute="leading" secondItem="9xX-50-afY" secondAttribute="leading" id="UOA-wI-bXy"/>
                             <constraint firstItem="9xX-50-afY" firstAttribute="bottom" secondItem="v76-v2-tLP" secondAttribute="bottom" id="Xdf-1T-fXv"/>
                             <constraint firstItem="v76-v2-tLP" firstAttribute="top" secondItem="9xX-50-afY" secondAttribute="top" id="lT9-YM-PEF"/>
-                            <constraint firstItem="9xX-50-afY" firstAttribute="trailing" secondItem="v76-v2-tLP" secondAttribute="trailing" id="tda-3D-Hg5"/>
+                            <constraint firstItem="9xX-50-afY" firstAttribute="trailing" secondItem="v76-v2-tLP" secondAttribute="trailing" constant="8" id="tda-3D-Hg5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9xX-50-afY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Favourite" image="star" catalog="system" id="dxl-lb-3ls"/>
                     <connections>
+                        <outlet property="infoLabel" destination="gMa-zR-hQU" id="3Uz-qA-4am"/>
                         <outlet property="infoScreen" destination="8wv-aJ-apy" id="nUl-BC-XM2"/>
                         <outlet property="tableView" destination="v76-v2-tLP" id="6p7-Jh-okc"/>
                     </connections>
@@ -311,31 +312,37 @@ You have no favorite colors yet!</string>
         <!--Info-->
         <scene sceneID="F4N-3G-9jh">
             <objects>
-                <viewController storyboardIdentifier="AboutViewController" id="DEC-f0-NJe" customClass="AboutViewController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SortingViewController" id="DEC-f0-NJe" customClass="SortingViewController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Slb-EH-BOE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="h74-65-onc">
-                                <rect key="frame" x="141.5" y="44" width="131" height="32"/>
-                                <segments>
-                                    <segment title="First"/>
-                                    <segment title="Second"/>
-                                </segments>
-                            </segmentedControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="980-qi-jBq">
+                                <rect key="frame" x="8" y="44" width="398" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="h74-65-onc" firstAttribute="centerX" secondItem="CX1-ll-LXT" secondAttribute="centerX" id="UB8-hv-ckG"/>
-                            <constraint firstItem="h74-65-onc" firstAttribute="top" secondItem="CX1-ll-LXT" secondAttribute="top" id="zQa-se-vlK"/>
+                            <constraint firstItem="CX1-ll-LXT" firstAttribute="bottom" secondItem="980-qi-jBq" secondAttribute="bottom" id="6ur-qB-yYO"/>
+                            <constraint firstItem="CX1-ll-LXT" firstAttribute="trailing" secondItem="980-qi-jBq" secondAttribute="trailing" constant="8" id="a5a-Ky-4Wm"/>
+                            <constraint firstItem="980-qi-jBq" firstAttribute="top" secondItem="CX1-ll-LXT" secondAttribute="top" id="gNk-c1-EU1"/>
+                            <constraint firstItem="980-qi-jBq" firstAttribute="leading" secondItem="CX1-ll-LXT" secondAttribute="leading" constant="8" id="k8H-aA-FNu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="CX1-ll-LXT"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Info" image="info.circle" catalog="system" id="QXL-5g-sUc"/>
+                    <navigationItem key="navigationItem" id="dEy-b2-fvQ">
+                        <barButtonItem key="backBarButtonItem" title="1" id="UFd-v4-lhP"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="undo" id="2LR-vM-yfK"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="980-qi-jBq" id="gHC-kG-Zw6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LN8-gy-F0S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3722" y="925"/>
+            <point key="canvasLocation" x="5304" y="925"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="i0x-gz-LUN">
@@ -379,10 +386,10 @@ You have no favorite colors yet!</string>
                                 </connections>
                             </segmentedControl>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5pT-E6-wf9">
-                                <rect key="frame" x="8" y="52" width="398" height="533"/>
+                                <rect key="frame" x="16" y="52" width="382" height="533"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukv-su-oWt">
-                                        <rect key="frame" x="0.0" y="0.0" width="398" height="533"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="533"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="tintColor" red="0.1219589189" green="0.12912842629999999" blue="0.1411769688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <connections>
@@ -401,9 +408,9 @@ You have no favorite colors yet!</string>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="ZUQ-tO-aK2" firstAttribute="trailing" secondItem="5pT-E6-wf9" secondAttribute="trailing" constant="8" id="GA7-Co-YM0"/>
+                            <constraint firstItem="ZUQ-tO-aK2" firstAttribute="trailing" secondItem="5pT-E6-wf9" secondAttribute="trailing" constant="16" id="GA7-Co-YM0"/>
                             <constraint firstItem="vIN-9t-44A" firstAttribute="leading" secondItem="ZUQ-tO-aK2" secondAttribute="leading" constant="8" id="KK6-U9-r4A"/>
-                            <constraint firstItem="5pT-E6-wf9" firstAttribute="leading" secondItem="pBd-fG-SHt" secondAttribute="leading" constant="8" id="NJV-cG-mlO"/>
+                            <constraint firstItem="5pT-E6-wf9" firstAttribute="leading" secondItem="pBd-fG-SHt" secondAttribute="leading" constant="16" id="NJV-cG-mlO"/>
                             <constraint firstItem="vIN-9t-44A" firstAttribute="top" secondItem="JIh-wJ-Oy6" secondAttribute="bottom" constant="8" id="RW1-RZ-HOq"/>
                             <constraint firstItem="ZUQ-tO-aK2" firstAttribute="trailing" secondItem="vIN-9t-44A" secondAttribute="trailing" constant="8" id="Rjv-gi-ecr"/>
                             <constraint firstItem="5pT-E6-wf9" firstAttribute="top" secondItem="ZUQ-tO-aK2" secondAttribute="top" constant="8" id="SsO-Ep-zIZ"/>
@@ -475,7 +482,7 @@ You have no favorite colors yet!</string>
                             <constraint firstItem="6hz-Bp-f9o" firstAttribute="leading" secondItem="Rw4-b3-WAx" secondAttribute="leading" constant="30" id="IKQ-Cs-XMl"/>
                             <constraint firstItem="Rw4-b3-WAx" firstAttribute="trailing" secondItem="m5a-ef-itb" secondAttribute="trailing" id="KYb-1c-Sxm"/>
                             <constraint firstItem="CuK-O2-evJ" firstAttribute="leading" secondItem="Rw4-b3-WAx" secondAttribute="leading" constant="10" id="RzV-Ns-g65"/>
-                            <constraint firstItem="Rw4-b3-WAx" firstAttribute="bottom" secondItem="6hz-Bp-f9o" secondAttribute="bottom" constant="21" id="iDO-G6-51e"/>
+                            <constraint firstAttribute="bottom" secondItem="6hz-Bp-f9o" secondAttribute="bottom" constant="55" id="iDO-G6-51e"/>
                             <constraint firstItem="Rw4-b3-WAx" firstAttribute="trailing" secondItem="6hz-Bp-f9o" secondAttribute="trailing" constant="30" id="ihn-pa-Tf7"/>
                             <constraint firstItem="m5a-ef-itb" firstAttribute="top" secondItem="zeK-Bm-eE3" secondAttribute="top" id="otM-BU-6eI"/>
                             <constraint firstItem="m5a-ef-itb" firstAttribute="leading" secondItem="Rw4-b3-WAx" secondAttribute="leading" id="p7X-Wu-eP7"/>

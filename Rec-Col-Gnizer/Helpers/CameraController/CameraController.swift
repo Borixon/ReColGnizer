@@ -19,10 +19,8 @@ class CameraController: NSObject {
     var previewLayer: AVCaptureVideoPreviewLayer?
     var photoCaptureCompletionBlock: ((UIImage?, Error?) -> Void)?
     var delegate: CameraControllerDelegate?
-    
     var flashMode: AVCaptureDevice.FlashMode = .off
-    var torchMode: AVCaptureDevice.TorchMode = .off
-    
+    var torchMode: AVCaptureDevice.TorchMode = .off 
     var isCameraEnabled: Bool = false
     
     override init() {
@@ -38,6 +36,7 @@ class CameraController: NSObject {
     }
     
     public func handle(zoom: CGFloat, velocity: CGFloat) {
+        // TODO: Unzoom to repair
         guard let cam = cameraDevice else { return }
         
         let customVelocityFactor: CGFloat = zoom > 0 ? 0.05 : 200.0
@@ -114,6 +113,7 @@ class CameraController: NSObject {
         do {
             try prepareCameraSession()
         } catch {
+            isCameraEnabled = false
             completion(false, error)
             return
         }
@@ -121,7 +121,10 @@ class CameraController: NSObject {
         self.photoOutput = AVCapturePhotoOutput()
         self.photoOutput!.setPreparedPhotoSettingsArray([AVCapturePhotoSettings(format: [AVVideoCodecKey : AVVideoCodecType.hevc])], completionHandler: nil)
         
-        if captureSession.canAddOutput(self.photoOutput!) { captureSession.addOutput(self.photoOutput!) }
+        if captureSession.canAddOutput(self.photoOutput!) {
+            captureSession.addOutput(self.photoOutput!)
+        }
+        
         captureSession.startRunning()
         isCameraEnabled = true
         

@@ -11,26 +11,31 @@ import AVFoundation
 
 class ImagePickerViewModel {
     
-    public var controller: ImagePickerViewController!
-    public let cameraController = CameraController()
+    let nibName = "SliderCell"
+    var controller: ImagePickerViewController!
+    let cameraController = CameraController()
     private var torchMode: AVCaptureDevice.TorchMode = .off
+    private var error: Error?
     
     public var isTorchOn: Bool {
         return torchMode == .on ? true : false
     }
     
-    public func startCamera(on view: UIView, completion: @escaping(Bool, Error?) -> ()) {
+    public func setupPreview(_ view: UIView) {
+        if cameraController.isCameraEnabled {
+            cameraController.displayPreview(on: view)
+        } else if error != nil {
+            // TODO: Print error
+        }
+    }
+    
+    public func startCameraSession() {
         DispatchQueue.main.async {
-            self.cameraController.startSession(completion: { success, error in
-                if success {
-                    self.cameraController.displayPreview(on: view)
-                    completion(true, nil)
+            self.cameraController.startSession(completion: { _, error in
+                if error != nil {
+                    self.error = error
                 } else {
-                    if error != nil {
-                        completion(false, error)
-                    } else {
-                        completion(false, CameraError.noCamerasAvailable)
-                    }
+                    self.error = CameraError.noCamerasAvailable
                 }
             })
         }
@@ -41,9 +46,9 @@ class ImagePickerViewModel {
             if let snapShot = image {
                 self.controller.handle(image: snapShot)
             } else if error != nil {
-                // print eyyoy
+                // TODO: print eyyoy
             } else {
-                // Sumtin wong
+                // TODO: Sumtin wong
             }
         })
     }

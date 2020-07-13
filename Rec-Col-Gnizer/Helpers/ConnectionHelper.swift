@@ -9,7 +9,7 @@
 import Foundation
 import Connectivity
 
-class ConnectionHelper {
+struct ConnectionHelper {
     static let shared = ConnectionHelper()
     let connectivity = Connectivity()
     

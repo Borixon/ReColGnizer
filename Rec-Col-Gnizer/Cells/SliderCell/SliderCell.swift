@@ -20,7 +20,7 @@ final class SliderCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        typeLabel.font = Style.fontBold
+        typeLabel.font = Style.fontNormalBold
         typeLabel.textColor = Style.keyColor
         valueLabel.font = Style.fontSmallRegular
         valueLabel.textColor = Style.keyColor

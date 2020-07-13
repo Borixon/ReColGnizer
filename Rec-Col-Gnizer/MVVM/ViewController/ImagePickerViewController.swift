@@ -19,34 +19,48 @@ class ImagePickerViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        vm.controller = self
+        setupViewModel()
         setupPinchGesture()
-        setupCamera()
+        setupNavigationBar()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        vm.pauseSession()
+        DispatchQueue.main.async {
+            self.vm.pauseSession()
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        vm.resumeSession()
+        DispatchQueue.main.async {
+            self.vm.resumeSession()
+        }
     }
     
+    // MARK: Public functions
     public func handle(image: UIImage) {
         coordinator?.openPhoto(image)
     }
-
+    
+    public func startCameraSession() {
+        DispatchQueue.main.async {
+            self.vm.startCameraSession()
+        }
+    }
+   
+    // MARK: Private functions
+    private func setupNavigationBar() {
+        navigationController?.navigationBar.isHidden = true
+    }
+    
     private func setupPinchGesture() {
         let pinch = UIPinchGestureRecognizer(target: self, action: #selector(handlePinch))
         view.addGestureRecognizer(pinch)
     }
     
-    private func setupCamera() {
-        vm.startCamera(on: viewfinder, completion: { success, error in
-            if error != nil {
-                self.coordinator?.showError(error!)
-            }
-        })
+    private func setupViewModel() {
+        view.layoutSubviews()
+        vm.controller = self
+        vm.setupPreview(viewfinder)
     }
     
     private func setButtonImage() {
@@ -59,10 +73,11 @@ class ImagePickerViewController: BaseViewController {
             }
             flashButton.setBackgroundImage(bolt, for: .normal)
         } else {
-            
+            // TODO: iOS 12
         }
     }
     
+    // MARK: IBActions and selectors
     @objc func handlePinch(_ sender: UIPinchGestureRecognizer) {
         vm.zooming(sender.scale, sender.velocity)
     }

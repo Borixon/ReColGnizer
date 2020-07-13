@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ColorModel: NSObject {
+class ColorModel {
     
     let color: UIColor
     let rgb: RgbModel
@@ -19,6 +19,7 @@ class ColorModel: NSObject {
     let contrast: HexModel
     let derivedColor: ColorModel? = nil
     let exactColor: ColorModel? = nil
+    let brightness: CGFloat
     
     init(color: WSColorModel) {
         self.color = color.rgb.toModel().color
@@ -28,6 +29,7 @@ class ColorModel: NSObject {
         hex = color.hex.toModel()
         name = color.name.toModel()
         contrast = color.contrast.toModel()
+        brightness = rgb.brightness
     }
     
     init(color: ColorEntity) {
@@ -38,6 +40,7 @@ class ColorModel: NSObject {
         hex = HexModel(value: color.hex)
         name = NameModel(name: color.name, closestNamedHex: color.exactColor?.hex, exactMatch: color.exactMatch, distance: color.distance)
         contrast = HexModel(value: color.contrast)
+        brightness = rgb.brightness
     }
     
 }

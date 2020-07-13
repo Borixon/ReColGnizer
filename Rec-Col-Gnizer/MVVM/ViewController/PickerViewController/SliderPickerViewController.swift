@@ -10,7 +10,6 @@ import UIKit
 
 class SliderPickerViewController: BaseViewController {
  
-    // @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var checkDataButton: UIButton!
@@ -77,7 +76,7 @@ class SliderPickerViewController: BaseViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.estimatedRowHeight = vm.rowHeight
-        tableView.register(UINib(nibName: "SliderCell", bundle: Bundle.main), forCellReuseIdentifier: vm.sliderCellIdentifier)
+        tableView.register(UINib(nibName: vm.nibName, bundle: Bundle.main), forCellReuseIdentifier: vm.sliderCellIdentifier)
         tableView.allowsSelection = false
     }
     
@@ -94,6 +93,7 @@ class SliderPickerViewController: BaseViewController {
     }
     
     @IBAction func checkData(_ sender: Any) {
+        searchBar.endEditing(true)
         openLoadingScreen()
         vm.sendDataRequest()
     }
@@ -144,7 +144,6 @@ extension SliderPickerViewController: SliderCellDelegate {
  Schematy kolorów
  ios12?
  Tutorial
- View o mnie
  Kamera naprawa pinch zoom
  Kamera dodanie flash
  Konwersja RGB-HLS-CMYK

@@ -6,9 +6,9 @@
 //  Copyright © 2020 Michał Krupa. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class UserData: NSObject {
+class UserData {
     
     private let defaults = UserDefaults.standard
     
@@ -107,6 +107,20 @@ class UserData: NSObject {
         }
         set {
             defaults.setValue(newValue.rawValue, forKey: kPickerCategorySelected)
+        }
+    }
+    
+    private let kFavouriteSortingType = "kFavouriteSortingType"
+    var favouriteSortingType: SortingType {
+        get {
+            if let value = defaults.object(forKey: kFavouriteSortingType) as? SortingType {
+                return value
+            } else {
+                return .nameAscending
+            }
+        }
+        set {
+            defaults.setValue(newValue, forKey: kFavouriteSortingType)
         }
     }
 }

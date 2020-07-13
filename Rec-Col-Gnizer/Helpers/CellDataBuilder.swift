@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class CellDataBuilder {
+struct CellDataBuilder {
 
     public func getSliderCell<T: ColorTypeModel>(forRow row: Int, model: T) -> SliderData? {
         if let rgb = model as? RgbModel {

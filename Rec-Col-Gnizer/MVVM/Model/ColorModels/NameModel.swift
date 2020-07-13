@@ -27,6 +27,10 @@ class NameModel: ColorTypeModel {
         return "Color name"
     }
     
+    var brightness: CGFloat {
+        toRgb().brightness
+    }
+    
     init(name: String, closestNamedHex: String?, exactMatch: Bool, distance: Int16) {
         value.name = name
         value.closestNamedHex = closestNamedHex
