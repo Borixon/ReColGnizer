@@ -27,7 +27,10 @@ class TabController: UITabBarController, StoryboardedProtocol {
         let nav3 = NavigationController()
         nav3.setViewControllers([FavouriteViewController.instantiate()], animated: true)
         
-        setViewControllers([nav1, nav2, nav3], animated: false)
+        let nav4 = NavigationController()
+        nav4.setViewControllers([LibrariesViewController.instantiate()], animated: true)
+        
+        setViewControllers([nav1, nav2, nav3, nav4], animated: false)
     }
 
     private func styleView() {

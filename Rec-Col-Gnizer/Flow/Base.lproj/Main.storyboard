@@ -106,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yuc-0O-Mce" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4572" y="190"/>
+            <point key="canvasLocation" x="4519" y="190"/>
         </scene>
         <!--Color Data View Controller-->
         <scene sceneID="Aia-xm-vx0">
@@ -309,6 +309,38 @@ You have no favorite colors yet!</string>
             </objects>
             <point key="canvasLocation" x="2906" y="925"/>
         </scene>
+        <!--Libraries-->
+        <scene sceneID="2i1-wv-SrM">
+            <objects>
+                <viewController storyboardIdentifier="LibrariesViewController" id="QlF-eV-EsU" customClass="LibrariesViewController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vn9-G9-eUB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Rqd-YH-Zg3">
+                                <rect key="frame" x="8" y="44" width="398" height="769"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Rqd-YH-Zg3" firstAttribute="top" secondItem="8L6-m1-q2R" secondAttribute="top" id="4tc-6i-pte"/>
+                            <constraint firstItem="8L6-m1-q2R" firstAttribute="bottom" secondItem="Rqd-YH-Zg3" secondAttribute="bottom" id="Ezl-b2-i90"/>
+                            <constraint firstItem="8L6-m1-q2R" firstAttribute="trailing" secondItem="Rqd-YH-Zg3" secondAttribute="trailing" constant="8" id="Kb2-qc-DmQ"/>
+                            <constraint firstItem="Rqd-YH-Zg3" firstAttribute="leading" secondItem="8L6-m1-q2R" secondAttribute="leading" constant="8" id="nSI-wi-Lac"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8L6-m1-q2R"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Libraries" image="book" catalog="system" id="XCg-Tj-xJU"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="Rqd-YH-Zg3" id="MKU-Vz-wLN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ox9-Xv-P0x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3722" y="925"/>
+        </scene>
         <!--Info-->
         <scene sceneID="F4N-3G-9jh">
             <objects>
@@ -342,7 +374,7 @@ You have no favorite colors yet!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LN8-gy-F0S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5304" y="925"/>
+            <point key="canvasLocation" x="5328" y="925"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="i0x-gz-LUN">
@@ -355,7 +387,7 @@ You have no favorite colors yet!</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="272-XF-r2t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4571" y="925"/>
+            <point key="canvasLocation" x="4517" y="925"/>
         </scene>
         <!--Sliders-->
         <scene sceneID="2hM-iR-5D8">
@@ -507,6 +539,7 @@ You have no favorite colors yet!</string>
     <resources>
         <image name="LaunchBackground" width="1096" height="2048"/>
         <image name="bolt" catalog="system" width="101" height="128"/>
+        <image name="book" catalog="system" width="128" height="101"/>
         <image name="camera" catalog="system" width="128" height="96"/>
         <image name="camera.circle" catalog="system" width="128" height="121"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>

@@ -55,12 +55,5 @@ class NavigationController: UINavigationController {
     
     public func setupSortingButton() {
         
-    }
-    
-    
-    
-    public func setTitle(_ string: String) {
-        
-    }
-    
+    } 
 }

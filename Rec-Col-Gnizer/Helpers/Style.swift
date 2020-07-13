@@ -66,4 +66,9 @@ struct Style {
     
     static let animateElementDuration: TimeInterval = 0.3
     static let insertScreenDuration: TimeInterval = 0.1
+    
+    // MARK: Cells parameters
+    static let cellHeightSmall: CGFloat = 40
+    static let cellHeightRegular: CGFloat = 60
+    static let cellHeightBig: CGFloat = 80
 }
