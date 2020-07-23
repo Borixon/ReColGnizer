@@ -11,7 +11,7 @@ import UIKit
 
 class HslModel: ColorTypeModel {
     typealias ColorData = (h: Int16, s: Int16, l: Int16)
-    static var maxValue: ColorData = (h: 359, s: 100, l: 100)
+    static var maxValue: ColorData = (h: 360, s: 100, l: 100)
     var value: (h: Int16, s: Int16, l: Int16)
     
     var components: [String] {

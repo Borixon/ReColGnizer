@@ -37,6 +37,7 @@ class ColorDataViewController: UIViewController, StoryboardedProtocol {
     private func setupTableView() {
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.register(UINib(nibName: "SchemeCell", bundle: Bundle.main), forCellReuseIdentifier: vm.schemeCellIndentifier)
         tableView.register(UINib(nibName: "ColorNameCell", bundle: Bundle.main), forCellReuseIdentifier: vm.nameCellIndentifier)
         tableView.register(UINib(nibName: "ColumnDataCell", bundle: Bundle.main), forCellReuseIdentifier: vm.columnDataCellIdentifier)
         tableView.backgroundColor = .clear
@@ -66,20 +67,31 @@ extension ColorDataViewController: UITableViewDelegate {
 
 extension ColorDataViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return vm.numberOfRows
+        return vm.numberOfRows(for: section)
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return vm.numberOfSections
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if indexPath.row == 0 {
+        if indexPath.section == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: vm.nameCellIndentifier) as! ColorNameCell
             cell.setup(name: vm.nameData.name, hex: vm.nameData.hex, contrast: vm.contrastColor)
+            
+            return cell
+        } else if indexPath.section == 1{
+            let cell = tableView.dequeueReusableCell(withIdentifier: vm.columnDataCellIdentifier) as! ColumnDataCell
+            let data = vm.colorData(forIndex: indexPath)
+            cell.setup(name: data.name, columns: data.columns, contrast: vm.contrastColor)
+            
             return cell
         } else {
-            let dataCell = tableView.dequeueReusableCell(withIdentifier: vm.columnDataCellIdentifier) as! ColumnDataCell
-            if let data = vm.colorData(forIndex: indexPath) {
-                dataCell.setup(name: data.name, columns: data.columns, contrast: data.contrast)
-            }
-            return dataCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: vm.schemeCellIndentifier) as! SchemeCell
+            let data = vm.schemeData(forIndex: indexPath.row)
+            cell.setup(title: data.title, colours: data.colour, contrast: vm.contrastColor)
+            
+            return cell
         }
     }
     

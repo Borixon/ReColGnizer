@@ -97,6 +97,8 @@
 		6FF5EADA24488F510026BEDE /* ColorTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5EAD924488F510026BEDE /* ColorTypeModel.swift */; };
 		6FFD7DDC249A6AA90013264E /* FavouriteViewController+SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD7DDB249A6AA90013264E /* FavouriteViewController+SearchBar.swift */; };
 		6FFD7DDE249A9A3E0013264E /* SortingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD7DDD249A9A3E0013264E /* SortingViewController.swift */; };
+		84936DD024C9B5420004EFF6 /* SchemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84936DCE24C9B5420004EFF6 /* SchemeCell.swift */; };
+		84936DD124C9B5420004EFF6 /* SchemeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84936DCF24C9B5420004EFF6 /* SchemeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -214,6 +216,8 @@
 		6FF5EAD924488F510026BEDE /* ColorTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTypeModel.swift; sourceTree = "<group>"; };
 		6FFD7DDB249A6AA90013264E /* FavouriteViewController+SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavouriteViewController+SearchBar.swift"; sourceTree = "<group>"; };
 		6FFD7DDD249A9A3E0013264E /* SortingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SortingViewController.swift; path = "Rec-Col-Gnizer/MVVM/ViewController/SortingViewController.swift"; sourceTree = SOURCE_ROOT; };
+		84936DCE24C9B5420004EFF6 /* SchemeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemeCell.swift; sourceTree = "<group>"; };
+		84936DCF24C9B5420004EFF6 /* SchemeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SchemeCell.xib; sourceTree = "<group>"; };
 		C4D5C22154C061014E40017D /* libPods-Rec-Col-Gnizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rec-Col-Gnizer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AE2AC53901179C47861E9E /* Pods-Rec-Col-Gnizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rec-Col-Gnizer.release.xcconfig"; path = "Target Support Files/Pods-Rec-Col-Gnizer/Pods-Rec-Col-Gnizer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -316,7 +320,7 @@
 				6F1B445D24558220005372D6 /* Data */,
 				6F9D494E2442451200AF50D6 /* Base */,
 				6FF275962440CEAC00FDDBAF /* Flow */,
-				6F9138AD243E5060008B8E78 /* Helpers */,
+				6F9138AD243E5060008B8E78 /* Services */,
 				6F591B2F243E2F0A00ECEEEC /* CoreData */,
 				6F9D49552442517400AF50D6 /* Cells */,
 				6F97C078243E59DA00CDA54C /* CodableObjects */,
@@ -431,7 +435,7 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		6F9138AD243E5060008B8E78 /* Helpers */ = {
+		6F9138AD243E5060008B8E78 /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				6FF464682469B169000E45F9 /* PinViewController */,
@@ -447,7 +451,7 @@
 				6F6F7916249A579E00E7D508 /* SortingType.swift */,
 				6F7C4B5524BB296E009B3DC4 /* ColourSystems.swift */,
 			);
-			path = Helpers;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		6F97C078243E59DA00CDA54C /* CodableObjects */ = {
@@ -478,6 +482,7 @@
 		6F9D49552442517400AF50D6 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				84936DCD24C9B51D0004EFF6 /* SchemeCell */,
 				6F06E1872448AC82003CABAD /* SliderCell */,
 				6F9D4958244251CD00AF50D6 /* ColorNameCell.swift */,
 				6F9D4959244251CD00AF50D6 /* ColorNameCell.xib */,
@@ -544,6 +549,15 @@
 				6FFD7DDB249A6AA90013264E /* FavouriteViewController+SearchBar.swift */,
 			);
 			path = FavouriteViewController;
+			sourceTree = "<group>";
+		};
+		84936DCD24C9B51D0004EFF6 /* SchemeCell */ = {
+			isa = PBXGroup;
+			children = (
+				84936DCE24C9B5420004EFF6 /* SchemeCell.swift */,
+				84936DCF24C9B5420004EFF6 /* SchemeCell.xib */,
+			);
+			path = SchemeCell;
 			sourceTree = "<group>";
 		};
 		A8CD26646ADB296848AF81F8 /* Pods */ = {
@@ -670,6 +684,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84936DD124C9B5420004EFF6 /* SchemeCell.xib in Resources */,
 				6F0133B624464A2900D2A25A /* SliderCell.xib in Resources */,
 				6F591B06243E2E8500ECEEEC /* LaunchScreen.storyboard in Resources */,
 				6FF4646C2469B18E000E45F9 /* PinViewController.xib in Resources */,
@@ -757,6 +772,7 @@
 				6F364212244CA38500018953 /* ColorEntity+CoreDataProperties.swift in Sources */,
 				6F3641ED244C8E1400018953 /* DataManager.swift in Sources */,
 				6F7C4B5624BB296E009B3DC4 /* ColourSystems.swift in Sources */,
+				84936DD024C9B5420004EFF6 /* SchemeCell.swift in Sources */,
 				6F7C4B5224BB26C8009B3DC4 /* LibrariesViewController.swift in Sources */,
 				6F10C64A24476905006EC9FC /* API.swift in Sources */,
 				6FAC49962448F18C004971AC /* HslModel.swift in Sources */,

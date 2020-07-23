@@ -153,6 +153,12 @@ final class SliderPickerViewModel {
     private func convertModelTo(_ category: PickerCategory) {
         if viewCategory == .Rgb && category == .Hsl {
             model.hslModel = model.rgbModel.toHsl()
+//            let helper = ColorHelper()
+//            let anal = helper.analogous(model.hslModel)
+//            let triad = helper.triads(model.hslModel)
+//            let com = helper.complementary(model.hslModel)
+//            let split = helper.splitComplementary(model.hslModel)
+            
         } else if viewCategory == .Hsl && category == .Rgb {
             model.rgbModel = model.hslModel.toRgb()
         }

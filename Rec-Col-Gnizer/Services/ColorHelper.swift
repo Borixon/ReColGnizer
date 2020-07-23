@@ -104,5 +104,57 @@ struct ColorHelper {
                 s: Int16(saturation * CGFloat(HslModel.maxValue.s)),
                 l: Int16(lightness * CGFloat(HslModel.maxValue.l)))
     }
+    
+    // TODO: Add shades for colours
 
+    func triads(_ col1: HslModel) -> [HslModel] {
+        let distance: Int16 = 120
+        
+        let colourFirst = col1.value.h
+        let colourSecond = colourFirst + distance <= HslModel.maxValue.h ? colourFirst + distance : colourFirst + distance - HslModel.maxValue.h
+        let colourThird = colourSecond + distance <= HslModel.maxValue.h ? colourSecond + distance : colourSecond + distance - HslModel.maxValue.h
+        
+        let col2 = HslModel(h: colourSecond, s: col1.value.s, l: col1.value.l)
+        let col3 = HslModel(h: colourThird, s: col1.value.s, l: col1.value.l)
+        
+        return [col1, col2, col3]
+    }
+    
+    func complementary(_ col1: HslModel) -> [HslModel] {
+        let distance: Int16 = 180
+        
+        let colourSecond = col1.value.h + distance <= HslModel.maxValue.h ? col1.value.h + distance : col1.value.h + distance - HslModel.maxValue.h
+        let col2 = HslModel(h: colourSecond, s: col1.value.s, l: col1.value.l)
+        
+        return [col1, col2]
+    }
+    
+    func analogous(_ col1: HslModel) -> [HslModel] {
+        let distance: Int16 = 30
+        
+        let colourFirst = col1.value.h
+        let colourSecond = colourFirst + distance <= HslModel.maxValue.h ? colourFirst + distance : colourFirst + distance - HslModel.maxValue.h
+        let colourThird = colourFirst - distance >= 0 ? colourFirst - distance : colourFirst - distance + HslModel.maxValue.h
+        
+        let col2 = HslModel(h: colourSecond, s: col1.value.s, l: col1.value.l)
+        let col3 = HslModel(h: colourThird, s: col1.value.s, l: col1.value.l)
+        
+        return [col3, col1, col2]
+    }
+    
+    func splitComplementary(_ col1: HslModel, split: Int16 = 30) -> [HslModel] {
+        let distance: Int16 = 180
+        
+        let colourFirst = col1.value.h
+        let split1 = colourFirst + distance + split
+        let split2 = colourFirst + distance - split
+        let colourSplit1 = split1 <= HslModel.maxValue.h ? split1 : split1 - HslModel.maxValue.h
+        let colourSplit2 = split2 <= HslModel.maxValue.h ? split2 : split2 - HslModel.maxValue.h
+        
+        let col2 = HslModel(h: colourSplit1, s: col1.value.s, l: col1.value.l)
+        let col3 = HslModel(h: colourSplit2, s: col1.value.s, l: col1.value.l)
+        
+        return [col3, col1, col2]
+    }
+    
 }
