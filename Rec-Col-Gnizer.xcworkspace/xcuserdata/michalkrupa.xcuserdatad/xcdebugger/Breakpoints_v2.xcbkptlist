@@ -48,7 +48,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "36"
             endingLineNumber = "36"
-            landmarkName = "saveColor(_:)"
+            landmarkName = "getColor(hex:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -64,7 +64,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
             endingLineNumber = "38"
-            landmarkName = "saveColor(_:)"
+            landmarkName = "getColor(hex:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -234,22 +234,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "09C293A8-9AEC-4436-8064-6CE7F38C7285"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Rec-Col-Gnizer/Helpers/CameraController/CameraController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "init()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "B0977986-0C45-44F5-B8EC-393F5C94CD92"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -260,38 +244,102 @@
             startingLineNumber = "91"
             endingLineNumber = "91"
             landmarkName = "snapshot(_:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "40450087-7E74-453C-97BD-E9BE72C1BC33"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Rec-Col-Gnizer/Flow/Coordinators/MainCoordinator.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "openTabBar()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "86F24BDA-B5F7-47C3-A815-0F46FC6DC936"
+            uuid = "CC54985D-CE29-4E73-A8B1-1B42174657A8"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Rec-Col-Gnizer/MVVM/ViewController/IntroViewController.swift"
+            filePath = "Rec-Col-Gnizer/MVVM/Model/ColourListData/ColoursListData.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "viewDidAppear(_:)"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "saerch()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52283C51-3E44-4D7F-8069-09BAEEABFA5A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rec-Col-Gnizer/MVVM/Model/ColourListData/ColoursListData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "saerch()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "52283C51-3E44-4D7F-8069-09BAEEABFA5A - 3d47d86021bd9e7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecColGnizer.ColoursListData.saerch() -&gt; ()"
+                  moduleName = "RecColGnizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michalkrupa/Documents/Prywatne/Projekty/RecColGnizer/Rec-Col-Gnizer/Rec-Col-Gnizer/MVVM/Model/ColourListData/ColoursListData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "980">
+               </Location>
+               <Location
+                  uuid = "52283C51-3E44-4D7F-8069-09BAEEABFA5A - 9666a0f23815515f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RecColGnizer.ColorModel) -&gt; Swift.Bool in RecColGnizer.ColoursListData.saerch() -&gt; ()"
+                  moduleName = "RecColGnizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michalkrupa/Documents/Prywatne/Projekty/RecColGnizer/Rec-Col-Gnizer/Rec-Col-Gnizer/MVVM/Model/ColourListData/ColoursListData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F24FA451-8B56-4440-96D7-6E7BBE78C45C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rec-Col-Gnizer/MVVM/Model/ColourListData/ColoursListData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "sort()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94F26828-631B-4806-8843-CB18B8ED40CE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rec-Col-Gnizer/MVVM/ViewController/ColourListViewController/ColourListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "setupFavouriteSearchBar()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

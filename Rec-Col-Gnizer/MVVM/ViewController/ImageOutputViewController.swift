@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ImageOutputViewController: BaseViewController {
+final class ImageOutputViewController: BaseViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var dismissButton: UIButton!

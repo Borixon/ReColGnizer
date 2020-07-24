@@ -19,7 +19,7 @@ final class SliderPickerViewModel {
     var searchPicker: PickerCategory = UserData().selectedPickerCategory
     var delegate: PickerViewModelDelegate?
     private var controller: BaseViewController? = nil
-    private var model: PickerColorModel = PickerColorModel()
+    private var model: PickerColourModel = PickerColourModel()
     
     // MARK: Vars
     

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TabController: UITabBarController, StoryboardedProtocol {
+final class TabController: UITabBarController, StoryboardedProtocol {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,17 +16,25 @@ class TabController: UITabBarController, StoryboardedProtocol {
     }
     
     public func setupViewControllers() {
+        // Sliders view
         let nav1 = NavigationController()
         nav1.setViewControllers([SliderPickerViewController.instantiate()], animated: true)
         
+        // Camera picker view
         let nav2 = NavigationController()
         let imgPicker = ImagePickerViewController.instantiate()
         imgPicker.startCameraSession()
         nav2.setViewControllers([imgPicker], animated: true)
         
+        // Favourite view
         let nav3 = NavigationController()
-        nav3.setViewControllers([FavouriteViewController.instantiate()], animated: true)
+        let fav = ColourListViewController.instantiate()
+        nav3.setViewControllers([fav], animated: true)
+        fav.vm = ColourListViewModel()
+        fav.vm.data = FavouriteListData()
+        fav.setupFavouriteSearchBar()
         
+        // Libraries view
         let nav4 = NavigationController()
         nav4.setViewControllers([LibrariesViewController.instantiate()], animated: true)
         

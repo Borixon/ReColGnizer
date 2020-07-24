@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class ImagePickerViewController: BaseViewController {
+final class ImagePickerViewController: BaseViewController {
     
     @IBOutlet weak var flashButton: UIButton!
     @IBOutlet weak var viewfinder: UIView!

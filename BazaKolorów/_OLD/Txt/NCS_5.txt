@@ -1,0 +1,3116 @@
+
+<!DOCTYPE html>
+<html lang="en-gb">
+<!-- #BeginTemplate "Templates/Template2.dwt" -->
+<head>
+<!-- #BeginEditable "doctitle" -->
+
+<title>NCS 1950 colour chart</title>
+<meta name="description" content="NCS 1950 colour chart. NCS 1950 colors for paints and coatings . Free UK delivery." />
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This site uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"","link":null,"theme":"dark-bottom"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+<!-- #EndEditable -->
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="_PZk64jgfw21jkO3G-sHAv19KsgvqPVy0B1Qa7oXXvU" />
+<meta name="robots" content="index,follow" />
+<meta name="subject" content="Colour Cards, Charts, Fans and Books " />
+<meta name="MSSmartTagsPreventParsing" content="false" />
+<meta http-equiv="ImageToolBar" content="yes" />
+<meta name="revisit-after" content="30" />
+<meta name="copyright" content="e-paint.co.uk" />
+<meta name="language" content="en-gb" />
+<meta name="classification" content="Business and Economy" />
+<meta name="distribution" content="Global" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<script language="javascript" type="text/javascript">
+function toggle(id) {
+    var el = document.getElementById(id);
+    var img = document.getElementById("arrow");
+    var box = el.getAttribute("class");
+    if(box == "navhide"){
+        el.setAttribute("class", "navshow");
+        delay(img, "/images/menu-ico_white.png", 100);
+    }
+    else{
+        el.setAttribute("class", "navhide");
+        delay(img, "/images/menu-ico.png", 100);
+    }
+}
+
+function delay(elem, src, delayTime){
+    window.setTimeout(function() {elem.setAttribute("src", src);}, delayTime);
+}
+
+</script>
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+  
+  
+ </head>
+<body>
+<!--Header-->
+   <div class="header">
+  <div class="wrapper">
+    <div class="logo">
+      <h2>
+        <a href="https://www.e-paint.co.uk/" title="RAL, NCS, Pantone, CIELab, US Fed Spec and British Standard Colour Guides - Fans, books, swatches, charts and cards for paints and coatings">e-paint.co.uk</a>
+      </h2>
+      <span>Colour Cards, Charts, Fans and Books</span>
+    </div>
+  <a href="https://www.e-paint.co.uk/delivery.asp" title="Free delivery by post to the UK"> <div class="free-delivery"></div></a>
+    <div class="holder">
+      <div class="top-menu">
+        <ul>
+            
+          <li>
+            <a target="_blank" href="https://www.e-paint.co.uk/contact_us.asp">
+              <span class="fa fa-envelope"></span>Contact
+            </a>
+          </li>
+          <li>
+            <a href="https://www.e-paint.co.uk/cart.asp">
+              <span class="fa fa-shopping-cart"></span>View basket
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="sub-top-menu">
+        <ul>
+          <li>
+            <a href="https://www.e-paint.co.uk/supplier_directory.asp" title="Paint, sealant and other suppliers"><img src="Nav_images/fill.png" alt="Paint suppliers" />Supplier directory</a>
+          </li>
+          <li>
+            <a href="https://www.e-paint.co.uk/colour_alternatives.asp" title="Convert from one colour system to another"><img src="Nav_images/hsv.png" alt="Colour conversions" />Colour Alternatives</a>
+          </li>
+       
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <!--menu-->
+<div class="menu">
+  <div class="wrapper">
+    <div id="menuico" onClick="toggle('mobnav');">
+      <i class="fa fa-bars mob-nav"></i>
+      <span>Menu</span>
+    </div>
+    <div class="top-nav">
+      <ul>
+        <li>
+          <a href="https://www.e-paint.co.uk/" title="Home">
+	<img src="Nav_images/home1.png" alt="Home"/>Home</a>        </li>
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/categories.asp"><img src="Nav_images/pantone.png" alt="Colour fan"/>Colour products</a>
+          <ul>
+            <li>
+              <a href="https://www.e-paint.co.uk/Ral_colour_guides.asp"><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Classic colour guides</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/categories.asp?cat=41"><img src="Nav_images/16colors.png" alt="A4 size sheets"/>Individual RAL sheets</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/BS_colour_guides.asp"><img src="Nav_images/pantone.png" alt="Colour fan"/>British Std. colour guides</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/products.asp?cat=52"><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Design colour fans</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/products.asp?cat=56"><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Effect colour fans</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/products.asp?cat=59"><img src="Nav_images/pantone.png" alt="Colour fan"/>CIELab colour fans</a>
+            </li>
+            <li><a href="https://www.e-paint.co.uk/products.asp?cat=60"><img src="Nav_images/pantone.png" alt="Colour fan"/>Federal Std 595 colour fans</a></li>
+            <li><a href="https://www.e-paint.co.uk/products.asp?cat=65"><img src="Nav_images/pantone.png" alt="Colour fan"/>AMS Std 595A colour fans</a></li>
+        <li><a href="https://www.e-paint.co.uk/products.asp?cat=63"><img src="Nav_images/pantone.png" alt="Colour fan"/>Australian Std. AS2700</a>
+            </li>
+       <li><a href="https://www.e-paint.co.uk/products.asp?cat=62"><img src="Nav_images/pantone.png" alt="Colour fan"/>NCS Index 1950 colour fans</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/products.asp?cat=54"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Customised colour cards</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/chart_options.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Colour charts</a>
+          <ul>
+            <li>
+              <a href="https://www.e-paint.co.uk/RAL_Classic_Colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL Classic colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/BS_4800_Colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>BS 4800:2011 colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/BS381 Colourchart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>BS 381C colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/bs2660_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>BS 2660 colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/bs5252_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>BS 5252 colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/other_bs_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Other BS colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/pantone_c_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Pantone colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Munsell_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Munsell colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/ral_design_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL Design colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/ral_effect_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL Effect colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/DIN_6164_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>DIN 6164 colour chart</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/Dulux_Trade_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Dulux<sup>&reg;</sup> Trade colour chart</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/NCS_1950_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>NCS 1950 colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Australian_standard_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Australian Standard colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Federal_standard_595C_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Federal Std. 595C colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/ams_standard_595_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>AMS Std. 595A colours</a>
+            </li>
+         </ul>
+        </li>
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/search_for_colours_and_products.asp"><img src="Nav_images/search.png" alt="Search for colours and products" />Search</a>
+          <ul class="alnright">
+              <li>
+                <a href="https://www.e-paint.co.uk/search.asp"><img src="Nav_images/search.png" alt="Search" />Product search</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/search_colour.asp"><img src="Nav_images/find.png" alt="Search" />Colour search</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/Convert_RGB.asp"><img src="Nav_images/rgb.png" alt="Lab and HLC values" />Search by RGB values</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/Convert_Lab.asp"><img src="Nav_images/lab_color_model.png" alt="Lab and HLC values" />Search by L*a*b* values</a>
+              </li>
+        <li>
+                <a href="https://www.e-paint.co.uk/Dulux_codes.asp"><img src="Nav_images/lab_color_model.png" alt="Dulux codes" />Search by Dulux<sup>&reg;</sup> codes values</a>
+              </li>
+			  <li> 
+			   <a href="https://www.e-paint.co.uk/search_whites_and_off_whites.asp"><img src="Nav_images/find.png" alt="Whites and pastels" />Whites and Pastels</a>
+              </li>
+           </ul>
+        </li>
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/Advanced_menu.asp"><img src="Nav_images/hsl.png" alt="Colour information"/>Advanced</a>
+          <ul class="alnright">
+            <li>
+              <a href="https://www.e-paint.co.uk/Lab_values.asp" title="Colour Lab, RGB and HLC values"><img src="Nav_images/yuv_color_space.png" alt="Lab and HLC values" />Colour L*a*b*/RGB values</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Colour_alternatives.asp"><img src="Nav_images/hsv.png" alt="Colour conversions" />Colour alternatives</a>
+            </li>
+             <li>
+              <a href="https://www.e-paint.co.uk/Compare_colours.asp"><img src="Nav_images/hsv.png" alt="Colour comparison" />Compare colours</a>
+            </li>
+ <li>
+              <a href="https://www.e-paint.co.uk/colour_trends_2016.asp"><img src="Nav_images/3d_graph.png" alt="Colour trends" />Colour trends 2016+</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/uk_organisations.asp"><img src="Nav_images/lock_color.png" alt="Organisation colours" />UK Organisations' colours</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/us_organisations.asp"><img src="Nav_images/lock_color.png" alt="US Organisation colours" />US Organisations' colours</a>
+            </li>
+         </ul>
+        </li>
+        <li class="donotshowontablet">
+          <a class="parent" href="https://www.e-paint.co.uk/print_options.asp"><img src="Nav_images/print.png" alt="print"/>Print</a>
+          <ul>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_ral_colours.asp">RAL Classic colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_RAL_design_colours.asp">RAL Design colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_RAL_effect_colours.asp">RAL Effect colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_BS4800_colours.asp">BS 4800 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_BS2660_colours.asp">BS 2660 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_bs381c_colours.asp">BS 381C colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_din_6164_colours.asp">DIN 6164 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_NCS_colours.asp">NCS 1950 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_australian_colours.asp">Australian Std. colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_FS595_colours.asp">Federal Std. 595 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_AMS595_colours.asp">AMS Std. 595A colours</a>
+            </li>
+</ul>
+        </li>
+
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/Contact_options.asp"><img src="Nav_images/help.png" alt="Contact"/>Help</a>
+          <ul class="moveleft">
+            <li>
+              <a href="https://www.e-paint.co.uk/contact_us.asp" title="Contact us by email"><img src="Nav_images/contact.png" alt="Contact" />General enquiry</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/customer_service.asp" title="Customer service" target="_blank"><img src="Nav_images/pie_chart.png" alt="Lab and HLC values" />Customer services</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/terms_and_conditions.asp" title="View terms and conditions"><img src="Nav_images/critical_details.png" alt="Terms and conditions" />Terms and conditions</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/copy_invoice(2.asp" title="Get a copy of your invoice" target="_blank"><img src="Nav_images/form.png" alt="Invoice" />Copy invoice</a>            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/faqs.asp" title="Frequently asked questions"><img src="Nav_images/help.png" alt="help" />FAQs / help</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/online_colour_charts.asp" title="Online colourcharts"><img src="Nav_images/colorchart.png" alt="online colourcharts" />Online colour charts</a>
+            </li>
+
+            <li><a href="https://www.e-paint.co.uk/delivery.asp" title="Delivery information"><img src="Nav_images/icon_truck.png" alt="Delivery" />Delivery</a></li>
+ 		<li>
+		<a href="https://www.e-paint.co.uk/security.asp" title="Security and cookie information"><img src="Nav_images/registration.png" alt="Security" />Security and privacy</a></li>
+		<li><a href="https://www.e-paint.co.uk/supplier_directory.asp" title="Find paint and other product suppliers"><img src="Nav_images/fill.png" alt="Paint suppliers" />Supplier directory</a></li>
+    	</ul>
+    </li>
+   </ul>
+    </div>
+    <div class="search-box">
+      <form method="post" action="https://www.e-paint.co.uk/search_colour.asp" style="margin-bottom: 0px">
+        <input type="hidden" name="posted" value="1" />
+        <input type="hidden" name="sprice" value="" />
+        <input class="search" type="text" name="cQuery" size="16" placeholder="colour search" />
+        <button type="submit" class="btn search-btn">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+<div id="mobnav" class="navhide">
+  <ul>
+    <li>
+      <a href="https://www.e-paint.co.uk/"><img src="../Nav_images/home1.png" alt="home"/>home</a>
+    </li>
+    <li class="has-sub">
+      <a href="https://www.e-paint.co.uk/categories.asp"><img src="Nav_images/pantone.png" alt="Colourchart"/>products / colour guides</a>
+<ul>
+                            <li><a href='https://www.e-paint.co.uk/RAL_colour_guides.asp'><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Classic colour guides</a></li>
+                            <li class="has-sub">
+                                <a href='https://www.e-paint.co.uk/categories.asp?cat=41'><img src="Nav_images/16colors.png" alt="A4 size sheets"/>Individual A4 colour cards</a>
+                                <ul>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=42'>RAL 1000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=43'>RAL 2000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=44'>RAL 3000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=45'>RAL 4000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=46'>RAL 5000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=47'>RAL 6000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=48'>RAL 7000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=49'>RAL 8000 Series A4 card</a></li>
+                                    <li class='last'><a href='https://www.e-paint.co.uk/products.asp?cat=50'>RAL 9000 Series A4 card</a></li>
+                                </ul>
+                            </li>
+                            <li><a href='https://www.e-paint.co.uk/BS_colour_guides.asp'><img src="Nav_images/pantone.png" alt="Colour fan"/>BS colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=56'><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Effect colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=52'><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Design colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=59'><img src="Nav_images/pantone.png" alt="Colour fan"/>CIELab colour fans</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=62'><img src="Nav_images/pantone.png" alt="Colour fan"/>NCS 1950 colour fan</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=60'><img src="Nav_images/pantone.png" alt="Colour fan"/>Federal Std. colour fans</a></li>
+                            <li><a href="https://www.e-paint.co.uk/products.asp?cat=65"><img src="Nav_images/pantone.png" alt="Colour fan"/>AMS Std 595A colour fans</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=63'><img src="Nav_images/pantone.png" alt="Colour fan"/>Australian Std. AS2700</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=54'><img src="Nav_images/pantone.png" alt="Colour fan"/>Custom colour guides</a></li>
+                        </ul>
+    </li>
+    <li class="has-sub">
+      <a href="https://www.e-paint.co.uk/chart_options.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>colour charts</a>
+      <ul>
+          <li><a href='https://www.e-paint.co.uk/RAL_Classic_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL Classic colours</a>
+            </li>
+       <li class="has-sub"><a href='https://www.e-paint.co.uk/BS_4800_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>British Std. colours</a>
+              <ul>
+        <li><a href='https://www.e-paint.co.uk/BS_4800_Colour_chart.asp'>BS 4800:2011 colours</a>
+              </li>
+       <li><a href="https://www.e-paint.co.uk/bs4800_colour_chart_1989.asp">BS 4800:1989 colours</a>
+              </li>
+
+            <li><a href='https://www.e-paint.co.uk/bs5252_colour_chart.asp'>BS 5252 colours</a>
+            </li>
+          <li><a href='https://www.e-paint.co.uk/BS381 Colourchart.asp'>BS 381C colours</a>
+           </li>
+          <li><a href='https://www.e-paint.co.uk/bs2660_colour_chart.asp'>BS 2660 colours</a>
+            </li>
+          <li><a href='https://www.e-paint.co.uk/other_bs_colours.asp'>Other BS colours</a></li>
+          </ul>
+          </li>
+          <li><a href='https://www.e-paint.co.uk/ral_design_colours.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL 'Design' colours</a>
+          
+          </li>
+          <li><a href='https://www.e-paint.co.uk/ral_effect_colours.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL 'Effect' colours</a>
+        
+          </li>
+          <li class="has-sub"><a class="parent" href='pantone_c_colours.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Pantone<sup>&reg;</sup> colours</a>
+          		<ul><li><a href='https://www.e-paint.co.uk/pantone_c_colours.asp'>Pantone C colours</a></li>
+          		<li><a href='https://www.e-paint.co.uk/pantone_u_colours.asp'>Pantone U colours</a></li>
+          		</ul>
+          		</li>
+          <li><a href='https://www.e-paint.co.uk/DIN_6164_colours.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>DIN 6164 colours</a>
+              </li>
+         <li><a href='https://www.e-paint.co.uk/Dulux_Trade_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Dulux<sup>&reg;</sup> Trade colours</a>
+              </li>
+         <li><a href='https://www.e-paint.co.uk/NCS_1950_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>NCS<sup>&reg;</sup> 1950 colours</a>
+             </li>
+          <li><a href='https://www.e-paint.co.uk/Australian_standard_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Australian Std. colours</a>
+            
+          </li>
+          <li><a href='https://www.e-paint.co.uk/Federal_standard_595C_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Federal Std. 595 colours</a>
+            
+          </li>
+          <li><a href='https://www.e-paint.co.uk/AMS_standard_595_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>AMS Std. 595A colours</a>
+            
+          </li>
+          <li><a href='https://www.e-paint.co.uk/Munsell_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Munsell colours</a>
+           
+          </li>
+
+         <li class="has-sub"><a href='https://www.e-paint.co.uk/chart_options.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Other</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/astm_f934_fencing.asp'>ASTM F934 Fencing</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=BG'>British Gas</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=BR'>British Rail</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=MoD'>UK Ministry of Defense</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=DoT'>UK Dept. of Transport</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=PO'>UK Post Office</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=DT'>DULUX<sup>&reg;</sup>TRADE - BS 4800</a></li>
+            </ul>
+          </li>
+          <li><a href='https://www.e-paint.co.uk/online_colour_charts.asp'>Online charts</a></li>
+
+            </ul>
+
+    </li>
+    <li class="has-sub">
+      <a href="https://www.e-paint.co.uk/Advanced_menu.asp"><img src="Nav_images/hsl.png" alt="colour information"/>Colour information</a>
+	       <ul>
+            <li>
+              <a href="https://www.e-paint.co.uk/Lab_values.asp" title="Colour Lab, RGB and HLC values"><img src="Nav_images/yuv_color_space.png" alt="Lab and HLC values" />Colour L*a*b* / RGB values</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Colour_alternatives.asp"><img src="Nav_images/hsv.png" alt="Colour conversions" />Colour alternatives</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/Compare_colours.asp"><img src="Nav_images/hsv.png" alt="Colour comparison" />Compare colours</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/colour_trends_2016.asp"><img src="Nav_images/3d_graph.png" alt="Colour trends" />Colour trends 2016+</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/uk_organisations.asp"><img src="Nav_images/lock_color.png" alt="Organisation colours" />UK Organisations' colours</a>
+            </li>
+             <li>
+              <a href="https://www.e-paint.co.uk/us_organisations.asp"><img src="Nav_images/lock_color.png" alt="Organisation colours" />US Organisations' colours</a>
+            </li>
+        </ul>
+
+    </li>
+    <li class="has-sub">
+      <a href="https://www.e-paint.co.uk/search_for_colours_and_products.asp"><img src="Nav_images/search.png" alt="search"/>Search</a>
+        <ul>
+              <li>
+                <a href="https://www.e-paint.co.uk/search.asp"><img src="Nav_images/search.png" alt="Search" />Product search</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/search_colour.asp"><img src="Nav_images/find.png" alt="Search" />Colour search</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/Convert_RGB.asp"><img src="Nav_images/rgb.png" alt="Lab and HLC values" />Search by RGB values</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/Convert_Lab.asp"><img src="Nav_images/lab_color_model.png" alt="Lab and HLC values" />Search by L*a*b* values</a>
+              </li>
+  			<li>
+                <a href="https://www.e-paint.co.uk/Dulux_codes.asp"><img src="Nav_images/lab_color_model.png" alt="Dulux codes" />Search by Dulux<sup>&reg;</sup> codes</a>
+              </li>
+  			  <li> 
+			   <a href="https://www.e-paint.co.uk/search_whites_and_off_whites.asp"><img src="Nav_images/find.png" alt="Whites and pastels" />Whites and Pastels</a>
+              </li>
+            </ul>
+
+    </li>  
+     <li class="has-sub">
+           <a class="parent" href="https://www.e-paint.co.uk/Contact_options.asp"><img src="Nav_images/help.png" alt="Contact"/>Help</a>
+          <ul class="moveleft">
+            <li>
+              <a href="https://www.e-paint.co.uk/contact_us.asp" title="Contact us by email"><img src="Nav_images/contact.png" alt="Contact" />General enquiry</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/customer_service.asp" title="Customer service"><img src="Nav_images/pie_chart.png" alt="Lab and HLC values" />Customer services</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/terms_and_conditions.asp" title="View terms and conditions"><img src="Nav_images/critical_details.png" alt="Terms and conditions" />Terms and conditions</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/copy_invoice(2.asp" title="Get a copy of your invoice"><img src="Nav_images/form.png" alt="Invoice" />Copy invoice</a>            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/faqs.asp" title="Frequently asked questions"><img src="Nav_images/help.png" alt="help" />FAQs / help</a>
+            </li>
+            <li><a href="https://www.e-paint.co.uk/delivery.asp" title="Delivery information"><img src="Nav_images/icon_truck.png" alt="Delivery" />Delivery</a></li>
+ 		<li>
+		<a href="https://www.e-paint.co.uk/security.asp" title="Security and cookie information"><img src="Nav_images/registration.png" alt="Security" />Security and privacy</a></li>
+		<li><a href="https://www.e-paint.co.uk/supplier_directory.asp" title="Find paint and other product suppliers"><img src="Nav_images/fill.png" alt="Paint suppliers" />Supplier directory</a></li>
+    	</ul>
+    </li>
+
+  
+
+    <li>
+      <a href='https://www.e-paint.co.uk/cart.asp'><img src="Nav_images/buy.png" alt="View basket" />View basket</a>
+    </li>
+    <li>
+      <a href='https://www.e-paint.co.uk/supplier_directory.asp'><img src="Nav_images/fill.png" alt="Paint suppliers" />Supplier Directory</a>
+    </li>
+  </ul>
+</div>
+
+<!--mobile menu-->
+
+<!--main body-->
+<div id="main_body">
+    <div class="wrapper">
+        <div class="left left-col">
+                   <div class="left-nav">
+                <div class="title"><span class="fa fa-bars"></span>PRODUCTS AND &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INFORMATION</div>
+                <ul>
+                    <li><a class="parent" href='https://www.e-paint.co.uk/categories.asp'>Products</a>
+                        <ul>
+                            <li><a href='https://www.e-paint.co.uk/RAL_colour_guides.asp'>RAL Classic colour guides</a></li>
+                            <li>
+                                <a class="parent" href='https://www.e-paint.co.uk/categories.asp?cat=41'>Individual A4 colour cards</a>
+                                <ul>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=42'>RAL 1000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=43'>RAL 2000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=44'>RAL 3000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=45'>RAL 4000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=46'>RAL 5000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=47'>RAL 6000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=48'>RAL 7000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=49'>RAL 8000 Series A4 card</a></li>
+                                    <li class='last'><a href='https://www.e-paint.co.uk/products.asp?cat=50'>RAL 9000 Series A4 card</a></li>
+                                </ul>
+                            </li>
+                            <li><a href='https://www.e-paint.co.uk/BS_colour_guides.asp'>BS colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=56'>RAL Effect colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=52'>RAL Design colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=59'>CIELab colour fans</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=62'>NCS 1950 colour fan</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=60'>Federal Std. colour fans</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=65'>AMS Std. 595A colour fans</a></li>
+                           <li><a href='https://www.e-paint.co.uk/products.asp?cat=63'>Australian Std. AS2700</a></li>
+                            <li class='last'><a href='https://www.e-paint.co.uk/products.asp?cat=54'>Custom colour guides</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="parent" href='https://www.e-paint.co.uk/chart_options.asp'>Colour charts</a>
+                      <ul>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/RAL_Classic_Colour_chart.asp'>RAL Classic colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/RAL_Classic_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/pdfs/RAL colour chart.pdf' target="_blank">PDF</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_ral_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=39'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/BS_4800_Colourchart.asp'>BS 4800:2011 colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/BS_4800_Colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_BS4800_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=51'>Purchase</a></li>
+            </ul>
+          </li>
+   
+            <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/bs5252_colour_chart.asp'>BS 5252 colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/bs5252_colour_chart.asp'>View</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=51'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/BS381 Colourchart.asp'>BS 381C colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/BS381 Colourchart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_bs381c_colours.asp'>Print</a></li>
+              <li class="last"><a href='products.asp?cat=51'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/bs2660_colour_chart.asp'>BS 2660 colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/bs2660_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_bs2660_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=51'>Purchase</a></li>
+            </ul>
+          </li>
+          <li><a href='https://www.e-paint.co.uk/other_bs_colours.asp'>Other BS colours</a></li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/ral_design_colours.asp'>RAL 'Design' colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/ral_design_colours.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_RAL_design_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=52'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/ral_effect_colours.asp'>RAL 'Effect' colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/ral_effect_colours.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_RAL_effect_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=56'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/pantone_c_colours.asp'>Pantone colours</a>
+          		<ul><li><a href='https://www.e-paint.co.uk/pantone_c_colours.asp'>Pantone C colours</a></li>
+          		<li><a href='https://www.e-paint.co.uk/pantone_u_colours.asp'>Pantone U colours</a></li>
+          		</ul>
+          		</li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/DIN_6164_colours.asp'>DIN 6164 colours</a>
+            <ul>
+              <li><a href='DIN_6164_colours.asp'>View</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_DIN_6164_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/NCS_1950_colour_chart.asp'>NCS 1950 colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/NCS_1950_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/products.asp?cat=62'>Purchase</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_NCS_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/Australian_standard_colour_chart.asp'>Australian Std. colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/Australian_standard_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/products.asp?cat=63'>Purchase</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_australian_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/Federal_standard_595C_colour_chart.asp'>Federal Std. 595C colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/Federal_standard_595C_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/products.asp?cat=60'>Purchase</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_FS595_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/ams_standard_595_colour_chart.asp'>AMS Std. 595A colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/ams_standard_595_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/products.asp?cat=65'>Purchase</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_AMS595_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li><a href='https://www.e-paint.co.uk/Munsell_colour_chart.asp'>Munsell colours</a></li>
+         <li class="has-sub"><a class="parent" href='#'>Other</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/astm_f934_fencing.asp'>ASTM F934 Fencing</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=BG'>British Gas</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=BR'>British Rail</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=MoD'>UK Ministry of Defense</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=DoT'>UK Dept. of Transport</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=PO'>UK Post Office</a></li>
+	         <li><a href='https://www.e-paint.co.uk/Dulux_Trade_colour_chart.asp'>DULUX<sup>&reg;</sup>Trade Colours</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=DT'>DULUX<sup>&reg;</sup>TRADE - BS 4800</a></li>
+            </ul>
+          </li>
+          <li class="last"><a href='https://www.e-paint.co.uk/online_colour_charts.asp'>Online charts</a></li>
+
+            </ul>
+                    </li>
+                    <li><a class="parent" href='#'>Information</a>
+                      <ul>
+                        <li class='has-sub'><a class="parent" href='https://www.e-paint.co.uk/Advanced_menu.asp'>Colour information</a>
+                          <ul>
+                            <li><a href='https://www.e-paint.co.uk/Lab_values.asp'>L*a*b* and HLC values</a></li>
+                            <li><a href='https://www.e-paint.co.uk/Colour_alternatives.asp'>Colour alternatives</a></li>
+                            <li><a href="https://www.e-paint.co.uk/Compare_colours.asp">Compare colours</a></li>
+          <li><a href='https://www.e-paint.co.uk/colour_trends_2016.asp'>Colour trends</a></li>
+                            <li><a href='https://www.e-paint.co.uk/uk_organisations.asp'>UK organisations' colours</a></li>
+                            <li><a href='https://www.e-paint.co.uk/us_organisations.asp'>US organisations' colours</a></li>
+                          			  <li> 
+			   <a href="https://www.e-paint.co.uk/search_whites_and_off_whites.asp">Whites and Pastels</a>
+              </li>
+ <li><a href='https://www.e-paint.co.uk/Convert_RGB.asp'>Search by RGB values</a></li>
+                            <li><a href='https://www.e-paint.co.uk/Dulux_codes.asp'>Search by Dulux&reg; codes</a></li>
+                   <li class="last"><a href='https://www.e-paint.co.uk/Convert_Lab.asp'>Search by L*a*b* values</a></li>
+                          </ul>
+                        </li>
+                        <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/contact_us.asp'>Contact us</a>
+                          <ul>
+                            <li><a href='https://www.e-paint.co.uk/contact_us.asp' target="_blank">General enquiry</a></li>
+                            <li><a href='https://www.e-paint.co.uk/customer_service.asp' target="_blank">Customer service</a></li>
+                            <li class="last"><a href='https://www.e-paint.co.uk/copy_invoice(2.asp' target="_blank">Copy invoice</a></li>
+                          </ul>
+                        </li>
+                        <li><a href='https://www.e-paint.co.uk/delivery.asp'>Delivery service</a></li>
+                        <li><a href='https://www.e-paint.co.uk/security.asp'>Security and privacy</a></li>
+                        <li><a href='https://www.e-paint.co.uk/organisation_details.asp'>
+						Organisations</a></li>
+                        <li class="last"><a href='mailto:sales@e-paint.co.uk?subject=Enquiry from the e-paint.co.uk website' title='Click here to send an email'>Email</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="parent" href='https://www.e-paint.co.uk/faqs.asp'>Help / FAQs</a>
+                      <ul>
+                        <li><a href='https://www.e-paint.co.uk/delivery.asp'>Delivery service</a></li>
+                        <li><a href='https://www.e-paint.co.uk/terms_and_conditions.asp'>Terms and Conditions</a></li>
+                        <li><a href='https://www.e-paint.co.uk/security.asp'>Security and privacy</a></li>
+                         <li><a href='https://www.e-paint.co.uk/faqs.asp'>FAQS</a></li>
+                       <li class="last"><a href='https://www.e-paint.co.uk/contact_us.asp' target="_blank">Comments</a></li>
+                      </ul>
+                    </li>
+                  
+                    <li><a class="parent" href='https://www.e-paint.co.uk/search_for_colours_and_products.asp'>Search</a>
+                        <ul>
+                          <li><a href='https://www.e-paint.co.uk/search.asp'>Product search</a></li>
+                          <li><a href='https://www.e-paint.co.uk/search_colour.asp'>Colour search</a></li>
+                          <li><a href='https://www.e-paint.co.uk/Convert_RGB.asp'>Search by RGB values</a></li>
+                          <li><a href='https://www.e-paint.co.uk/Dulux_codes.asp'>Search by Dulux&reg; codes</a></li>
+                     <li class="last"><a href='https://www.e-paint.co.uk/Convert_Lab.asp'>Search by L*a*b* values</a></li>
+                        </ul>
+                    </li>
+           
+                    <li><a class="parent" href='https://www.e-paint.co.uk/supplier_directory.asp'>Supplier Directory</a>
+                      <ul>
+                        <li><a href='https://www.e-paint.co.uk/supplier_directory.asp'>Supplier directory</a></li>
+                        <li class="last"><a href='https://www.e-paint.co.uk/Contact_advertisers_home.asp'>Advertising</a></li>
+                      </ul>
+                    </li>
+                                    
+                    <li><a href="https://www.e-paint.co.uk/colour_trends_2016.asp">Colour Trends</a></li>
+                </ul>
+            </div>
+         
+
+            
+       
+
+        <!--left nav-->
+            
+            <!--minicart-->
+            <!--other nav-->
+            <!--logos and pictures-->
+            
+
+        </div>
+
+
+
+
+        <div class="right right-col">
+            <!--Content here-->
+            
+            <!-- #BeginEditable "main" -->
+     <div class="g-box-w center">
+    <h1>NCS Index 1950 Range Colour Chart <br /><small>Natural Colour System</small></h1>
+    <p>The colours depicted on the following chart are for <span class="underline">guidance only</span>.</p>
+    <p>The displayed colour will depend on your monitor and browser and pearl or metallic colours cannot be shown adequately. The finished colour, therefore, may <span class="underline_bold">not</span> be as shown here. Please use the official NCS<sup>&reg;&copy;</sup> colour product for most 
+	  accurate colour - available
+	  <a href="https://www.e-paint.co.uk/products.asp?cat=62"><span class="underline_bold"><i>here</i></span></a>.</p>
+	  <p>NCS<sup>&reg;&copy;</sup> is the registered trade name of NCS Colour 
+	  AB.</p>
+
+ 
+    <div class="print-chart donotshowontablet"><br />
+<p>If you wish to <b>print off</b> the <b>NCS 1950 colours</b> on this site - <b><u><a href="print_NCS_colours.asp"><i>click here</i></a></u>.</b></p>
+</div>
+   <div class="buy-chart"><br /><img src="images/small_pics/ncs_index_1950.gif" alt="NCS Index 1950 colour fan" />
+    If you wish to<b> purchase the NCS colour fan - <a href="https://www.e-paint.co.uk/products.asp?cat=62"><span class="underline"><i>click here</i></span></a>.</b></div>
+
+   <form method="post" action="NCS_1950_colour_chart.asp" name="pantone_c">
+		<br />
+		<p>
+		<select class="g-drop" size="1" name="NCS" onchange="form.submit()">
+		<option>Select NCS range</option>
+		<option value="1" >S 0300 - S 0907</option>
+		<option value="2" >S 1000 - S 1580</option>
+		<option value="3" >S 2000 - S 2055</option>
+		<option value="4" >S 2060 - S 3030</option>
+		<option value="5" selected>S 3040 - S 4030</option>
+		<option value="6" >S 4040 - S 5045</option>
+		<option value="7" >S 5500 - S 6530</option>
+		<option value="8" >S 7000 - S 9000</option>
+		</select></p>
+	</form>
+</div>
+<div class="colour-chart-nav center">
+    <a class="g-btn-b" href="NCS_1950_colour_chart.asp?NCS=1">S 0300 - S 0907</a>
+    <a class="g-btn-b" href="NCS_1950_colour_chart.asp?NCS=2">S 1000 - S 1580</a>
+    <a class="g-btn-b" href="NCS_1950_colour_chart.asp?NCS=3">S 2000 - S 2055</a>
+    <a class="g-btn-b" href="NCS_1950_colour_chart.asp?NCS=4">S 2060 - S 3030</a>
+    <div class="clear"></div>
+</div>
+<div class="colour-chart-nav center">
+    <a class="g-btn-b" href="NCS_1950_colour_chart.asp?NCS=5">S 3040 - S 4030</a>
+    <a class="g-btn-b" href="NCS_1950_colour_chart.asp?NCS=6">S 4040 - S 5045</a>
+    <a class="g-btn-b" href="NCS_1950_colour_chart.asp?NCS=7">S 5500 - S 6530</a>
+    <a class="g-btn-b" href="NCS_1950_colour_chart.asp?NCS=8">S 7000 - S 9000</a>
+    <div class="clear"></div>
+</div>
+
+
+<div class="g-box-w">
+
+     <ul itemscope itemtype="http://schema.org/Dataset" class="colour-charts">  
+    <meta itemprop="name" content="NCS 1950 Colour Chart" />
+<meta itemprop="description" content="This is a colour chart of the colours in the NCS (Natural Colour System) INDEX 1950 colour range" />
+
+
+            <li>
+			<a title="More information about S 3040-B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(53,135,168)" name="S 3040-B" id="S 3040-B" alt="NCS 1950, S 3040-B - " content="S 3040-B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B">
+				S 3040-B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-B10G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B10G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(44,140,165)" name="S 3040-B10G" id="S 3040-B10G" alt="NCS 1950, S 3040-B10G - " content="S 3040-B10G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-B10G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B10G">
+				S 3040-B10G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-B20G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B20G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(38,143,160)" name="S 3040-B20G" id="S 3040-B20G" alt="NCS 1950, S 3040-B20G - " content="S 3040-B20G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-B20G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B20G">
+				S 3040-B20G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-B30G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B30G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(36,146,157)" name="S 3040-B30G" id="S 3040-B30G" alt="NCS 1950, S 3040-B30G - " content="S 3040-B30G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-B30G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B30G">
+				S 3040-B30G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-B40G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B40G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(32,146,151)" name="S 3040-B40G" id="S 3040-B40G" alt="NCS 1950, S 3040-B40G - " content="S 3040-B40G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-B40G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B40G">
+				S 3040-B40G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-B50G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B50G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(41,147,148)" name="S 3040-B50G" id="S 3040-B50G" alt="NCS 1950, S 3040-B50G - " content="S 3040-B50G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-B50G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B50G">
+				S 3040-B50G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-B60G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B60G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(34,150,145)" name="S 3040-B60G" id="S 3040-B60G" alt="NCS 1950, S 3040-B60G - " content="S 3040-B60G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-B60G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B60G">
+				S 3040-B60G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-B70G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B70G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(42,150,139)" name="S 3040-B70G" id="S 3040-B70G" alt="NCS 1950, S 3040-B70G - " content="S 3040-B70G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-B70G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B70G">
+				S 3040-B70G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-B80G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B80G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(44,150,134)" name="S 3040-B80G" id="S 3040-B80G" alt="NCS 1950, S 3040-B80G - " content="S 3040-B80G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-B80G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B80G">
+				S 3040-B80G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-B90G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B90G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(51,150,125)" name="S 3040-B90G" id="S 3040-B90G" alt="NCS 1950, S 3040-B90G - " content="S 3040-B90G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-B90G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-B90G">
+				S 3040-B90G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(70,150,116)" name="S 3040-G" id="S 3040-G" alt="NCS 1950, S 3040-G - " content="S 3040-G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G">
+				S 3040-G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-G10Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G10Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(84,151,108)" name="S 3040-G10Y" id="S 3040-G10Y" alt="NCS 1950, S 3040-G10Y - " content="S 3040-G10Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-G10Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G10Y">
+				S 3040-G10Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-G20Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G20Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(98,152,101)" name="S 3040-G20Y" id="S 3040-G20Y" alt="NCS 1950, S 3040-G20Y - " content="S 3040-G20Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-G20Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G20Y">
+				S 3040-G20Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-G30Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G30Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(113,153,94)" name="S 3040-G30Y" id="S 3040-G30Y" alt="NCS 1950, S 3040-G30Y - " content="S 3040-G30Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-G30Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G30Y">
+				S 3040-G30Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-G40Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G40Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(130,154,89)" name="S 3040-G40Y" id="S 3040-G40Y" alt="NCS 1950, S 3040-G40Y - " content="S 3040-G40Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-G40Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G40Y">
+				S 3040-G40Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G50Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(143,157,87)" name="S 3040-G50Y" id="S 3040-G50Y" alt="NCS 1950, S 3040-G50Y - " content="S 3040-G50Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G50Y">
+				S 3040-G50Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-G60Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G60Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(151,157,81)" name="S 3040-G60Y" id="S 3040-G60Y" alt="NCS 1950, S 3040-G60Y - " content="S 3040-G60Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-G60Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G60Y">
+				S 3040-G60Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-G70Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G70Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(156,156,80)" name="S 3040-G70Y" id="S 3040-G70Y" alt="NCS 1950, S 3040-G70Y - " content="S 3040-G70Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-G70Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G70Y">
+				S 3040-G70Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-G80Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G80Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(168,157,76)" name="S 3040-G80Y" id="S 3040-G80Y" alt="NCS 1950, S 3040-G80Y - " content="S 3040-G80Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-G80Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G80Y">
+				S 3040-G80Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-G90Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G90Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(174,155,76)" name="S 3040-G90Y" id="S 3040-G90Y" alt="NCS 1950, S 3040-G90Y - " content="S 3040-G90Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-G90Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-G90Y">
+				S 3040-G90Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(178,99,103)" name="S 3040-R" id="S 3040-R" alt="NCS 1950, S 3040-R - " content="S 3040-R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R">
+				S 3040-R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-R10B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R10B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(172,94,106)" name="S 3040-R10B" id="S 3040-R10B" alt="NCS 1950, S 3040-R10B - " content="S 3040-R10B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-R10B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R10B">
+				S 3040-R10B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-R20B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R20B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(172,94,117)" name="S 3040-R20B" id="S 3040-R20B" alt="NCS 1950, S 3040-R20B - " content="S 3040-R20B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-R20B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R20B">
+				S 3040-R20B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-R30B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R30B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(167,98,133)" name="S 3040-R30B" id="S 3040-R30B" alt="NCS 1950, S 3040-R30B - " content="S 3040-R30B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-R30B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R30B">
+				S 3040-R30B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-R40B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R40B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(159,100,145)" name="S 3040-R40B" id="S 3040-R40B" alt="NCS 1950, S 3040-R40B - " content="S 3040-R40B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-R40B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R40B">
+				S 3040-R40B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-R50B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R50B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(148,107,156)" name="S 3040-R50B" id="S 3040-R50B" alt="NCS 1950, S 3040-R50B - " content="S 3040-R50B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-R50B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R50B">
+				S 3040-R50B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-R60B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R60B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(126,109,164)" name="S 3040-R60B" id="S 3040-R60B" alt="NCS 1950, S 3040-R60B - " content="S 3040-R60B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-R60B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R60B">
+				S 3040-R60B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-R70B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R70B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(107,120,174)" name="S 3040-R70B" id="S 3040-R70B" alt="NCS 1950, S 3040-R70B - " content="S 3040-R70B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-R70B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R70B">
+				S 3040-R70B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-R80B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R80B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(89,122,175)" name="S 3040-R80B" id="S 3040-R80B" alt="NCS 1950, S 3040-R80B - " content="S 3040-R80B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-R80B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R80B">
+				S 3040-R80B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-R90B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R90B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(73,129,172)" name="S 3040-R90B" id="S 3040-R90B" alt="NCS 1950, S 3040-R90B - " content="S 3040-R90B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-R90B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-R90B">
+				S 3040-R90B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(179,151,75)" name="S 3040-Y" id="S 3040-Y" alt="NCS 1950, S 3040-Y - " content="S 3040-Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y">
+				S 3040-Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-Y10R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y10R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(187,147,75)" name="S 3040-Y10R" id="S 3040-Y10R" alt="NCS 1950, S 3040-Y10R - " content="S 3040-Y10R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-Y10R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y10R">
+				S 3040-Y10R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-Y20R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y20R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(190,141,74)" name="S 3040-Y20R" id="S 3040-Y20R" alt="NCS 1950, S 3040-Y20R - " content="S 3040-Y20R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-Y20R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y20R">
+				S 3040-Y20R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-Y30R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y30R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(190,132,76)" name="S 3040-Y30R" id="S 3040-Y30R" alt="NCS 1950, S 3040-Y30R - " content="S 3040-Y30R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-Y30R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y30R">
+				S 3040-Y30R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-Y40R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y40R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(192,126,77)" name="S 3040-Y40R" id="S 3040-Y40R" alt="NCS 1950, S 3040-Y40R - " content="S 3040-Y40R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-Y40R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y40R">
+				S 3040-Y40R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-Y50R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y50R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(191,119,80)" name="S 3040-Y50R" id="S 3040-Y50R" alt="NCS 1950, S 3040-Y50R - " content="S 3040-Y50R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-Y50R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y50R">
+				S 3040-Y50R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-Y60R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y60R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(192,116,84)" name="S 3040-Y60R" id="S 3040-Y60R" alt="NCS 1950, S 3040-Y60R - " content="S 3040-Y60R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-Y60R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y60R">
+				S 3040-Y60R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-Y70R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y70R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(187,110,86)" name="S 3040-Y70R" id="S 3040-Y70R" alt="NCS 1950, S 3040-Y70R - " content="S 3040-Y70R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-Y70R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y70R">
+				S 3040-Y70R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-Y80R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y80R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(188,107,94)" name="S 3040-Y80R" id="S 3040-Y80R" alt="NCS 1950, S 3040-Y80R - " content="S 3040-Y80R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-Y80R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y80R">
+				S 3040-Y80R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3040-Y90R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y90R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(182,100,94)" name="S 3040-Y90R" id="S 3040-Y90R" alt="NCS 1950, S 3040-Y90R - " content="S 3040-Y90R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3040-Y90R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3040-Y90R">
+				S 3040-Y90R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,120,163)" name="S 3050-B" id="S 3050-B" alt="NCS 1950, S 3050-B - " content="S 3050-B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B">
+				S 3050-B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-B10G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B10G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,127,158)" name="S 3050-B10G" id="S 3050-B10G" alt="NCS 1950, S 3050-B10G - " content="S 3050-B10G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-B10G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B10G">
+				S 3050-B10G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-B20G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B20G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,131,151)" name="S 3050-B20G" id="S 3050-B20G" alt="NCS 1950, S 3050-B20G - " content="S 3050-B20G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-B20G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B20G">
+				S 3050-B20G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-B30G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B30G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,132,145)" name="S 3050-B30G" id="S 3050-B30G" alt="NCS 1950, S 3050-B30G - " content="S 3050-B30G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-B30G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B30G">
+				S 3050-B30G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-B40G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B40G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,135,142)" name="S 3050-B40G" id="S 3050-B40G" alt="NCS 1950, S 3050-B40G - " content="S 3050-B40G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-B40G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B40G">
+				S 3050-B40G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-B50G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B50G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,137,136)" name="S 3050-B50G" id="S 3050-B50G" alt="NCS 1950, S 3050-B50G - " content="S 3050-B50G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-B50G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B50G">
+				S 3050-B50G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-B60G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B60G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,137,131)" name="S 3050-B60G" id="S 3050-B60G" alt="NCS 1950, S 3050-B60G - " content="S 3050-B60G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-B60G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B60G">
+				S 3050-B60G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-B70G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B70G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,136,123)" name="S 3050-B70G" id="S 3050-B70G" alt="NCS 1950, S 3050-B70G - " content="S 3050-B70G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-B70G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B70G">
+				S 3050-B70G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-B80G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B80G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,137,120)" name="S 3050-B80G" id="S 3050-B80G" alt="NCS 1950, S 3050-B80G - " content="S 3050-B80G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-B80G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B80G">
+				S 3050-B80G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-B90G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B90G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,142,114)" name="S 3050-B90G" id="S 3050-B90G" alt="NCS 1950, S 3050-B90G - " content="S 3050-B90G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-B90G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-B90G">
+				S 3050-B90G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,140,102)" name="S 3050-G" id="S 3050-G" alt="NCS 1950, S 3050-G - " content="S 3050-G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G">
+				S 3050-G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-G10Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G10Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(47,139,88)" name="S 3050-G10Y" id="S 3050-G10Y" alt="NCS 1950, S 3050-G10Y - " content="S 3050-G10Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-G10Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G10Y">
+				S 3050-G10Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-G20Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G20Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(77,143,83)" name="S 3050-G20Y" id="S 3050-G20Y" alt="NCS 1950, S 3050-G20Y - " content="S 3050-G20Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-G20Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G20Y">
+				S 3050-G20Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-G30Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G30Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(96,141,71)" name="S 3050-G30Y" id="S 3050-G30Y" alt="NCS 1950, S 3050-G30Y - " content="S 3050-G30Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-G30Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G30Y">
+				S 3050-G30Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-G40Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G40Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(117,144,66)" name="S 3050-G40Y" id="S 3050-G40Y" alt="NCS 1950, S 3050-G40Y - " content="S 3050-G40Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-G40Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G40Y">
+				S 3050-G40Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G50Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(133,148,64)" name="S 3050-G50Y" id="S 3050-G50Y" alt="NCS 1950, S 3050-G50Y - " content="S 3050-G50Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G50Y">
+				S 3050-G50Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-G60Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G60Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(144,150,57)" name="S 3050-G60Y" id="S 3050-G60Y" alt="NCS 1950, S 3050-G60Y - " content="S 3050-G60Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-G60Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G60Y">
+				S 3050-G60Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-G70Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G70Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(150,149,55)" name="S 3050-G70Y" id="S 3050-G70Y" alt="NCS 1950, S 3050-G70Y - " content="S 3050-G70Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-G70Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G70Y">
+				S 3050-G70Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-G80Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G80Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(161,150,55)" name="S 3050-G80Y" id="S 3050-G80Y" alt="NCS 1950, S 3050-G80Y - " content="S 3050-G80Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-G80Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G80Y">
+				S 3050-G80Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-G90Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G90Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(166,145,50)" name="S 3050-G90Y" id="S 3050-G90Y" alt="NCS 1950, S 3050-G90Y - " content="S 3050-G90Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-G90Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-G90Y">
+				S 3050-G90Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(169,74,82)" name="S 3050-R" id="S 3050-R" alt="NCS 1950, S 3050-R - " content="S 3050-R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R">
+				S 3050-R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-R10B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R10B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(167,67,87)" name="S 3050-R10B" id="S 3050-R10B" alt="NCS 1950, S 3050-R10B - " content="S 3050-R10B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-R10B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R10B">
+				S 3050-R10B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-R20B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R20B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(166,66,100)" name="S 3050-R20B" id="S 3050-R20B" alt="NCS 1950, S 3050-R20B - " content="S 3050-R20B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-R20B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R20B">
+				S 3050-R20B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-R30B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R30B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(162,69,115)" name="S 3050-R30B" id="S 3050-R30B" alt="NCS 1950, S 3050-R30B - " content="S 3050-R30B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-R30B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R30B">
+				S 3050-R30B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-R40B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R40B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(146,69,128)" name="S 3050-R40B" id="S 3050-R40B" alt="NCS 1950, S 3050-R40B - " content="S 3050-R40B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-R40B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R40B">
+				S 3050-R40B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-R50B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R50B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(138,81,148)" name="S 3050-R50B" id="S 3050-R50B" alt="NCS 1950, S 3050-R50B - " content="S 3050-R50B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-R50B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R50B">
+				S 3050-R50B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-R60B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R60B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(109,87,158)" name="S 3050-R60B" id="S 3050-R60B" alt="NCS 1950, S 3050-R60B - " content="S 3050-R60B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-R60B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R60B">
+				S 3050-R60B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-R70B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R70B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(85,97,166)" name="S 3050-R70B" id="S 3050-R70B" alt="NCS 1950, S 3050-R70B - " content="S 3050-R70B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-R70B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R70B">
+				S 3050-R70B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-R80B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R80B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(53,103,167)" name="S 3050-R80B" id="S 3050-R80B" alt="NCS 1950, S 3050-R80B - " content="S 3050-R80B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-R80B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R80B">
+				S 3050-R80B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-R90B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R90B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(34,114,168)" name="S 3050-R90B" id="S 3050-R90B" alt="NCS 1950, S 3050-R90B - " content="S 3050-R90B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-R90B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-R90B">
+				S 3050-R90B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(173,140,49)" name="S 3050-Y" id="S 3050-Y" alt="NCS 1950, S 3050-Y - " content="S 3050-Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y">
+				S 3050-Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-Y10R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y10R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(184,138,51)" name="S 3050-Y10R" id="S 3050-Y10R" alt="NCS 1950, S 3050-Y10R - " content="S 3050-Y10R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-Y10R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y10R">
+				S 3050-Y10R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-Y20R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y20R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(189,133,55)" name="S 3050-Y20R" id="S 3050-Y20R" alt="NCS 1950, S 3050-Y20R - " content="S 3050-Y20R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-Y20R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y20R">
+				S 3050-Y20R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-Y30R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y30R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(189,122,59)" name="S 3050-Y30R" id="S 3050-Y30R" alt="NCS 1950, S 3050-Y30R - " content="S 3050-Y30R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-Y30R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y30R">
+				S 3050-Y30R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-Y40R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y40R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(192,116,62)" name="S 3050-Y40R" id="S 3050-Y40R" alt="NCS 1950, S 3050-Y40R - " content="S 3050-Y40R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-Y40R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y40R">
+				S 3050-Y40R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-Y50R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y50R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(185,105,62)" name="S 3050-Y50R" id="S 3050-Y50R" alt="NCS 1950, S 3050-Y50R - " content="S 3050-Y50R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-Y50R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y50R">
+				S 3050-Y50R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-Y60R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y60R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(182,99,62)" name="S 3050-Y60R" id="S 3050-Y60R" alt="NCS 1950, S 3050-Y60R - " content="S 3050-Y60R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-Y60R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y60R">
+				S 3050-Y60R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-Y70R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y70R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(181,89,66)" name="S 3050-Y70R" id="S 3050-Y70R" alt="NCS 1950, S 3050-Y70R - " content="S 3050-Y70R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-Y70R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y70R">
+				S 3050-Y70R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-Y80R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y80R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(176,83,70)" name="S 3050-Y80R" id="S 3050-Y80R" alt="NCS 1950, S 3050-Y80R - " content="S 3050-Y80R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-Y80R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y80R">
+				S 3050-Y80R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3050-Y90R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y90R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(176,82,76)" name="S 3050-Y90R" id="S 3050-Y90R" alt="NCS 1950, S 3050-Y90R - " content="S 3050-Y90R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3050-Y90R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3050-Y90R">
+				S 3050-Y90R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3055-B50G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3055-B50G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,128,128)" name="S 3055-B50G" id="S 3055-B50G" alt="NCS 1950, S 3055-B50G - " content="S 3055-B50G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3055-B50G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3055-B50G">
+				S 3055-B50G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3055-R30B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3055-R30B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(147,36,96)" name="S 3055-R30B" id="S 3055-R30B" alt="NCS 1950, S 3055-R30B - " content="S 3055-R30B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3055-R30B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3055-R30B">
+				S 3055-R30B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3055-R40B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3055-R40B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(136,48,112)" name="S 3055-R40B" id="S 3055-R40B" alt="NCS 1950, S 3055-R40B - " content="S 3055-R40B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3055-R40B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3055-R40B">
+				S 3055-R40B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3055-R50B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3055-R50B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(131,65,137)" name="S 3055-R50B" id="S 3055-R50B" alt="NCS 1950, S 3055-R50B - " content="S 3055-R50B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3055-R50B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3055-R50B">
+				S 3055-R50B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,104,155)" name="S 3060-B" id="S 3060-B" alt="NCS 1950, S 3060-B - " content="S 3060-B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-B">
+				S 3060-B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-B10G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-B10G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,111,148)" name="S 3060-B10G" id="S 3060-B10G" alt="NCS 1950, S 3060-B10G - " content="S 3060-B10G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-B10G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-B10G">
+				S 3060-B10G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-B20G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-B20G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,113,139)" name="S 3060-B20G" id="S 3060-B20G" alt="NCS 1950, S 3060-B20G - " content="S 3060-B20G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-B20G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-B20G">
+				S 3060-B20G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-B30G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-B30G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,121,139)" name="S 3060-B30G" id="S 3060-B30G" alt="NCS 1950, S 3060-B30G - " content="S 3060-B30G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-B30G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-B30G">
+				S 3060-B30G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-B40G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-B40G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,125,134)" name="S 3060-B40G" id="S 3060-B40G" alt="NCS 1950, S 3060-B40G - " content="S 3060-B40G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-B40G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-B40G">
+				S 3060-B40G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-B70G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-B70G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,120,107)" name="S 3060-B70G" id="S 3060-B70G" alt="NCS 1950, S 3060-B70G - " content="S 3060-B70G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-B70G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-B70G">
+				S 3060-B70G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-B90G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-B90G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,125,93)" name="S 3060-B90G" id="S 3060-B90G" alt="NCS 1950, S 3060-B90G - " content="S 3060-B90G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-B90G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-B90G">
+				S 3060-B90G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,124,78)" name="S 3060-G" id="S 3060-G" alt="NCS 1950, S 3060-G - " content="S 3060-G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G">
+				S 3060-G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-G10Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G10Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,131,70)" name="S 3060-G10Y" id="S 3060-G10Y" alt="NCS 1950, S 3060-G10Y - " content="S 3060-G10Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-G10Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G10Y">
+				S 3060-G10Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-G20Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G20Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(46,133,59)" name="S 3060-G20Y" id="S 3060-G20Y" alt="NCS 1950, S 3060-G20Y - " content="S 3060-G20Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-G20Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G20Y">
+				S 3060-G20Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-G30Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G30Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(82,134,47)" name="S 3060-G30Y" id="S 3060-G30Y" alt="NCS 1950, S 3060-G30Y - " content="S 3060-G30Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-G30Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G30Y">
+				S 3060-G30Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-G40Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G40Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(105,136,40)" name="S 3060-G40Y" id="S 3060-G40Y" alt="NCS 1950, S 3060-G40Y - " content="S 3060-G40Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-G40Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G40Y">
+				S 3060-G40Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G50Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(123,140,32)" name="S 3060-G50Y" id="S 3060-G50Y" alt="NCS 1950, S 3060-G50Y - " content="S 3060-G50Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G50Y">
+				S 3060-G50Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-G60Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G60Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(138,144,33)" name="S 3060-G60Y" id="S 3060-G60Y" alt="NCS 1950, S 3060-G60Y - " content="S 3060-G60Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-G60Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G60Y">
+				S 3060-G60Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-G70Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G70Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(149,148,35)" name="S 3060-G70Y" id="S 3060-G70Y" alt="NCS 1950, S 3060-G70Y - " content="S 3060-G70Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-G70Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G70Y">
+				S 3060-G70Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-G80Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G80Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(154,143,30)" name="S 3060-G80Y" id="S 3060-G80Y" alt="NCS 1950, S 3060-G80Y - " content="S 3060-G80Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-G80Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G80Y">
+				S 3060-G80Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-G90Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G90Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(162,142,20)" name="S 3060-G90Y" id="S 3060-G90Y" alt="NCS 1950, S 3060-G90Y - " content="S 3060-G90Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-G90Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-G90Y">
+				S 3060-G90Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(148,36,51)" name="S 3060-R" id="S 3060-R" alt="NCS 1950, S 3060-R - " content="S 3060-R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-R">
+				S 3060-R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-R10B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-R10B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(150,23,60)" name="S 3060-R10B" id="S 3060-R10B" alt="NCS 1950, S 3060-R10B - " content="S 3060-R10B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-R10B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-R10B">
+				S 3060-R10B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-R20B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-R20B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(143,22,72)" name="S 3060-R20B" id="S 3060-R20B" alt="NCS 1950, S 3060-R20B - " content="S 3060-R20B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-R20B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-R20B">
+				S 3060-R20B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-R70B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-R70B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(61,73,156)" name="S 3060-R70B" id="S 3060-R70B" alt="NCS 1950, S 3060-R70B - " content="S 3060-R70B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-R70B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-R70B">
+				S 3060-R70B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-R80B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-R80B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,80,156)" name="S 3060-R80B" id="S 3060-R80B" alt="NCS 1950, S 3060-R80B - " content="S 3060-R80B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-R80B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-R80B">
+				S 3060-R80B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-R90B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-R90B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,94,160)" name="S 3060-R90B" id="S 3060-R90B" alt="NCS 1950, S 3060-R90B - " content="S 3060-R90B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-R90B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-R90B">
+				S 3060-R90B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(173,139,32)" name="S 3060-Y" id="S 3060-Y" alt="NCS 1950, S 3060-Y - " content="S 3060-Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y">
+				S 3060-Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-Y10R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y10R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(184,134,28)" name="S 3060-Y10R" id="S 3060-Y10R" alt="NCS 1950, S 3060-Y10R - " content="S 3060-Y10R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-Y10R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y10R">
+				S 3060-Y10R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-Y20R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y20R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(186,124,30)" name="S 3060-Y20R" id="S 3060-Y20R" alt="NCS 1950, S 3060-Y20R - " content="S 3060-Y20R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-Y20R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y20R">
+				S 3060-Y20R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-Y30R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y30R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(188,112,30)" name="S 3060-Y30R" id="S 3060-Y30R" alt="NCS 1950, S 3060-Y30R - " content="S 3060-Y30R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-Y30R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y30R">
+				S 3060-Y30R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-Y40R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y40R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(184,101,41)" name="S 3060-Y40R" id="S 3060-Y40R" alt="NCS 1950, S 3060-Y40R - " content="S 3060-Y40R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-Y40R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y40R">
+				S 3060-Y40R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-Y50R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y50R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(183,93,37)" name="S 3060-Y50R" id="S 3060-Y50R" alt="NCS 1950, S 3060-Y50R - " content="S 3060-Y50R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-Y50R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y50R">
+				S 3060-Y50R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-Y60R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y60R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(181,85,38)" name="S 3060-Y60R" id="S 3060-Y60R" alt="NCS 1950, S 3060-Y60R - " content="S 3060-Y60R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-Y60R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y60R">
+				S 3060-Y60R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-Y70R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y70R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(172,73,46)" name="S 3060-Y70R" id="S 3060-Y70R" alt="NCS 1950, S 3060-Y70R - " content="S 3060-Y70R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-Y70R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y70R">
+				S 3060-Y70R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-Y80R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y80R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(169,64,51)" name="S 3060-Y80R" id="S 3060-Y80R" alt="NCS 1950, S 3060-Y80R - " content="S 3060-Y80R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-Y80R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y80R">
+				S 3060-Y80R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3060-Y90R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y90R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(160,52,51)" name="S 3060-Y90R" id="S 3060-Y90R" alt="NCS 1950, S 3060-Y90R - " content="S 3060-Y90R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3060-Y90R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3060-Y90R">
+				S 3060-Y90R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3065-G10Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3065-G10Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,119,50)" name="S 3065-G10Y" id="S 3065-G10Y" alt="NCS 1950, S 3065-G10Y - " content="S 3065-G10Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3065-G10Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3065-G10Y">
+				S 3065-G10Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3065-G40Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3065-G40Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(96,130,29)" name="S 3065-G40Y" id="S 3065-G40Y" alt="NCS 1950, S 3065-G40Y - " content="S 3065-G40Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3065-G40Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3065-G40Y">
+				S 3065-G40Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3065-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3065-G50Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(114,134,9)" name="S 3065-G50Y" id="S 3065-G50Y" alt="NCS 1950, S 3065-G50Y - " content="S 3065-G50Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3065-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3065-G50Y">
+				S 3065-G50Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3065-G60Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3065-G60Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(135,142,26)" name="S 3065-G60Y" id="S 3065-G60Y" alt="NCS 1950, S 3065-G60Y - " content="S 3065-G60Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3065-G60Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3065-G60Y">
+				S 3065-G60Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3065-R90B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3065-R90B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,78,153)" name="S 3065-R90B" id="S 3065-R90B" alt="NCS 1950, S 3065-R90B - " content="S 3065-R90B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3065-R90B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3065-R90B">
+				S 3065-R90B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3065-Y20R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3065-Y20R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(186,121,21)" name="S 3065-Y20R" id="S 3065-Y20R" alt="NCS 1950, S 3065-Y20R - " content="S 3065-Y20R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3065-Y20R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3065-Y20R">
+				S 3065-Y20R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3500-N - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3500-N">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(166,164,162)" name="S 3500-N" id="S 3500-N" alt="NCS 1950, S 3500-N - " content="S 3500-N - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3500-N - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3500-N">
+				S 3500-N</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3502-B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3502-B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(156,161,163)" name="S 3502-B" id="S 3502-B" alt="NCS 1950, S 3502-B - " content="S 3502-B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3502-B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3502-B">
+				S 3502-B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3502-G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3502-G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(155,161,159)" name="S 3502-G" id="S 3502-G" alt="NCS 1950, S 3502-G - " content="S 3502-G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3502-G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3502-G">
+				S 3502-G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3502-R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3502-R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(165,161,161)" name="S 3502-R" id="S 3502-R" alt="NCS 1950, S 3502-R - " content="S 3502-R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3502-R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3502-R">
+				S 3502-R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3502-Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3502-Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(165,163,155)" name="S 3502-Y" id="S 3502-Y" alt="NCS 1950, S 3502-Y - " content="S 3502-Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3502-Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3502-Y">
+				S 3502-Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3555-B60G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3555-B60G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,117,111)" name="S 3555-B60G" id="S 3555-B60G" alt="NCS 1950, S 3555-B60G - " content="S 3555-B60G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3555-B60G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3555-B60G">
+				S 3555-B60G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3555-B80G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3555-B80G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,117,98)" name="S 3555-B80G" id="S 3555-B80G" alt="NCS 1950, S 3555-B80G - " content="S 3555-B80G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3555-B80G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3555-B80G">
+				S 3555-B80G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3555-R60B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3555-R60B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(81,53,127)" name="S 3555-R60B" id="S 3555-R60B" alt="NCS 1950, S 3555-R60B - " content="S 3555-R60B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3555-R60B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3555-R60B">
+				S 3555-R60B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,111,65)" name="S 3560-G" id="S 3560-G" alt="NCS 1950, S 3560-G - " content="S 3560-G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-G">
+				S 3560-G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-G10Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-G10Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,108,55)" name="S 3560-G10Y" id="S 3560-G10Y" alt="NCS 1950, S 3560-G10Y - " content="S 3560-G10Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-G10Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-G10Y">
+				S 3560-G10Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-G20Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-G20Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(30,117,52)" name="S 3560-G20Y" id="S 3560-G20Y" alt="NCS 1950, S 3560-G20Y - " content="S 3560-G20Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-G20Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-G20Y">
+				S 3560-G20Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-G30Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-G30Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(74,121,47)" name="S 3560-G30Y" id="S 3560-G30Y" alt="NCS 1950, S 3560-G30Y - " content="S 3560-G30Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-G30Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-G30Y">
+				S 3560-G30Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-G40Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-G40Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(92,122,35)" name="S 3560-G40Y" id="S 3560-G40Y" alt="NCS 1950, S 3560-G40Y - " content="S 3560-G40Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-G40Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-G40Y">
+				S 3560-G40Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-G50Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(112,128,34)" name="S 3560-G50Y" id="S 3560-G50Y" alt="NCS 1950, S 3560-G50Y - " content="S 3560-G50Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-G50Y">
+				S 3560-G50Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-G60Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-G60Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(125,131,30)" name="S 3560-G60Y" id="S 3560-G60Y" alt="NCS 1950, S 3560-G60Y - " content="S 3560-G60Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-G60Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-G60Y">
+				S 3560-G60Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-G70Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-G70Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(129,128,3)" name="S 3560-G70Y" id="S 3560-G70Y" alt="NCS 1950, S 3560-G70Y - " content="S 3560-G70Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-G70Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-G70Y">
+				S 3560-G70Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(128,17,36)" name="S 3560-R" id="S 3560-R" alt="NCS 1950, S 3560-R - " content="S 3560-R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-R">
+				S 3560-R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-R80B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-R80B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,65,141)" name="S 3560-R80B" id="S 3560-R80B" alt="NCS 1950, S 3560-R80B - " content="S 3560-R80B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-R80B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-R80B">
+				S 3560-R80B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-R90B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-R90B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,73,140)" name="S 3560-R90B" id="S 3560-R90B" alt="NCS 1950, S 3560-R90B - " content="S 3560-R90B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-R90B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-R90B">
+				S 3560-R90B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(163,127,19)" name="S 3560-Y" id="S 3560-Y" alt="NCS 1950, S 3560-Y - " content="S 3560-Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y">
+				S 3560-Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-Y20R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y20R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(169,111,18)" name="S 3560-Y20R" id="S 3560-Y20R" alt="NCS 1950, S 3560-Y20R - " content="S 3560-Y20R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-Y20R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y20R">
+				S 3560-Y20R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-Y30R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y30R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(168,97,8)" name="S 3560-Y30R" id="S 3560-Y30R" alt="NCS 1950, S 3560-Y30R - " content="S 3560-Y30R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-Y30R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y30R">
+				S 3560-Y30R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-Y40R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y40R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(171,92,24)" name="S 3560-Y40R" id="S 3560-Y40R" alt="NCS 1950, S 3560-Y40R - " content="S 3560-Y40R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-Y40R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y40R">
+				S 3560-Y40R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-Y50R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y50R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(167,83,33)" name="S 3560-Y50R" id="S 3560-Y50R" alt="NCS 1950, S 3560-Y50R - " content="S 3560-Y50R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-Y50R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y50R">
+				S 3560-Y50R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-Y60R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y60R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(162,70,27)" name="S 3560-Y60R" id="S 3560-Y60R" alt="NCS 1950, S 3560-Y60R - " content="S 3560-Y60R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-Y60R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y60R">
+				S 3560-Y60R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-Y70R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y70R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(158,59,33)" name="S 3560-Y70R" id="S 3560-Y70R" alt="NCS 1950, S 3560-Y70R - " content="S 3560-Y70R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-Y70R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y70R">
+				S 3560-Y70R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-Y80R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y80R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(149,49,40)" name="S 3560-Y80R" id="S 3560-Y80R" alt="NCS 1950, S 3560-Y80R - " content="S 3560-Y80R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-Y80R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y80R">
+				S 3560-Y80R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 3560-Y90R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y90R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(136,38,38)" name="S 3560-Y90R" id="S 3560-Y90R" alt="NCS 1950, S 3560-Y90R - " content="S 3560-Y90R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 3560-Y90R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 3560-Y90R">
+				S 3560-Y90R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4000-N - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4000-N">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(153,153,152)" name="S 4000-N" id="S 4000-N" alt="NCS 1950, S 4000-N - " content="S 4000-N - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4000-N - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4000-N">
+				S 4000-N</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4005-B20G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-B20G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(136,148,151)" name="S 4005-B20G" id="S 4005-B20G" alt="NCS 1950, S 4005-B20G - " content="S 4005-B20G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4005-B20G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-B20G">
+				S 4005-B20G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4005-B80G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-B80G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(140,151,149)" name="S 4005-B80G" id="S 4005-B80G" alt="NCS 1950, S 4005-B80G - " content="S 4005-B80G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4005-B80G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-B80G">
+				S 4005-B80G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4005-G20Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-G20Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(144,152,144)" name="S 4005-G20Y" id="S 4005-G20Y" alt="NCS 1950, S 4005-G20Y - " content="S 4005-G20Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4005-G20Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-G20Y">
+				S 4005-G20Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4005-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-G50Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(148,151,138)" name="S 4005-G50Y" id="S 4005-G50Y" alt="NCS 1950, S 4005-G50Y - " content="S 4005-G50Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4005-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-G50Y">
+				S 4005-G50Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4005-G80Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-G80Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(152,152,135)" name="S 4005-G80Y" id="S 4005-G80Y" alt="NCS 1950, S 4005-G80Y - " content="S 4005-G80Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4005-G80Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-G80Y">
+				S 4005-G80Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4005-R20B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-R20B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(156,146,149)" name="S 4005-R20B" id="S 4005-R20B" alt="NCS 1950, S 4005-R20B - " content="S 4005-R20B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4005-R20B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-R20B">
+				S 4005-R20B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4005-R50B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-R50B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(149,146,152)" name="S 4005-R50B" id="S 4005-R50B" alt="NCS 1950, S 4005-R50B - " content="S 4005-R50B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4005-R50B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-R50B">
+				S 4005-R50B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4005-R80B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-R80B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(143,149,156)" name="S 4005-R80B" id="S 4005-R80B" alt="NCS 1950, S 4005-R80B - " content="S 4005-R80B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4005-R80B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-R80B">
+				S 4005-R80B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4005-Y20R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-Y20R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(159,149,134)" name="S 4005-Y20R" id="S 4005-Y20R" alt="NCS 1950, S 4005-Y20R - " content="S 4005-Y20R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4005-Y20R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-Y20R">
+				S 4005-Y20R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4005-Y50R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-Y50R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(158,146,136)" name="S 4005-Y50R" id="S 4005-Y50R" alt="NCS 1950, S 4005-Y50R - " content="S 4005-Y50R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4005-Y50R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-Y50R">
+				S 4005-Y50R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4005-Y80R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-Y80R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(160,147,142)" name="S 4005-Y80R" id="S 4005-Y80R" alt="NCS 1950, S 4005-Y80R - " content="S 4005-Y80R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4005-Y80R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4005-Y80R">
+				S 4005-Y80R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-B10G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-B10G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(127,145,151)" name="S 4010-B10G" id="S 4010-B10G" alt="NCS 1950, S 4010-B10G - " content="S 4010-B10G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-B10G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-B10G">
+				S 4010-B10G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-B30G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-B30G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(124,146,149)" name="S 4010-B30G" id="S 4010-B30G" alt="NCS 1950, S 4010-B30G - " content="S 4010-B30G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-B30G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-B30G">
+				S 4010-B30G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-B50G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-B50G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(129,148,148)" name="S 4010-B50G" id="S 4010-B50G" alt="NCS 1950, S 4010-B50G - " content="S 4010-B50G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-B50G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-B50G">
+				S 4010-B50G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-B70G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-B70G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(125,149,145)" name="S 4010-B70G" id="S 4010-B70G" alt="NCS 1950, S 4010-B70G - " content="S 4010-B70G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-B70G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-B70G">
+				S 4010-B70G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-B90G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-B90G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(126,149,141)" name="S 4010-B90G" id="S 4010-B90G" alt="NCS 1950, S 4010-B90G - " content="S 4010-B90G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-B90G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-B90G">
+				S 4010-B90G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-G10Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-G10Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(131,150,136)" name="S 4010-G10Y" id="S 4010-G10Y" alt="NCS 1950, S 4010-G10Y - " content="S 4010-G10Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-G10Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-G10Y">
+				S 4010-G10Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-G30Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-G30Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(137,149,132)" name="S 4010-G30Y" id="S 4010-G30Y" alt="NCS 1950, S 4010-G30Y - " content="S 4010-G30Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-G30Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-G30Y">
+				S 4010-G30Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-G50Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(145,150,131)" name="S 4010-G50Y" id="S 4010-G50Y" alt="NCS 1950, S 4010-G50Y - " content="S 4010-G50Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-G50Y">
+				S 4010-G50Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-G70Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-G70Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(150,151,128)" name="S 4010-G70Y" id="S 4010-G70Y" alt="NCS 1950, S 4010-G70Y - " content="S 4010-G70Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-G70Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-G70Y">
+				S 4010-G70Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-G90Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-G90Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(154,148,122)" name="S 4010-G90Y" id="S 4010-G90Y" alt="NCS 1950, S 4010-G90Y - " content="S 4010-G90Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-G90Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-G90Y">
+				S 4010-G90Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-R10B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-R10B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(157,136,139)" name="S 4010-R10B" id="S 4010-R10B" alt="NCS 1950, S 4010-R10B - " content="S 4010-R10B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-R10B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-R10B">
+				S 4010-R10B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-R30B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-R30B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(155,137,146)" name="S 4010-R30B" id="S 4010-R30B" alt="NCS 1950, S 4010-R30B - " content="S 4010-R30B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-R30B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-R30B">
+				S 4010-R30B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-R50B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-R50B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(148,141,153)" name="S 4010-R50B" id="S 4010-R50B" alt="NCS 1950, S 4010-R50B - " content="S 4010-R50B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-R50B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-R50B">
+				S 4010-R50B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-R70B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-R70B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(137,142,155)" name="S 4010-R70B" id="S 4010-R70B" alt="NCS 1950, S 4010-R70B - " content="S 4010-R70B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-R70B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-R70B">
+				S 4010-R70B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-R90B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-R90B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(130,143,154)" name="S 4010-R90B" id="S 4010-R90B" alt="NCS 1950, S 4010-R90B - " content="S 4010-R90B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-R90B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-R90B">
+				S 4010-R90B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-Y10R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-Y10R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(165,151,125)" name="S 4010-Y10R" id="S 4010-Y10R" alt="NCS 1950, S 4010-Y10R - " content="S 4010-Y10R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-Y10R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-Y10R">
+				S 4010-Y10R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-Y30R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-Y30R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(166,146,125)" name="S 4010-Y30R" id="S 4010-Y30R" alt="NCS 1950, S 4010-Y30R - " content="S 4010-Y30R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-Y30R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-Y30R">
+				S 4010-Y30R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-Y50R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-Y50R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(168,144,127)" name="S 4010-Y50R" id="S 4010-Y50R" alt="NCS 1950, S 4010-Y50R - " content="S 4010-Y50R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-Y50R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-Y50R">
+				S 4010-Y50R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-Y70R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-Y70R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(164,138,128)" name="S 4010-Y70R" id="S 4010-Y70R" alt="NCS 1950, S 4010-Y70R - " content="S 4010-Y70R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-Y70R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-Y70R">
+				S 4010-Y70R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4010-Y90R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-Y90R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(159,137,132)" name="S 4010-Y90R" id="S 4010-Y90R" alt="NCS 1950, S 4010-Y90R - " content="S 4010-Y90R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4010-Y90R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4010-Y90R">
+				S 4010-Y90R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(98,132,150)" name="S 4020-B" id="S 4020-B" alt="NCS 1950, S 4020-B - " content="S 4020-B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-B">
+				S 4020-B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-B10G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-B10G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(99,137,149)" name="S 4020-B10G" id="S 4020-B10G" alt="NCS 1950, S 4020-B10G - " content="S 4020-B10G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-B10G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-B10G">
+				S 4020-B10G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-B30G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-B30G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(96,138,143)" name="S 4020-B30G" id="S 4020-B30G" alt="NCS 1950, S 4020-B30G - " content="S 4020-B30G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-B30G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-B30G">
+				S 4020-B30G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-B50G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-B50G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(102,142,142)" name="S 4020-B50G" id="S 4020-B50G" alt="NCS 1950, S 4020-B50G - " content="S 4020-B50G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-B50G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-B50G">
+				S 4020-B50G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-B70G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-B70G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(95,141,135)" name="S 4020-B70G" id="S 4020-B70G" alt="NCS 1950, S 4020-B70G - " content="S 4020-B70G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-B70G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-B70G">
+				S 4020-B70G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-B90G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-B90G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(101,142,129)" name="S 4020-B90G" id="S 4020-B90G" alt="NCS 1950, S 4020-B90G - " content="S 4020-B90G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-B90G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-B90G">
+				S 4020-B90G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(102,142,123)" name="S 4020-G" id="S 4020-G" alt="NCS 1950, S 4020-G - " content="S 4020-G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-G">
+				S 4020-G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-G10Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-G10Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(109,144,119)" name="S 4020-G10Y" id="S 4020-G10Y" alt="NCS 1950, S 4020-G10Y - " content="S 4020-G10Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-G10Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-G10Y">
+				S 4020-G10Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-G30Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-G30Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(121,143,111)" name="S 4020-G30Y" id="S 4020-G30Y" alt="NCS 1950, S 4020-G30Y - " content="S 4020-G30Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-G30Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-G30Y">
+				S 4020-G30Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-G50Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(138,145,106)" name="S 4020-G50Y" id="S 4020-G50Y" alt="NCS 1950, S 4020-G50Y - " content="S 4020-G50Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-G50Y">
+				S 4020-G50Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-G70Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-G70Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(147,147,106)" name="S 4020-G70Y" id="S 4020-G70Y" alt="NCS 1950, S 4020-G70Y - " content="S 4020-G70Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-G70Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-G70Y">
+				S 4020-G70Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-G90Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-G90Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(155,144,104)" name="S 4020-G90Y" id="S 4020-G90Y" alt="NCS 1950, S 4020-G90Y - " content="S 4020-G90Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-G90Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-G90Y">
+				S 4020-G90Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(158,115,116)" name="S 4020-R" id="S 4020-R" alt="NCS 1950, S 4020-R - " content="S 4020-R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R">
+				S 4020-R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-R10B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R10B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(157,118,124)" name="S 4020-R10B" id="S 4020-R10B" alt="NCS 1950, S 4020-R10B - " content="S 4020-R10B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-R10B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R10B">
+				S 4020-R10B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-R20B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R20B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(155,116,127)" name="S 4020-R20B" id="S 4020-R20B" alt="NCS 1950, S 4020-R20B - " content="S 4020-R20B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-R20B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R20B">
+				S 4020-R20B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-R30B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R30B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(152,118,134)" name="S 4020-R30B" id="S 4020-R30B" alt="NCS 1950, S 4020-R30B - " content="S 4020-R30B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-R30B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R30B">
+				S 4020-R30B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-R40B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R40B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(147,119,141)" name="S 4020-R40B" id="S 4020-R40B" alt="NCS 1950, S 4020-R40B - " content="S 4020-R40B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-R40B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R40B">
+				S 4020-R40B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-R50B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R50B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(143,125,149)" name="S 4020-R50B" id="S 4020-R50B" alt="NCS 1950, S 4020-R50B - " content="S 4020-R50B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-R50B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R50B">
+				S 4020-R50B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-R60B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R60B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(127,123,150)" name="S 4020-R60B" id="S 4020-R60B" alt="NCS 1950, S 4020-R60B - " content="S 4020-R60B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-R60B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R60B">
+				S 4020-R60B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-R70B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R70B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(118,126,154)" name="S 4020-R70B" id="S 4020-R70B" alt="NCS 1950, S 4020-R70B - " content="S 4020-R70B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-R70B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R70B">
+				S 4020-R70B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-R80B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R80B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(111,129,155)" name="S 4020-R80B" id="S 4020-R80B" alt="NCS 1950, S 4020-R80B - " content="S 4020-R80B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-R80B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R80B">
+				S 4020-R80B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-R90B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R90B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(108,132,154)" name="S 4020-R90B" id="S 4020-R90B" alt="NCS 1950, S 4020-R90B - " content="S 4020-R90B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-R90B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-R90B">
+				S 4020-R90B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(159,141,99)" name="S 4020-Y" id="S 4020-Y" alt="NCS 1950, S 4020-Y - " content="S 4020-Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y">
+				S 4020-Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-Y10R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y10R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(162,137,98)" name="S 4020-Y10R" id="S 4020-Y10R" alt="NCS 1950, S 4020-Y10R - " content="S 4020-Y10R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-Y10R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y10R">
+				S 4020-Y10R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-Y20R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y20R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(167,137,99)" name="S 4020-Y20R" id="S 4020-Y20R" alt="NCS 1950, S 4020-Y20R - " content="S 4020-Y20R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-Y20R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y20R">
+				S 4020-Y20R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-Y30R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y30R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(170,136,103)" name="S 4020-Y30R" id="S 4020-Y30R" alt="NCS 1950, S 4020-Y30R - " content="S 4020-Y30R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-Y30R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y30R">
+				S 4020-Y30R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-Y40R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y40R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(167,128,100)" name="S 4020-Y40R" id="S 4020-Y40R" alt="NCS 1950, S 4020-Y40R - " content="S 4020-Y40R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-Y40R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y40R">
+				S 4020-Y40R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-Y50R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y50R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(170,126,102)" name="S 4020-Y50R" id="S 4020-Y50R" alt="NCS 1950, S 4020-Y50R - " content="S 4020-Y50R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-Y50R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y50R">
+				S 4020-Y50R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-Y60R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y60R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(167,123,101)" name="S 4020-Y60R" id="S 4020-Y60R" alt="NCS 1950, S 4020-Y60R - " content="S 4020-Y60R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-Y60R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y60R">
+				S 4020-Y60R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-Y70R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y70R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(166,121,107)" name="S 4020-Y70R" id="S 4020-Y70R" alt="NCS 1950, S 4020-Y70R - " content="S 4020-Y70R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-Y70R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y70R">
+				S 4020-Y70R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-Y80R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y80R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(165,118,108)" name="S 4020-Y80R" id="S 4020-Y80R" alt="NCS 1950, S 4020-Y80R - " content="S 4020-Y80R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-Y80R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y80R">
+				S 4020-Y80R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4020-Y90R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y90R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(162,119,115)" name="S 4020-Y90R" id="S 4020-Y90R" alt="NCS 1950, S 4020-Y90R - " content="S 4020-Y90R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4020-Y90R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4020-Y90R">
+				S 4020-Y90R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(72,122,147)" name="S 4030-B" id="S 4030-B" alt="NCS 1950, S 4030-B - " content="S 4030-B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-B">
+				S 4030-B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-B10G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-B10G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(61,126,145)" name="S 4030-B10G" id="S 4030-B10G" alt="NCS 1950, S 4030-B10G - " content="S 4030-B10G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-B10G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-B10G">
+				S 4030-B10G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-B30G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-B30G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(64,131,139)" name="S 4030-B30G" id="S 4030-B30G" alt="NCS 1950, S 4030-B30G - " content="S 4030-B30G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-B30G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-B30G">
+				S 4030-B30G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-B50G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-B50G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(58,131,131)" name="S 4030-B50G" id="S 4030-B50G" alt="NCS 1950, S 4030-B50G - " content="S 4030-B50G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-B50G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-B50G">
+				S 4030-B50G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-B70G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-B70G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(64,136,129)" name="S 4030-B70G" id="S 4030-B70G" alt="NCS 1950, S 4030-B70G - " content="S 4030-B70G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-B70G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-B70G">
+				S 4030-B70G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-B90G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-B90G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(70,133,117)" name="S 4030-B90G" id="S 4030-B90G" alt="NCS 1950, S 4030-B90G - " content="S 4030-B90G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-B90G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-B90G">
+				S 4030-B90G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-G">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(75,134,107)" name="S 4030-G" id="S 4030-G" alt="NCS 1950, S 4030-G - " content="S 4030-G - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-G - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-G">
+				S 4030-G</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-G10Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-G10Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(84,134,101)" name="S 4030-G10Y" id="S 4030-G10Y" alt="NCS 1950, S 4030-G10Y - " content="S 4030-G10Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-G10Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-G10Y">
+				S 4030-G10Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-G30Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-G30Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(104,135,93)" name="S 4030-G30Y" id="S 4030-G30Y" alt="NCS 1950, S 4030-G30Y - " content="S 4030-G30Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-G30Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-G30Y">
+				S 4030-G30Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-G50Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(125,136,84)" name="S 4030-G50Y" id="S 4030-G50Y" alt="NCS 1950, S 4030-G50Y - " content="S 4030-G50Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-G50Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-G50Y">
+				S 4030-G50Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-G70Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-G70Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(141,141,85)" name="S 4030-G70Y" id="S 4030-G70Y" alt="NCS 1950, S 4030-G70Y - " content="S 4030-G70Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-G70Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-G70Y">
+				S 4030-G70Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-G90Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-G90Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(154,138,83)" name="S 4030-G90Y" id="S 4030-G90Y" alt="NCS 1950, S 4030-G90Y - " content="S 4030-G90Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-G90Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-G90Y">
+				S 4030-G90Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(156,95,97)" name="S 4030-R" id="S 4030-R" alt="NCS 1950, S 4030-R - " content="S 4030-R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R">
+				S 4030-R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-R10B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R10B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(152,95,105)" name="S 4030-R10B" id="S 4030-R10B" alt="NCS 1950, S 4030-R10B - " content="S 4030-R10B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-R10B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R10B">
+				S 4030-R10B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-R20B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R20B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(151,94,112)" name="S 4030-R20B" id="S 4030-R20B" alt="NCS 1950, S 4030-R20B - " content="S 4030-R20B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-R20B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R20B">
+				S 4030-R20B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-R30B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R30B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(147,96,120)" name="S 4030-R30B" id="S 4030-R30B" alt="NCS 1950, S 4030-R30B - " content="S 4030-R30B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-R30B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R30B">
+				S 4030-R30B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-R40B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R40B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(140,97,129)" name="S 4030-R40B" id="S 4030-R40B" alt="NCS 1950, S 4030-R40B - " content="S 4030-R40B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-R40B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R40B">
+				S 4030-R40B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-R50B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R50B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(136,104,142)" name="S 4030-R50B" id="S 4030-R50B" alt="NCS 1950, S 4030-R50B - " content="S 4030-R50B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-R50B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R50B">
+				S 4030-R50B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-R60B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R60B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(114,104,146)" name="S 4030-R60B" id="S 4030-R60B" alt="NCS 1950, S 4030-R60B - " content="S 4030-R60B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-R60B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R60B">
+				S 4030-R60B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-R70B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R70B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(102,114,155)" name="S 4030-R70B" id="S 4030-R70B" alt="NCS 1950, S 4030-R70B - " content="S 4030-R70B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-R70B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R70B">
+				S 4030-R70B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-R80B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R80B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(87,114,153)" name="S 4030-R80B" id="S 4030-R80B" alt="NCS 1950, S 4030-R80B - " content="S 4030-R80B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-R80B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R80B">
+				S 4030-R80B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-R90B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R90B">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(83,121,152)" name="S 4030-R90B" id="S 4030-R90B" alt="NCS 1950, S 4030-R90B - " content="S 4030-R90B - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-R90B - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-R90B">
+				S 4030-R90B</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(157,134,80)" name="S 4030-Y" id="S 4030-Y" alt="NCS 1950, S 4030-Y - " content="S 4030-Y - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-Y - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y">
+				S 4030-Y</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-Y10R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y10R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(163,130,76)" name="S 4030-Y10R" id="S 4030-Y10R" alt="NCS 1950, S 4030-Y10R - " content="S 4030-Y10R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-Y10R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y10R">
+				S 4030-Y10R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-Y20R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y20R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(165,126,76)" name="S 4030-Y20R" id="S 4030-Y20R" alt="NCS 1950, S 4030-Y20R - " content="S 4030-Y20R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-Y20R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y20R">
+				S 4030-Y20R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-Y30R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y30R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(170,122,78)" name="S 4030-Y30R" id="S 4030-Y30R" alt="NCS 1950, S 4030-Y30R - " content="S 4030-Y30R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-Y30R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y30R">
+				S 4030-Y30R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-Y40R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y40R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(167,114,76)" name="S 4030-Y40R" id="S 4030-Y40R" alt="NCS 1950, S 4030-Y40R - " content="S 4030-Y40R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-Y40R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y40R">
+				S 4030-Y40R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-Y50R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y50R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(169,112,80)" name="S 4030-Y50R" id="S 4030-Y50R" alt="NCS 1950, S 4030-Y50R - " content="S 4030-Y50R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-Y50R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y50R">
+				S 4030-Y50R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-Y60R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y60R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(166,106,80)" name="S 4030-Y60R" id="S 4030-Y60R" alt="NCS 1950, S 4030-Y60R - " content="S 4030-Y60R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-Y60R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y60R">
+				S 4030-Y60R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-Y70R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y70R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(167,104,87)" name="S 4030-Y70R" id="S 4030-Y70R" alt="NCS 1950, S 4030-Y70R - " content="S 4030-Y70R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-Y70R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y70R">
+				S 4030-Y70R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-Y80R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y80R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(163,103,93)" name="S 4030-Y80R" id="S 4030-Y80R" alt="NCS 1950, S 4030-Y80R - " content="S 4030-Y80R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-Y80R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y80R">
+				S 4030-Y80R</a></h2>
+			</li>
+
+            <li>
+			<a title="More information about S 4030-Y90R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y90R">
+			<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(161,100,96)" name="S 4030-Y90R" id="S 4030-Y90R" alt="NCS 1950, S 4030-Y90R - " content="S 4030-Y90R - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about S 4030-Y90R - " href="Lab_values.asp?cRange=NCS 1950&cRef=S 4030-Y90R">
+				S 4030-Y90R</a></h2>
+			</li>
+
+
+
+
+        <div class="clear"></div>
+    </ul>
+    
+        <div class="clear"></div>
+</div>
+<div class="colour-chart-nav center">
+    <a class="g-btn-g" href="NCS_1950_colour_chart.asp?NCS=1">S 0300 - S 0907</a>
+    <a class="g-btn-g" href="NCS_1950_colour_chart.asp?NCS=2">S 1000 - S 1580</a>
+    <a class="g-btn-g" href="NCS_1950_colour_chart.asp?NCS=3">S 2000 - S 2055</a>
+    <a class="g-btn-g" href="NCS_1950_colour_chart.asp?NCS=4">S 2060 - S 3030</a>
+    <div class="clear"></div>
+</div>
+<div class="colour-chart-nav center">
+    <a class="g-btn-g" href="NCS_1950_colour_chart.asp?NCS=5">S 3040 - S 4030</a>
+    <a class="g-btn-g" href="NCS_1950_colour_chart.asp?NCS=6">S 4040 - S 5045</a>
+    <a class="g-btn-g" href="NCS_1950_colour_chart.asp?NCS=7">S 5500 - S 6530</a>
+    <a class="g-btn-g" href="NCS_1950_colour_chart.asp?NCS=8">S 7000 - S 9000</a>
+    <div class="clear"></div>
+</div>
+<hr />
+<div class="colour-chart-nav center">
+    <a class="g-btn-b" href="BS_4800_Colour_chart.asp">BS	4800 colour chart</a>
+    <a class="g-btn-b" href="BS381%20Colourchart.asp">BS 381C colour chart</a>
+    <a class="g-btn-b" href="BS2660_colour_chart.asp">BS 2660 colour chart</a>
+    <a class="g-btn-b" href="BS5252_colour_chart.asp">BS 5252 colour chart</a>
+    <div class="clear"></div>
+</div>
+
+
+
+	<br /><hr /><p>
+        <b><a href="/categories.asp">Continue Shopping</a></b> &brvbar;
+<a href="javascript:void(0);" onclick="history.go(-1); return(false);" >
+<b>Back </b></a>
+        <img src="images/clearpixel.gif" width="1" height="1" alt="spacer" /></p><hr /><br />
+<!-- #EndEditable -->
+        
+        
+        <!--aside-->
+		</div>
+<!--here-->
+<div class="logodiv">
+<aside class="sidebar">
+<div class="products_category_box">
+                    	<h2>COLOUR FANS AND SHEETS</h2>
+                        <ul>
+	 	   		<li><a href="https://www.e-paint.co.uk/Ral_colour_guides.asp">RAL Classic colour guides</a></li>	
+	 	   		<li><a class="parent" href="https://www.e-paint.co.uk/products.asp?cat=41">Individual RAL Classic sheets</a></li>
+	 	   		<li><a href="https://www.e-paint.co.uk/products.asp?cat=52">RAL Design colour fans</a></li>
+	           	<li><a href="https://www.e-paint.co.uk/products.asp?cat=56">RAL Effect colour fans</a></li>
+           		<li><a href="https://www.e-paint.co.uk/products.asp?cat=62">NCS Index colour fans</a></li>
+           		<li><a href="https://www.e-paint.co.uk/BS_colour_guides.asp">British Standard colour guides</a></li>
+           		<li><a href="https://www.e-paint.co.uk/products.asp?cat=60">US Federal Std 595 colour fans</a></li>
+            	<li><a href="https://www.e-paint.co.uk/products.asp?cat=65">AMS Standard 595A colour fans</a></li>
+             	<li><a href="https://www.e-paint.co.uk/products.asp?cat=63">Australian Std. 2700 colour fans</a></li>
+        		<li><a href="https://www.e-paint.co.uk/products.asp?cat=59">CIELAB Colour Fans</a></li>
+           	
+                        </ul>
+                    </div>
+<!--cart-->
+         <div class="contact_box_left">
+
+
+     <table class="mincart" width="130" bgcolor="#FFFFFF">
+        <tr> 
+          <td class="mincart" bgcolor="#F0F0F0" align="center"><img src="images/littlecart1.png" style="vertical-align:text-top;" width="16" height="16" alt="Shopping basket"> 
+            &nbsp;<strong><a class="ectlink mincart" href="https://www.e-paint.co.uk/cart.asp">Shopping basket</a></strong></td>
+        </tr>
+        <tr> 
+          <td class="mincart" bgcolor="#F0F0F0" align="center"> 
+            0 Product(s) in basket</td>
+        </tr>
+ 
+        <tr> 
+          <td class="mincart" bgcolor="#F0F0F0" align="center"><span class="cartquant">Total &pound;0.00<br>plus delivery.</span></td>
+        </tr>
+        </table>    
+</div>
+<!---infobox-->
+<div class="clear">
+<div class="products_category_box">
+                    <h2>INFORMATION</h2>
+                    
+                    <ul>
+        				 <li><a href="https://www.e-paint.co.uk/chart_options.asp">
+						 Colour charts</a></li>
+						<li><a href="https://www.e-paint.co.uk/search_for_colours_and_products.asp">
+						Search</a></li>
+     					<li><a href="https://www.e-paint.co.uk/Lab_values.asp">
+						LAB/HLC/RGB Values</a></li>
+    					<li><a href="https://www.e-paint.co.uk/delivery.asp">
+						Delivery</a></li>
+      					<li><a href="https://www.e-paint.co.uk/print_options.asp">
+						Print Colours</a></li>
+  						<li><a href="https://www.e-paint.co.uk/security.asp">
+						Security</a></li>
+    					<li><a href="https://www.e-paint.co.uk/terms_and_conditions.asp">
+						Terms &amp; Conditions</a></li>
+						<li><a href="https://www.e-paint.co.uk/faqs.asp">Help / 
+						FAQS</a></li>
+						<li><a href="https://www.e-paint.co.uk/supplier_directory.asp">
+						Paint suppliers</a></li>
+	 					<li><a href="https://www.e-paint.co.uk/Contact_options.asp">
+						Contact Us</a></li>
+                    </ul>
+                    
+              </div>
+</div>
+<!--minilogos-->
+<div class="mini-logos"> 
+	<div class="special_offer_pr_box" style="left: 0px; top: 0px">
+	         <!-- #BeginEditable "news" -->
+            <p>
+ <a href="https://www.e-paint.co.uk/products.asp?cat=62">
+			<img src="includes/images/ncs_index_1950.gif" alt="NCS Index 1950 colour fan" title="NCS Index 1950 colour fan"/></a></p>
+ <p class="product_name"> <a href="https://www.e-paint.co.uk/products.asp?cat=62">
+ NCS Index 1950 colour fan <br /><b>&pound;219.99</b> </a></p>
+<br /><hr />
+<p>
+<a href="https://www.e-paint.co.uk/products.asp?cat=52">
+<img src="images/small_pics/RAL_D2_05[2].png" alt="RAL Design colour fan" title="RAL Design colour fan"/></a></p>
+ <p class="product_name"> <a href="https://www.e-paint.co.uk/products.asp?cat=53">
+ RAL Design colour fan <br /><b>&pound;132.99</b> </a></p>
+    <hr /><p>
+<a href="https://www.e-paint.co.uk/products.asp?cat=51">
+			 <img src="includes/BS%20colour%20fan.gif" alt="Full British Standard colour fan" title="Full British Standard colour fan"/></a></p>
+ <p class="product_name"> <a href="https://www.e-paint.co.uk/products.asp?cat=51">
+ British Stds. colour fan <br /><span style="text-decoration:line-through">&pound;46.99</span> <b>&pound;39.99</b> </a></p>
+ <hr />
+   <div class="adstyle">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- bb1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0375310117557033"
+     data-ad-slot="9865345308"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<hr />
+
+<!-- #EndEditable -->
+                    <script type="text/javascript">
+
+                        function MakeArray(n) {
+	                        this.length = n;
+	                        for (var i = 1; i <= n; i++) {
+		                        this[i] = null;
+                        }
+                        return this;
+                        }
+                        var NumberImages024149 = 3;
+                        var image024149 = 0;
+                        var imag024149 = new MakeArray(NumberImages024149);
+                        var link024149 = new MakeArray(NumberImages024149);
+                        imag024149[1] = "includes/images/RALclassic.gif";
+                        link024149[1] = "Ral_colour_guides.asp";
+                        imag024149[2] = "includes/images/RALeffect.gif";
+                        link024149[2] = "products.asp?cat=56";
+                        imag024149[3] = "includes/images/RALdesign.gif";
+                        link024149[3] = "products.asp?cat=52";
+
+                        function GetRand024149()
+                        {
+                          return (Math.round(Math.random()*(NumberImages024149-1)))+1;
+                        }
+                        function NewImage024149()
+                        {
+                          if (image024149 == 0 ) { 
+                           while( OldRandNum024149 == RandNumber024149) RandNumber024149 = GetRand024149();
+                           OldRandNum024149 = RandNumber024149;
+                          } else { 
+                           if (image024149 == NumberImages024149) { image024149 = 0; } 
+                           RandNumber024149 = ++image024149;
+                          }
+                          document.images['img024149'].src = imag024149[RandNumber024149];
+                          window.setTimeout("NewImage024149()",20000);
+                        }
+                        var RandNumber024149 = GetRand024149();
+                        if(image024149 != 0) { RandNumber024149 = 1; image024149 = 1;}
+                        var OldRandNum024149 = RandNumber024149;
+                        if(document.images)  window.setTimeout("NewImage024149()",20000);
+                        document.write('<a href="javascript:void(0);" onclick="this.href=link024149[RandNumber024149];" target="_self" id="lnk024149" ><img src="',imag024149[RandNumber024149],'" border=0 id="img024149" name="img024149" ></a>');
+                        // -->
+                    </script><br />
+                    <script type="text/javascript" src="https://sealserver.trustwave.com/seal.js?style=invert&size=65x36&code=fa6f7c4ddbac42d0a0171b003d375312"></script>
+                 </div>
+                
+                    <div class="contact_box_left">
+                    	<h2>Contact</h2>
+                    	<hr />
+                        <p class="comp_name">e-paint.co.uk</p>
+                    
+                        <p class="email_icon">
+						<a href="mailto:sales@e-paint.co.uk?subject=Enquiry from the e-paint.co.uk website">
+						sales@e-paint.co.uk</a></p>
+                    </div>
+               </div>     
+			</aside>
+		</div>
+    </div>
+</div>
+
+<!--footer-->
+    <div class="footer-line"><h3><p class="footer-tag g-pad">e-paint.co.uk - Colour Cards, Charts, Fans and Books</p></h3></div>
+
+<div class="footer clear">
+  <div class="wrapper">
+    <ul class="col1">
+      <li>
+        <strong>Products &amp; Services</strong>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk">Home</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/categories.asp">Products</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/Colour_alternatives.asp">Colour alternatives</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/search_colour.asp">Colour search</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/chart_options.asp">Colour charts</a>
+      </li>
+ 
+ 
+    </ul>
+    <ul class="col2">
+      <li>
+        <strong>Help</strong>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/delivery.asp">Delivery information</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/terms_and_conditions.asp">Terms &amp; conditions</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/security.asp">Security and privacy</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/contact_us.asp">Comments</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/faqs.asp">FAQs</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/Contact_options.asp">Contact us</a>
+      </li>
+    </ul>
+    <ul class="col3">
+      <li>
+        <strong>Information</strong>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/Advanced_menu.asp">Colour information</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/colour_trends_2016.asp">Colour trends</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/supplier_directory.asp">Supplier directory</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/Contact_advertisers_home.asp?">Advertising</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/sitemap.txt">Sitemap</a>
+      </li>
+    </ul>
+    <div class="col4">
+      <div class="note">
+        <p>Note: Colours shown on this site are for guidance only and should not be taken as a representation of the true colours.</p>
+      </div>
+      <div class="note">
+        <p>
+          We do not supply paints. If you would like paints to these colours, we would suggest you <a href="supplier_directory.asp">click here</a>
+        </p>
+      </div>
+  
+    </div>
+      <div class="clear"></div>
+     <div class="accepted2">
+     <hr /><img src="image/accepted-cards.png" alt="Credit cards" />
+     <hr />
+     </div>
+  
+  </div>
+
+</div>
+ 
+<div class="footer_bottom_links">
+       	  <div class="width_wrapper">
+          <div class="bottom_links">
+          <h2>e-paint.co.uk <br /> Colour Cards, Charts, Fans and Books</h2><br />
+            	<a href="https://www.e-paint.co.uk/Web_development.htm">&copy; 
+			  e-paint.co.uk 2020, All rights reserved</a><br />
+            <ul>
+                    <li><a href="https://www.e-paint.co.uk/contact_options.asp">
+					Contact</a></li>
+                    <li><a href="https://www.e-paint.co.uk/terms_and_conditions.asp">Terms and Conditions</a></li>
+                    <li class="last"><a href="https://www.e-paint.co.uk/security.asp">
+					Privacy</a></li>
+              </ul>
+              </div>
+             
+            </div>
+            <div class="clear"></div>
+        </div>
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40721933-1', 'e-paint.co.uk');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+
+  am = "Sorry, copying of the colours is not encouraged!";
+
+  bV  = parseInt(navigator.appVersion)
+  bNS = navigator.appName=="Netscape"
+  bIE = navigator.appName=="Microsoft Internet Explorer"
+
+  function nrc(e) {
+  if (bNS && e.which > 1){
+  alert(am)
+  return false
+  } else if (bIE && (event.button >1)) {
+  alert(am);
+  return false;
+  }
+  }
+</script>
+
+    </body>
+
+<!-- #EndTemplate -->
+
+</html>

@@ -12,7 +12,7 @@ protocol SortingViewDelegate {
     func didSelect(sortingType: SortingType) 
 }
 
-class SortingViewController: BaseViewController {
+final class SortingViewController: BaseViewController {
   
     @IBOutlet weak var tableView: UITableView!
     var delegate: SortingViewDelegate? = nil

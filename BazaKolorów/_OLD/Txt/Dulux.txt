@@ -1,0 +1,1899 @@
+
+<!DOCTYPE html>
+<html lang="en-gb">
+<!-- #BeginTemplate "Templates/Template2.dwt" -->
+<head>
+<!-- #BeginEditable "doctitle" -->
+
+<!-- Dulux Trade Color chart -->
+<title>Dulux Trade color chart</title>
+<meta name="description" content="Dulux<sup>&reg;</sup> Trade colour chart. Dulux Trade colors for paints and coatings." />
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This site uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"","link":null,"theme":"dark-bottom"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+
+<!-- #EndEditable -->
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="_PZk64jgfw21jkO3G-sHAv19KsgvqPVy0B1Qa7oXXvU" />
+<meta name="robots" content="index,follow" />
+<meta name="subject" content="Colour Cards, Charts, Fans and Books " />
+<meta name="MSSmartTagsPreventParsing" content="false" />
+<meta http-equiv="ImageToolBar" content="yes" />
+<meta name="revisit-after" content="30" />
+<meta name="copyright" content="e-paint.co.uk" />
+<meta name="language" content="en-gb" />
+<meta name="classification" content="Business and Economy" />
+<meta name="distribution" content="Global" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<script language="javascript" type="text/javascript">
+function toggle(id) {
+    var el = document.getElementById(id);
+    var img = document.getElementById("arrow");
+    var box = el.getAttribute("class");
+    if(box == "navhide"){
+        el.setAttribute("class", "navshow");
+        delay(img, "/images/menu-ico_white.png", 100);
+    }
+    else{
+        el.setAttribute("class", "navhide");
+        delay(img, "/images/menu-ico.png", 100);
+    }
+}
+
+function delay(elem, src, delayTime){
+    window.setTimeout(function() {elem.setAttribute("src", src);}, delayTime);
+}
+
+</script>
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script src="javascript/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="css/script2.js" type="text/javascript"></script>
+
+ </head>
+<body>
+<!--Header-->
+   <div class="header">
+  <div class="wrapper">
+    <div class="logo">
+      <h2>
+        <a href="https://www.e-paint.co.uk/" title="RAL, NCS, Pantone, CIELab, US Fed Spec and British Standard Colour Guides - Fans, books, swatches, charts and cards for paints and coatings">e-paint.co.uk</a>
+      </h2>
+      <span>Colour Cards, Charts, Fans and Books</span>
+    </div>
+  <a href="https://www.e-paint.co.uk/delivery.asp" title="Free delivery by post to the UK"> <div class="free-delivery"></div></a>
+    <div class="holder">
+      <div class="top-menu">
+        <ul>
+            
+          <li>
+            <a target="_blank" href="https://www.e-paint.co.uk/contact_us.asp">
+              <span class="fa fa-envelope"></span>Contact
+            </a>
+          </li>
+          <li>
+            <a href="https://www.e-paint.co.uk/cart.asp">
+              <span class="fa fa-shopping-cart"></span>View basket
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="sub-top-menu">
+        <ul>
+          <li>
+            <a href="https://www.e-paint.co.uk/supplier_directory.asp" title="Paint, sealant and other suppliers"><img src="Nav_images/fill.png" alt="Paint suppliers" />Supplier directory</a>
+          </li>
+          <li>
+            <a href="https://www.e-paint.co.uk/colour_alternatives.asp" title="Convert from one colour system to another"><img src="Nav_images/hsv.png" alt="Colour conversions" />Colour Alternatives</a>
+          </li>
+       
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <!--menu-->
+<div class="menu">
+  <div class="wrapper">
+    <div id="menuico" onClick="toggle('mobnav');">
+      <i class="fa fa-bars mob-nav"></i>
+      <span>Menu</span>
+    </div>
+    <div class="top-nav">
+      <ul>
+        <li>
+          <a href="https://www.e-paint.co.uk/" title="Home">
+	<img src="Nav_images/home1.png" alt="Home"/>Home</a>        </li>
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/categories.asp"><img src="Nav_images/pantone.png" alt="Colour fan"/>Colour products</a>
+          <ul>
+            <li>
+              <a href="https://www.e-paint.co.uk/Ral_colour_guides.asp"><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Classic colour guides</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/categories.asp?cat=41"><img src="Nav_images/16colors.png" alt="A4 size sheets"/>Individual RAL sheets</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/BS_colour_guides.asp"><img src="Nav_images/pantone.png" alt="Colour fan"/>British Std. colour guides</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/products.asp?cat=52"><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Design colour fans</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/products.asp?cat=56"><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Effect colour fans</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/products.asp?cat=59"><img src="Nav_images/pantone.png" alt="Colour fan"/>CIELab colour fans</a>
+            </li>
+            <li><a href="https://www.e-paint.co.uk/products.asp?cat=60"><img src="Nav_images/pantone.png" alt="Colour fan"/>Federal Std 595 colour fans</a></li>
+            <li><a href="https://www.e-paint.co.uk/products.asp?cat=65"><img src="Nav_images/pantone.png" alt="Colour fan"/>AMS Std 595A colour fans</a></li>
+        <li><a href="https://www.e-paint.co.uk/products.asp?cat=63"><img src="Nav_images/pantone.png" alt="Colour fan"/>Australian Std. AS2700</a>
+            </li>
+       <li><a href="https://www.e-paint.co.uk/products.asp?cat=62"><img src="Nav_images/pantone.png" alt="Colour fan"/>NCS Index 1950 colour fans</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/products.asp?cat=54"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Customised colour cards</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/chart_options.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Colour charts</a>
+          <ul>
+            <li>
+              <a href="https://www.e-paint.co.uk/RAL_Classic_Colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL Classic colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/BS_4800_Colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>BS 4800:2011 colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/BS381 Colourchart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>BS 381C colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/bs2660_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>BS 2660 colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/bs5252_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>BS 5252 colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/other_bs_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Other BS colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/pantone_c_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Pantone colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Munsell_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Munsell colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/ral_design_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL Design colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/ral_effect_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL Effect colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/DIN_6164_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>DIN 6164 colour chart</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/Dulux_Trade_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Dulux<sup>&reg;</sup> Trade colour chart</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/NCS_1950_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>NCS 1950 colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Australian_standard_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Australian Standard colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Federal_standard_595C_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Federal Std. 595C colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/ams_standard_595_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>AMS Std. 595A colours</a>
+            </li>
+         </ul>
+        </li>
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/search_for_colours_and_products.asp"><img src="Nav_images/search.png" alt="Search for colours and products" />Search</a>
+          <ul class="alnright">
+              <li>
+                <a href="https://www.e-paint.co.uk/search.asp"><img src="Nav_images/search.png" alt="Search" />Product search</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/search_colour.asp"><img src="Nav_images/find.png" alt="Search" />Colour search</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/Convert_RGB.asp"><img src="Nav_images/rgb.png" alt="Lab and HLC values" />Search by RGB values</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/Convert_Lab.asp"><img src="Nav_images/lab_color_model.png" alt="Lab and HLC values" />Search by L*a*b* values</a>
+              </li>
+        <li>
+                <a href="https://www.e-paint.co.uk/Dulux_codes.asp"><img src="Nav_images/lab_color_model.png" alt="Dulux codes" />Search by Dulux<sup>&reg;</sup> codes values</a>
+              </li>
+			  <li> 
+			   <a href="https://www.e-paint.co.uk/search_whites_and_off_whites.asp"><img src="Nav_images/find.png" alt="Whites and pastels" />Whites and Pastels</a>
+              </li>
+           </ul>
+        </li>
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/Advanced_menu.asp"><img src="Nav_images/hsl.png" alt="Colour information"/>Advanced</a>
+          <ul class="alnright">
+            <li>
+              <a href="https://www.e-paint.co.uk/Lab_values.asp" title="Colour Lab, RGB and HLC values"><img src="Nav_images/yuv_color_space.png" alt="Lab and HLC values" />Colour L*a*b*/RGB values</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Colour_alternatives.asp"><img src="Nav_images/hsv.png" alt="Colour conversions" />Colour alternatives</a>
+            </li>
+             <li>
+              <a href="https://www.e-paint.co.uk/Compare_colours.asp"><img src="Nav_images/hsv.png" alt="Colour comparison" />Compare colours</a>
+            </li>
+ <li>
+              <a href="https://www.e-paint.co.uk/colour_trends_2016.asp"><img src="Nav_images/3d_graph.png" alt="Colour trends" />Colour trends 2016+</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/uk_organisations.asp"><img src="Nav_images/lock_color.png" alt="Organisation colours" />UK Organisations' colours</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/us_organisations.asp"><img src="Nav_images/lock_color.png" alt="US Organisation colours" />US Organisations' colours</a>
+            </li>
+         </ul>
+        </li>
+        <li class="donotshowontablet">
+          <a class="parent" href="https://www.e-paint.co.uk/print_options.asp"><img src="Nav_images/print.png" alt="print"/>Print</a>
+          <ul>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_ral_colours.asp">RAL Classic colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_RAL_design_colours.asp">RAL Design colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_RAL_effect_colours.asp">RAL Effect colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_BS4800_colours.asp">BS 4800 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_BS2660_colours.asp">BS 2660 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_bs381c_colours.asp">BS 381C colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_din_6164_colours.asp">DIN 6164 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_NCS_colours.asp">NCS 1950 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_australian_colours.asp">Australian Std. colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_FS595_colours.asp">Federal Std. 595 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_AMS595_colours.asp">AMS Std. 595A colours</a>
+            </li>
+</ul>
+        </li>
+
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/Contact_options.asp"><img src="Nav_images/help.png" alt="Contact"/>Help</a>
+          <ul class="moveleft">
+            <li>
+              <a href="https://www.e-paint.co.uk/contact_us.asp" title="Contact us by email"><img src="Nav_images/contact.png" alt="Contact" />General enquiry</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/customer_service.asp" title="Customer service" target="_blank"><img src="Nav_images/pie_chart.png" alt="Lab and HLC values" />Customer services</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/terms_and_conditions.asp" title="View terms and conditions"><img src="Nav_images/critical_details.png" alt="Terms and conditions" />Terms and conditions</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/copy_invoice(2.asp" title="Get a copy of your invoice" target="_blank"><img src="Nav_images/form.png" alt="Invoice" />Copy invoice</a>            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/faqs.asp" title="Frequently asked questions"><img src="Nav_images/help.png" alt="help" />FAQs / help</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/online_colour_charts.asp" title="Online colourcharts"><img src="Nav_images/colorchart.png" alt="online colourcharts" />Online colour charts</a>
+            </li>
+
+            <li><a href="https://www.e-paint.co.uk/delivery.asp" title="Delivery information"><img src="Nav_images/icon_truck.png" alt="Delivery" />Delivery</a></li>
+ 		<li>
+		<a href="https://www.e-paint.co.uk/security.asp" title="Security and cookie information"><img src="Nav_images/registration.png" alt="Security" />Security and privacy</a></li>
+		<li><a href="https://www.e-paint.co.uk/supplier_directory.asp" title="Find paint and other product suppliers"><img src="Nav_images/fill.png" alt="Paint suppliers" />Supplier directory</a></li>
+    	</ul>
+    </li>
+   </ul>
+    </div>
+    <div class="search-box">
+      <form method="post" action="https://www.e-paint.co.uk/search_colour.asp" style="margin-bottom: 0px">
+        <input type="hidden" name="posted" value="1" />
+        <input type="hidden" name="sprice" value="" />
+        <input class="search" type="text" name="cQuery" size="16" placeholder="colour search" />
+        <button type="submit" class="btn search-btn">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+<div id="mobnav" class="navhide">
+  <ul>
+    <li>
+      <a href="https://www.e-paint.co.uk/"><img src="../Nav_images/home1.png" alt="home"/>home</a>
+    </li>
+    <li class="has-sub">
+      <a href="https://www.e-paint.co.uk/categories.asp"><img src="Nav_images/pantone.png" alt="Colourchart"/>products / colour guides</a>
+<ul>
+                            <li><a href='https://www.e-paint.co.uk/RAL_colour_guides.asp'><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Classic colour guides</a></li>
+                            <li class="has-sub">
+                                <a href='https://www.e-paint.co.uk/categories.asp?cat=41'><img src="Nav_images/16colors.png" alt="A4 size sheets"/>Individual A4 colour cards</a>
+                                <ul>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=42'>RAL 1000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=43'>RAL 2000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=44'>RAL 3000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=45'>RAL 4000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=46'>RAL 5000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=47'>RAL 6000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=48'>RAL 7000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=49'>RAL 8000 Series A4 card</a></li>
+                                    <li class='last'><a href='https://www.e-paint.co.uk/products.asp?cat=50'>RAL 9000 Series A4 card</a></li>
+                                </ul>
+                            </li>
+                            <li><a href='https://www.e-paint.co.uk/BS_colour_guides.asp'><img src="Nav_images/pantone.png" alt="Colour fan"/>BS colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=56'><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Effect colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=52'><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Design colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=59'><img src="Nav_images/pantone.png" alt="Colour fan"/>CIELab colour fans</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=62'><img src="Nav_images/pantone.png" alt="Colour fan"/>NCS 1950 colour fan</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=60'><img src="Nav_images/pantone.png" alt="Colour fan"/>Federal Std. colour fans</a></li>
+                            <li><a href="https://www.e-paint.co.uk/products.asp?cat=65"><img src="Nav_images/pantone.png" alt="Colour fan"/>AMS Std 595A colour fans</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=63'><img src="Nav_images/pantone.png" alt="Colour fan"/>Australian Std. AS2700</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=54'><img src="Nav_images/pantone.png" alt="Colour fan"/>Custom colour guides</a></li>
+                        </ul>
+    </li>
+    <li class="has-sub">
+      <a href="https://www.e-paint.co.uk/chart_options.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>colour charts</a>
+      <ul>
+          <li><a href='https://www.e-paint.co.uk/RAL_Classic_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL Classic colours</a>
+            </li>
+       <li class="has-sub"><a href='https://www.e-paint.co.uk/BS_4800_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>British Std. colours</a>
+              <ul>
+        <li><a href='https://www.e-paint.co.uk/BS_4800_Colour_chart.asp'>BS 4800:2011 colours</a>
+              </li>
+       <li><a href="https://www.e-paint.co.uk/bs4800_colour_chart_1989.asp">BS 4800:1989 colours</a>
+              </li>
+
+            <li><a href='https://www.e-paint.co.uk/bs5252_colour_chart.asp'>BS 5252 colours</a>
+            </li>
+          <li><a href='https://www.e-paint.co.uk/BS381 Colourchart.asp'>BS 381C colours</a>
+           </li>
+          <li><a href='https://www.e-paint.co.uk/bs2660_colour_chart.asp'>BS 2660 colours</a>
+            </li>
+          <li><a href='https://www.e-paint.co.uk/other_bs_colours.asp'>Other BS colours</a></li>
+          </ul>
+          </li>
+          <li><a href='https://www.e-paint.co.uk/ral_design_colours.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL 'Design' colours</a>
+          
+          </li>
+          <li><a href='https://www.e-paint.co.uk/ral_effect_colours.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL 'Effect' colours</a>
+        
+          </li>
+          <li class="has-sub"><a class="parent" href='pantone_c_colours.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Pantone<sup>&reg;</sup> colours</a>
+          		<ul><li><a href='https://www.e-paint.co.uk/pantone_c_colours.asp'>Pantone C colours</a></li>
+          		<li><a href='https://www.e-paint.co.uk/pantone_u_colours.asp'>Pantone U colours</a></li>
+          		</ul>
+          		</li>
+          <li><a href='https://www.e-paint.co.uk/DIN_6164_colours.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>DIN 6164 colours</a>
+              </li>
+         <li><a href='https://www.e-paint.co.uk/Dulux_Trade_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Dulux<sup>&reg;</sup> Trade colours</a>
+              </li>
+         <li><a href='https://www.e-paint.co.uk/NCS_1950_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>NCS<sup>&reg;</sup> 1950 colours</a>
+             </li>
+          <li><a href='https://www.e-paint.co.uk/Australian_standard_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Australian Std. colours</a>
+            
+          </li>
+          <li><a href='https://www.e-paint.co.uk/Federal_standard_595C_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Federal Std. 595 colours</a>
+            
+          </li>
+          <li><a href='https://www.e-paint.co.uk/AMS_standard_595_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>AMS Std. 595A colours</a>
+            
+          </li>
+          <li><a href='https://www.e-paint.co.uk/Munsell_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Munsell colours</a>
+           
+          </li>
+
+         <li class="has-sub"><a href='https://www.e-paint.co.uk/chart_options.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Other</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/astm_f934_fencing.asp'>ASTM F934 Fencing</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=BG'>British Gas</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=BR'>British Rail</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=MoD'>UK Ministry of Defense</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=DoT'>UK Dept. of Transport</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=PO'>UK Post Office</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=DT'>DULUX<sup>&reg;</sup>TRADE - BS 4800</a></li>
+            </ul>
+          </li>
+          <li><a href='https://www.e-paint.co.uk/online_colour_charts.asp'>Online charts</a></li>
+
+            </ul>
+
+    </li>
+    <li class="has-sub">
+      <a href="https://www.e-paint.co.uk/Advanced_menu.asp"><img src="Nav_images/hsl.png" alt="colour information"/>Colour information</a>
+	       <ul>
+            <li>
+              <a href="https://www.e-paint.co.uk/Lab_values.asp" title="Colour Lab, RGB and HLC values"><img src="Nav_images/yuv_color_space.png" alt="Lab and HLC values" />Colour L*a*b* / RGB values</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Colour_alternatives.asp"><img src="Nav_images/hsv.png" alt="Colour conversions" />Colour alternatives</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/Compare_colours.asp"><img src="Nav_images/hsv.png" alt="Colour comparison" />Compare colours</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/colour_trends_2016.asp"><img src="Nav_images/3d_graph.png" alt="Colour trends" />Colour trends 2016+</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/uk_organisations.asp"><img src="Nav_images/lock_color.png" alt="Organisation colours" />UK Organisations' colours</a>
+            </li>
+             <li>
+              <a href="https://www.e-paint.co.uk/us_organisations.asp"><img src="Nav_images/lock_color.png" alt="Organisation colours" />US Organisations' colours</a>
+            </li>
+        </ul>
+
+    </li>
+    <li class="has-sub">
+      <a href="https://www.e-paint.co.uk/search_for_colours_and_products.asp"><img src="Nav_images/search.png" alt="search"/>Search</a>
+        <ul>
+              <li>
+                <a href="https://www.e-paint.co.uk/search.asp"><img src="Nav_images/search.png" alt="Search" />Product search</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/search_colour.asp"><img src="Nav_images/find.png" alt="Search" />Colour search</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/Convert_RGB.asp"><img src="Nav_images/rgb.png" alt="Lab and HLC values" />Search by RGB values</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/Convert_Lab.asp"><img src="Nav_images/lab_color_model.png" alt="Lab and HLC values" />Search by L*a*b* values</a>
+              </li>
+  			<li>
+                <a href="https://www.e-paint.co.uk/Dulux_codes.asp"><img src="Nav_images/lab_color_model.png" alt="Dulux codes" />Search by Dulux<sup>&reg;</sup> codes</a>
+              </li>
+  			  <li> 
+			   <a href="https://www.e-paint.co.uk/search_whites_and_off_whites.asp"><img src="Nav_images/find.png" alt="Whites and pastels" />Whites and Pastels</a>
+              </li>
+            </ul>
+
+    </li>  
+     <li class="has-sub">
+           <a class="parent" href="https://www.e-paint.co.uk/Contact_options.asp"><img src="Nav_images/help.png" alt="Contact"/>Help</a>
+          <ul class="moveleft">
+            <li>
+              <a href="https://www.e-paint.co.uk/contact_us.asp" title="Contact us by email"><img src="Nav_images/contact.png" alt="Contact" />General enquiry</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/customer_service.asp" title="Customer service"><img src="Nav_images/pie_chart.png" alt="Lab and HLC values" />Customer services</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/terms_and_conditions.asp" title="View terms and conditions"><img src="Nav_images/critical_details.png" alt="Terms and conditions" />Terms and conditions</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/copy_invoice(2.asp" title="Get a copy of your invoice"><img src="Nav_images/form.png" alt="Invoice" />Copy invoice</a>            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/faqs.asp" title="Frequently asked questions"><img src="Nav_images/help.png" alt="help" />FAQs / help</a>
+            </li>
+            <li><a href="https://www.e-paint.co.uk/delivery.asp" title="Delivery information"><img src="Nav_images/icon_truck.png" alt="Delivery" />Delivery</a></li>
+ 		<li>
+		<a href="https://www.e-paint.co.uk/security.asp" title="Security and cookie information"><img src="Nav_images/registration.png" alt="Security" />Security and privacy</a></li>
+		<li><a href="https://www.e-paint.co.uk/supplier_directory.asp" title="Find paint and other product suppliers"><img src="Nav_images/fill.png" alt="Paint suppliers" />Supplier directory</a></li>
+    	</ul>
+    </li>
+
+  
+
+    <li>
+      <a href='https://www.e-paint.co.uk/cart.asp'><img src="Nav_images/buy.png" alt="View basket" />View basket</a>
+    </li>
+    <li>
+      <a href='https://www.e-paint.co.uk/supplier_directory.asp'><img src="Nav_images/fill.png" alt="Paint suppliers" />Supplier Directory</a>
+    </li>
+  </ul>
+</div>
+
+<!--mobile menu-->
+
+<!--main body-->
+<div id="main_body">
+    <div class="wrapper">
+        <div class="left left-col">
+                   <div class="left-nav">
+                <div class="title"><span class="fa fa-bars"></span>PRODUCTS AND &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INFORMATION</div>
+                <ul>
+                    <li><a class="parent" href='https://www.e-paint.co.uk/categories.asp'>Products</a>
+                        <ul>
+                            <li><a href='https://www.e-paint.co.uk/RAL_colour_guides.asp'>RAL Classic colour guides</a></li>
+                            <li>
+                                <a class="parent" href='https://www.e-paint.co.uk/categories.asp?cat=41'>Individual A4 colour cards</a>
+                                <ul>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=42'>RAL 1000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=43'>RAL 2000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=44'>RAL 3000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=45'>RAL 4000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=46'>RAL 5000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=47'>RAL 6000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=48'>RAL 7000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=49'>RAL 8000 Series A4 card</a></li>
+                                    <li class='last'><a href='https://www.e-paint.co.uk/products.asp?cat=50'>RAL 9000 Series A4 card</a></li>
+                                </ul>
+                            </li>
+                            <li><a href='https://www.e-paint.co.uk/BS_colour_guides.asp'>BS colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=56'>RAL Effect colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=52'>RAL Design colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=59'>CIELab colour fans</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=62'>NCS 1950 colour fan</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=60'>Federal Std. colour fans</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=65'>AMS Std. 595A colour fans</a></li>
+                           <li><a href='https://www.e-paint.co.uk/products.asp?cat=63'>Australian Std. AS2700</a></li>
+                            <li class='last'><a href='https://www.e-paint.co.uk/products.asp?cat=54'>Custom colour guides</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="parent" href='https://www.e-paint.co.uk/chart_options.asp'>Colour charts</a>
+                      <ul>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/RAL_Classic_Colour_chart.asp'>RAL Classic colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/RAL_Classic_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/pdfs/RAL colour chart.pdf' target="_blank">PDF</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_ral_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=39'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/BS_4800_Colourchart.asp'>BS 4800:2011 colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/BS_4800_Colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_BS4800_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=51'>Purchase</a></li>
+            </ul>
+          </li>
+   
+            <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/bs5252_colour_chart.asp'>BS 5252 colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/bs5252_colour_chart.asp'>View</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=51'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/BS381 Colourchart.asp'>BS 381C colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/BS381 Colourchart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_bs381c_colours.asp'>Print</a></li>
+              <li class="last"><a href='products.asp?cat=51'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/bs2660_colour_chart.asp'>BS 2660 colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/bs2660_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_bs2660_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=51'>Purchase</a></li>
+            </ul>
+          </li>
+          <li><a href='https://www.e-paint.co.uk/other_bs_colours.asp'>Other BS colours</a></li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/ral_design_colours.asp'>RAL 'Design' colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/ral_design_colours.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_RAL_design_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=52'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/ral_effect_colours.asp'>RAL 'Effect' colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/ral_effect_colours.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_RAL_effect_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=56'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/pantone_c_colours.asp'>Pantone colours</a>
+          		<ul><li><a href='https://www.e-paint.co.uk/pantone_c_colours.asp'>Pantone C colours</a></li>
+          		<li><a href='https://www.e-paint.co.uk/pantone_u_colours.asp'>Pantone U colours</a></li>
+          		</ul>
+          		</li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/DIN_6164_colours.asp'>DIN 6164 colours</a>
+            <ul>
+              <li><a href='DIN_6164_colours.asp'>View</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_DIN_6164_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/NCS_1950_colour_chart.asp'>NCS 1950 colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/NCS_1950_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/products.asp?cat=62'>Purchase</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_NCS_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/Australian_standard_colour_chart.asp'>Australian Std. colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/Australian_standard_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/products.asp?cat=63'>Purchase</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_australian_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/Federal_standard_595C_colour_chart.asp'>Federal Std. 595C colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/Federal_standard_595C_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/products.asp?cat=60'>Purchase</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_FS595_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/ams_standard_595_colour_chart.asp'>AMS Std. 595A colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/ams_standard_595_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/products.asp?cat=65'>Purchase</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_AMS595_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li><a href='https://www.e-paint.co.uk/Munsell_colour_chart.asp'>Munsell colours</a></li>
+         <li class="has-sub"><a class="parent" href='#'>Other</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/astm_f934_fencing.asp'>ASTM F934 Fencing</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=BG'>British Gas</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=BR'>British Rail</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=MoD'>UK Ministry of Defense</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=DoT'>UK Dept. of Transport</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=PO'>UK Post Office</a></li>
+	         <li><a href='https://www.e-paint.co.uk/Dulux_Trade_colour_chart.asp'>DULUX<sup>&reg;</sup>Trade Colours</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=DT'>DULUX<sup>&reg;</sup>TRADE - BS 4800</a></li>
+            </ul>
+          </li>
+          <li class="last"><a href='https://www.e-paint.co.uk/online_colour_charts.asp'>Online charts</a></li>
+
+            </ul>
+                    </li>
+                    <li><a class="parent" href='#'>Information</a>
+                      <ul>
+                        <li class='has-sub'><a class="parent" href='https://www.e-paint.co.uk/Advanced_menu.asp'>Colour information</a>
+                          <ul>
+                            <li><a href='https://www.e-paint.co.uk/Lab_values.asp'>L*a*b* and HLC values</a></li>
+                            <li><a href='https://www.e-paint.co.uk/Colour_alternatives.asp'>Colour alternatives</a></li>
+                            <li><a href="https://www.e-paint.co.uk/Compare_colours.asp">Compare colours</a></li>
+          <li><a href='https://www.e-paint.co.uk/colour_trends_2016.asp'>Colour trends</a></li>
+                            <li><a href='https://www.e-paint.co.uk/uk_organisations.asp'>UK organisations' colours</a></li>
+                            <li><a href='https://www.e-paint.co.uk/us_organisations.asp'>US organisations' colours</a></li>
+                          			  <li> 
+			   <a href="https://www.e-paint.co.uk/search_whites_and_off_whites.asp">Whites and Pastels</a>
+              </li>
+ <li><a href='https://www.e-paint.co.uk/Convert_RGB.asp'>Search by RGB values</a></li>
+                            <li><a href='https://www.e-paint.co.uk/Dulux_codes.asp'>Search by Dulux&reg; codes</a></li>
+                   <li class="last"><a href='https://www.e-paint.co.uk/Convert_Lab.asp'>Search by L*a*b* values</a></li>
+                          </ul>
+                        </li>
+                        <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/contact_us.asp'>Contact us</a>
+                          <ul>
+                            <li><a href='https://www.e-paint.co.uk/contact_us.asp' target="_blank">General enquiry</a></li>
+                            <li><a href='https://www.e-paint.co.uk/customer_service.asp' target="_blank">Customer service</a></li>
+                            <li class="last"><a href='https://www.e-paint.co.uk/copy_invoice(2.asp' target="_blank">Copy invoice</a></li>
+                          </ul>
+                        </li>
+                        <li><a href='https://www.e-paint.co.uk/delivery.asp'>Delivery service</a></li>
+                        <li><a href='https://www.e-paint.co.uk/security.asp'>Security and privacy</a></li>
+                        <li><a href='https://www.e-paint.co.uk/organisation_details.asp'>
+						Organisations</a></li>
+                        <li class="last"><a href='mailto:sales@e-paint.co.uk?subject=Enquiry from the e-paint.co.uk website' title='Click here to send an email'>Email</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="parent" href='https://www.e-paint.co.uk/faqs.asp'>Help / FAQs</a>
+                      <ul>
+                        <li><a href='https://www.e-paint.co.uk/delivery.asp'>Delivery service</a></li>
+                        <li><a href='https://www.e-paint.co.uk/terms_and_conditions.asp'>Terms and Conditions</a></li>
+                        <li><a href='https://www.e-paint.co.uk/security.asp'>Security and privacy</a></li>
+                         <li><a href='https://www.e-paint.co.uk/faqs.asp'>FAQS</a></li>
+                       <li class="last"><a href='https://www.e-paint.co.uk/contact_us.asp' target="_blank">Comments</a></li>
+                      </ul>
+                    </li>
+                  
+                    <li><a class="parent" href='https://www.e-paint.co.uk/search_for_colours_and_products.asp'>Search</a>
+                        <ul>
+                          <li><a href='https://www.e-paint.co.uk/search.asp'>Product search</a></li>
+                          <li><a href='https://www.e-paint.co.uk/search_colour.asp'>Colour search</a></li>
+                          <li><a href='https://www.e-paint.co.uk/Convert_RGB.asp'>Search by RGB values</a></li>
+                          <li><a href='https://www.e-paint.co.uk/Dulux_codes.asp'>Search by Dulux&reg; codes</a></li>
+                     <li class="last"><a href='https://www.e-paint.co.uk/Convert_Lab.asp'>Search by L*a*b* values</a></li>
+                        </ul>
+                    </li>
+           
+                    <li><a class="parent" href='https://www.e-paint.co.uk/supplier_directory.asp'>Supplier Directory</a>
+                      <ul>
+                        <li><a href='https://www.e-paint.co.uk/supplier_directory.asp'>Supplier directory</a></li>
+                        <li class="last"><a href='https://www.e-paint.co.uk/Contact_advertisers_home.asp'>Advertising</a></li>
+                      </ul>
+                    </li>
+                                    
+                    <li><a href="https://www.e-paint.co.uk/colour_trends_2016.asp">Colour Trends</a></li>
+                </ul>
+            </div>
+         
+
+            
+       
+
+        <!--left nav-->
+            
+            <!--minicart-->
+            <!--other nav-->
+            <!--logos and pictures-->
+            
+
+        </div>
+
+
+
+
+        <div class="right right-col">
+            <!--Content here-->
+            
+            <!-- #BeginEditable "main" -->
+     
+
+<head>
+<style type="text/css">
+.auto-style1 {
+	color: #000080;
+	font-weight: bold;
+}
+</style>
+</head>
+
+<div class="g-box-w center">
+    <h1>Dulux<sup>&reg;</sup> Trade Range Colour Chart</h1>
+     <h2>ordering by colour reference.</h2>
+
+  <p>The colours depicted on the following chart are for <span class="underline">guidance only</span>.</p><p>The displayed colour will depend on your monitor and browser and pearl or metallic colours cannot be shown adequately. The finished colour, therefore, may <span class="underline_bold">not</span> be as shown here. Please use the Dulux colour cards for most 
+	  accurate colour.<br />
+	<p>Dulux<sup>&reg;</sup> <em>is a registered trade name of Imperial Chemical Industries Ltd and is a brand from Akzo Nobel.</em></p>
+	<br /><form action="Dulux_Trade_colour_chart.asp" name="ordering"><p>Order by: <select name="order1" onchange="submit()">
+		<option value=1>Colour description</option>
+		<option selected value=2>Colour reference</option>
+		</select></p>
+		<br /><p>Filter by: <select name="order2" onchange="submit()">
+		<option value=3>All colours</option>
+		<option  value=4>BS 4800 colours</option>
+		<option  value=5>Dulux<sup>&reg;</sup> Heritage colours</option>
+	</select></p>
+</form>
+	<br /><p>If you want to search by Dulux reference number -
+	<a href="../../Dulux_codes.asp"><span style="color:#000080; font-weight:bold">click here</span></a></p>
+</div>
+
+<div class="g-box-w">
+
+    <ul itemscope itemtype="http://schema.org/Dataset" class="colour-charts">
+<meta itemprop="name" content="Dulux Trade Colour Chart" />
+<meta itemprop="description" content="This is a colour chart of the colours in the UK Dulux Trade colour range" />
+ 
+
+
+        <li>
+			<a title="More information about 00NN 37/000 - Night jewels 4 / Pewter plate" href="Lab_values.asp?cRange=Dulux Trade&cRef=00NN 37/000">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(164,164,164)" name="00NN 37/000" id="00NN 37/000" alt="Dulux Trade, 00NN 37/000 - Night jewels 4 / Pewter plate" content="00NN 37/000 - Night jewels 4 / Pewter plate" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 00NN 37/000 - Night jewels 4 / Pewter plate" href="Lab_values.asp?cRange=Dulux Trade&cRef=00NN 37/000">
+				00NN 37/000</a></h2><h3 style="font-weight:normal">Night jewels 4 / Pewter plate</h3>
+        </li>
+
+        <li>
+			<a title="More information about 00NN 83/000 - Grey steel 4 / Indian white" href="Lab_values.asp?cRange=Dulux Trade&cRef=00NN 83/000">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(235,235,235)" name="00NN 83/000" id="00NN 83/000" alt="Dulux Trade, 00NN 83/000 - Grey steel 4 / Indian white" content="00NN 83/000 - Grey steel 4 / Indian white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 00NN 83/000 - Grey steel 4 / Indian white" href="Lab_values.asp?cRange=Dulux Trade&cRef=00NN 83/000">
+				00NN 83/000</a></h2><h3 style="font-weight:normal">Grey steel 4 / Indian white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 10BB 72/019 - Lead white" href="Lab_values.asp?cRange=Dulux Trade&cRef=10BB 72/019">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(218,221,224)" name="10BB 72/019" id="10BB 72/019" alt="Dulux Trade, 10BB 72/019 - Lead white" content="10BB 72/019 - Lead white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 10BB 72/019 - Lead white" href="Lab_values.asp?cRange=Dulux Trade&cRef=10BB 72/019">
+				10BB 72/019</a></h2><h3 style="font-weight:normal">Lead white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 10BB 83/017 - Chalk white" href="Lab_values.asp?cRange=Dulux Trade&cRef=10BB 83/017">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(238,234,235)" name="10BB 83/017" id="10BB 83/017" alt="Dulux Trade, 10BB 83/017 - Chalk white" content="10BB 83/017 - Chalk white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 10BB 83/017 - Chalk white" href="Lab_values.asp?cRange=Dulux Trade&cRef=10BB 83/017">
+				10BB 83/017</a></h2><h3 style="font-weight:normal">Chalk white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 10BG 26/134 - Maritime teal" href="Lab_values.asp?cRange=Dulux Trade&cRef=10BG 26/134">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(111,146,150)" name="10BG 26/134" id="10BG 26/134" alt="Dulux Trade, 10BG 26/134 - Maritime teal" content="10BG 26/134 - Maritime teal" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 10BG 26/134 - Maritime teal" href="Lab_values.asp?cRange=Dulux Trade&cRef=10BG 26/134">
+				10BG 26/134</a></h2><h3 style="font-weight:normal">Maritime teal</h3>
+        </li>
+
+        <li>
+			<a title="More information about 10RR 83/009 - Mallow white" href="Lab_values.asp?cRange=Dulux Trade&cRef=10RR 83/009">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(236,234,235)" name="10RR 83/009" id="10RR 83/009" alt="Dulux Trade, 10RR 83/009 - Mallow white" content="10RR 83/009 - Mallow white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 10RR 83/009 - Mallow white" href="Lab_values.asp?cRange=Dulux Trade&cRef=10RR 83/009">
+				10RR 83/009</a></h2><h3 style="font-weight:normal">Mallow white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 10YR 65/059 - Potters pink" href="Lab_values.asp?cRange=Dulux Trade&cRef=10YR 65/059">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(223,207,206)" name="10YR 65/059" id="10YR 65/059" alt="Dulux Trade, 10YR 65/059 - Potters pink" content="10YR 65/059 - Potters pink" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 10YR 65/059 - Potters pink" href="Lab_values.asp?cRange=Dulux Trade&cRef=10YR 65/059">
+				10YR 65/059</a></h2><h3 style="font-weight:normal">Potters pink</h3>
+        </li>
+
+        <li>
+			<a title="More information about 10YY 23/261 - Soft maplewood 1 / Masters gold" href="Lab_values.asp?cRange=Dulux Trade&cRef=10YY 23/261">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(156,126,89)" name="10YY 23/261" id="10YY 23/261" alt="Dulux Trade, 10YY 23/261 - Soft maplewood 1 / Masters gold" content="10YY 23/261 - Soft maplewood 1 / Masters gold" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 10YY 23/261 - Soft maplewood 1 / Masters gold" href="Lab_values.asp?cRange=Dulux Trade&cRef=10YY 23/261">
+				10YY 23/261</a></h2><h3 style="font-weight:normal">Soft maplewood 1 / Masters gold</h3>
+        </li>
+
+        <li>
+			<a title="More information about 10YY 46/042 - Pebble grey" href="Lab_values.asp?cRange=Dulux Trade&cRef=10YY 46/042">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(202,196,190)" name="10YY 46/042" id="10YY 46/042" alt="Dulux Trade, 10YY 46/042 - Pebble grey" content="10YY 46/042 - Pebble grey" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 10YY 46/042 - Pebble grey" href="Lab_values.asp?cRange=Dulux Trade&cRef=10YY 46/042">
+				10YY 46/042</a></h2><h3 style="font-weight:normal">Pebble grey</h3>
+        </li>
+
+        <li>
+			<a title="More information about 10YY 73/042 - Golden jasmine 1 / Pale nutmeg" href="Lab_values.asp?cRange=Dulux Trade&cRef=10YY 73/042">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(227,221,214)" name="10YY 73/042" id="10YY 73/042" alt="Dulux Trade, 10YY 73/042 - Golden jasmine 1 / Pale nutmeg" content="10YY 73/042 - Golden jasmine 1 / Pale nutmeg" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 10YY 73/042 - Golden jasmine 1 / Pale nutmeg" href="Lab_values.asp?cRange=Dulux Trade&cRef=10YY 73/042">
+				10YY 73/042</a></h2><h3 style="font-weight:normal">Golden jasmine 1 / Pale nutmeg</h3>
+        </li>
+
+        <li>
+			<a title="More information about 19YR 05/072 - Cherry truffle" href="Lab_values.asp?cRange=Dulux Trade&cRef=19YR 05/072">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(74,60,58)" name="19YR 05/072" id="19YR 05/072" alt="Dulux Trade, 19YR 05/072 - Cherry truffle" content="19YR 05/072 - Cherry truffle" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 19YR 05/072 - Cherry truffle" href="Lab_values.asp?cRange=Dulux Trade&cRef=19YR 05/072">
+				19YR 05/072</a></h2><h3 style="font-weight:normal">Cherry truffle</h3>
+        </li>
+
+        <li>
+			<a title="More information about 20YY 31/106 - Jenny wren" href="Lab_values.asp?cRange=Dulux Trade&cRef=20YY 31/106">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(161,149,133)" name="20YY 31/106" id="20YY 31/106" alt="Dulux Trade, 20YY 31/106 - Jenny wren" content="20YY 31/106 - Jenny wren" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 20YY 31/106 - Jenny wren" href="Lab_values.asp?cRange=Dulux Trade&cRef=20YY 31/106">
+				20YY 31/106</a></h2><h3 style="font-weight:normal">Jenny wren</h3>
+        </li>
+
+        <li>
+			<a title="More information about 20YY 36/370 - Brushed gold / Cherished Gold" href="Lab_values.asp?cRange=Dulux Trade&cRef=20YY 36/370">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(192,155,97)" name="20YY 36/370" id="20YY 36/370" alt="Dulux Trade, 20YY 36/370 - Brushed gold / Cherished Gold" content="20YY 36/370 - Brushed gold / Cherished Gold" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 20YY 36/370 - Brushed gold / Cherished Gold" href="Lab_values.asp?cRange=Dulux Trade&cRef=20YY 36/370">
+				20YY 36/370</a></h2><h3 style="font-weight:normal">Brushed gold / Cherished Gold</h3>
+        </li>
+
+        <li>
+			<a title="More information about 20YY 83/025 - Golden jasmine 4 / Roman white" href="Lab_values.asp?cRange=Dulux Trade&cRef=20YY 83/025">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(238,234,230)" name="20YY 83/025" id="20YY 83/025" alt="Dulux Trade, 20YY 83/025 - Golden jasmine 4 / Roman white" content="20YY 83/025 - Golden jasmine 4 / Roman white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 20YY 83/025 - Golden jasmine 4 / Roman white" href="Lab_values.asp?cRange=Dulux Trade&cRef=20YY 83/025">
+				20YY 83/025</a></h2><h3 style="font-weight:normal">Golden jasmine 4 / Roman white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 24YY 22/043 - Mud lark" href="Lab_values.asp?cRange=Dulux Trade&cRef=24YY 22/043">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(133,128,122)" name="24YY 22/043" id="24YY 22/043" alt="Dulux Trade, 24YY 22/043 - Mud lark" content="24YY 22/043 - Mud lark" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 24YY 22/043 - Mud lark" href="Lab_values.asp?cRange=Dulux Trade&cRef=24YY 22/043">
+				24YY 22/043</a></h2><h3 style="font-weight:normal">Mud lark</h3>
+        </li>
+
+        <li>
+			<a title="More information about 28GG 22/002 - Lead grey" href="Lab_values.asp?cRange=Dulux Trade&cRef=28GG 22/002">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(129,129,129)" name="28GG 22/002" id="28GG 22/002" alt="Dulux Trade, 28GG 22/002 - Lead grey" content="28GG 22/002 - Lead grey" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 28GG 22/002 - Lead grey" href="Lab_values.asp?cRange=Dulux Trade&cRef=28GG 22/002">
+				28GG 22/002</a></h2><h3 style="font-weight:normal">Lead grey</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30BB 05/022 - Cobalt night / Ravens flight" href="Lab_values.asp?cRange=Dulux Trade&cRef=30BB 05/022">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(61,63,66)" name="30BB 05/022" id="30BB 05/022" alt="Dulux Trade, 30BB 05/022 - Cobalt night / Ravens flight" content="30BB 05/022 - Cobalt night / Ravens flight" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30BB 05/022 - Cobalt night / Ravens flight" href="Lab_values.asp?cRange=Dulux Trade&cRef=30BB 05/022">
+				30BB 05/022</a></h2><h3 style="font-weight:normal">Cobalt night / Ravens flight</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30BB 46/142 - Light cobalt" href="Lab_values.asp?cRange=Dulux Trade&cRef=30BB 46/142">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(166,183,206)" name="30BB 46/142" id="30BB 46/142" alt="Dulux Trade, 30BB 46/142 - Light cobalt" content="30BB 46/142 - Light cobalt" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30BB 46/142 - Light cobalt" href="Lab_values.asp?cRange=Dulux Trade&cRef=30BB 46/142">
+				30BB 46/142</a></h2><h3 style="font-weight:normal">Light cobalt</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30BB 72/040 - Mineral haze 3 / Light French grey / Frosted steel" href="Lab_values.asp?cRange=Dulux Trade&cRef=30BB 72/040">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(217,221,228)" name="30BB 72/040" id="30BB 72/040" alt="Dulux Trade, 30BB 72/040 - Mineral haze 3 / Light French grey / Frosted steel" content="30BB 72/040 - Mineral haze 3 / Light French grey / Frosted steel" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30BB 72/040 - Mineral haze 3 / Light French grey / Frosted steel" href="Lab_values.asp?cRange=Dulux Trade&cRef=30BB 72/040">
+				30BB 72/040</a></h2><h3 style="font-weight:normal">Mineral haze 3 / Light French grey / Frosted steel</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30BB 83/001 - Night jewels 6 / Edelweiss white" href="Lab_values.asp?cRange=Dulux Trade&cRef=30BB 83/001">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(235,235,235)" name="30BB 83/001" id="30BB 83/001" alt="Dulux Trade, 30BB 83/001 - Night jewels 6 / Edelweiss white" content="30BB 83/001 - Night jewels 6 / Edelweiss white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30BB 83/001 - Night jewels 6 / Edelweiss white" href="Lab_values.asp?cRange=Dulux Trade&cRef=30BB 83/001">
+				30BB 83/001</a></h2><h3 style="font-weight:normal">Night jewels 6 / Edelweiss white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30BB 83/020 - Swedish white" href="Lab_values.asp?cRange=Dulux Trade&cRef=30BB 83/020">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(233,235,239)" name="30BB 83/020" id="30BB 83/020" alt="Dulux Trade, 30BB 83/020 - Swedish white" content="30BB 83/020 - Swedish white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30BB 83/020 - Swedish white" href="Lab_values.asp?cRange=Dulux Trade&cRef=30BB 83/020">
+				30BB 83/020</a></h2><h3 style="font-weight:normal">Swedish white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30GG 61/010 - Beachcomb grey / Goose down" href="Lab_values.asp?cRange=Dulux Trade&cRef=30GG 61/010">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(203,206,205)" name="30GG 61/010" id="30GG 61/010" alt="Dulux Trade, 30GG 61/010 - Beachcomb grey / Goose down" content="30GG 61/010 - Beachcomb grey / Goose down" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30GG 61/010 - Beachcomb grey / Goose down" href="Lab_values.asp?cRange=Dulux Trade&cRef=30GG 61/010">
+				30GG 61/010</a></h2><h3 style="font-weight:normal">Beachcomb grey / Goose down</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30GG 72/008 - Turtledove grey" href="Lab_values.asp?cRange=Dulux Trade&cRef=30GG 72/008">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(219,221,220)" name="30GG 72/008" id="30GG 72/008" alt="Dulux Trade, 30GG 72/008 - Turtledove grey" content="30GG 72/008 - Turtledove grey" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30GG 72/008 - Turtledove grey" href="Lab_values.asp?cRange=Dulux Trade&cRef=30GG 72/008">
+				30GG 72/008</a></h2><h3 style="font-weight:normal">Turtledove grey</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30GY 88/014 - Chiffon white 4 / China white / White cotton" href="Lab_values.asp?cRange=Dulux Trade&cRef=30GY 88/014">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(240,242,239)" name="30GY 88/014" id="30GY 88/014" alt="Dulux Trade, 30GY 88/014 - Chiffon white 4 / China white / White cotton" content="30GY 88/014 - Chiffon white 4 / China white / White cotton" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30GY 88/014 - Chiffon white 4 / China white / White cotton" href="Lab_values.asp?cRange=Dulux Trade&cRef=30GY 88/014">
+				30GY 88/014</a></h2><h3 style="font-weight:normal">Chiffon white 4 / China white / White cotton</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30RR 22/031 - Wooded solace / Mauve mist" href="Lab_values.asp?cRange=Dulux Trade&cRef=30RR 22/031">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(134,127,130)" name="30RR 22/031" id="30RR 22/031" alt="Dulux Trade, 30RR 22/031 - Wooded solace / Mauve mist" content="30RR 22/031 - Wooded solace / Mauve mist" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30RR 22/031 - Wooded solace / Mauve mist" href="Lab_values.asp?cRange=Dulux Trade&cRef=30RR 22/031">
+				30RR 22/031</a></h2><h3 style="font-weight:normal">Wooded solace / Mauve mist</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30YY 05/044 - Rum caramel 1 / Tudor brown" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 05/044">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(66,63,57)" name="30YY 05/044" id="30YY 05/044" alt="Dulux Trade, 30YY 05/044 - Rum caramel 1 / Tudor brown" content="30YY 05/044 - Rum caramel 1 / Tudor brown" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30YY 05/044 - Rum caramel 1 / Tudor brown" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 05/044">
+				30YY 05/044</a></h2><h3 style="font-weight:normal">Rum caramel 1 / Tudor brown</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30YY 53/124 - Ancient sandstone" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 53/124">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(203,191,170)" name="30YY 53/124" id="30YY 53/124" alt="Dulux Trade, 30YY 53/124 - Ancient sandstone" content="30YY 53/124 - Ancient sandstone" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30YY 53/124 - Ancient sandstone" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 53/124">
+				30YY 53/124</a></h2><h3 style="font-weight:normal">Ancient sandstone</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30YY 64/048 - Quartz grey" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 64/048">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(214,209,200)" name="30YY 64/048" id="30YY 64/048" alt="Dulux Trade, 30YY 64/048 - Quartz grey" content="30YY 64/048 - Quartz grey" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30YY 64/048 - Quartz grey" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 64/048">
+				30YY 64/048</a></h2><h3 style="font-weight:normal">Quartz grey</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30YY 64/149 - Pearl barley" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 64/149">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(222,207,182)" name="30YY 64/149" id="30YY 64/149" alt="Dulux Trade, 30YY 64/149 - Pearl barley" content="30YY 64/149 - Pearl barley" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30YY 64/149 - Pearl barley" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 64/149">
+				30YY 64/149</a></h2><h3 style="font-weight:normal">Pearl barley</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30YY 71/138 - Bathstone sands / Bathstone beige" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 71/138">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(231,217,193)" name="30YY 71/138" id="30YY 71/138" alt="Dulux Trade, 30YY 71/138 - Bathstone sands / Bathstone beige" content="30YY 71/138 - Bathstone sands / Bathstone beige" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30YY 71/138 - Bathstone sands / Bathstone beige" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 71/138">
+				30YY 71/138</a></h2><h3 style="font-weight:normal">Bathstone sands / Bathstone beige</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30YY 72/018 - Romney wool" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 72/018">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(222,220,217)" name="30YY 72/018" id="30YY 72/018" alt="Dulux Trade, 30YY 72/018 - Romney wool" content="30YY 72/018 - Romney wool" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30YY 72/018 - Romney wool" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 72/018">
+				30YY 72/018</a></h2><h3 style="font-weight:normal">Romney wool</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30YY 72/097 - York white" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 72/097">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(229,219,202)" name="30YY 72/097" id="30YY 72/097" alt="Dulux Trade, 30YY 72/097 - York white" content="30YY 72/097 - York white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30YY 72/097 - York white" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 72/097">
+				30YY 72/097</a></h2><h3 style="font-weight:normal">York white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30YY 78/018 - Ash white / Soft muslin" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 78/018">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(230,228,225)" name="30YY 78/018" id="30YY 78/018" alt="Dulux Trade, 30YY 78/018 - Ash white / Soft muslin" content="30YY 78/018 - Ash white / Soft muslin" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30YY 78/018 - Ash white / Soft muslin" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 78/018">
+				30YY 78/018</a></h2><h3 style="font-weight:normal">Ash white / Soft muslin</h3>
+        </li>
+
+        <li>
+			<a title="More information about 30YY 79/070 - Candle cream" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 79/070">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(236,229,217)" name="30YY 79/070" id="30YY 79/070" alt="Dulux Trade, 30YY 79/070 - Candle cream" content="30YY 79/070 - Candle cream" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 30YY 79/070 - Candle cream" href="Lab_values.asp?cRange=Dulux Trade&cRef=30YY 79/070">
+				30YY 79/070</a></h2><h3 style="font-weight:normal">Candle cream</h3>
+        </li>
+
+        <li>
+			<a title="More information about 39GY 75/033 - Silver fern" href="Lab_values.asp?cRange=Dulux Trade&cRef=39GY 75/033">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(222,226,220)" name="39GY 75/033" id="39GY 75/033" alt="Dulux Trade, 39GY 75/033 - Silver fern" content="39GY 75/033 - Silver fern" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 39GY 75/033 - Silver fern" href="Lab_values.asp?cRange=Dulux Trade&cRef=39GY 75/033">
+				39GY 75/033</a></h2><h3 style="font-weight:normal">Silver fern</h3>
+        </li>
+
+        <li>
+			<a title="More information about 40YY 38/107 - Setting stone" href="Lab_values.asp?cRange=Dulux Trade&cRef=40YY 38/107">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(173,165,147)" name="40YY 38/107" id="40YY 38/107" alt="Dulux Trade, 40YY 38/107 - Setting stone" content="40YY 38/107 - Setting stone" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 40YY 38/107 - Setting stone" href="Lab_values.asp?cRange=Dulux Trade&cRef=40YY 38/107">
+				40YY 38/107</a></h2><h3 style="font-weight:normal">Setting stone</h3>
+        </li>
+
+        <li>
+			<a title="More information about 40YY 51/084 - Green raft / River bed" href="Lab_values.asp?cRange=Dulux Trade&cRef=40YY 51/084">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(195,188,174)" name="40YY 51/084" id="40YY 51/084" alt="Dulux Trade, 40YY 51/084 - Green raft / River bed" content="40YY 51/084 - Green raft / River bed" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 40YY 51/084 - Green raft / River bed" href="Lab_values.asp?cRange=Dulux Trade&cRef=40YY 51/084">
+				40YY 51/084</a></h2><h3 style="font-weight:normal">Green raft / River bed</h3>
+        </li>
+
+        <li>
+			<a title="More information about 40YY 60/103 - Raw cashmere" href="Lab_values.asp?cRange=Dulux Trade&cRef=40YY 60/103">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(211,203,184)" name="40YY 60/103" id="40YY 60/103" alt="Dulux Trade, 40YY 60/103 - Raw cashmere" content="40YY 60/103 - Raw cashmere" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 40YY 60/103 - Raw cashmere" href="Lab_values.asp?cRange=Dulux Trade&cRef=40YY 60/103">
+				40YY 60/103</a></h2><h3 style="font-weight:normal">Raw cashmere</h3>
+        </li>
+
+        <li>
+			<a title="More information about 40YY 73/028 - Chiltern white" href="Lab_values.asp?cRange=Dulux Trade&cRef=40YY 73/028">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(224,222,217)" name="40YY 73/028" id="40YY 73/028" alt="Dulux Trade, 40YY 73/028 - Chiltern white" content="40YY 73/028 - Chiltern white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 40YY 73/028 - Chiltern white" href="Lab_values.asp?cRange=Dulux Trade&cRef=40YY 73/028">
+				40YY 73/028</a></h2><h3 style="font-weight:normal">Chiltern white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 40YY 74/056 - Flax seed" href="Lab_values.asp?cRange=Dulux Trade&cRef=40YY 74/056">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(228,223,213)" name="40YY 74/056" id="40YY 74/056" alt="Dulux Trade, 40YY 74/056 - Flax seed" content="40YY 74/056 - Flax seed" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 40YY 74/056 - Flax seed" href="Lab_values.asp?cRange=Dulux Trade&cRef=40YY 74/056">
+				40YY 74/056</a></h2><h3 style="font-weight:normal">Flax seed</h3>
+        </li>
+
+        <li>
+			<a title="More information about 40YY 76/112 - Bracken salts 5 / Voile white" href="Lab_values.asp?cRange=Dulux Trade&cRef=40YY 76/112">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(234,225,205)" name="40YY 76/112" id="40YY 76/112" alt="Dulux Trade, 40YY 76/112 - Bracken salts 5 / Voile white" content="40YY 76/112 - Bracken salts 5 / Voile white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 40YY 76/112 - Bracken salts 5 / Voile white" href="Lab_values.asp?cRange=Dulux Trade&cRef=40YY 76/112">
+				40YY 76/112</a></h2><h3 style="font-weight:normal">Bracken salts 5 / Voile white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 42YY 87/084 - Fresh flour" href="Lab_values.asp?cRange=Dulux Trade&cRef=42YY 87/084">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(246,239,224)" name="42YY 87/084" id="42YY 87/084" alt="Dulux Trade, 42YY 87/084 - Fresh flour" content="42YY 87/084 - Fresh flour" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 42YY 87/084 - Fresh flour" href="Lab_values.asp?cRange=Dulux Trade&cRef=42YY 87/084">
+				42YY 87/084</a></h2><h3 style="font-weight:normal">Fresh flour</h3>
+        </li>
+
+        <li>
+			<a title="More information about 43BG 75/043 - Clear skies" href="Lab_values.asp?cRange=Dulux Trade&cRef=43BG 75/043">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(216,227,230)" name="43BG 75/043" id="43BG 75/043" alt="Dulux Trade, 43BG 75/043 - Clear skies" content="43BG 75/043 - Clear skies" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 43BG 75/043 - Clear skies" href="Lab_values.asp?cRange=Dulux Trade&cRef=43BG 75/043">
+				43BG 75/043</a></h2><h3 style="font-weight:normal">Clear skies</h3>
+        </li>
+
+        <li>
+			<a title="More information about 43RB 09/077 - Wild blackberry" href="Lab_values.asp?cRange=Dulux Trade&cRef=43RB 09/077">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(80,72,84)" name="43RB 09/077" id="43RB 09/077" alt="Dulux Trade, 43RB 09/077 - Wild blackberry" content="43RB 09/077 - Wild blackberry" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 43RB 09/077 - Wild blackberry" href="Lab_values.asp?cRange=Dulux Trade&cRef=43RB 09/077">
+				43RB 09/077</a></h2><h3 style="font-weight:normal">Wild blackberry</h3>
+        </li>
+
+        <li>
+			<a title="More information about 43YY 74/339 - Buttercup" href="Lab_values.asp?cRange=Dulux Trade&cRef=43YY 74/339">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(244,221,158)" name="43YY 74/339" id="43YY 74/339" alt="Dulux Trade, 43YY 74/339 - Buttercup" content="43YY 74/339 - Buttercup" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 43YY 74/339 - Buttercup" href="Lab_values.asp?cRange=Dulux Trade&cRef=43YY 74/339">
+				43YY 74/339</a></h2><h3 style="font-weight:normal">Buttercup</h3>
+        </li>
+
+        <li>
+			<a title="More information about 44YY 84/042 - Vanila mist 3 / Grecian white" href="Lab_values.asp?cRange=Dulux Trade&cRef=44YY 84/042">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(239,236,228)" name="44YY 84/042" id="44YY 84/042" alt="Dulux Trade, 44YY 84/042 - Vanila mist 3 / Grecian white" content="44YY 84/042 - Vanila mist 3 / Grecian white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 44YY 84/042 - Vanila mist 3 / Grecian white" href="Lab_values.asp?cRange=Dulux Trade&cRef=44YY 84/042">
+				44YY 84/042</a></h2><h3 style="font-weight:normal">Vanila mist 3 / Grecian white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 46RB 06/074 - Blackberry bush / Dark aubergine" href="Lab_values.asp?cRange=Dulux Trade&cRef=46RB 06/074">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(74,67,78)" name="46RB 06/074" id="46RB 06/074" alt="Dulux Trade, 46RB 06/074 - Blackberry bush / Dark aubergine" content="46RB 06/074 - Blackberry bush / Dark aubergine" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 46RB 06/074 - Blackberry bush / Dark aubergine" href="Lab_values.asp?cRange=Dulux Trade&cRef=46RB 06/074">
+				46RB 06/074</a></h2><h3 style="font-weight:normal">Blackberry bush / Dark aubergine</h3>
+        </li>
+
+        <li>
+			<a title="More information about 50BB 17/156 - DH Indigo" href="Lab_values.asp?cRange=Dulux Trade&cRef=50BB 17/156">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(103,115,141)" name="50BB 17/156" id="50BB 17/156" alt="Dulux Trade, 50BB 17/156 - DH Indigo" content="50BB 17/156 - DH Indigo" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 50BB 17/156 - DH Indigo" href="Lab_values.asp?cRange=Dulux Trade&cRef=50BB 17/156">
+				50BB 17/156</a></h2><h3 style="font-weight:normal">DH Indigo</h3>
+        </li>
+
+        <li>
+			<a title="More information about 50BB 63/080 - Lavender grey" href="Lab_values.asp?cRange=Dulux Trade&cRef=50BB 63/080">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(202,208,223)" name="50BB 63/080" id="50BB 63/080" alt="Dulux Trade, 50BB 63/080 - Lavender grey" content="50BB 63/080 - Lavender grey" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 50BB 63/080 - Lavender grey" href="Lab_values.asp?cRange=Dulux Trade&cRef=50BB 63/080">
+				50BB 63/080</a></h2><h3 style="font-weight:normal">Lavender grey</h3>
+        </li>
+
+        <li>
+			<a title="More information about 50GG 05/063 - Mallard green" href="Lab_values.asp?cRange=Dulux Trade&cRef=50GG 05/063">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(53,66,63)" name="50GG 05/063" id="50GG 05/063" alt="Dulux Trade, 50GG 05/063 - Mallard green" content="50GG 05/063 - Mallard green" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 50GG 05/063 - Mallard green" href="Lab_values.asp?cRange=Dulux Trade&cRef=50GG 05/063">
+				50GG 05/063</a></h2><h3 style="font-weight:normal">Mallard green</h3>
+        </li>
+
+        <li>
+			<a title="More information about 50GG 40/064 - Fresh foliage / Rosemary leaf" href="Lab_values.asp?cRange=Dulux Trade&cRef=50GG 40/064">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(157,173,169)" name="50GG 40/064" id="50GG 40/064" alt="Dulux Trade, 50GG 40/064 - Fresh foliage / Rosemary leaf" content="50GG 40/064 - Fresh foliage / Rosemary leaf" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 50GG 40/064 - Fresh foliage / Rosemary leaf" href="Lab_values.asp?cRange=Dulux Trade&cRef=50GG 40/064">
+				50GG 40/064</a></h2><h3 style="font-weight:normal">Fresh foliage / Rosemary leaf</h3>
+        </li>
+
+        <li>
+			<a title="More information about 50GY 83/020 - Panel white" href="Lab_values.asp?cRange=Dulux Trade&cRef=50GY 83/020">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(233,236,232)" name="50GY 83/020" id="50GY 83/020" alt="Dulux Trade, 50GY 83/020 - Panel white" content="50GY 83/020 - Panel white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 50GY 83/020 - Panel white" href="Lab_values.asp?cRange=Dulux Trade&cRef=50GY 83/020">
+				50GY 83/020</a></h2><h3 style="font-weight:normal">Panel white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 50GY 83/040 - Fennel white" href="Lab_values.asp?cRange=Dulux Trade&cRef=50GY 83/040">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(231,237,229)" name="50GY 83/040" id="50GY 83/040" alt="Dulux Trade, 50GY 83/040 - Fennel white" content="50GY 83/040 - Fennel white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 50GY 83/040 - Fennel white" href="Lab_values.asp?cRange=Dulux Trade&cRef=50GY 83/040">
+				50GY 83/040</a></h2><h3 style="font-weight:normal">Fennel white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 50RB 83/002 - Whiltshire white" href="Lab_values.asp?cRange=Dulux Trade&cRef=50RB 83/002">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(235,235,235)" name="50RB 83/002" id="50RB 83/002" alt="Dulux Trade, 50RB 83/002 - Whiltshire white" content="50RB 83/002 - Whiltshire white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 50RB 83/002 - Whiltshire white" href="Lab_values.asp?cRange=Dulux Trade&cRef=50RB 83/002">
+				50RB 83/002</a></h2><h3 style="font-weight:normal">Whiltshire white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 50YR 25/288 - Red sand" href="Lab_values.asp?cRange=Dulux Trade&cRef=50YR 25/288">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(178,123,103)" name="50YR 25/288" id="50YR 25/288" alt="Dulux Trade, 50YR 25/288 - Red sand" content="50YR 25/288 - Red sand" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 50YR 25/288 - Red sand" href="Lab_values.asp?cRange=Dulux Trade&cRef=50YR 25/288">
+				50YR 25/288</a></h2><h3 style="font-weight:normal">Red sand</h3>
+        </li>
+
+        <li>
+			<a title="More information about 50YY 68/132 - Green marl" href="Lab_values.asp?cRange=Dulux Trade&cRef=50YY 68/132">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(221,215,190)" name="50YY 68/132" id="50YY 68/132" alt="Dulux Trade, 50YY 68/132 - Green marl" content="50YY 68/132 - Green marl" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 50YY 68/132 - Green marl" href="Lab_values.asp?cRange=Dulux Trade&cRef=50YY 68/132">
+				50YY 68/132</a></h2><h3 style="font-weight:normal">Green marl</h3>
+        </li>
+
+        <li>
+			<a title="More information about 52GY 24/050 - Waxed khaki" href="Lab_values.asp?cRange=Dulux Trade&cRef=52GY 24/050">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(130,136,128)" name="52GY 24/050" id="52GY 24/050" alt="Dulux Trade, 52GY 24/050 - Waxed khaki" content="52GY 24/050 - Waxed khaki" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 52GY 24/050 - Waxed khaki" href="Lab_values.asp?cRange=Dulux Trade&cRef=52GY 24/050">
+				52GY 24/050</a></h2><h3 style="font-weight:normal">Waxed khaki</h3>
+        </li>
+
+        <li>
+			<a title="More information about 52YY 55/131 - Rope ladder" href="Lab_values.asp?cRange=Dulux Trade&cRef=52YY 55/131">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(203,195,171)" name="52YY 55/131" id="52YY 55/131" alt="Dulux Trade, 52YY 55/131 - Rope ladder" content="52YY 55/131 - Rope ladder" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 52YY 55/131 - Rope ladder" href="Lab_values.asp?cRange=Dulux Trade&cRef=52YY 55/131">
+				52YY 55/131</a></h2><h3 style="font-weight:normal">Rope ladder</h3>
+        </li>
+
+        <li>
+			<a title="More information about 54GG 16/017 - Forest grey" href="Lab_values.asp?cRange=Dulux Trade&cRef=54GG 16/017">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(108,112,111)" name="54GG 16/017" id="54GG 16/017" alt="Dulux Trade, 54GG 16/017 - Forest grey" content="54GG 16/017 - Forest grey" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 54GG 16/017 - Forest grey" href="Lab_values.asp?cRange=Dulux Trade&cRef=54GG 16/017">
+				54GG 16/017</a></h2><h3 style="font-weight:normal">Forest grey</h3>
+        </li>
+
+        <li>
+			<a title="More information about 60YR 31/368 - Inca orange / Frosted papaya" href="Lab_values.asp?cRange=Dulux Trade&cRef=60YR 31/368">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(201,134,103)" name="60YR 31/368" id="60YR 31/368" alt="Dulux Trade, 60YR 31/368 - Inca orange / Frosted papaya" content="60YR 31/368 - Inca orange / Frosted papaya" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 60YR 31/368 - Inca orange / Frosted papaya" href="Lab_values.asp?cRange=Dulux Trade&cRef=60YR 31/368">
+				60YR 31/368</a></h2><h3 style="font-weight:normal">Inca orange / Frosted papaya</h3>
+        </li>
+
+        <li>
+			<a title="More information about 60YR 33/047 - Chalk blush 1 / Terra ombra" href="Lab_values.asp?cRange=Dulux Trade&cRef=60YR 33/047">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(163,154,149)" name="60YR 33/047" id="60YR 33/047" alt="Dulux Trade, 60YR 33/047 - Chalk blush 1 / Terra ombra" content="60YR 33/047 - Chalk blush 1 / Terra ombra" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 60YR 33/047 - Chalk blush 1 / Terra ombra" href="Lab_values.asp?cRange=Dulux Trade&cRef=60YR 33/047">
+				60YR 33/047</a></h2><h3 style="font-weight:normal">Chalk blush 1 / Terra ombra</h3>
+        </li>
+
+        <li>
+			<a title="More information about 60YR 56/049 - Pumice brown" href="Lab_values.asp?cRange=Dulux Trade&cRef=60YR 56/049">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(206,195,190)" name="60YR 56/049" id="60YR 56/049" alt="Dulux Trade, 60YR 56/049 - Pumice brown" content="60YR 56/049 - Pumice brown" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 60YR 56/049 - Pumice brown" href="Lab_values.asp?cRange=Dulux Trade&cRef=60YR 56/049">
+				60YR 56/049</a></h2><h3 style="font-weight:normal">Pumice brown</h3>
+        </li>
+
+        <li>
+			<a title="More information about 60YY 83/062 - Cameo silk 2 / Ochre white" href="Lab_values.asp?cRange=Dulux Trade&cRef=60YY 83/062">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(238,235,223)" name="60YY 83/062" id="60YY 83/062" alt="Dulux Trade, 60YY 83/062 - Cameo silk 2 / Ochre white" content="60YY 83/062 - Cameo silk 2 / Ochre white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 60YY 83/062 - Cameo silk 2 / Ochre white" href="Lab_values.asp?cRange=Dulux Trade&cRef=60YY 83/062">
+				60YY 83/062</a></h2><h3 style="font-weight:normal">Cameo silk 2 / Ochre white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 61YY 85/050 - Piano white" href="Lab_values.asp?cRange=Dulux Trade&cRef=61YY 85/050">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(240,237,228)" name="61YY 85/050" id="61YY 85/050" alt="Dulux Trade, 61YY 85/050 - Piano white" content="61YY 85/050 - Piano white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 61YY 85/050 - Piano white" href="Lab_values.asp?cRange=Dulux Trade&cRef=61YY 85/050">
+				61YY 85/050</a></h2><h3 style="font-weight:normal">Piano white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 64YY 39/108 - Olive tree" href="Lab_values.asp?cRange=Dulux Trade&cRef=64YY 39/108">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(172,168,148)" name="64YY 39/108" id="64YY 39/108" alt="Dulux Trade, 64YY 39/108 - Olive tree" content="64YY 39/108 - Olive tree" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 64YY 39/108 - Olive tree" href="Lab_values.asp?cRange=Dulux Trade&cRef=64YY 39/108">
+				64YY 39/108</a></h2><h3 style="font-weight:normal">Olive tree</h3>
+        </li>
+
+        <li>
+			<a title="More information about 68YY 86/042 - Alibaster white" href="Lab_values.asp?cRange=Dulux Trade&cRef=68YY 86/042">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(240,239,231)" name="68YY 86/042" id="68YY 86/042" alt="Dulux Trade, 68YY 86/042 - Alibaster white" content="68YY 86/042 - Alibaster white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 68YY 86/042 - Alibaster white" href="Lab_values.asp?cRange=Dulux Trade&cRef=68YY 86/042">
+				68YY 86/042</a></h2><h3 style="font-weight:normal">Alibaster white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 70BB 28/080 - Violet night" href="Lab_values.asp?cRange=Dulux Trade&cRef=70BB 28/080">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(141,144,158)" name="70BB 28/080" id="70BB 28/080" alt="Dulux Trade, 70BB 28/080 - Violet night" content="70BB 28/080 - Violet night" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 70BB 28/080 - Violet night" href="Lab_values.asp?cRange=Dulux Trade&cRef=70BB 28/080">
+				70BB 28/080</a></h2><h3 style="font-weight:normal">Violet night</h3>
+        </li>
+
+        <li>
+			<a title="More information about 70BG 51/116 - Light teal" href="Lab_values.asp?cRange=Dulux Trade&cRef=70BG 51/116">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(168,194,206)" name="70BG 51/116" id="70BG 51/116" alt="Dulux Trade, 70BG 51/116 - Light teal" content="70BG 51/116 - Light teal" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 70BG 51/116 - Light teal" href="Lab_values.asp?cRange=Dulux Trade&cRef=70BG 51/116">
+				70BG 51/116</a></h2><h3 style="font-weight:normal">Light teal</h3>
+        </li>
+
+        <li>
+			<a title="More information about 70BG 56/061 - Celestial cloud 4 / Country sky / Coastal grey" href="Lab_values.asp?cRange=Dulux Trade&cRef=70BG 56/061">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(187,200,206)" name="70BG 56/061" id="70BG 56/061" alt="Dulux Trade, 70BG 56/061 - Celestial cloud 4 / Country sky / Coastal grey" content="70BG 56/061 - Celestial cloud 4 / Country sky / Coastal grey" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 70BG 56/061 - Celestial cloud 4 / Country sky / Coastal grey" href="Lab_values.asp?cRange=Dulux Trade&cRef=70BG 56/061">
+				70BG 56/061</a></h2><h3 style="font-weight:normal">Celestial cloud 4 / Country sky / Coastal grey</h3>
+        </li>
+
+        <li>
+			<a title="More information about 70BG 69/094 - Copenhagen blue" href="Lab_values.asp?cRange=Dulux Trade&cRef=70BG 69/094">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(200,220,231)" name="70BG 69/094" id="70BG 69/094" alt="Dulux Trade, 70BG 69/094 - Copenhagen blue" content="70BG 69/094 - Copenhagen blue" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 70BG 69/094 - Copenhagen blue" href="Lab_values.asp?cRange=Dulux Trade&cRef=70BG 69/094">
+				70BG 69/094</a></h2><h3 style="font-weight:normal">Copenhagen blue</h3>
+        </li>
+
+        <li>
+			<a title="More information about 70GY 62/030 - Green slate" href="Lab_values.asp?cRange=Dulux Trade&cRef=70GY 62/030">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(203,208,203)" name="70GY 62/030" id="70GY 62/030" alt="Dulux Trade, 70GY 62/030 - Green slate" content="70GY 62/030 - Green slate" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 70GY 62/030 - Green slate" href="Lab_values.asp?cRange=Dulux Trade&cRef=70GY 62/030">
+				70GY 62/030</a></h2><h3 style="font-weight:normal">Green slate</h3>
+        </li>
+
+        <li>
+			<a title="More information about 70RR 18/288 - Fitzrovia red" href="Lab_values.asp?cRange=Dulux Trade&cRef=70RR 18/288">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(164,98,111)" name="70RR 18/288" id="70RR 18/288" alt="Dulux Trade, 70RR 18/288 - Fitzrovia red" content="70RR 18/288 - Fitzrovia red" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 70RR 18/288 - Fitzrovia red" href="Lab_values.asp?cRange=Dulux Trade&cRef=70RR 18/288">
+				70RR 18/288</a></h2><h3 style="font-weight:normal">Fitzrovia red</h3>
+        </li>
+
+        <li>
+			<a title="More information about 70YR 74/060 - Powder colour" href="Lab_values.asp?cRange=Dulux Trade&cRef=70YR 74/060">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(233,221,214)" name="70YR 74/060" id="70YR 74/060" alt="Dulux Trade, 70YR 74/060 - Powder colour" content="70YR 74/060 - Powder colour" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 70YR 74/060 - Powder colour" href="Lab_values.asp?cRange=Dulux Trade&cRef=70YR 74/060">
+				70YR 74/060</a></h2><h3 style="font-weight:normal">Powder colour</h3>
+        </li>
+
+        <li>
+			<a title="More information about 70YY 46/053 - Stone green / Fossil trace" href="Lab_values.asp?cRange=Dulux Trade&cRef=70YY 46/053">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(182,181,171)" name="70YY 46/053" id="70YY 46/053" alt="Dulux Trade, 70YY 46/053 - Stone green / Fossil trace" content="70YY 46/053 - Stone green / Fossil trace" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 70YY 46/053 - Stone green / Fossil trace" href="Lab_values.asp?cRange=Dulux Trade&cRef=70YY 46/053">
+				70YY 46/053</a></h2><h3 style="font-weight:normal">Stone green / Fossil trace</h3>
+        </li>
+
+        <li>
+			<a title="More information about 70YY 46/160 - Veranda green" href="Lab_values.asp?cRange=Dulux Trade&cRef=70YY 46/160">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(185,182,152)" name="70YY 46/160" id="70YY 46/160" alt="Dulux Trade, 70YY 46/160 - Veranda green" content="70YY 46/160 - Veranda green" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 70YY 46/160 - Veranda green" href="Lab_values.asp?cRange=Dulux Trade&cRef=70YY 46/160">
+				70YY 46/160</a></h2><h3 style="font-weight:normal">Veranda green</h3>
+        </li>
+
+        <li>
+			<a title="More information about 70YY 65/090 - Gooseberry fool 5 / Green earth" href="Lab_values.asp?cRange=Dulux Trade&cRef=70YY 65/090">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(214,211,194)" name="70YY 65/090" id="70YY 65/090" alt="Dulux Trade, 70YY 65/090 - Gooseberry fool 5 / Green earth" content="70YY 65/090 - Gooseberry fool 5 / Green earth" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 70YY 65/090 - Gooseberry fool 5 / Green earth" href="Lab_values.asp?cRange=Dulux Trade&cRef=70YY 65/090">
+				70YY 65/090</a></h2><h3 style="font-weight:normal">Gooseberry fool 5 / Green earth</h3>
+        </li>
+
+        <li>
+			<a title="More information about 70YY 73/083 - Cornish clay" href="Lab_values.asp?cRange=Dulux Trade&cRef=70YY 73/083">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(225,222,206)" name="70YY 73/083" id="70YY 73/083" alt="Dulux Trade, 70YY 73/083 - Cornish clay" content="70YY 73/083 - Cornish clay" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 70YY 73/083 - Cornish clay" href="Lab_values.asp?cRange=Dulux Trade&cRef=70YY 73/083">
+				70YY 73/083</a></h2><h3 style="font-weight:normal">Cornish clay</h3>
+        </li>
+
+        <li>
+			<a title="More information about 80YR 38/116 - Mid unber" href="Lab_values.asp?cRange=Dulux Trade&cRef=80YR 38/116">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(182,162,148)" name="80YR 38/116" id="80YR 38/116" alt="Dulux Trade, 80YR 38/116 - Mid unber" content="80YR 38/116 - Mid unber" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 80YR 38/116 - Mid unber" href="Lab_values.asp?cRange=Dulux Trade&cRef=80YR 38/116">
+				80YR 38/116</a></h2><h3 style="font-weight:normal">Mid unber</h3>
+        </li>
+
+        <li>
+			<a title="More information about 80YR 83/017 - Velvet truffle 6 / Linen white" href="Lab_values.asp?cRange=Dulux Trade&cRef=80YR 83/017">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(238,234,232)" name="80YR 83/017" id="80YR 83/017" alt="Dulux Trade, 80YR 83/017 - Velvet truffle 6 / Linen white" content="80YR 83/017 - Velvet truffle 6 / Linen white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 80YR 83/017 - Velvet truffle 6 / Linen white" href="Lab_values.asp?cRange=Dulux Trade&cRef=80YR 83/017">
+				80YR 83/017</a></h2><h3 style="font-weight:normal">Velvet truffle 6 / Linen white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 81YY 81/016 - Wishbone white" href="Lab_values.asp?cRange=Dulux Trade&cRef=81YY 81/016">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(233,233,229)" name="81YY 81/016" id="81YY 81/016" alt="Dulux Trade, 81YY 81/016 - Wishbone white" content="81YY 81/016 - Wishbone white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 81YY 81/016 - Wishbone white" href="Lab_values.asp?cRange=Dulux Trade&cRef=81YY 81/016">
+				81YY 81/016</a></h2><h3 style="font-weight:normal">Wishbone white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 90BB 83/014 - Marble white" href="Lab_values.asp?cRange=Dulux Trade&cRef=90BB 83/014">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(235,235,237)" name="90BB 83/014" id="90BB 83/014" alt="Dulux Trade, 90BB 83/014 - Marble white" content="90BB 83/014 - Marble white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 90BB 83/014 - Marble white" href="Lab_values.asp?cRange=Dulux Trade&cRef=90BB 83/014">
+				90BB 83/014</a></h2><h3 style="font-weight:normal">Marble white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 90BG 11/101 - Midnight teal" href="Lab_values.asp?cRange=Dulux Trade&cRef=90BG 11/101">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(79,96,108)" name="90BG 11/101" id="90BG 11/101" alt="Dulux Trade, 90BG 11/101 - Midnight teal" content="90BG 11/101 - Midnight teal" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 90BG 11/101 - Midnight teal" href="Lab_values.asp?cRange=Dulux Trade&cRef=90BG 11/101">
+				90BG 11/101</a></h2><h3 style="font-weight:normal">Midnight teal</h3>
+        </li>
+
+        <li>
+			<a title="More information about 90RR 35/060 - Maraschino Mocha 4 / Dusted heather" href="Lab_values.asp?cRange=Dulux Trade&cRef=90RR 35/060">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(171,156,157)" name="90RR 35/060" id="90RR 35/060" alt="Dulux Trade, 90RR 35/060 - Maraschino Mocha 4 / Dusted heather" content="90RR 35/060 - Maraschino Mocha 4 / Dusted heather" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 90RR 35/060 - Maraschino Mocha 4 / Dusted heather" href="Lab_values.asp?cRange=Dulux Trade&cRef=90RR 35/060">
+				90RR 35/060</a></h2><h3 style="font-weight:normal">Maraschino Mocha 4 / Dusted heather</h3>
+        </li>
+
+        <li>
+			<a title="More information about 90YR 58/089 - Biscuit beige" href="Lab_values.asp?cRange=Dulux Trade&cRef=90YR 58/089">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(213,198,186)" name="90YR 58/089" id="90YR 58/089" alt="Dulux Trade, 90YR 58/089 - Biscuit beige" content="90YR 58/089 - Biscuit beige" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 90YR 58/089 - Biscuit beige" href="Lab_values.asp?cRange=Dulux Trade&cRef=90YR 58/089">
+				90YR 58/089</a></h2><h3 style="font-weight:normal">Biscuit beige</h3>
+        </li>
+
+        <li>
+			<a title="More information about 90YY 62/166 - Pale olivine" href="Lab_values.asp?cRange=Dulux Trade&cRef=90YY 62/166">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(184,210,236)" name="90YY 62/166" id="90YY 62/166" alt="Dulux Trade, 90YY 62/166 - Pale olivine" content="90YY 62/166 - Pale olivine" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 90YY 62/166 - Pale olivine" href="Lab_values.asp?cRange=Dulux Trade&cRef=90YY 62/166">
+				90YY 62/166</a></h2><h3 style="font-weight:normal">Pale olivine</h3>
+        </li>
+
+        <li>
+			<a title="More information about 90YY 83/036 - Cameo silk 3 / Linnet white" href="Lab_values.asp?cRange=Dulux Trade&cRef=90YY 83/036">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(235,235,228)" name="90YY 83/036" id="90YY 83/036" alt="Dulux Trade, 90YY 83/036 - Cameo silk 3 / Linnet white" content="90YY 83/036 - Cameo silk 3 / Linnet white" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 90YY 83/036 - Cameo silk 3 / Linnet white" href="Lab_values.asp?cRange=Dulux Trade&cRef=90YY 83/036">
+				90YY 83/036</a></h2><h3 style="font-weight:normal">Cameo silk 3 / Linnet white</h3>
+        </li>
+
+        <li>
+			<a title="More information about 95YR 16/038 - Wooded walk" href="Lab_values.asp?cRange=Dulux Trade&cRef=95YR 16/038">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(116,110,106)" name="95YR 16/038" id="95YR 16/038" alt="Dulux Trade, 95YR 16/038 - Wooded walk" content="95YR 16/038 - Wooded walk" />
+	
+</a><h2 style="font-weight:normal">
+			<a title="More information about 95YR 16/038 - Wooded walk" href="Lab_values.asp?cRange=Dulux Trade&cRef=95YR 16/038">
+				95YR 16/038</a></h2><h3 style="font-weight:normal">Wooded walk</h3>
+        </li>
+
+        <div class="clear"></div>
+
+
+    </ul>
+
+</div>
+<div class="colour-chart-nav center">
+    <a class="g-btn-b" href="RAL_Classic_Colour_chart.asp">RAL colour chart</a>
+    <a class="g-btn-b" href="BS381%20Colourchart.asp">BS 381C colour chart</a>
+    <a class="g-btn-b" href="BS_4800_Colour_chart.asp">BS	4800 colour chart</a>
+    <a class="g-btn-b" href="BS5252_colour_chart.asp">BS 5252 colour chart</a>
+    <div class="clear"></div>
+</div>
+
+
+
+
+
+
+	<br /><hr /><p>
+        <b><a href="/categories.asp">Continue Shopping</a></b> &brvbar;
+<a href="javascript:void(0);" onclick="history.go(-1); return(false);" >
+<b>Back </b></a>
+        <img src="images/clearpixel.gif" width="1" height="1" alt="spacer" /></p><hr /><br />
+<!-- #EndEditable -->
+        
+        
+        <!--aside-->
+		</div>
+<!--here-->
+<div class="logodiv">
+<aside class="sidebar">
+<div class="products_category_box">
+                    	<h2>COLOUR FANS AND SHEETS</h2>
+                        <ul>
+		 	   		<li><a href="https://www.e-paint.co.uk/Ral_colour_guides.asp">RAL Classic colour guides</a></li>	
+	 	   		<li><a class="parent" href="https://www.e-paint.co.uk/products.asp?cat=41">Individual RAL Classic sheets</a></li>
+	 	   		<li><a href="https://www.e-paint.co.uk/products.asp?cat=52">RAL Design colour fans</a></li>
+	           	<li><a href="https://www.e-paint.co.uk/products.asp?cat=56">RAL Effect colour fans</a></li>
+           		<li><a href="https://www.e-paint.co.uk/products.asp?cat=62">NCS Index colour fans</a></li>
+           		<li><a href="https://www.e-paint.co.uk/BS_colour_guides.asp">British Standard colour guides</a></li>
+           		<li><a href="https://www.e-paint.co.uk/products.asp?cat=60">US Federal Std 595 colour fans</a></li>
+            	<li><a href="https://www.e-paint.co.uk/products.asp?cat=65">AMS Standard 595A colour fans</a></li>
+             	<li><a href="https://www.e-paint.co.uk/products.asp?cat=63">Australian Std. 2700 colour fans</a></li>
+        		<li><a href="https://www.e-paint.co.uk/products.asp?cat=59">CIELAB Colour Fans</a></li>
+           	
+                        </ul>
+                    </div>
+<!--cart-->
+         <div class="contact_box_left">
+
+
+     <table class="mincart" width="130" bgcolor="#FFFFFF">
+        <tr> 
+          <td class="mincart" bgcolor="#F0F0F0" align="center"><img src="images/littlecart1.png" style="vertical-align:text-top;" width="16" height="16" alt="Shopping basket"> 
+            &nbsp;<strong><a class="ectlink mincart" href="https://www.e-paint.co.uk/cart.asp">Shopping basket</a></strong></td>
+        </tr>
+        <tr> 
+          <td class="mincart" bgcolor="#F0F0F0" align="center"> 
+            0 Product(s) in basket</td>
+        </tr>
+ 
+        <tr> 
+          <td class="mincart" bgcolor="#F0F0F0" align="center"><span class="cartquant">Total &pound;0.00<br>plus delivery.</span></td>
+        </tr>
+        </table>    
+</div>
+<!---infobox-->
+<div class="clear">
+<div class="products_category_box">
+                    <h2>INFORMATION</h2>
+                    
+                    <ul>
+        				 <li><a href="https://www.e-paint.co.uk/chart_options.asp">
+						 Colour charts</a></li>
+						<li><a href="https://www.e-paint.co.uk/search_for_colours_and_products.asp">
+						Search</a></li>
+     					<li><a href="https://www.e-paint.co.uk/Lab_values.asp">
+						LAB/HLC/RGB Values</a></li>
+    					<li><a href="https://www.e-paint.co.uk/delivery.asp">
+						Delivery</a></li>
+      					<li><a href="https://www.e-paint.co.uk/print_options.asp">
+						Print Colours</a></li>
+  						<li><a href="https://www.e-paint.co.uk/security.asp">
+						Security</a></li>
+    					<li><a href="https://www.e-paint.co.uk/terms_and_conditions.asp">
+						Terms &amp; Conditions</a></li>
+						<li><a href="https://www.e-paint.co.uk/faqs.asp">Help / 
+						FAQS</a></li>
+						<li><a href="https://www.e-paint.co.uk/supplier_directory.asp">
+						Paint suppliers</a></li>
+	 					<li><a href="https://www.e-paint.co.uk/Contact_options.asp">
+						Contact Us</a></li>
+                    </ul>
+                    
+              </div>
+</div>
+<!--minilogos-->
+<div class="mini-logos"> 
+	<div class="special_offer_pr_box" style="left: 0px; top: 0px">
+	         <!-- #BeginEditable "news" -->
+              <p>
+ <a href="https://www.e-paint.co.uk/products.asp?cat=65">
+			<img src="images/small_pics/ams_std_595A(3).gif" alt="AMS Std. 595A colour fan" title="AMS Std. 595A colour fan colour fan"/></a></p>
+ <p class="product_name"> <a href="https://www.e-paint.co.uk/products.asp?cat=65">
+ AMS Std. 595A colour fan <br /> </a>
+ <a href="https://www.e-paint.co.uk/products.asp?cat=60">
+ </a>- <strong>&pound;255.00</strong></p>
+<hr />
+<p>
+<a href="https://www.e-paint.co.uk/Ral_colour_guides.asp">
+<img src="includes/images/RAL K7(2).png" alt="RAL Classic K7 colour fan" title="RAL Classic K7 colour fan"/></a></p>
+ <p class="product_name"> <a href="https://www.e-paint.co.uk/Ral_colour_guides.asp">
+ RAL Classic K7 colour fan <br /><b>&pound;14.99</b> </a></p>
+    <hr /><p>
+<a href="https://www.e-paint.co.uk/products.asp?cat=51">
+			 <img src="includes/BS%20colour%20fan.gif" alt="Full British Standard colour fan" title="Full British Standard colour fan"/></a></p>
+ <p class="product_name"> <a href="https://www.e-paint.co.uk/products.asp?cat=51">
+ British Stds. colour fan <br /><span style="text-decoration:line-through">&pound;46.99</span> <b>&pound;39.99</b> </a></p>
+ <hr />
+  <div class="adstyle">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- bb1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0375310117557033"
+     data-ad-slot="9865345308"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<hr />
+
+<!-- #EndEditable -->
+                    <script type="text/javascript">
+
+                        function MakeArray(n) {
+	                        this.length = n;
+	                        for (var i = 1; i <= n; i++) {
+		                        this[i] = null;
+                        }
+                        return this;
+                        }
+                        var NumberImages024149 = 3;
+                        var image024149 = 0;
+                        var imag024149 = new MakeArray(NumberImages024149);
+                        var link024149 = new MakeArray(NumberImages024149);
+                        imag024149[1] = "includes/images/RALclassic.gif";
+                        link024149[1] = "Ral_colour_guides.asp";
+                        imag024149[2] = "includes/images/RALeffect.gif";
+                        link024149[2] = "products.asp?cat=56";
+                        imag024149[3] = "includes/images/RALdesign.gif";
+                        link024149[3] = "products.asp?cat=52";
+
+                        function GetRand024149()
+                        {
+                          return (Math.round(Math.random()*(NumberImages024149-1)))+1;
+                        }
+                        function NewImage024149()
+                        {
+                          if (image024149 == 0 ) { 
+                           while( OldRandNum024149 == RandNumber024149) RandNumber024149 = GetRand024149();
+                           OldRandNum024149 = RandNumber024149;
+                          } else { 
+                           if (image024149 == NumberImages024149) { image024149 = 0; } 
+                           RandNumber024149 = ++image024149;
+                          }
+                          document.images['img024149'].src = imag024149[RandNumber024149];
+                          window.setTimeout("NewImage024149()",20000);
+                        }
+                        var RandNumber024149 = GetRand024149();
+                        if(image024149 != 0) { RandNumber024149 = 1; image024149 = 1;}
+                        var OldRandNum024149 = RandNumber024149;
+                        if(document.images)  window.setTimeout("NewImage024149()",20000);
+                        document.write('<a href="javascript:void(0);" onclick="this.href=link024149[RandNumber024149];" target="_self" id="lnk024149" ><img src="',imag024149[RandNumber024149],'" border=0 id="img024149" name="img024149" ></a>');
+                        // -->
+                    </script><br />
+                    <script type="text/javascript" src="https://sealserver.trustwave.com/seal.js?style=invert&size=65x36&code=fa6f7c4ddbac42d0a0171b003d375312"></script>
+                 </div>
+                
+                    <div class="contact_box_left">
+                    	<h2>Contact</h2>
+                    	<hr />
+                        <p class="comp_name">e-paint.co.uk</p>
+                    
+                        <p class="email_icon">
+						<a href="mailto:sales@e-paint.co.uk?subject=Enquiry from the e-paint.co.uk website">
+						sales@e-paint.co.uk</a></p>
+                    </div>
+               </div>     
+			</aside>
+		</div>
+    </div>
+</div>
+
+<!--footer-->
+    <div class="footer-line"><h3><p class="footer-tag g-pad">e-paint.co.uk - Colour Cards, Charts, Fans and Books</p></h3></div>
+
+<div class="footer clear">
+  <div class="wrapper">
+    <ul class="col1">
+      <li>
+        <strong>Products &amp; Services</strong>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk">Home</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/categories.asp">Products</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/Colour_alternatives.asp">Colour alternatives</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/search_colour.asp">Colour search</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/chart_options.asp">Colour charts</a>
+      </li>
+ 
+ 
+    </ul>
+    <ul class="col2">
+      <li>
+        <strong>Help</strong>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/delivery.asp">Delivery information</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/terms_and_conditions.asp">Terms &amp; conditions</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/security.asp">Security and privacy</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/contact_us.asp">Comments</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/faqs.asp">FAQs</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/Contact_options.asp">Contact us</a>
+      </li>
+    </ul>
+    <ul class="col3">
+      <li>
+        <strong>Information</strong>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/Advanced_menu.asp">Colour information</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/colour_trends_2016.asp">Colour trends</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/supplier_directory.asp">Supplier directory</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/Contact_advertisers_home.asp?">Advertising</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/sitemap.txt">Sitemap</a>
+      </li>
+    </ul>
+    <div class="col4">
+      <div class="note">
+        <p>Note: Colours shown on this site are for guidance only and should not be taken as a representation of the true colours.</p>
+      </div>
+      <div class="note">
+        <p>
+          We do not supply paints. If you would like paints to these colours, we would suggest you <a href="supplier_directory.asp">click here</a>
+        </p>
+      </div>
+  
+    </div>
+      <div class="clear"></div>
+     <div class="accepted2">
+     <hr /><img src="image/accepted-cards.png" alt="Credit cards" />
+     <hr />
+     </div>
+  
+  </div>
+
+</div>
+ 
+<div class="footer_bottom_links">
+       	  <div class="width_wrapper">
+          <div class="bottom_links">
+          <h2>e-paint.co.uk <br /> Colour Cards, Charts, Fans and Books</h2><br />
+            	<a href="https://www.e-paint.co.uk/Web_development.htm">&copy; 
+			  e-paint.co.uk 2020, All rights reserved</a><br />
+            <ul>
+                    <li><a href="https://www.e-paint.co.uk/contact_options.asp">
+					Contact</a></li>
+                    <li><a href="https://www.e-paint.co.uk/terms_and_conditions.asp">Terms and Conditions</a></li>
+                    <li class="last"><a href="https://www.e-paint.co.uk/security.asp">
+					Privacy</a></li>
+              </ul>
+              </div>
+             
+            </div>
+            <div class="clear"></div>
+        </div>
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40721933-1', 'e-paint.co.uk');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+
+  am = "Sorry, copying of the colours is not encouraged!";
+
+  bV  = parseInt(navigator.appVersion)
+  bNS = navigator.appName=="Netscape"
+  bIE = navigator.appName=="Microsoft Internet Explorer"
+
+  function nrc(e) {
+  if (bNS && e.which > 1){
+  alert(am)
+  return false
+  } else if (bIE && (event.button >1)) {
+  alert(am);
+  return false;
+  }
+  }
+</script>
+
+    </body>
+
+<!-- #EndTemplate -->
+
+</html>

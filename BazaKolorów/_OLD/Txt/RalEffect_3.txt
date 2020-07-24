@@ -1,0 +1,2258 @@
+
+<!DOCTYPE html>
+<html lang="en-gb">
+<!-- #BeginTemplate "Templates/Template2.dwt" -->
+<head>
+<!-- #BeginEditable "doctitle" -->
+
+<!-- RAL Effect Color chart -->
+
+<title>RAL EFFECT COLOURS - RAL 510-1 to RAL 690-M</title>
+<meta name="description" content="RAL Effect colour chart RAL 510-1 to RAL 690-M. RAL Effect for paints and coatings. Free UK delivery." />
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This site uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"","link":null,"theme":"dark-bottom"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+<!-- #EndEditable -->
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="_PZk64jgfw21jkO3G-sHAv19KsgvqPVy0B1Qa7oXXvU" />
+<meta name="robots" content="index,follow" />
+<meta name="subject" content="Colour Cards, Charts, Fans and Books " />
+<meta name="MSSmartTagsPreventParsing" content="false" />
+<meta http-equiv="ImageToolBar" content="yes" />
+<meta name="revisit-after" content="30" />
+<meta name="copyright" content="e-paint.co.uk" />
+<meta name="language" content="en-gb" />
+<meta name="classification" content="Business and Economy" />
+<meta name="distribution" content="Global" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<script language="javascript" type="text/javascript">
+function toggle(id) {
+    var el = document.getElementById(id);
+    var img = document.getElementById("arrow");
+    var box = el.getAttribute("class");
+    if(box == "navhide"){
+        el.setAttribute("class", "navshow");
+        delay(img, "/images/menu-ico_white.png", 100);
+    }
+    else{
+        el.setAttribute("class", "navhide");
+        delay(img, "/images/menu-ico.png", 100);
+    }
+}
+
+function delay(elem, src, delayTime){
+    window.setTimeout(function() {elem.setAttribute("src", src);}, delayTime);
+}
+
+</script>
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script src="javascript/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="css/script2.js" type="text/javascript"></script>
+
+ </head>
+<body>
+<!--Header-->
+   <div class="header">
+  <div class="wrapper">
+    <div class="logo">
+      <h2>
+        <a href="https://www.e-paint.co.uk/" title="RAL, NCS, Pantone, CIELab, US Fed Spec and British Standard Colour Guides - Fans, books, swatches, charts and cards for paints and coatings">e-paint.co.uk</a>
+      </h2>
+      <span>Colour Cards, Charts, Fans and Books</span>
+    </div>
+  <a href="https://www.e-paint.co.uk/delivery.asp" title="Free delivery by post to the UK"> <div class="free-delivery"></div></a>
+    <div class="holder">
+      <div class="top-menu">
+        <ul>
+            
+          <li>
+            <a target="_blank" href="https://www.e-paint.co.uk/contact_us.asp">
+              <span class="fa fa-envelope"></span>Contact
+            </a>
+          </li>
+          <li>
+            <a href="https://www.e-paint.co.uk/cart.asp">
+              <span class="fa fa-shopping-cart"></span>View basket
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="sub-top-menu">
+        <ul>
+          <li>
+            <a href="https://www.e-paint.co.uk/supplier_directory.asp" title="Paint, sealant and other suppliers"><img src="Nav_images/fill.png" alt="Paint suppliers" />Supplier directory</a>
+          </li>
+          <li>
+            <a href="https://www.e-paint.co.uk/colour_alternatives.asp" title="Convert from one colour system to another"><img src="Nav_images/hsv.png" alt="Colour conversions" />Colour Alternatives</a>
+          </li>
+       
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <!--menu-->
+<div class="menu">
+  <div class="wrapper">
+    <div id="menuico" onClick="toggle('mobnav');">
+      <i class="fa fa-bars mob-nav"></i>
+      <span>Menu</span>
+    </div>
+    <div class="top-nav">
+      <ul>
+        <li>
+          <a href="https://www.e-paint.co.uk/" title="Home">
+	<img src="Nav_images/home1.png" alt="Home"/>Home</a>        </li>
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/categories.asp"><img src="Nav_images/pantone.png" alt="Colour fan"/>Colour products</a>
+          <ul>
+            <li>
+              <a href="https://www.e-paint.co.uk/Ral_colour_guides.asp"><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Classic colour guides</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/categories.asp?cat=41"><img src="Nav_images/16colors.png" alt="A4 size sheets"/>Individual RAL sheets</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/BS_colour_guides.asp"><img src="Nav_images/pantone.png" alt="Colour fan"/>British Std. colour guides</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/products.asp?cat=52"><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Design colour fans</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/products.asp?cat=56"><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Effect colour fans</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/products.asp?cat=59"><img src="Nav_images/pantone.png" alt="Colour fan"/>CIELab colour fans</a>
+            </li>
+            <li><a href="https://www.e-paint.co.uk/products.asp?cat=60"><img src="Nav_images/pantone.png" alt="Colour fan"/>Federal Std 595 colour fans</a></li>
+            <li><a href="https://www.e-paint.co.uk/products.asp?cat=65"><img src="Nav_images/pantone.png" alt="Colour fan"/>AMS Std 595A colour fans</a></li>
+        <li><a href="https://www.e-paint.co.uk/products.asp?cat=63"><img src="Nav_images/pantone.png" alt="Colour fan"/>Australian Std. AS2700</a>
+            </li>
+       <li><a href="https://www.e-paint.co.uk/products.asp?cat=62"><img src="Nav_images/pantone.png" alt="Colour fan"/>NCS Index 1950 colour fans</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/products.asp?cat=54"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Customised colour cards</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/chart_options.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Colour charts</a>
+          <ul>
+            <li>
+              <a href="https://www.e-paint.co.uk/RAL_Classic_Colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL Classic colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/BS_4800_Colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>BS 4800:2011 colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/BS381 Colourchart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>BS 381C colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/bs2660_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>BS 2660 colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/bs5252_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>BS 5252 colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/other_bs_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Other BS colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/pantone_c_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Pantone colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Munsell_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Munsell colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/ral_design_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL Design colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/ral_effect_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL Effect colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/DIN_6164_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>DIN 6164 colour chart</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/Dulux_Trade_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Dulux<sup>&reg;</sup> Trade colour chart</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/NCS_1950_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>NCS 1950 colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Australian_standard_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Australian Standard colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Federal_standard_595C_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Federal Std. 595C colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/ams_standard_595_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>AMS Std. 595A colours</a>
+            </li>
+         </ul>
+        </li>
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/search_for_colours_and_products.asp"><img src="Nav_images/search.png" alt="Search for colours and products" />Search</a>
+          <ul class="alnright">
+              <li>
+                <a href="https://www.e-paint.co.uk/search.asp"><img src="Nav_images/search.png" alt="Search" />Product search</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/search_colour.asp"><img src="Nav_images/find.png" alt="Search" />Colour search</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/Convert_RGB.asp"><img src="Nav_images/rgb.png" alt="Lab and HLC values" />Search by RGB values</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/Convert_Lab.asp"><img src="Nav_images/lab_color_model.png" alt="Lab and HLC values" />Search by L*a*b* values</a>
+              </li>
+        <li>
+                <a href="https://www.e-paint.co.uk/Dulux_codes.asp"><img src="Nav_images/lab_color_model.png" alt="Dulux codes" />Search by Dulux<sup>&reg;</sup> codes values</a>
+              </li>
+			  <li> 
+			   <a href="https://www.e-paint.co.uk/search_whites_and_off_whites.asp"><img src="Nav_images/find.png" alt="Whites and pastels" />Whites and Pastels</a>
+              </li>
+           </ul>
+        </li>
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/Advanced_menu.asp"><img src="Nav_images/hsl.png" alt="Colour information"/>Advanced</a>
+          <ul class="alnright">
+            <li>
+              <a href="https://www.e-paint.co.uk/Lab_values.asp" title="Colour Lab, RGB and HLC values"><img src="Nav_images/yuv_color_space.png" alt="Lab and HLC values" />Colour L*a*b*/RGB values</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Colour_alternatives.asp"><img src="Nav_images/hsv.png" alt="Colour conversions" />Colour alternatives</a>
+            </li>
+             <li>
+              <a href="https://www.e-paint.co.uk/Compare_colours.asp"><img src="Nav_images/hsv.png" alt="Colour comparison" />Compare colours</a>
+            </li>
+ <li>
+              <a href="https://www.e-paint.co.uk/colour_trends_2016.asp"><img src="Nav_images/3d_graph.png" alt="Colour trends" />Colour trends 2016+</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/uk_organisations.asp"><img src="Nav_images/lock_color.png" alt="Organisation colours" />UK Organisations' colours</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/us_organisations.asp"><img src="Nav_images/lock_color.png" alt="US Organisation colours" />US Organisations' colours</a>
+            </li>
+         </ul>
+        </li>
+        <li class="donotshowontablet">
+          <a class="parent" href="https://www.e-paint.co.uk/print_options.asp"><img src="Nav_images/print.png" alt="print"/>Print</a>
+          <ul>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_ral_colours.asp">RAL Classic colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_RAL_design_colours.asp">RAL Design colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_RAL_effect_colours.asp">RAL Effect colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_BS4800_colours.asp">BS 4800 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_BS2660_colours.asp">BS 2660 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_bs381c_colours.asp">BS 381C colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_din_6164_colours.asp">DIN 6164 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_NCS_colours.asp">NCS 1950 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_australian_colours.asp">Australian Std. colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_FS595_colours.asp">Federal Std. 595 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_AMS595_colours.asp">AMS Std. 595A colours</a>
+            </li>
+</ul>
+        </li>
+
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/Contact_options.asp"><img src="Nav_images/help.png" alt="Contact"/>Help</a>
+          <ul class="moveleft">
+            <li>
+              <a href="https://www.e-paint.co.uk/contact_us.asp" title="Contact us by email"><img src="Nav_images/contact.png" alt="Contact" />General enquiry</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/customer_service.asp" title="Customer service" target="_blank"><img src="Nav_images/pie_chart.png" alt="Lab and HLC values" />Customer services</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/terms_and_conditions.asp" title="View terms and conditions"><img src="Nav_images/critical_details.png" alt="Terms and conditions" />Terms and conditions</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/copy_invoice(2.asp" title="Get a copy of your invoice" target="_blank"><img src="Nav_images/form.png" alt="Invoice" />Copy invoice</a>            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/faqs.asp" title="Frequently asked questions"><img src="Nav_images/help.png" alt="help" />FAQs / help</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/online_colour_charts.asp" title="Online colourcharts"><img src="Nav_images/colorchart.png" alt="online colourcharts" />Online colour charts</a>
+            </li>
+
+            <li><a href="https://www.e-paint.co.uk/delivery.asp" title="Delivery information"><img src="Nav_images/icon_truck.png" alt="Delivery" />Delivery</a></li>
+ 		<li>
+		<a href="https://www.e-paint.co.uk/security.asp" title="Security and cookie information"><img src="Nav_images/registration.png" alt="Security" />Security and privacy</a></li>
+		<li><a href="https://www.e-paint.co.uk/supplier_directory.asp" title="Find paint and other product suppliers"><img src="Nav_images/fill.png" alt="Paint suppliers" />Supplier directory</a></li>
+    	</ul>
+    </li>
+   </ul>
+    </div>
+    <div class="search-box">
+      <form method="post" action="https://www.e-paint.co.uk/search_colour.asp" style="margin-bottom: 0px">
+        <input type="hidden" name="posted" value="1" />
+        <input type="hidden" name="sprice" value="" />
+        <input class="search" type="text" name="cQuery" size="16" placeholder="colour search" />
+        <button type="submit" class="btn search-btn">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+<div id="mobnav" class="navhide">
+  <ul>
+    <li>
+      <a href="https://www.e-paint.co.uk/"><img src="../Nav_images/home1.png" alt="home"/>home</a>
+    </li>
+    <li class="has-sub">
+      <a href="https://www.e-paint.co.uk/categories.asp"><img src="Nav_images/pantone.png" alt="Colourchart"/>products / colour guides</a>
+<ul>
+                            <li><a href='https://www.e-paint.co.uk/RAL_colour_guides.asp'><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Classic colour guides</a></li>
+                            <li class="has-sub">
+                                <a href='https://www.e-paint.co.uk/categories.asp?cat=41'><img src="Nav_images/16colors.png" alt="A4 size sheets"/>Individual A4 colour cards</a>
+                                <ul>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=42'>RAL 1000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=43'>RAL 2000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=44'>RAL 3000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=45'>RAL 4000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=46'>RAL 5000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=47'>RAL 6000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=48'>RAL 7000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=49'>RAL 8000 Series A4 card</a></li>
+                                    <li class='last'><a href='https://www.e-paint.co.uk/products.asp?cat=50'>RAL 9000 Series A4 card</a></li>
+                                </ul>
+                            </li>
+                            <li><a href='https://www.e-paint.co.uk/BS_colour_guides.asp'><img src="Nav_images/pantone.png" alt="Colour fan"/>BS colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=56'><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Effect colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=52'><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Design colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=59'><img src="Nav_images/pantone.png" alt="Colour fan"/>CIELab colour fans</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=62'><img src="Nav_images/pantone.png" alt="Colour fan"/>NCS 1950 colour fan</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=60'><img src="Nav_images/pantone.png" alt="Colour fan"/>Federal Std. colour fans</a></li>
+                            <li><a href="https://www.e-paint.co.uk/products.asp?cat=65"><img src="Nav_images/pantone.png" alt="Colour fan"/>AMS Std 595A colour fans</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=63'><img src="Nav_images/pantone.png" alt="Colour fan"/>Australian Std. AS2700</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=54'><img src="Nav_images/pantone.png" alt="Colour fan"/>Custom colour guides</a></li>
+                        </ul>
+    </li>
+    <li class="has-sub">
+      <a href="https://www.e-paint.co.uk/chart_options.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>colour charts</a>
+      <ul>
+          <li><a href='https://www.e-paint.co.uk/RAL_Classic_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL Classic colours</a>
+            </li>
+       <li class="has-sub"><a href='https://www.e-paint.co.uk/BS_4800_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>British Std. colours</a>
+              <ul>
+        <li><a href='https://www.e-paint.co.uk/BS_4800_Colour_chart.asp'>BS 4800:2011 colours</a>
+              </li>
+       <li><a href="https://www.e-paint.co.uk/bs4800_colour_chart_1989.asp">BS 4800:1989 colours</a>
+              </li>
+
+            <li><a href='https://www.e-paint.co.uk/bs5252_colour_chart.asp'>BS 5252 colours</a>
+            </li>
+          <li><a href='https://www.e-paint.co.uk/BS381 Colourchart.asp'>BS 381C colours</a>
+           </li>
+          <li><a href='https://www.e-paint.co.uk/bs2660_colour_chart.asp'>BS 2660 colours</a>
+            </li>
+          <li><a href='https://www.e-paint.co.uk/other_bs_colours.asp'>Other BS colours</a></li>
+          </ul>
+          </li>
+          <li><a href='https://www.e-paint.co.uk/ral_design_colours.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL 'Design' colours</a>
+          
+          </li>
+          <li><a href='https://www.e-paint.co.uk/ral_effect_colours.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL 'Effect' colours</a>
+        
+          </li>
+          <li class="has-sub"><a class="parent" href='pantone_c_colours.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Pantone<sup>&reg;</sup> colours</a>
+          		<ul><li><a href='https://www.e-paint.co.uk/pantone_c_colours.asp'>Pantone C colours</a></li>
+          		<li><a href='https://www.e-paint.co.uk/pantone_u_colours.asp'>Pantone U colours</a></li>
+          		</ul>
+          		</li>
+          <li><a href='https://www.e-paint.co.uk/DIN_6164_colours.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>DIN 6164 colours</a>
+              </li>
+         <li><a href='https://www.e-paint.co.uk/Dulux_Trade_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Dulux<sup>&reg;</sup> Trade colours</a>
+              </li>
+         <li><a href='https://www.e-paint.co.uk/NCS_1950_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>NCS<sup>&reg;</sup> 1950 colours</a>
+             </li>
+          <li><a href='https://www.e-paint.co.uk/Australian_standard_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Australian Std. colours</a>
+            
+          </li>
+          <li><a href='https://www.e-paint.co.uk/Federal_standard_595C_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Federal Std. 595 colours</a>
+            
+          </li>
+          <li><a href='https://www.e-paint.co.uk/AMS_standard_595_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>AMS Std. 595A colours</a>
+            
+          </li>
+          <li><a href='https://www.e-paint.co.uk/Munsell_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Munsell colours</a>
+           
+          </li>
+
+         <li class="has-sub"><a href='https://www.e-paint.co.uk/chart_options.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Other</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/astm_f934_fencing.asp'>ASTM F934 Fencing</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=BG'>British Gas</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=BR'>British Rail</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=MoD'>UK Ministry of Defense</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=DoT'>UK Dept. of Transport</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=PO'>UK Post Office</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=DT'>DULUX<sup>&reg;</sup>TRADE - BS 4800</a></li>
+            </ul>
+          </li>
+          <li><a href='https://www.e-paint.co.uk/online_colour_charts.asp'>Online charts</a></li>
+
+            </ul>
+
+    </li>
+    <li class="has-sub">
+      <a href="https://www.e-paint.co.uk/Advanced_menu.asp"><img src="Nav_images/hsl.png" alt="colour information"/>Colour information</a>
+	       <ul>
+            <li>
+              <a href="https://www.e-paint.co.uk/Lab_values.asp" title="Colour Lab, RGB and HLC values"><img src="Nav_images/yuv_color_space.png" alt="Lab and HLC values" />Colour L*a*b* / RGB values</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Colour_alternatives.asp"><img src="Nav_images/hsv.png" alt="Colour conversions" />Colour alternatives</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/Compare_colours.asp"><img src="Nav_images/hsv.png" alt="Colour comparison" />Compare colours</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/colour_trends_2016.asp"><img src="Nav_images/3d_graph.png" alt="Colour trends" />Colour trends 2016+</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/uk_organisations.asp"><img src="Nav_images/lock_color.png" alt="Organisation colours" />UK Organisations' colours</a>
+            </li>
+             <li>
+              <a href="https://www.e-paint.co.uk/us_organisations.asp"><img src="Nav_images/lock_color.png" alt="Organisation colours" />US Organisations' colours</a>
+            </li>
+        </ul>
+
+    </li>
+    <li class="has-sub">
+      <a href="https://www.e-paint.co.uk/search_for_colours_and_products.asp"><img src="Nav_images/search.png" alt="search"/>Search</a>
+        <ul>
+              <li>
+                <a href="https://www.e-paint.co.uk/search.asp"><img src="Nav_images/search.png" alt="Search" />Product search</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/search_colour.asp"><img src="Nav_images/find.png" alt="Search" />Colour search</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/Convert_RGB.asp"><img src="Nav_images/rgb.png" alt="Lab and HLC values" />Search by RGB values</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/Convert_Lab.asp"><img src="Nav_images/lab_color_model.png" alt="Lab and HLC values" />Search by L*a*b* values</a>
+              </li>
+  			<li>
+                <a href="https://www.e-paint.co.uk/Dulux_codes.asp"><img src="Nav_images/lab_color_model.png" alt="Dulux codes" />Search by Dulux<sup>&reg;</sup> codes</a>
+              </li>
+  			  <li> 
+			   <a href="https://www.e-paint.co.uk/search_whites_and_off_whites.asp"><img src="Nav_images/find.png" alt="Whites and pastels" />Whites and Pastels</a>
+              </li>
+            </ul>
+
+    </li>  
+     <li class="has-sub">
+           <a class="parent" href="https://www.e-paint.co.uk/Contact_options.asp"><img src="Nav_images/help.png" alt="Contact"/>Help</a>
+          <ul class="moveleft">
+            <li>
+              <a href="https://www.e-paint.co.uk/contact_us.asp" title="Contact us by email"><img src="Nav_images/contact.png" alt="Contact" />General enquiry</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/customer_service.asp" title="Customer service"><img src="Nav_images/pie_chart.png" alt="Lab and HLC values" />Customer services</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/terms_and_conditions.asp" title="View terms and conditions"><img src="Nav_images/critical_details.png" alt="Terms and conditions" />Terms and conditions</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/copy_invoice(2.asp" title="Get a copy of your invoice"><img src="Nav_images/form.png" alt="Invoice" />Copy invoice</a>            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/faqs.asp" title="Frequently asked questions"><img src="Nav_images/help.png" alt="help" />FAQs / help</a>
+            </li>
+            <li><a href="https://www.e-paint.co.uk/delivery.asp" title="Delivery information"><img src="Nav_images/icon_truck.png" alt="Delivery" />Delivery</a></li>
+ 		<li>
+		<a href="https://www.e-paint.co.uk/security.asp" title="Security and cookie information"><img src="Nav_images/registration.png" alt="Security" />Security and privacy</a></li>
+		<li><a href="https://www.e-paint.co.uk/supplier_directory.asp" title="Find paint and other product suppliers"><img src="Nav_images/fill.png" alt="Paint suppliers" />Supplier directory</a></li>
+    	</ul>
+    </li>
+
+  
+
+    <li>
+      <a href='https://www.e-paint.co.uk/cart.asp'><img src="Nav_images/buy.png" alt="View basket" />View basket</a>
+    </li>
+    <li>
+      <a href='https://www.e-paint.co.uk/supplier_directory.asp'><img src="Nav_images/fill.png" alt="Paint suppliers" />Supplier Directory</a>
+    </li>
+  </ul>
+</div>
+
+<!--mobile menu-->
+
+<!--main body-->
+<div id="main_body">
+    <div class="wrapper">
+        <div class="left left-col">
+                   <div class="left-nav">
+                <div class="title"><span class="fa fa-bars"></span>PRODUCTS AND &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INFORMATION</div>
+                <ul>
+                    <li><a class="parent" href='https://www.e-paint.co.uk/categories.asp'>Products</a>
+                        <ul>
+                            <li><a href='https://www.e-paint.co.uk/RAL_colour_guides.asp'>RAL Classic colour guides</a></li>
+                            <li>
+                                <a class="parent" href='https://www.e-paint.co.uk/categories.asp?cat=41'>Individual A4 colour cards</a>
+                                <ul>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=42'>RAL 1000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=43'>RAL 2000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=44'>RAL 3000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=45'>RAL 4000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=46'>RAL 5000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=47'>RAL 6000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=48'>RAL 7000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=49'>RAL 8000 Series A4 card</a></li>
+                                    <li class='last'><a href='https://www.e-paint.co.uk/products.asp?cat=50'>RAL 9000 Series A4 card</a></li>
+                                </ul>
+                            </li>
+                            <li><a href='https://www.e-paint.co.uk/BS_colour_guides.asp'>BS colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=56'>RAL Effect colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=52'>RAL Design colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=59'>CIELab colour fans</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=62'>NCS 1950 colour fan</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=60'>Federal Std. colour fans</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=65'>AMS Std. 595A colour fans</a></li>
+                           <li><a href='https://www.e-paint.co.uk/products.asp?cat=63'>Australian Std. AS2700</a></li>
+                            <li class='last'><a href='https://www.e-paint.co.uk/products.asp?cat=54'>Custom colour guides</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="parent" href='https://www.e-paint.co.uk/chart_options.asp'>Colour charts</a>
+                      <ul>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/RAL_Classic_Colour_chart.asp'>RAL Classic colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/RAL_Classic_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/pdfs/RAL colour chart.pdf' target="_blank">PDF</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_ral_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=39'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/BS_4800_Colourchart.asp'>BS 4800:2011 colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/BS_4800_Colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_BS4800_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=51'>Purchase</a></li>
+            </ul>
+          </li>
+   
+            <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/bs5252_colour_chart.asp'>BS 5252 colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/bs5252_colour_chart.asp'>View</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=51'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/BS381 Colourchart.asp'>BS 381C colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/BS381 Colourchart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_bs381c_colours.asp'>Print</a></li>
+              <li class="last"><a href='products.asp?cat=51'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/bs2660_colour_chart.asp'>BS 2660 colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/bs2660_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_bs2660_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=51'>Purchase</a></li>
+            </ul>
+          </li>
+          <li><a href='https://www.e-paint.co.uk/other_bs_colours.asp'>Other BS colours</a></li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/ral_design_colours.asp'>RAL 'Design' colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/ral_design_colours.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_RAL_design_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=52'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/ral_effect_colours.asp'>RAL 'Effect' colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/ral_effect_colours.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_RAL_effect_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=56'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/pantone_c_colours.asp'>Pantone colours</a>
+          		<ul><li><a href='https://www.e-paint.co.uk/pantone_c_colours.asp'>Pantone C colours</a></li>
+          		<li><a href='https://www.e-paint.co.uk/pantone_u_colours.asp'>Pantone U colours</a></li>
+          		</ul>
+          		</li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/DIN_6164_colours.asp'>DIN 6164 colours</a>
+            <ul>
+              <li><a href='DIN_6164_colours.asp'>View</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_DIN_6164_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/NCS_1950_colour_chart.asp'>NCS 1950 colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/NCS_1950_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/products.asp?cat=62'>Purchase</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_NCS_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/Australian_standard_colour_chart.asp'>Australian Std. colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/Australian_standard_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/products.asp?cat=63'>Purchase</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_australian_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/Federal_standard_595C_colour_chart.asp'>Federal Std. 595C colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/Federal_standard_595C_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/products.asp?cat=60'>Purchase</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_FS595_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/ams_standard_595_colour_chart.asp'>AMS Std. 595A colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/ams_standard_595_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/products.asp?cat=65'>Purchase</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_AMS595_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li><a href='https://www.e-paint.co.uk/Munsell_colour_chart.asp'>Munsell colours</a></li>
+         <li class="has-sub"><a class="parent" href='#'>Other</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/astm_f934_fencing.asp'>ASTM F934 Fencing</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=BG'>British Gas</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=BR'>British Rail</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=MoD'>UK Ministry of Defense</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=DoT'>UK Dept. of Transport</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=PO'>UK Post Office</a></li>
+	         <li><a href='https://www.e-paint.co.uk/Dulux_Trade_colour_chart.asp'>DULUX<sup>&reg;</sup>Trade Colours</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=DT'>DULUX<sup>&reg;</sup>TRADE - BS 4800</a></li>
+            </ul>
+          </li>
+          <li class="last"><a href='https://www.e-paint.co.uk/online_colour_charts.asp'>Online charts</a></li>
+
+            </ul>
+                    </li>
+                    <li><a class="parent" href='#'>Information</a>
+                      <ul>
+                        <li class='has-sub'><a class="parent" href='https://www.e-paint.co.uk/Advanced_menu.asp'>Colour information</a>
+                          <ul>
+                            <li><a href='https://www.e-paint.co.uk/Lab_values.asp'>L*a*b* and HLC values</a></li>
+                            <li><a href='https://www.e-paint.co.uk/Colour_alternatives.asp'>Colour alternatives</a></li>
+                            <li><a href="https://www.e-paint.co.uk/Compare_colours.asp">Compare colours</a></li>
+          <li><a href='https://www.e-paint.co.uk/colour_trends_2016.asp'>Colour trends</a></li>
+                            <li><a href='https://www.e-paint.co.uk/uk_organisations.asp'>UK organisations' colours</a></li>
+                            <li><a href='https://www.e-paint.co.uk/us_organisations.asp'>US organisations' colours</a></li>
+                          			  <li> 
+			   <a href="https://www.e-paint.co.uk/search_whites_and_off_whites.asp">Whites and Pastels</a>
+              </li>
+ <li><a href='https://www.e-paint.co.uk/Convert_RGB.asp'>Search by RGB values</a></li>
+                            <li><a href='https://www.e-paint.co.uk/Dulux_codes.asp'>Search by Dulux&reg; codes</a></li>
+                   <li class="last"><a href='https://www.e-paint.co.uk/Convert_Lab.asp'>Search by L*a*b* values</a></li>
+                          </ul>
+                        </li>
+                        <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/contact_us.asp'>Contact us</a>
+                          <ul>
+                            <li><a href='https://www.e-paint.co.uk/contact_us.asp' target="_blank">General enquiry</a></li>
+                            <li><a href='https://www.e-paint.co.uk/customer_service.asp' target="_blank">Customer service</a></li>
+                            <li class="last"><a href='https://www.e-paint.co.uk/copy_invoice(2.asp' target="_blank">Copy invoice</a></li>
+                          </ul>
+                        </li>
+                        <li><a href='https://www.e-paint.co.uk/delivery.asp'>Delivery service</a></li>
+                        <li><a href='https://www.e-paint.co.uk/security.asp'>Security and privacy</a></li>
+                        <li><a href='https://www.e-paint.co.uk/organisation_details.asp'>
+						Organisations</a></li>
+                        <li class="last"><a href='mailto:sales@e-paint.co.uk?subject=Enquiry from the e-paint.co.uk website' title='Click here to send an email'>Email</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="parent" href='https://www.e-paint.co.uk/faqs.asp'>Help / FAQs</a>
+                      <ul>
+                        <li><a href='https://www.e-paint.co.uk/delivery.asp'>Delivery service</a></li>
+                        <li><a href='https://www.e-paint.co.uk/terms_and_conditions.asp'>Terms and Conditions</a></li>
+                        <li><a href='https://www.e-paint.co.uk/security.asp'>Security and privacy</a></li>
+                         <li><a href='https://www.e-paint.co.uk/faqs.asp'>FAQS</a></li>
+                       <li class="last"><a href='https://www.e-paint.co.uk/contact_us.asp' target="_blank">Comments</a></li>
+                      </ul>
+                    </li>
+                  
+                    <li><a class="parent" href='https://www.e-paint.co.uk/search_for_colours_and_products.asp'>Search</a>
+                        <ul>
+                          <li><a href='https://www.e-paint.co.uk/search.asp'>Product search</a></li>
+                          <li><a href='https://www.e-paint.co.uk/search_colour.asp'>Colour search</a></li>
+                          <li><a href='https://www.e-paint.co.uk/Convert_RGB.asp'>Search by RGB values</a></li>
+                          <li><a href='https://www.e-paint.co.uk/Dulux_codes.asp'>Search by Dulux&reg; codes</a></li>
+                     <li class="last"><a href='https://www.e-paint.co.uk/Convert_Lab.asp'>Search by L*a*b* values</a></li>
+                        </ul>
+                    </li>
+           
+                    <li><a class="parent" href='https://www.e-paint.co.uk/supplier_directory.asp'>Supplier Directory</a>
+                      <ul>
+                        <li><a href='https://www.e-paint.co.uk/supplier_directory.asp'>Supplier directory</a></li>
+                        <li class="last"><a href='https://www.e-paint.co.uk/Contact_advertisers_home.asp'>Advertising</a></li>
+                      </ul>
+                    </li>
+                                    
+                    <li><a href="https://www.e-paint.co.uk/colour_trends_2016.asp">Colour Trends</a></li>
+                </ul>
+            </div>
+         
+
+            
+       
+
+        <!--left nav-->
+            
+            <!--minicart-->
+            <!--other nav-->
+            <!--logos and pictures-->
+            
+
+        </div>
+
+
+
+
+        <div class="right right-col">
+            <!--Content here-->
+            
+            <!-- #BeginEditable "main" -->
+  <div class="g-box-w center">
+    <h1>RAL &quot;Effect&quot; Range Colour Chart</h1>
+
+    <p>The colours depicted on the following chart are for <span style="text-decoration: underline">guidance only</span>.</p>
+    <p>The displayed colour will depend on your monitor and browser and pearl or metallic colours cannot be shown adequately. The finished colour, therefore, may <span style="font-weight: bold; text-decoration: underline">not</span> be as shown here.Please use the official RAL Effect colour products for most 
+	  accurate colour - available
+	  <a href="https://www.e-paint.co.uk/products.asp?cat=56"><span class="underline_bold"><i>here</i></span></a>.</p>
+      <div class="print-chart donotshowontablet">
+          <br /><p>If you wish to <b>print off</b> the <b>RAL &quot;Effect&quot; colours</b> on this site - <b><a href="../../print_RAL_effect_colours.asp"><span class="underline_bold"><i>click here</i></span></a>.</b></p>
+    </div>
+     <div class="buy-chart">
+        <br /><img src="images/small_pics/RAL_Effect_E3_small.jpg" alt="RAL Effect colour fan" />
+          If you wish to<b> purchase RAL &quot;Effect&quot; colour guides -
+	<a href="products.asp?cat=56"><span class="underline"><i>click here</i></span></a></b>.
+       
+    </div>
+ 
+    <form method="post" action="ral_effect_colours.asp" name="din_colour">
+        <br /><select class="g-drop" size="1" name="Effect" onchange="form.submit()">
+            <option>Select RAL Effect code range</option>
+            <option value="1" >RAL 110-1 to RAL 290-M</option>
+            <option value="2" >RAL 310-1 to RAL 490-M</option>
+            <option value="3" selected>RAL 510-1 to RAL 690-M</option>
+            <option value="4" >RAL 710-1 to RAL 870-M</option>
+        </select>
+    </form>
+</div>
+
+<div class="colour-chart-nav center">
+    <a class="g-btn-b" href="ral_effect_colours.asp?Effect=1">RAL Effect 110-1 to 290-M</a>
+    <a class="g-btn-b" href="ral_effect_colours.asp?Effect=2">RAL Effect 310-1 to 490-M</a>
+    <a class="g-btn-b" href="ral_effect_colours.asp?Effect=3">RAL Effect 510-1 to 690-M</a>
+    <a class="g-btn-b" href="ral_effect_colours.asp?Effect=4">RAL Effect 710-1 to 870-M</a>
+    <div class="clear"></div>
+</div>
+
+
+<div class="g-box-w">
+
+   <ul itemscope itemtype="http://schema.org/Dataset" class="colour-charts">  
+    <meta itemprop="name" content="RAL Effect Colour Chart" />
+<meta itemprop="description" content="This is a colour chart of the colours in the RAL Effect colour range" />
+
+
+
+        
+        <li>
+            <a title="More information about RAL 510-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 510-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(237,200,220)" name="RAL 510-1" id="RAL 510-1" alt="RAL Effect, RAL 510-1 - " content="RAL 510-1 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 510-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 510-1&metallic2=False">
+                    RAL 510-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 510-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 510-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(225,164,203)" name="RAL 510-2" id="RAL 510-2" alt="RAL Effect, RAL 510-2 - " content="RAL 510-2 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 510-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 510-2&metallic2=False">
+                    RAL 510-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 510-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 510-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(213,131,177)" name="RAL 510-3" id="RAL 510-3" alt="RAL Effect, RAL 510-3 - " content="RAL 510-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 510-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 510-3&metallic2=False">
+                    RAL 510-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 510-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 510-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(196,98,142)" name="RAL 510-4" id="RAL 510-4" alt="RAL Effect, RAL 510-4 - " content="RAL 510-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 510-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 510-4&metallic2=False">
+                    RAL 510-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 510-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 510-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(186,70,120)" name="RAL 510-5" id="RAL 510-5" alt="RAL Effect, RAL 510-5 - " content="RAL 510-5 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 510-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 510-5&metallic2=False">
+                    RAL 510-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 510-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 510-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(154,57,107)" name="RAL 510-6" id="RAL 510-6" alt="RAL Effect, RAL 510-6 - " content="RAL 510-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 510-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 510-6&metallic2=False">
+                    RAL 510-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 510-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 510-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(141,59,113)" name="RAL 510-M" id="RAL 510-M" alt="RAL Effect, RAL 510-M - " content="RAL 510-M - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 510-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 510-M&metallic2=True">
+                    RAL 510-M</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 520-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 520-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(239,210,223)" name="RAL 520-1" id="RAL 520-1" alt="RAL Effect, RAL 520-1 - " content="RAL 520-1 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 520-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 520-1&metallic2=False">
+                    RAL 520-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 520-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 520-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(232,186,211)" name="RAL 520-2" id="RAL 520-2" alt="RAL Effect, RAL 520-2 - " content="RAL 520-2 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 520-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 520-2&metallic2=False">
+                    RAL 520-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 520-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 520-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(220,164,193)" name="RAL 520-3" id="RAL 520-3" alt="RAL Effect, RAL 520-3 - " content="RAL 520-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 520-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 520-3&metallic2=False">
+                    RAL 520-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 520-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 520-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(186,113,147)" name="RAL 520-4" id="RAL 520-4" alt="RAL Effect, RAL 520-4 - " content="RAL 520-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 520-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 520-4&metallic2=False">
+                    RAL 520-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 520-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 520-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(160,77,111)" name="RAL 520-5" id="RAL 520-5" alt="RAL Effect, RAL 520-5 - " content="RAL 520-5 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 520-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 520-5&metallic2=False">
+                    RAL 520-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 520-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 520-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(146,81,111)" name="RAL 520-6" id="RAL 520-6" alt="RAL Effect, RAL 520-6 - " content="RAL 520-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 520-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 520-6&metallic2=False">
+                    RAL 520-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 520-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 520-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(159,87,139)" name="RAL 520-M" id="RAL 520-M" alt="RAL Effect, RAL 520-M - " content="RAL 520-M - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 520-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 520-M&metallic2=True">
+                    RAL 520-M</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 530-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 530-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(151,67,77)" name="RAL 530-1" id="RAL 530-1" alt="RAL Effect, RAL 530-1 - " content="RAL 530-1 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 530-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 530-1&metallic2=False">
+                    RAL 530-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 530-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 530-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(141,63,78)" name="RAL 530-2" id="RAL 530-2" alt="RAL Effect, RAL 530-2 - " content="RAL 530-2 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 530-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 530-2&metallic2=False">
+                    RAL 530-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 530-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 530-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(120,53,69)" name="RAL 530-3" id="RAL 530-3" alt="RAL Effect, RAL 530-3 - " content="RAL 530-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 530-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 530-3&metallic2=False">
+                    RAL 530-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 530-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 530-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(123,46,75)" name="RAL 530-4" id="RAL 530-4" alt="RAL Effect, RAL 530-4 - " content="RAL 530-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 530-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 530-4&metallic2=False">
+                    RAL 530-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 530-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 530-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(102,36,62)" name="RAL 530-5" id="RAL 530-5" alt="RAL Effect, RAL 530-5 - " content="RAL 530-5 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 530-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 530-5&metallic2=False">
+                    RAL 530-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 530-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 530-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(98,40,74)" name="RAL 530-6" id="RAL 530-6" alt="RAL Effect, RAL 530-6 - " content="RAL 530-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 530-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 530-6&metallic2=False">
+                    RAL 530-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 530-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 530-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(92,45,58)" name="RAL 530-M" id="RAL 530-M" alt="RAL Effect, RAL 530-M - " content="RAL 530-M - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 530-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 530-M&metallic2=True">
+                    RAL 530-M</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 540-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 540-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(214,192,215)" name="RAL 540-1" id="RAL 540-1" alt="RAL Effect, RAL 540-1 - " content="RAL 540-1 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 540-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 540-1&metallic2=False">
+                    RAL 540-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 540-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 540-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(192,161,193)" name="RAL 540-2" id="RAL 540-2" alt="RAL Effect, RAL 540-2 - " content="RAL 540-2 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 540-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 540-2&metallic2=False">
+                    RAL 540-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 540-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 540-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(130,95,131)" name="RAL 540-3" id="RAL 540-3" alt="RAL Effect, RAL 540-3 - " content="RAL 540-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 540-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 540-3&metallic2=False">
+                    RAL 540-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 540-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 540-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(152,106,152)" name="RAL 540-4" id="RAL 540-4" alt="RAL Effect, RAL 540-4 - " content="RAL 540-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 540-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 540-4&metallic2=False">
+                    RAL 540-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 540-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 540-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(131,82,122)" name="RAL 540-5" id="RAL 540-5" alt="RAL Effect, RAL 540-5 - " content="RAL 540-5 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 540-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 540-5&metallic2=False">
+                    RAL 540-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 540-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 540-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(87,43,81)" name="RAL 540-6" id="RAL 540-6" alt="RAL Effect, RAL 540-6 - " content="RAL 540-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 540-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 540-6&metallic2=False">
+                    RAL 540-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 540-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 540-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(87,46,78)" name="RAL 540-M" id="RAL 540-M" alt="RAL Effect, RAL 540-M - " content="RAL 540-M - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 540-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 540-M&metallic2=True">
+                    RAL 540-M</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 550-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 550-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(224,209,217)" name="RAL 550-1" id="RAL 550-1" alt="RAL Effect, RAL 550-1 - " content="RAL 550-1 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 550-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 550-1&metallic2=False">
+                    RAL 550-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 550-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 550-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(209,186,202)" name="RAL 550-2" id="RAL 550-2" alt="RAL Effect, RAL 550-2 - " content="RAL 550-2 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 550-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 550-2&metallic2=False">
+                    RAL 550-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 550-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 550-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(179,145,168)" name="RAL 550-3" id="RAL 550-3" alt="RAL Effect, RAL 550-3 - " content="RAL 550-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 550-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 550-3&metallic2=False">
+                    RAL 550-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 550-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 550-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(157,116,136)" name="RAL 550-4" id="RAL 550-4" alt="RAL Effect, RAL 550-4 - " content="RAL 550-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 550-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 550-4&metallic2=False">
+                    RAL 550-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 550-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 550-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(141,97,119)" name="RAL 550-5" id="RAL 550-5" alt="RAL Effect, RAL 550-5 - " content="RAL 550-5 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 550-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 550-5&metallic2=False">
+                    RAL 550-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 550-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 550-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(120,75,94)" name="RAL 550-6" id="RAL 550-6" alt="RAL Effect, RAL 550-6 - " content="RAL 550-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 550-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 550-6&metallic2=False">
+                    RAL 550-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 550-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 550-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(167,136,144)" name="RAL 550-M" id="RAL 550-M" alt="RAL Effect, RAL 550-M - " content="RAL 550-M - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 550-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 550-M&metallic2=True">
+                    RAL 550-M</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 560-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 560-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(204,187,199)" name="RAL 560-1" id="RAL 560-1" alt="RAL Effect, RAL 560-1 - " content="RAL 560-1 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 560-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 560-1&metallic2=False">
+                    RAL 560-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 560-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 560-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(177,156,173)" name="RAL 560-2" id="RAL 560-2" alt="RAL Effect, RAL 560-2 - " content="RAL 560-2 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 560-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 560-2&metallic2=False">
+                    RAL 560-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 560-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 560-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(140,111,129)" name="RAL 560-3" id="RAL 560-3" alt="RAL Effect, RAL 560-3 - " content="RAL 560-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 560-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 560-3&metallic2=False">
+                    RAL 560-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 560-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 560-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(119,84,96)" name="RAL 560-4" id="RAL 560-4" alt="RAL Effect, RAL 560-4 - " content="RAL 560-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 560-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 560-4&metallic2=False">
+                    RAL 560-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 560-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 560-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(134,113,127)" name="RAL 560-5" id="RAL 560-5" alt="RAL Effect, RAL 560-5 - " content="RAL 560-5 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 560-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 560-5&metallic2=False">
+                    RAL 560-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 560-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 560-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(126,110,127)" name="RAL 560-6" id="RAL 560-6" alt="RAL Effect, RAL 560-6 - " content="RAL 560-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 560-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 560-6&metallic2=False">
+                    RAL 560-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 560-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 560-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(166,145,164)" name="RAL 560-M" id="RAL 560-M" alt="RAL Effect, RAL 560-M - " content="RAL 560-M - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 560-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 560-M&metallic2=True">
+                    RAL 560-M</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 570-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 570-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(212,205,232)" name="RAL 570-1" id="RAL 570-1" alt="RAL Effect, RAL 570-1 - " content="RAL 570-1 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 570-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 570-1&metallic2=False">
+                    RAL 570-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 570-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 570-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(198,190,225)" name="RAL 570-2" id="RAL 570-2" alt="RAL Effect, RAL 570-2 - " content="RAL 570-2 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 570-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 570-2&metallic2=False">
+                    RAL 570-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 570-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 570-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(179,172,221)" name="RAL 570-3" id="RAL 570-3" alt="RAL Effect, RAL 570-3 - " content="RAL 570-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 570-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 570-3&metallic2=False">
+                    RAL 570-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 570-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 570-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(161,153,208)" name="RAL 570-4" id="RAL 570-4" alt="RAL Effect, RAL 570-4 - " content="RAL 570-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 570-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 570-4&metallic2=False">
+                    RAL 570-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 570-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 570-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(134,119,180)" name="RAL 570-5" id="RAL 570-5" alt="RAL Effect, RAL 570-5 - " content="RAL 570-5 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 570-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 570-5&metallic2=False">
+                    RAL 570-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 570-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 570-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(126,103,155)" name="RAL 570-6" id="RAL 570-6" alt="RAL Effect, RAL 570-6 - " content="RAL 570-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 570-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 570-6&metallic2=False">
+                    RAL 570-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 570-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 570-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(114,87,154)" name="RAL 570-M" id="RAL 570-M" alt="RAL Effect, RAL 570-M - " content="RAL 570-M - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 570-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 570-M&metallic2=True">
+                    RAL 570-M</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 580-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 580-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(197,207,230)" name="RAL 580-1" id="RAL 580-1" alt="RAL Effect, RAL 580-1 - " content="RAL 580-1 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 580-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 580-1&metallic2=False">
+                    RAL 580-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 580-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 580-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(191,198,224)" name="RAL 580-2" id="RAL 580-2" alt="RAL Effect, RAL 580-2 - " content="RAL 580-2 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 580-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 580-2&metallic2=False">
+                    RAL 580-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 580-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 580-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(171,177,209)" name="RAL 580-3" id="RAL 580-3" alt="RAL Effect, RAL 580-3 - " content="RAL 580-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 580-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 580-3&metallic2=False">
+                    RAL 580-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 580-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 580-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(110,115,155)" name="RAL 580-4" id="RAL 580-4" alt="RAL Effect, RAL 580-4 - " content="RAL 580-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 580-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 580-4&metallic2=False">
+                    RAL 580-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 580-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 580-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(70,79,110)" name="RAL 580-5" id="RAL 580-5" alt="RAL Effect, RAL 580-5 - " content="RAL 580-5 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 580-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 580-5&metallic2=False">
+                    RAL 580-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 580-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 580-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(43,49,84)" name="RAL 580-6" id="RAL 580-6" alt="RAL Effect, RAL 580-6 - " content="RAL 580-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 580-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 580-6&metallic2=False">
+                    RAL 580-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 580-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 580-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(102,107,134)" name="RAL 580-M" id="RAL 580-M" alt="RAL Effect, RAL 580-M - " content="RAL 580-M - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 580-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 580-M&metallic2=True">
+                    RAL 580-M</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 590-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 590-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(108,108,155)" name="RAL 590-1" id="RAL 590-1" alt="RAL Effect, RAL 590-1 - " content="RAL 590-1 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 590-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 590-1&metallic2=False">
+                    RAL 590-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 590-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 590-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(73,65,118)" name="RAL 590-2" id="RAL 590-2" alt="RAL Effect, RAL 590-2 - " content="RAL 590-2 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 590-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 590-2&metallic2=False">
+                    RAL 590-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 590-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 590-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(52,52,108)" name="RAL 590-3" id="RAL 590-3" alt="RAL Effect, RAL 590-3 - " content="RAL 590-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 590-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 590-3&metallic2=False">
+                    RAL 590-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 590-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 590-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(46,46,91)" name="RAL 590-4" id="RAL 590-4" alt="RAL Effect, RAL 590-4 - " content="RAL 590-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 590-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 590-4&metallic2=False">
+                    RAL 590-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 590-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 590-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(32,44,89)" name="RAL 590-5" id="RAL 590-5" alt="RAL Effect, RAL 590-5 - " content="RAL 590-5 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 590-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 590-5&metallic2=False">
+                    RAL 590-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 590-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 590-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(37,58,122)" name="RAL 590-6" id="RAL 590-6" alt="RAL Effect, RAL 590-6 - " content="RAL 590-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 590-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 590-6&metallic2=False">
+                    RAL 590-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 590-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 590-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(49,55,98)" name="RAL 590-M" id="RAL 590-M" alt="RAL Effect, RAL 590-M - " content="RAL 590-M - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 590-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 590-M&metallic2=True">
+                    RAL 590-M</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 610-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 610-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(115,142,171)" name="RAL 610-1" id="RAL 610-1" alt="RAL Effect, RAL 610-1 - " content="RAL 610-1 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 610-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 610-1&metallic2=False">
+                    RAL 610-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 610-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 610-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(101,122,148)" name="RAL 610-2" id="RAL 610-2" alt="RAL Effect, RAL 610-2 - " content="RAL 610-2 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 610-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 610-2&metallic2=False">
+                    RAL 610-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 610-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 610-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(116,148,185)" name="RAL 610-3" id="RAL 610-3" alt="RAL Effect, RAL 610-3 - " content="RAL 610-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 610-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 610-3&metallic2=False">
+                    RAL 610-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 610-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 610-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(144,177,216)" name="RAL 610-4" id="RAL 610-4" alt="RAL Effect, RAL 610-4 - " content="RAL 610-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 610-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 610-4&metallic2=False">
+                    RAL 610-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 610-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 610-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(85,118,175)" name="RAL 610-5" id="RAL 610-5" alt="RAL Effect, RAL 610-5 - " content="RAL 610-5 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 610-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 610-5&metallic2=False">
+                    RAL 610-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 610-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 610-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(79,104,154)" name="RAL 610-6" id="RAL 610-6" alt="RAL Effect, RAL 610-6 - " content="RAL 610-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 610-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 610-6&metallic2=False">
+                    RAL 610-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 610-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 610-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(126,150,182)" name="RAL 610-M" id="RAL 610-M" alt="RAL Effect, RAL 610-M - " content="RAL 610-M - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 610-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 610-M&metallic2=True">
+                    RAL 610-M</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 620-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 620-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(63,103,138)" name="RAL 620-1" id="RAL 620-1" alt="RAL Effect, RAL 620-1 - " content="RAL 620-1 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 620-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 620-1&metallic2=False">
+                    RAL 620-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 620-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 620-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(103,146,172)" name="RAL 620-2" id="RAL 620-2" alt="RAL Effect, RAL 620-2 - " content="RAL 620-2 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 620-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 620-2&metallic2=False">
+                    RAL 620-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 620-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 620-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(103,129,143)" name="RAL 620-3" id="RAL 620-3" alt="RAL Effect, RAL 620-3 - " content="RAL 620-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 620-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 620-3&metallic2=False">
+                    RAL 620-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 620-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 620-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(62,90,106)" name="RAL 620-4" id="RAL 620-4" alt="RAL Effect, RAL 620-4 - " content="RAL 620-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 620-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 620-4&metallic2=False">
+                    RAL 620-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 620-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 620-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(28,53,75)" name="RAL 620-5" id="RAL 620-5" alt="RAL Effect, RAL 620-5 - " content="RAL 620-5 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 620-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 620-5&metallic2=False">
+                    RAL 620-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 620-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 620-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(33,45,63)" name="RAL 620-6" id="RAL 620-6" alt="RAL Effect, RAL 620-6 - " content="RAL 620-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 620-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 620-6&metallic2=False">
+                    RAL 620-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 620-M - Deep river" href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 620-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(19,50,70)" name="RAL 620-M" id="RAL 620-M" alt="RAL Effect, RAL 620-M - Deep river" content="RAL 620-M - Deep river" />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 620-M - Deep river" href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 620-M&metallic2=True">
+                    RAL 620-M</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 630-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 630-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(98,162,211)" name="RAL 630-1" id="RAL 630-1" alt="RAL Effect, RAL 630-1 - " content="RAL 630-1 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 630-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 630-1&metallic2=False">
+                    RAL 630-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 630-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 630-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(77,106,142)" name="RAL 630-2" id="RAL 630-2" alt="RAL Effect, RAL 630-2 - " content="RAL 630-2 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 630-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 630-2&metallic2=False">
+                    RAL 630-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 630-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 630-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(55,78,111)" name="RAL 630-3" id="RAL 630-3" alt="RAL Effect, RAL 630-3 - " content="RAL 630-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 630-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 630-3&metallic2=False">
+                    RAL 630-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 630-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 630-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(54,74,110)" name="RAL 630-4" id="RAL 630-4" alt="RAL Effect, RAL 630-4 - " content="RAL 630-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 630-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 630-4&metallic2=False">
+                    RAL 630-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 630-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 630-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(38,52,84)" name="RAL 630-5" id="RAL 630-5" alt="RAL Effect, RAL 630-5 - " content="RAL 630-5 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 630-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 630-5&metallic2=False">
+                    RAL 630-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 630-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 630-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(34,53,84)" name="RAL 630-6" id="RAL 630-6" alt="RAL Effect, RAL 630-6 - " content="RAL 630-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 630-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 630-6&metallic2=False">
+                    RAL 630-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 630-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 630-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(30,48,76)" name="RAL 630-M" id="RAL 630-M" alt="RAL Effect, RAL 630-M - " content="RAL 630-M - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 630-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 630-M&metallic2=True">
+                    RAL 630-M</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 640-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 640-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(88,159,197)" name="RAL 640-1" id="RAL 640-1" alt="RAL Effect, RAL 640-1 - " content="RAL 640-1 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 640-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 640-1&metallic2=False">
+                    RAL 640-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 640-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 640-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(40,134,181)" name="RAL 640-2" id="RAL 640-2" alt="RAL Effect, RAL 640-2 - " content="RAL 640-2 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 640-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 640-2&metallic2=False">
+                    RAL 640-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 640-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 640-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(7,122,174)" name="RAL 640-3" id="RAL 640-3" alt="RAL Effect, RAL 640-3 - " content="RAL 640-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 640-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 640-3&metallic2=False">
+                    RAL 640-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 640-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 640-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(0,91,140)" name="RAL 640-4" id="RAL 640-4" alt="RAL Effect, RAL 640-4 - " content="RAL 640-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 640-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 640-4&metallic2=False">
+                    RAL 640-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 640-5 - Mid-century blue" href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 640-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(0,83,138)" name="RAL 640-5" id="RAL 640-5" alt="RAL Effect, RAL 640-5 - Mid-century blue" content="RAL 640-5 - Mid-century blue" />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 640-5 - Mid-century blue" href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 640-5&metallic2=False">
+                    RAL 640-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 640-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 640-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(0,78,125)" name="RAL 640-6" id="RAL 640-6" alt="RAL Effect, RAL 640-6 - " content="RAL 640-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 640-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 640-6&metallic2=False">
+                    RAL 640-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 640-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 640-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(0,77,136)" name="RAL 640-M" id="RAL 640-M" alt="RAL Effect, RAL 640-M - " content="RAL 640-M - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 640-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 640-M&metallic2=True">
+                    RAL 640-M</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 650-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 650-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(111,180,214)" name="RAL 650-1" id="RAL 650-1" alt="RAL Effect, RAL 650-1 - " content="RAL 650-1 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 650-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 650-1&metallic2=False">
+                    RAL 650-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 650-2 - Electric blue" href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 650-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(0,118,160)" name="RAL 650-2" id="RAL 650-2" alt="RAL Effect, RAL 650-2 - Electric blue" content="RAL 650-2 - Electric blue" />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 650-2 - Electric blue" href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 650-2&metallic2=False">
+                    RAL 650-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 650-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 650-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(0,107,151)" name="RAL 650-3" id="RAL 650-3" alt="RAL Effect, RAL 650-3 - " content="RAL 650-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 650-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 650-3&metallic2=False">
+                    RAL 650-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 650-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 650-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(0,84,119)" name="RAL 650-4" id="RAL 650-4" alt="RAL Effect, RAL 650-4 - " content="RAL 650-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 650-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 650-4&metallic2=False">
+                    RAL 650-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 650-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 650-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(43,90,120)" name="RAL 650-5" id="RAL 650-5" alt="RAL Effect, RAL 650-5 - " content="RAL 650-5 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 650-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 650-5&metallic2=False">
+                    RAL 650-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 650-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 650-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(52,69,98)" name="RAL 650-6" id="RAL 650-6" alt="RAL Effect, RAL 650-6 - " content="RAL 650-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 650-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 650-6&metallic2=False">
+                    RAL 650-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 650-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 650-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(0,112,157)" name="RAL 650-M" id="RAL 650-M" alt="RAL Effect, RAL 650-M - " content="RAL 650-M - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 650-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 650-M&metallic2=True">
+                    RAL 650-M</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 660-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 660-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(0,148,176)" name="RAL 660-1" id="RAL 660-1" alt="RAL Effect, RAL 660-1 - " content="RAL 660-1 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 660-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 660-1&metallic2=False">
+                    RAL 660-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 660-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 660-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(44,140,168)" name="RAL 660-2" id="RAL 660-2" alt="RAL Effect, RAL 660-2 - " content="RAL 660-2 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 660-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 660-2&metallic2=False">
+                    RAL 660-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 660-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 660-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(90,165,184)" name="RAL 660-3" id="RAL 660-3" alt="RAL Effect, RAL 660-3 - " content="RAL 660-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 660-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 660-3&metallic2=False">
+                    RAL 660-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 660-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 660-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(80,183,207)" name="RAL 660-4" id="RAL 660-4" alt="RAL Effect, RAL 660-4 - " content="RAL 660-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 660-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 660-4&metallic2=False">
+                    RAL 660-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 660-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 660-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(116,194,211)" name="RAL 660-5" id="RAL 660-5" alt="RAL Effect, RAL 660-5 - " content="RAL 660-5 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 660-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 660-5&metallic2=False">
+                    RAL 660-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 660-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 660-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(143,200,213)" name="RAL 660-6" id="RAL 660-6" alt="RAL Effect, RAL 660-6 - " content="RAL 660-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 660-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 660-6&metallic2=False">
+                    RAL 660-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 660-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 660-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(92,150,169)" name="RAL 660-M" id="RAL 660-M" alt="RAL Effect, RAL 660-M - " content="RAL 660-M - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 660-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 660-M&metallic2=True">
+                    RAL 660-M</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 670-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 670-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(146,211,234)" name="RAL 670-1" id="RAL 670-1" alt="RAL Effect, RAL 670-1 - " content="RAL 670-1 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 670-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 670-1&metallic2=False">
+                    RAL 670-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 670-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 670-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(158,218,239)" name="RAL 670-2" id="RAL 670-2" alt="RAL Effect, RAL 670-2 - " content="RAL 670-2 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 670-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 670-2&metallic2=False">
+                    RAL 670-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 670-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 670-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(148,196,214)" name="RAL 670-3" id="RAL 670-3" alt="RAL Effect, RAL 670-3 - " content="RAL 670-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 670-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 670-3&metallic2=False">
+                    RAL 670-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 670-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 670-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(115,187,211)" name="RAL 670-4" id="RAL 670-4" alt="RAL Effect, RAL 670-4 - " content="RAL 670-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 670-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 670-4&metallic2=False">
+                    RAL 670-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 670-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 670-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(103,185,213)" name="RAL 670-5" id="RAL 670-5" alt="RAL Effect, RAL 670-5 - " content="RAL 670-5 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 670-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 670-5&metallic2=False">
+                    RAL 670-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 670-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 670-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(97,193,230)" name="RAL 670-6" id="RAL 670-6" alt="RAL Effect, RAL 670-6 - " content="RAL 670-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 670-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 670-6&metallic2=False">
+                    RAL 670-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 670-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 670-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(121,167,184)" name="RAL 670-M" id="RAL 670-M" alt="RAL Effect, RAL 670-M - " content="RAL 670-M - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 670-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 670-M&metallic2=True">
+                    RAL 670-M</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 680-1 - Blue lagoon" href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 680-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(119,170,186)" name="RAL 680-1" id="RAL 680-1" alt="RAL Effect, RAL 680-1 - Blue lagoon" content="RAL 680-1 - Blue lagoon" />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 680-1 - Blue lagoon" href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 680-1&metallic2=False">
+                    RAL 680-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 680-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 680-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(64,143,164)" name="RAL 680-2" id="RAL 680-2" alt="RAL Effect, RAL 680-2 - " content="RAL 680-2 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 680-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 680-2&metallic2=False">
+                    RAL 680-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 680-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 680-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(40,113,133)" name="RAL 680-3" id="RAL 680-3" alt="RAL Effect, RAL 680-3 - " content="RAL 680-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 680-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 680-3&metallic2=False">
+                    RAL 680-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 680-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 680-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(51,118,141)" name="RAL 680-4" id="RAL 680-4" alt="RAL Effect, RAL 680-4 - " content="RAL 680-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 680-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 680-4&metallic2=False">
+                    RAL 680-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 680-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 680-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(5,105,133)" name="RAL 680-5" id="RAL 680-5" alt="RAL Effect, RAL 680-5 - " content="RAL 680-5 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 680-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 680-5&metallic2=False">
+                    RAL 680-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 680-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 680-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(0,90,116)" name="RAL 680-6" id="RAL 680-6" alt="RAL Effect, RAL 680-6 - " content="RAL 680-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 680-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 680-6&metallic2=False">
+                    RAL 680-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 680-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 680-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(27,68,92)" name="RAL 680-M" id="RAL 680-M" alt="RAL Effect, RAL 680-M - " content="RAL 680-M - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 680-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 680-M&metallic2=True">
+                    RAL 680-M</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 690-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 690-1&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(77,191,203)" name="RAL 690-1" id="RAL 690-1" alt="RAL Effect, RAL 690-1 - " content="RAL 690-1 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 690-1 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 690-1&metallic2=False">
+                    RAL 690-1</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 690-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 690-2&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(24,161,173)" name="RAL 690-2" id="RAL 690-2" alt="RAL Effect, RAL 690-2 - " content="RAL 690-2 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 690-2 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 690-2&metallic2=False">
+                    RAL 690-2</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 690-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 690-3&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(0,131,142)" name="RAL 690-3" id="RAL 690-3" alt="RAL Effect, RAL 690-3 - " content="RAL 690-3 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 690-3 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 690-3&metallic2=False">
+                    RAL 690-3</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 690-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 690-4&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(0,108,123)" name="RAL 690-4" id="RAL 690-4" alt="RAL Effect, RAL 690-4 - " content="RAL 690-4 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 690-4 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 690-4&metallic2=False">
+                    RAL 690-4</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 690-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 690-5&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(0,83,95)" name="RAL 690-5" id="RAL 690-5" alt="RAL Effect, RAL 690-5 - " content="RAL 690-5 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 690-5 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 690-5&metallic2=False">
+                    RAL 690-5</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 690-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 690-6&metallic2=False">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(0,81,96)" name="RAL 690-6" id="RAL 690-6" alt="RAL Effect, RAL 690-6 - " content="RAL 690-6 - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 690-6 - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 690-6&metallic2=False">
+                    RAL 690-6</a></h2>
+        </li>
+        
+        <li>
+            <a title="More information about RAL 690-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 690-M&metallic2=True">
+                <img src="images/clearpixel.gif" style="vertical-align: bottom; border: 0px; background-color: rgb(0,103,114)" name="RAL 690-M" id="RAL 690-M" alt="RAL Effect, RAL 690-M - " content="RAL 690-M - " />
+          </a>
+            <h2 style="font-weight: normal">
+                <a title="More information about RAL 690-M - " href="Lab_values.asp?cRange=RAL Effect&cRef=RAL 690-M&metallic2=True">
+                    RAL 690-M</a></h2>
+        </li>
+        
+        <div class="clear"></div>
+    </ul>
+
+</div>
+<div class="colour-chart-nav center">
+    <a class="g-btn-g" href="ral_effect_colours.asp?Effect=1">RAL Effect 110-1 to 290-M</a>
+    <a class="g-btn-g" href="ral_effect_colours.asp?Effect=2">RAL Effect 310-1 to 490-M</a>
+    <a class="g-btn-g" href="ral_effect_colours.asp?Effect=3">RAL Effect 510-1 to 690-M</a>
+    <a class="g-btn-g" href="ral_effect_colours.asp?Effect=4">RAL Effect 710-1 to 870-M</a>
+    <div class="clear"></div>
+</div>
+<hr />
+
+<div class="colour-chart-nav center">
+    <a class="g-btn-b" href="BS_4800_Colour_chart.asp">BS 4800 colour chart</a>
+    <a class="g-btn-b" href="BS2660_colour_chart.asp">BS 2660 colour chart</a>
+    <a class="g-btn-b" href="RAL_Classic_Colour_chart.asp">RAL colour chart</a>
+    <a class="g-btn-b" href="bs5252_colour_chart.asp">BS 5252 colour chart</a>
+    <div class="clear"></div>
+</div>
+
+
+
+	<br /><hr /><p>
+        <b><a href="/categories.asp">Continue Shopping</a></b> &brvbar;
+<a href="javascript:void(0);" onclick="history.go(-1); return(false);" >
+<b>Back </b></a>
+        <img src="images/clearpixel.gif" width="1" height="1" alt="spacer" /></p><hr /><br />
+<!-- #EndEditable -->
+        
+        
+        <!--aside-->
+		</div>
+<!--here-->
+<div class="logodiv">
+<aside class="sidebar">
+<div class="products_category_box">
+                    	<h2>COLOUR FANS AND SHEETS</h2>
+                        <ul>
+	 	   		<li><a href="https://www.e-paint.co.uk/Ral_colour_guides.asp">RAL Classic colour guides</a></li>	
+	 	   		<li><a class="parent" href="https://www.e-paint.co.uk/products.asp?cat=41">Individual RAL Classic sheets</a></li>
+	 	   		<li><a href="https://www.e-paint.co.uk/products.asp?cat=52">RAL Design colour fans</a></li>
+	           	<li><a href="https://www.e-paint.co.uk/products.asp?cat=56">RAL Effect colour fans</a></li>
+           		<li><a href="https://www.e-paint.co.uk/products.asp?cat=62">NCS Index colour fans</a></li>
+           		<li><a href="https://www.e-paint.co.uk/BS_colour_guides.asp">British Standard colour guides</a></li>
+           		<li><a href="https://www.e-paint.co.uk/products.asp?cat=60">US Federal Std 595 colour fans</a></li>
+            	<li><a href="https://www.e-paint.co.uk/products.asp?cat=65">AMS Standard 595A colour fans</a></li>
+             	<li><a href="https://www.e-paint.co.uk/products.asp?cat=63">Australian Std. 2700 colour fans</a></li>
+        		<li><a href="https://www.e-paint.co.uk/products.asp?cat=59">CIELAB Colour Fans</a></li>
+           	
+                        </ul>
+                    </div>
+<!--cart-->
+         <div class="contact_box_left">
+
+
+     <table class="mincart" width="130" bgcolor="#FFFFFF">
+        <tr> 
+          <td class="mincart" bgcolor="#F0F0F0" align="center"><img src="images/littlecart1.png" style="vertical-align:text-top;" width="16" height="16" alt="Shopping basket"> 
+            &nbsp;<strong><a class="ectlink mincart" href="https://www.e-paint.co.uk/cart.asp">Shopping basket</a></strong></td>
+        </tr>
+        <tr> 
+          <td class="mincart" bgcolor="#F0F0F0" align="center"> 
+            0 Product(s) in basket</td>
+        </tr>
+ 
+        <tr> 
+          <td class="mincart" bgcolor="#F0F0F0" align="center"><span class="cartquant">Total &pound;0.00<br>plus delivery.</span></td>
+        </tr>
+        </table>    
+</div>
+<!---infobox-->
+<div class="clear">
+<div class="products_category_box">
+                    <h2>INFORMATION</h2>
+                    
+                    <ul>
+        				 <li><a href="https://www.e-paint.co.uk/chart_options.asp">
+						 Colour charts</a></li>
+						<li><a href="https://www.e-paint.co.uk/search_for_colours_and_products.asp">
+						Search</a></li>
+     					<li><a href="https://www.e-paint.co.uk/Lab_values.asp">
+						LAB/HLC/RGB Values</a></li>
+    					<li><a href="https://www.e-paint.co.uk/delivery.asp">
+						Delivery</a></li>
+      					<li><a href="https://www.e-paint.co.uk/print_options.asp">
+						Print Colours</a></li>
+  						<li><a href="https://www.e-paint.co.uk/security.asp">
+						Security</a></li>
+    					<li><a href="https://www.e-paint.co.uk/terms_and_conditions.asp">
+						Terms &amp; Conditions</a></li>
+						<li><a href="https://www.e-paint.co.uk/faqs.asp">Help / 
+						FAQS</a></li>
+						<li><a href="https://www.e-paint.co.uk/supplier_directory.asp">
+						Paint suppliers</a></li>
+	 					<li><a href="https://www.e-paint.co.uk/Contact_options.asp">
+						Contact Us</a></li>
+                    </ul>
+                    
+              </div>
+</div>
+<!--minilogos-->
+<div class="mini-logos"> 
+	<div class="special_offer_pr_box" style="left: 0px; top: 0px">
+	         <!-- #BeginEditable "news" -->
+            <p>
+ <a href="https://www.e-paint.co.uk/products.asp?cat=56">
+			<img src="images/small_pics/ral-e4(2).gif" alt="RAL Effect E4 metallic colour fan" title="RAL E4 colour fan"/></a></p>
+ <p class="product_name"> <a href="https://www.e-paint.co.uk/products.asp?cat=56">
+ RAL Effect E4 metallic colour fan <br /><b>&pound;36.99</b> </a></p>
+<br /><hr />
+<p>
+<a href="https://www.e-paint.co.uk/products.asp?cat=51">
+<img src="includes/BS%204800_small.gif" alt="British Standard BS 4800:2011 colour fan" title="British Standard BS 4800:2011 colour fan"/></a></p>
+ <p class="product_name"> <a href="https://www.e-paint.co.uk/products.asp?cat=51">
+ BS 4800:2011 colour fan <br /><b>&pound;299.00</b> </a></p>
+    <hr /><p>
+<a href="https://www.e-paint.co.uk/products.asp?cat=51">
+			 <img src="includes/BS%20colour%20fan.gif" alt="Full British Standard colour fan" title="Full British Standard colour fan"/></a></p>
+ <p class="product_name"> <a href="https://www.e-paint.co.uk/products.asp?cat=51">
+ British Stds. colour fan <br /><span style="text-decoration:line-through">&pound;46.99</span> <b>&pound;39.99</b> </a></p>
+ <hr />
+  <div class="adstyle">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- bb1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0375310117557033"
+     data-ad-slot="9865345308"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<hr />
+
+<!-- #EndEditable -->
+                    <script type="text/javascript">
+
+                        function MakeArray(n) {
+	                        this.length = n;
+	                        for (var i = 1; i <= n; i++) {
+		                        this[i] = null;
+                        }
+                        return this;
+                        }
+                        var NumberImages024149 = 3;
+                        var image024149 = 0;
+                        var imag024149 = new MakeArray(NumberImages024149);
+                        var link024149 = new MakeArray(NumberImages024149);
+                        imag024149[1] = "includes/images/RALclassic.gif";
+                        link024149[1] = "Ral_colour_guides.asp";
+                        imag024149[2] = "includes/images/RALeffect.gif";
+                        link024149[2] = "products.asp?cat=56";
+                        imag024149[3] = "includes/images/RALdesign.gif";
+                        link024149[3] = "products.asp?cat=52";
+
+                        function GetRand024149()
+                        {
+                          return (Math.round(Math.random()*(NumberImages024149-1)))+1;
+                        }
+                        function NewImage024149()
+                        {
+                          if (image024149 == 0 ) { 
+                           while( OldRandNum024149 == RandNumber024149) RandNumber024149 = GetRand024149();
+                           OldRandNum024149 = RandNumber024149;
+                          } else { 
+                           if (image024149 == NumberImages024149) { image024149 = 0; } 
+                           RandNumber024149 = ++image024149;
+                          }
+                          document.images['img024149'].src = imag024149[RandNumber024149];
+                          window.setTimeout("NewImage024149()",20000);
+                        }
+                        var RandNumber024149 = GetRand024149();
+                        if(image024149 != 0) { RandNumber024149 = 1; image024149 = 1;}
+                        var OldRandNum024149 = RandNumber024149;
+                        if(document.images)  window.setTimeout("NewImage024149()",20000);
+                        document.write('<a href="javascript:void(0);" onclick="this.href=link024149[RandNumber024149];" target="_self" id="lnk024149" ><img src="',imag024149[RandNumber024149],'" border=0 id="img024149" name="img024149" ></a>');
+                        // -->
+                    </script><br />
+                    <script type="text/javascript" src="https://sealserver.trustwave.com/seal.js?style=invert&size=65x36&code=fa6f7c4ddbac42d0a0171b003d375312"></script>
+                 </div>
+                
+                    <div class="contact_box_left">
+                    	<h2>Contact</h2>
+                    	<hr />
+                        <p class="comp_name">e-paint.co.uk</p>
+                    
+                        <p class="email_icon">
+						<a href="mailto:sales@e-paint.co.uk?subject=Enquiry from the e-paint.co.uk website">
+						sales@e-paint.co.uk</a></p>
+                    </div>
+               </div>     
+			</aside>
+		</div>
+    </div>
+</div>
+
+<!--footer-->
+    <div class="footer-line"><h3><p class="footer-tag g-pad">e-paint.co.uk - Colour Cards, Charts, Fans and Books</p></h3></div>
+
+<div class="footer clear">
+  <div class="wrapper">
+    <ul class="col1">
+      <li>
+        <strong>Products &amp; Services</strong>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk">Home</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/categories.asp">Products</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/Colour_alternatives.asp">Colour alternatives</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/search_colour.asp">Colour search</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/chart_options.asp">Colour charts</a>
+      </li>
+ 
+ 
+    </ul>
+    <ul class="col2">
+      <li>
+        <strong>Help</strong>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/delivery.asp">Delivery information</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/terms_and_conditions.asp">Terms &amp; conditions</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/security.asp">Security and privacy</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/contact_us.asp">Comments</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/faqs.asp">FAQs</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/Contact_options.asp">Contact us</a>
+      </li>
+    </ul>
+    <ul class="col3">
+      <li>
+        <strong>Information</strong>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/Advanced_menu.asp">Colour information</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/colour_trends_2016.asp">Colour trends</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/supplier_directory.asp">Supplier directory</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/Contact_advertisers_home.asp?">Advertising</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/sitemap.txt">Sitemap</a>
+      </li>
+    </ul>
+    <div class="col4">
+      <div class="note">
+        <p>Note: Colours shown on this site are for guidance only and should not be taken as a representation of the true colours.</p>
+      </div>
+      <div class="note">
+        <p>
+          We do not supply paints. If you would like paints to these colours, we would suggest you <a href="supplier_directory.asp">click here</a>
+        </p>
+      </div>
+  
+    </div>
+      <div class="clear"></div>
+     <div class="accepted2">
+     <hr /><img src="image/accepted-cards.png" alt="Credit cards" />
+     <hr />
+     </div>
+  
+  </div>
+
+</div>
+ 
+<div class="footer_bottom_links">
+       	  <div class="width_wrapper">
+          <div class="bottom_links">
+          <h2>e-paint.co.uk <br /> Colour Cards, Charts, Fans and Books</h2><br />
+            	<a href="https://www.e-paint.co.uk/Web_development.htm">&copy; 
+			  e-paint.co.uk 2020, All rights reserved</a><br />
+            <ul>
+                    <li><a href="https://www.e-paint.co.uk/contact_options.asp">
+					Contact</a></li>
+                    <li><a href="https://www.e-paint.co.uk/terms_and_conditions.asp">Terms and Conditions</a></li>
+                    <li class="last"><a href="https://www.e-paint.co.uk/security.asp">
+					Privacy</a></li>
+              </ul>
+              </div>
+             
+            </div>
+            <div class="clear"></div>
+        </div>
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40721933-1', 'e-paint.co.uk');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+
+  am = "Sorry, copying of the colours is not encouraged!";
+
+  bV  = parseInt(navigator.appVersion)
+  bNS = navigator.appName=="Netscape"
+  bIE = navigator.appName=="Microsoft Internet Explorer"
+
+  function nrc(e) {
+  if (bNS && e.which > 1){
+  alert(am)
+  return false
+  } else if (bIE && (event.button >1)) {
+  alert(am);
+  return false;
+  }
+  }
+</script>
+
+    </body>
+
+<!-- #EndTemplate -->
+
+</html>

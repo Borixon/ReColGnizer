@@ -8,9 +8,10 @@
 
 import UIKit
 
-extension FavouriteViewController: UISearchBarDelegate {
+extension ColourListViewController: UISearchBarDelegate {
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         searchBar.resignFirstResponder()
+        tableView.reloadData()
     }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
@@ -20,16 +21,17 @@ extension FavouriteViewController: UISearchBarDelegate {
     func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
         searchBar.setShowsCancelButton(true, animated: true)
         vm.setSearchPhrase(searchBar.text)
-        vm.reloadData()
+        tableView.reloadData()
     }
     
     func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
         searchBar.resignFirstResponder()
         searchBar.setShowsCancelButton(false, animated: true)
+        tableView.reloadData()
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         vm.setSearchPhrase(searchText)
-        vm.reloadData()
+        tableView.reloadData()
     }
 }

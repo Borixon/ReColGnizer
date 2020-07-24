@@ -79,7 +79,7 @@ class ColorDataViewModel: NSObject {
     }
     
     private func checkForButtonLabel() {
-        DataManager.shared.isColorSaved(model.hex.value, completion: { saved in
+        CoreDataManager.shared.isColorSaved(model.hex.value, completion: { saved in
             if saved {
                 self.delegate?.setButtonTitle(self.removeFromFav)
             } else {
@@ -89,12 +89,12 @@ class ColorDataViewModel: NSObject {
     }
     
     public func saveRemovePressed() {
-        DataManager.shared.isColorSaved(model.hex.value, completion: { saved in
+        CoreDataManager.shared.isColorSaved(model.hex.value, completion: { saved in
             if saved {
-                DataManager.shared.removeColor(self.model.hex.value)
+                CoreDataManager.shared.removeColor(self.model.hex.value)
                 self.delegate?.setButtonTitle(self.addToFav)
             } else {
-                DataManager.shared.saveColor(self.model)
+                CoreDataManager.shared.saveColor(self.model)
                 self.delegate?.setButtonTitle(self.removeFromFav)
             }
         })

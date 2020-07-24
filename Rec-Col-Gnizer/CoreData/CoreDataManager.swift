@@ -8,14 +8,14 @@
 
 import UIKit
 
-protocol DataManagerDelegate {
+protocol CoreDataManagerDelegate {
     func dataHasChanged()
 }
 
-class DataManager {
+class CoreDataManager {
 
-    static let shared = DataManager()
-    public var delegate: DataManagerDelegate?
+    static let shared = CoreDataManager()
+    public var delegate: CoreDataManagerDelegate?
     private let stack: CoreDataStack
     
     init() {
@@ -66,7 +66,7 @@ class DataManager {
     }
 }
 
-extension DataManager: CoreDataStackManager {
+extension CoreDataManager: CoreDataStackManager {
     func contextHasChanged() {
         DispatchQueue.main.async {
             self.delegate?.dataHasChanged()

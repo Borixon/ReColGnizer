@@ -9,10 +9,13 @@
 import Foundation
  
 enum ColourSystems: String, CaseIterable {
-    case DIN = "DIN"
-    case Dulux = "Dulux"
-    case NCS = "NCS"
+    case Dulux = "Dulux Colours"
+    case NCS = "Natural Colour System"
     case RALClassic = "RAL Classic"
     case RALDesign = "RAL Design"
     case RALEffec = "RAL Effect"
+    
+    var infoDescription: String {
+        ""
+    }
 }

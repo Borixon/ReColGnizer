@@ -1,0 +1,2380 @@
+
+<!DOCTYPE html>
+<html lang="en-gb">
+<!-- #BeginTemplate "Templates/Template2.dwt" -->
+<head>
+<!-- #BeginEditable "doctitle" -->
+
+<title>DIN 6164 COLOURS  - TSD 20 to TSD 24 Greens</title>
+<meta name="description" content="DIN 6164 colour charts, swatches, cards, fans and books.  - TSD 20 to TSD 24 Greens" />
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This site uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"","link":null,"theme":"dark-bottom"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+<!-- #EndEditable -->
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="_PZk64jgfw21jkO3G-sHAv19KsgvqPVy0B1Qa7oXXvU" />
+<meta name="robots" content="index,follow" />
+<meta name="subject" content="Colour Cards, Charts, Fans and Books " />
+<meta name="MSSmartTagsPreventParsing" content="false" />
+<meta http-equiv="ImageToolBar" content="yes" />
+<meta name="revisit-after" content="30" />
+<meta name="copyright" content="e-paint.co.uk" />
+<meta name="language" content="en-gb" />
+<meta name="classification" content="Business and Economy" />
+<meta name="distribution" content="Global" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<script language="javascript" type="text/javascript">
+function toggle(id) {
+    var el = document.getElementById(id);
+    var img = document.getElementById("arrow");
+    var box = el.getAttribute("class");
+    if(box == "navhide"){
+        el.setAttribute("class", "navshow");
+        delay(img, "/images/menu-ico_white.png", 100);
+    }
+    else{
+        el.setAttribute("class", "navhide");
+        delay(img, "/images/menu-ico.png", 100);
+    }
+}
+
+function delay(elem, src, delayTime){
+    window.setTimeout(function() {elem.setAttribute("src", src);}, delayTime);
+}
+
+</script>
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script src="javascript/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="css/script2.js" type="text/javascript"></script>
+
+ </head>
+<body>
+<!--Header-->
+   <div class="header">
+  <div class="wrapper">
+    <div class="logo">
+      <h2>
+        <a href="https://www.e-paint.co.uk/" title="RAL, NCS, Pantone, CIELab, US Fed Spec and British Standard Colour Guides - Fans, books, swatches, charts and cards for paints and coatings">e-paint.co.uk</a>
+      </h2>
+      <span>Colour Cards, Charts, Fans and Books</span>
+    </div>
+  <a href="https://www.e-paint.co.uk/delivery.asp" title="Free delivery by post to the UK"> <div class="free-delivery"></div></a>
+    <div class="holder">
+      <div class="top-menu">
+        <ul>
+            
+          <li>
+            <a target="_blank" href="https://www.e-paint.co.uk/contact_us.asp">
+              <span class="fa fa-envelope"></span>Contact
+            </a>
+          </li>
+          <li>
+            <a href="https://www.e-paint.co.uk/cart.asp">
+              <span class="fa fa-shopping-cart"></span>View basket
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="sub-top-menu">
+        <ul>
+          <li>
+            <a href="https://www.e-paint.co.uk/supplier_directory.asp" title="Paint, sealant and other suppliers"><img src="Nav_images/fill.png" alt="Paint suppliers" />Supplier directory</a>
+          </li>
+          <li>
+            <a href="https://www.e-paint.co.uk/colour_alternatives.asp" title="Convert from one colour system to another"><img src="Nav_images/hsv.png" alt="Colour conversions" />Colour Alternatives</a>
+          </li>
+       
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <!--menu-->
+<div class="menu">
+  <div class="wrapper">
+    <div id="menuico" onClick="toggle('mobnav');">
+      <i class="fa fa-bars mob-nav"></i>
+      <span>Menu</span>
+    </div>
+    <div class="top-nav">
+      <ul>
+        <li>
+          <a href="https://www.e-paint.co.uk/" title="Home">
+	<img src="Nav_images/home1.png" alt="Home"/>Home</a>        </li>
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/categories.asp"><img src="Nav_images/pantone.png" alt="Colour fan"/>Colour products</a>
+          <ul>
+            <li>
+              <a href="https://www.e-paint.co.uk/Ral_colour_guides.asp"><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Classic colour guides</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/categories.asp?cat=41"><img src="Nav_images/16colors.png" alt="A4 size sheets"/>Individual RAL sheets</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/BS_colour_guides.asp"><img src="Nav_images/pantone.png" alt="Colour fan"/>British Std. colour guides</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/products.asp?cat=52"><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Design colour fans</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/products.asp?cat=56"><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Effect colour fans</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/products.asp?cat=59"><img src="Nav_images/pantone.png" alt="Colour fan"/>CIELab colour fans</a>
+            </li>
+            <li><a href="https://www.e-paint.co.uk/products.asp?cat=60"><img src="Nav_images/pantone.png" alt="Colour fan"/>Federal Std 595 colour fans</a></li>
+            <li><a href="https://www.e-paint.co.uk/products.asp?cat=65"><img src="Nav_images/pantone.png" alt="Colour fan"/>AMS Std 595A colour fans</a></li>
+        <li><a href="https://www.e-paint.co.uk/products.asp?cat=63"><img src="Nav_images/pantone.png" alt="Colour fan"/>Australian Std. AS2700</a>
+            </li>
+       <li><a href="https://www.e-paint.co.uk/products.asp?cat=62"><img src="Nav_images/pantone.png" alt="Colour fan"/>NCS Index 1950 colour fans</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/products.asp?cat=54"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Customised colour cards</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/chart_options.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Colour charts</a>
+          <ul>
+            <li>
+              <a href="https://www.e-paint.co.uk/RAL_Classic_Colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL Classic colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/BS_4800_Colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>BS 4800:2011 colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/BS381 Colourchart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>BS 381C colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/bs2660_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>BS 2660 colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/bs5252_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>BS 5252 colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/other_bs_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Other BS colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/pantone_c_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Pantone colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Munsell_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Munsell colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/ral_design_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL Design colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/ral_effect_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL Effect colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/DIN_6164_colours.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>DIN 6164 colour chart</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/Dulux_Trade_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Dulux<sup>&reg;</sup> Trade colour chart</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/NCS_1950_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>NCS 1950 colour chart</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Australian_standard_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Australian Standard colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Federal_standard_595C_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>Federal Std. 595C colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/ams_standard_595_colour_chart.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>AMS Std. 595A colours</a>
+            </li>
+         </ul>
+        </li>
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/search_for_colours_and_products.asp"><img src="Nav_images/search.png" alt="Search for colours and products" />Search</a>
+          <ul class="alnright">
+              <li>
+                <a href="https://www.e-paint.co.uk/search.asp"><img src="Nav_images/search.png" alt="Search" />Product search</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/search_colour.asp"><img src="Nav_images/find.png" alt="Search" />Colour search</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/Convert_RGB.asp"><img src="Nav_images/rgb.png" alt="Lab and HLC values" />Search by RGB values</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/Convert_Lab.asp"><img src="Nav_images/lab_color_model.png" alt="Lab and HLC values" />Search by L*a*b* values</a>
+              </li>
+        <li>
+                <a href="https://www.e-paint.co.uk/Dulux_codes.asp"><img src="Nav_images/lab_color_model.png" alt="Dulux codes" />Search by Dulux<sup>&reg;</sup> codes values</a>
+              </li>
+			  <li> 
+			   <a href="https://www.e-paint.co.uk/search_whites_and_off_whites.asp"><img src="Nav_images/find.png" alt="Whites and pastels" />Whites and Pastels</a>
+              </li>
+           </ul>
+        </li>
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/Advanced_menu.asp"><img src="Nav_images/hsl.png" alt="Colour information"/>Advanced</a>
+          <ul class="alnright">
+            <li>
+              <a href="https://www.e-paint.co.uk/Lab_values.asp" title="Colour Lab, RGB and HLC values"><img src="Nav_images/yuv_color_space.png" alt="Lab and HLC values" />Colour L*a*b*/RGB values</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Colour_alternatives.asp"><img src="Nav_images/hsv.png" alt="Colour conversions" />Colour alternatives</a>
+            </li>
+             <li>
+              <a href="https://www.e-paint.co.uk/Compare_colours.asp"><img src="Nav_images/hsv.png" alt="Colour comparison" />Compare colours</a>
+            </li>
+ <li>
+              <a href="https://www.e-paint.co.uk/colour_trends_2016.asp"><img src="Nav_images/3d_graph.png" alt="Colour trends" />Colour trends 2016+</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/uk_organisations.asp"><img src="Nav_images/lock_color.png" alt="Organisation colours" />UK Organisations' colours</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/us_organisations.asp"><img src="Nav_images/lock_color.png" alt="US Organisation colours" />US Organisations' colours</a>
+            </li>
+         </ul>
+        </li>
+        <li class="donotshowontablet">
+          <a class="parent" href="https://www.e-paint.co.uk/print_options.asp"><img src="Nav_images/print.png" alt="print"/>Print</a>
+          <ul>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_ral_colours.asp">RAL Classic colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_RAL_design_colours.asp">RAL Design colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_RAL_effect_colours.asp">RAL Effect colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_BS4800_colours.asp">BS 4800 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_BS2660_colours.asp">BS 2660 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_bs381c_colours.asp">BS 381C colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_din_6164_colours.asp">DIN 6164 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_NCS_colours.asp">NCS 1950 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_australian_colours.asp">Australian Std. colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_FS595_colours.asp">Federal Std. 595 colours</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/print_AMS595_colours.asp">AMS Std. 595A colours</a>
+            </li>
+</ul>
+        </li>
+
+        <li>
+          <a class="parent" href="https://www.e-paint.co.uk/Contact_options.asp"><img src="Nav_images/help.png" alt="Contact"/>Help</a>
+          <ul class="moveleft">
+            <li>
+              <a href="https://www.e-paint.co.uk/contact_us.asp" title="Contact us by email"><img src="Nav_images/contact.png" alt="Contact" />General enquiry</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/customer_service.asp" title="Customer service" target="_blank"><img src="Nav_images/pie_chart.png" alt="Lab and HLC values" />Customer services</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/terms_and_conditions.asp" title="View terms and conditions"><img src="Nav_images/critical_details.png" alt="Terms and conditions" />Terms and conditions</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/copy_invoice(2.asp" title="Get a copy of your invoice" target="_blank"><img src="Nav_images/form.png" alt="Invoice" />Copy invoice</a>            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/faqs.asp" title="Frequently asked questions"><img src="Nav_images/help.png" alt="help" />FAQs / help</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/online_colour_charts.asp" title="Online colourcharts"><img src="Nav_images/colorchart.png" alt="online colourcharts" />Online colour charts</a>
+            </li>
+
+            <li><a href="https://www.e-paint.co.uk/delivery.asp" title="Delivery information"><img src="Nav_images/icon_truck.png" alt="Delivery" />Delivery</a></li>
+ 		<li>
+		<a href="https://www.e-paint.co.uk/security.asp" title="Security and cookie information"><img src="Nav_images/registration.png" alt="Security" />Security and privacy</a></li>
+		<li><a href="https://www.e-paint.co.uk/supplier_directory.asp" title="Find paint and other product suppliers"><img src="Nav_images/fill.png" alt="Paint suppliers" />Supplier directory</a></li>
+    	</ul>
+    </li>
+   </ul>
+    </div>
+    <div class="search-box">
+      <form method="post" action="https://www.e-paint.co.uk/search_colour.asp" style="margin-bottom: 0px">
+        <input type="hidden" name="posted" value="1" />
+        <input type="hidden" name="sprice" value="" />
+        <input class="search" type="text" name="cQuery" size="16" placeholder="colour search" />
+        <button type="submit" class="btn search-btn">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+<div id="mobnav" class="navhide">
+  <ul>
+    <li>
+      <a href="https://www.e-paint.co.uk/"><img src="../Nav_images/home1.png" alt="home"/>home</a>
+    </li>
+    <li class="has-sub">
+      <a href="https://www.e-paint.co.uk/categories.asp"><img src="Nav_images/pantone.png" alt="Colourchart"/>products / colour guides</a>
+<ul>
+                            <li><a href='https://www.e-paint.co.uk/RAL_colour_guides.asp'><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Classic colour guides</a></li>
+                            <li class="has-sub">
+                                <a href='https://www.e-paint.co.uk/categories.asp?cat=41'><img src="Nav_images/16colors.png" alt="A4 size sheets"/>Individual A4 colour cards</a>
+                                <ul>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=42'>RAL 1000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=43'>RAL 2000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=44'>RAL 3000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=45'>RAL 4000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=46'>RAL 5000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=47'>RAL 6000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=48'>RAL 7000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=49'>RAL 8000 Series A4 card</a></li>
+                                    <li class='last'><a href='https://www.e-paint.co.uk/products.asp?cat=50'>RAL 9000 Series A4 card</a></li>
+                                </ul>
+                            </li>
+                            <li><a href='https://www.e-paint.co.uk/BS_colour_guides.asp'><img src="Nav_images/pantone.png" alt="Colour fan"/>BS colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=56'><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Effect colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=52'><img src="Nav_images/pantone.png" alt="Colour fan"/>RAL Design colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=59'><img src="Nav_images/pantone.png" alt="Colour fan"/>CIELab colour fans</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=62'><img src="Nav_images/pantone.png" alt="Colour fan"/>NCS 1950 colour fan</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=60'><img src="Nav_images/pantone.png" alt="Colour fan"/>Federal Std. colour fans</a></li>
+                            <li><a href="https://www.e-paint.co.uk/products.asp?cat=65"><img src="Nav_images/pantone.png" alt="Colour fan"/>AMS Std 595A colour fans</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=63'><img src="Nav_images/pantone.png" alt="Colour fan"/>Australian Std. AS2700</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=54'><img src="Nav_images/pantone.png" alt="Colour fan"/>Custom colour guides</a></li>
+                        </ul>
+    </li>
+    <li class="has-sub">
+      <a href="https://www.e-paint.co.uk/chart_options.asp"><img src="Nav_images/colorchart.png" alt="Colourchart"/>colour charts</a>
+      <ul>
+          <li><a href='https://www.e-paint.co.uk/RAL_Classic_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL Classic colours</a>
+            </li>
+       <li class="has-sub"><a href='https://www.e-paint.co.uk/BS_4800_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>British Std. colours</a>
+              <ul>
+        <li><a href='https://www.e-paint.co.uk/BS_4800_Colour_chart.asp'>BS 4800:2011 colours</a>
+              </li>
+       <li><a href="https://www.e-paint.co.uk/bs4800_colour_chart_1989.asp">BS 4800:1989 colours</a>
+              </li>
+
+            <li><a href='https://www.e-paint.co.uk/bs5252_colour_chart.asp'>BS 5252 colours</a>
+            </li>
+          <li><a href='https://www.e-paint.co.uk/BS381 Colourchart.asp'>BS 381C colours</a>
+           </li>
+          <li><a href='https://www.e-paint.co.uk/bs2660_colour_chart.asp'>BS 2660 colours</a>
+            </li>
+          <li><a href='https://www.e-paint.co.uk/other_bs_colours.asp'>Other BS colours</a></li>
+          </ul>
+          </li>
+          <li><a href='https://www.e-paint.co.uk/ral_design_colours.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL 'Design' colours</a>
+          
+          </li>
+          <li><a href='https://www.e-paint.co.uk/ral_effect_colours.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>RAL 'Effect' colours</a>
+        
+          </li>
+          <li class="has-sub"><a class="parent" href='pantone_c_colours.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Pantone<sup>&reg;</sup> colours</a>
+          		<ul><li><a href='https://www.e-paint.co.uk/pantone_c_colours.asp'>Pantone C colours</a></li>
+          		<li><a href='https://www.e-paint.co.uk/pantone_u_colours.asp'>Pantone U colours</a></li>
+          		</ul>
+          		</li>
+          <li><a href='https://www.e-paint.co.uk/DIN_6164_colours.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>DIN 6164 colours</a>
+              </li>
+         <li><a href='https://www.e-paint.co.uk/Dulux_Trade_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Dulux<sup>&reg;</sup> Trade colours</a>
+              </li>
+         <li><a href='https://www.e-paint.co.uk/NCS_1950_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>NCS<sup>&reg;</sup> 1950 colours</a>
+             </li>
+          <li><a href='https://www.e-paint.co.uk/Australian_standard_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Australian Std. colours</a>
+            
+          </li>
+          <li><a href='https://www.e-paint.co.uk/Federal_standard_595C_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Federal Std. 595 colours</a>
+            
+          </li>
+          <li><a href='https://www.e-paint.co.uk/AMS_standard_595_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>AMS Std. 595A colours</a>
+            
+          </li>
+          <li><a href='https://www.e-paint.co.uk/Munsell_colour_chart.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Munsell colours</a>
+           
+          </li>
+
+         <li class="has-sub"><a href='https://www.e-paint.co.uk/chart_options.asp'><img src="Nav_images/colorchart.png" alt="Colourchart"/>Other</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/astm_f934_fencing.asp'>ASTM F934 Fencing</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=BG'>British Gas</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=BR'>British Rail</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=MoD'>UK Ministry of Defense</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=DoT'>UK Dept. of Transport</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=PO'>UK Post Office</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=DT'>DULUX<sup>&reg;</sup>TRADE - BS 4800</a></li>
+            </ul>
+          </li>
+          <li><a href='https://www.e-paint.co.uk/online_colour_charts.asp'>Online charts</a></li>
+
+            </ul>
+
+    </li>
+    <li class="has-sub">
+      <a href="https://www.e-paint.co.uk/Advanced_menu.asp"><img src="Nav_images/hsl.png" alt="colour information"/>Colour information</a>
+	       <ul>
+            <li>
+              <a href="https://www.e-paint.co.uk/Lab_values.asp" title="Colour Lab, RGB and HLC values"><img src="Nav_images/yuv_color_space.png" alt="Lab and HLC values" />Colour L*a*b* / RGB values</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/Colour_alternatives.asp"><img src="Nav_images/hsv.png" alt="Colour conversions" />Colour alternatives</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/Compare_colours.asp"><img src="Nav_images/hsv.png" alt="Colour comparison" />Compare colours</a>
+            </li>
+           <li>
+              <a href="https://www.e-paint.co.uk/colour_trends_2016.asp"><img src="Nav_images/3d_graph.png" alt="Colour trends" />Colour trends 2016+</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/uk_organisations.asp"><img src="Nav_images/lock_color.png" alt="Organisation colours" />UK Organisations' colours</a>
+            </li>
+             <li>
+              <a href="https://www.e-paint.co.uk/us_organisations.asp"><img src="Nav_images/lock_color.png" alt="Organisation colours" />US Organisations' colours</a>
+            </li>
+        </ul>
+
+    </li>
+    <li class="has-sub">
+      <a href="https://www.e-paint.co.uk/search_for_colours_and_products.asp"><img src="Nav_images/search.png" alt="search"/>Search</a>
+        <ul>
+              <li>
+                <a href="https://www.e-paint.co.uk/search.asp"><img src="Nav_images/search.png" alt="Search" />Product search</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/search_colour.asp"><img src="Nav_images/find.png" alt="Search" />Colour search</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/Convert_RGB.asp"><img src="Nav_images/rgb.png" alt="Lab and HLC values" />Search by RGB values</a>
+              </li>
+              <li>
+                <a href="https://www.e-paint.co.uk/Convert_Lab.asp"><img src="Nav_images/lab_color_model.png" alt="Lab and HLC values" />Search by L*a*b* values</a>
+              </li>
+  			<li>
+                <a href="https://www.e-paint.co.uk/Dulux_codes.asp"><img src="Nav_images/lab_color_model.png" alt="Dulux codes" />Search by Dulux<sup>&reg;</sup> codes</a>
+              </li>
+  			  <li> 
+			   <a href="https://www.e-paint.co.uk/search_whites_and_off_whites.asp"><img src="Nav_images/find.png" alt="Whites and pastels" />Whites and Pastels</a>
+              </li>
+            </ul>
+
+    </li>  
+     <li class="has-sub">
+           <a class="parent" href="https://www.e-paint.co.uk/Contact_options.asp"><img src="Nav_images/help.png" alt="Contact"/>Help</a>
+          <ul class="moveleft">
+            <li>
+              <a href="https://www.e-paint.co.uk/contact_us.asp" title="Contact us by email"><img src="Nav_images/contact.png" alt="Contact" />General enquiry</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/customer_service.asp" title="Customer service"><img src="Nav_images/pie_chart.png" alt="Lab and HLC values" />Customer services</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/terms_and_conditions.asp" title="View terms and conditions"><img src="Nav_images/critical_details.png" alt="Terms and conditions" />Terms and conditions</a>
+            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/copy_invoice(2.asp" title="Get a copy of your invoice"><img src="Nav_images/form.png" alt="Invoice" />Copy invoice</a>            </li>
+            <li>
+              <a href="https://www.e-paint.co.uk/faqs.asp" title="Frequently asked questions"><img src="Nav_images/help.png" alt="help" />FAQs / help</a>
+            </li>
+            <li><a href="https://www.e-paint.co.uk/delivery.asp" title="Delivery information"><img src="Nav_images/icon_truck.png" alt="Delivery" />Delivery</a></li>
+ 		<li>
+		<a href="https://www.e-paint.co.uk/security.asp" title="Security and cookie information"><img src="Nav_images/registration.png" alt="Security" />Security and privacy</a></li>
+		<li><a href="https://www.e-paint.co.uk/supplier_directory.asp" title="Find paint and other product suppliers"><img src="Nav_images/fill.png" alt="Paint suppliers" />Supplier directory</a></li>
+    	</ul>
+    </li>
+
+  
+
+    <li>
+      <a href='https://www.e-paint.co.uk/cart.asp'><img src="Nav_images/buy.png" alt="View basket" />View basket</a>
+    </li>
+    <li>
+      <a href='https://www.e-paint.co.uk/supplier_directory.asp'><img src="Nav_images/fill.png" alt="Paint suppliers" />Supplier Directory</a>
+    </li>
+  </ul>
+</div>
+
+<!--mobile menu-->
+
+<!--main body-->
+<div id="main_body">
+    <div class="wrapper">
+        <div class="left left-col">
+                   <div class="left-nav">
+                <div class="title"><span class="fa fa-bars"></span>PRODUCTS AND &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INFORMATION</div>
+                <ul>
+                    <li><a class="parent" href='https://www.e-paint.co.uk/categories.asp'>Products</a>
+                        <ul>
+                            <li><a href='https://www.e-paint.co.uk/RAL_colour_guides.asp'>RAL Classic colour guides</a></li>
+                            <li>
+                                <a class="parent" href='https://www.e-paint.co.uk/categories.asp?cat=41'>Individual A4 colour cards</a>
+                                <ul>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=42'>RAL 1000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=43'>RAL 2000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=44'>RAL 3000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=45'>RAL 4000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=46'>RAL 5000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=47'>RAL 6000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=48'>RAL 7000 Series A4 card</a></li>
+                                    <li><a href='https://www.e-paint.co.uk/products.asp?cat=49'>RAL 8000 Series A4 card</a></li>
+                                    <li class='last'><a href='https://www.e-paint.co.uk/products.asp?cat=50'>RAL 9000 Series A4 card</a></li>
+                                </ul>
+                            </li>
+                            <li><a href='https://www.e-paint.co.uk/BS_colour_guides.asp'>BS colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=56'>RAL Effect colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=52'>RAL Design colour guides</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=59'>CIELab colour fans</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=62'>NCS 1950 colour fan</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=60'>Federal Std. colour fans</a></li>
+                            <li><a href='https://www.e-paint.co.uk/products.asp?cat=65'>AMS Std. 595A colour fans</a></li>
+                           <li><a href='https://www.e-paint.co.uk/products.asp?cat=63'>Australian Std. AS2700</a></li>
+                            <li class='last'><a href='https://www.e-paint.co.uk/products.asp?cat=54'>Custom colour guides</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="parent" href='https://www.e-paint.co.uk/chart_options.asp'>Colour charts</a>
+                      <ul>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/RAL_Classic_Colour_chart.asp'>RAL Classic colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/RAL_Classic_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/pdfs/RAL colour chart.pdf' target="_blank">PDF</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_ral_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=39'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/BS_4800_Colourchart.asp'>BS 4800:2011 colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/BS_4800_Colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_BS4800_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=51'>Purchase</a></li>
+            </ul>
+          </li>
+   
+            <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/bs5252_colour_chart.asp'>BS 5252 colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/bs5252_colour_chart.asp'>View</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=51'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/BS381 Colourchart.asp'>BS 381C colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/BS381 Colourchart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_bs381c_colours.asp'>Print</a></li>
+              <li class="last"><a href='products.asp?cat=51'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/bs2660_colour_chart.asp'>BS 2660 colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/bs2660_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_bs2660_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=51'>Purchase</a></li>
+            </ul>
+          </li>
+          <li><a href='https://www.e-paint.co.uk/other_bs_colours.asp'>Other BS colours</a></li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/ral_design_colours.asp'>RAL 'Design' colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/ral_design_colours.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_RAL_design_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=52'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/ral_effect_colours.asp'>RAL 'Effect' colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/ral_effect_colours.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/print_RAL_effect_colours.asp'>Print</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/products.asp?cat=56'>Purchase</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/pantone_c_colours.asp'>Pantone colours</a>
+          		<ul><li><a href='https://www.e-paint.co.uk/pantone_c_colours.asp'>Pantone C colours</a></li>
+          		<li><a href='https://www.e-paint.co.uk/pantone_u_colours.asp'>Pantone U colours</a></li>
+          		</ul>
+          		</li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/DIN_6164_colours.asp'>DIN 6164 colours</a>
+            <ul>
+              <li><a href='DIN_6164_colours.asp'>View</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_DIN_6164_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/NCS_1950_colour_chart.asp'>NCS 1950 colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/NCS_1950_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/products.asp?cat=62'>Purchase</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_NCS_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/Australian_standard_colour_chart.asp'>Australian Std. colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/Australian_standard_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/products.asp?cat=63'>Purchase</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_australian_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/Federal_standard_595C_colour_chart.asp'>Federal Std. 595C colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/Federal_standard_595C_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/products.asp?cat=60'>Purchase</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_FS595_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/ams_standard_595_colour_chart.asp'>AMS Std. 595A colours</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/ams_standard_595_colour_chart.asp'>View</a></li>
+              <li><a href='https://www.e-paint.co.uk/products.asp?cat=65'>Purchase</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/print_AMS595_colours.asp'>Print</a></li>
+            </ul>
+          </li>
+          <li><a href='https://www.e-paint.co.uk/Munsell_colour_chart.asp'>Munsell colours</a></li>
+         <li class="has-sub"><a class="parent" href='#'>Other</a>
+            <ul>
+              <li><a href='https://www.e-paint.co.uk/astm_f934_fencing.asp'>ASTM F934 Fencing</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=BG'>British Gas</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=BR'>British Rail</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=MoD'>UK Ministry of Defense</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=DoT'>UK Dept. of Transport</a></li>
+              <li><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=PO'>UK Post Office</a></li>
+	         <li><a href='https://www.e-paint.co.uk/Dulux_Trade_colour_chart.asp'>DULUX<sup>&reg;</sup>Trade Colours</a></li>
+              <li class="last"><a href='https://www.e-paint.co.uk/uk_organisations.asp?cOrg=DT'>DULUX<sup>&reg;</sup>TRADE - BS 4800</a></li>
+            </ul>
+          </li>
+          <li class="last"><a href='https://www.e-paint.co.uk/online_colour_charts.asp'>Online charts</a></li>
+
+            </ul>
+                    </li>
+                    <li><a class="parent" href='#'>Information</a>
+                      <ul>
+                        <li class='has-sub'><a class="parent" href='https://www.e-paint.co.uk/Advanced_menu.asp'>Colour information</a>
+                          <ul>
+                            <li><a href='https://www.e-paint.co.uk/Lab_values.asp'>L*a*b* and HLC values</a></li>
+                            <li><a href='https://www.e-paint.co.uk/Colour_alternatives.asp'>Colour alternatives</a></li>
+                            <li><a href="https://www.e-paint.co.uk/Compare_colours.asp">Compare colours</a></li>
+          <li><a href='https://www.e-paint.co.uk/colour_trends_2016.asp'>Colour trends</a></li>
+                            <li><a href='https://www.e-paint.co.uk/uk_organisations.asp'>UK organisations' colours</a></li>
+                            <li><a href='https://www.e-paint.co.uk/us_organisations.asp'>US organisations' colours</a></li>
+                          			  <li> 
+			   <a href="https://www.e-paint.co.uk/search_whites_and_off_whites.asp">Whites and Pastels</a>
+              </li>
+ <li><a href='https://www.e-paint.co.uk/Convert_RGB.asp'>Search by RGB values</a></li>
+                            <li><a href='https://www.e-paint.co.uk/Dulux_codes.asp'>Search by Dulux&reg; codes</a></li>
+                   <li class="last"><a href='https://www.e-paint.co.uk/Convert_Lab.asp'>Search by L*a*b* values</a></li>
+                          </ul>
+                        </li>
+                        <li class="has-sub"><a class="parent" href='https://www.e-paint.co.uk/contact_us.asp'>Contact us</a>
+                          <ul>
+                            <li><a href='https://www.e-paint.co.uk/contact_us.asp' target="_blank">General enquiry</a></li>
+                            <li><a href='https://www.e-paint.co.uk/customer_service.asp' target="_blank">Customer service</a></li>
+                            <li class="last"><a href='https://www.e-paint.co.uk/copy_invoice(2.asp' target="_blank">Copy invoice</a></li>
+                          </ul>
+                        </li>
+                        <li><a href='https://www.e-paint.co.uk/delivery.asp'>Delivery service</a></li>
+                        <li><a href='https://www.e-paint.co.uk/security.asp'>Security and privacy</a></li>
+                        <li><a href='https://www.e-paint.co.uk/organisation_details.asp'>
+						Organisations</a></li>
+                        <li class="last"><a href='mailto:sales@e-paint.co.uk?subject=Enquiry from the e-paint.co.uk website' title='Click here to send an email'>Email</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="parent" href='https://www.e-paint.co.uk/faqs.asp'>Help / FAQs</a>
+                      <ul>
+                        <li><a href='https://www.e-paint.co.uk/delivery.asp'>Delivery service</a></li>
+                        <li><a href='https://www.e-paint.co.uk/terms_and_conditions.asp'>Terms and Conditions</a></li>
+                        <li><a href='https://www.e-paint.co.uk/security.asp'>Security and privacy</a></li>
+                         <li><a href='https://www.e-paint.co.uk/faqs.asp'>FAQS</a></li>
+                       <li class="last"><a href='https://www.e-paint.co.uk/contact_us.asp' target="_blank">Comments</a></li>
+                      </ul>
+                    </li>
+                  
+                    <li><a class="parent" href='https://www.e-paint.co.uk/search_for_colours_and_products.asp'>Search</a>
+                        <ul>
+                          <li><a href='https://www.e-paint.co.uk/search.asp'>Product search</a></li>
+                          <li><a href='https://www.e-paint.co.uk/search_colour.asp'>Colour search</a></li>
+                          <li><a href='https://www.e-paint.co.uk/Convert_RGB.asp'>Search by RGB values</a></li>
+                          <li><a href='https://www.e-paint.co.uk/Dulux_codes.asp'>Search by Dulux&reg; codes</a></li>
+                     <li class="last"><a href='https://www.e-paint.co.uk/Convert_Lab.asp'>Search by L*a*b* values</a></li>
+                        </ul>
+                    </li>
+           
+                    <li><a class="parent" href='https://www.e-paint.co.uk/supplier_directory.asp'>Supplier Directory</a>
+                      <ul>
+                        <li><a href='https://www.e-paint.co.uk/supplier_directory.asp'>Supplier directory</a></li>
+                        <li class="last"><a href='https://www.e-paint.co.uk/Contact_advertisers_home.asp'>Advertising</a></li>
+                      </ul>
+                    </li>
+                                    
+                    <li><a href="https://www.e-paint.co.uk/colour_trends_2016.asp">Colour Trends</a></li>
+                </ul>
+            </div>
+         
+
+            
+       
+
+        <!--left nav-->
+            
+            <!--minicart-->
+            <!--other nav-->
+            <!--logos and pictures-->
+            
+
+        </div>
+
+
+
+
+        <div class="right right-col">
+            <!--Content here-->
+            
+            <!-- #BeginEditable "main" -->
+
+
+<div class="g-box-w center">
+    <h1>DIN 6164 Range Colour Chart</h1>
+    <p>The colours depicted on the following chart are for <u>guidance only</u>. 
+		The displayed colour will depend on your monitor and browser and pearl or metallic colours cannot be shown adequately. The finished colour, therefore, may <span class="underline_bold">not</span> be as shown here.</p>
+   
+    <div class="print-chart donotshowontablet">
+  <p>If you wish to <b>print off</b> the <b>DIN 6164 colours</b> on this site - <b><a href="print_din_6164_colours.asp"><span class="underline"><i>click here</i></span></a>.</b></p>
+   </div> 
+    <form method="post" action="DIN_6164_colours.asp" name="din_colour">
+        <br /><select class="g-drop" size="1" name="DIN" onchange="form.submit()">
+        <option value="1">Select DIN 6164 code range</option>
+        <option value="1" >TSD 1 to TSD 4 Beige/olive to orange/brown</option>
+        <option value="2" >TSD 5 to TSD 9 Pink to orange/red</option>
+        <option value="3" >TSD 10 to TSD 14 Mauve to purples</option>
+        <option value="4" >TSD 15 to TSD 19 Blues</option>
+        <option value="5" selected>TSD 20 to TSD 24 Greens</option>
+        </select>
+    </form>
+
+</div>
+
+
+<div class="colour-chart-nav-5 center" align="center">
+    <a class="g-btn-b" href="DIN_6164_colours.asp?DIN=1">TSD 1 - TSD 4</a>
+    <a class="g-btn-b" href="DIN_6164_colours.asp?DIN=2">TSD 5 - TSD 9</a>
+    <a class="g-btn-b" href="DIN_6164_colours.asp?DIN=3">TSD 10 - TSD 14</a>
+    <a class="g-btn-b" href="DIN_6164_colours.asp?DIN=4">TSD 15 - TSD 19</a>
+    <a class="g-btn-b" href="DIN_6164_colours.asp?DIN=5">TSD 20 - 24</a>
+    <div class="clear"></div>
+</div>
+
+
+
+
+<div class="g-box-w">
+
+     <ul itemscope itemtype="http://schema.org/Dataset" class="colour-charts">
+<meta itemprop="name" content="DIN 6164 Colour Chart" />
+<meta itemprop="description" content="This is a colour chart of the colours in the DIN 6164 colour specification" />
+
+
+
+
+
+
+        <li>
+	<a title="More information about TSD 20-1-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-1-1">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(186,212,205)" name="TSD 20-1-1" id="TSD 20-1-1" alt="DIN 6164, TSD 20-1-1 - " content="TSD 20-1-1 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-1-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-1-1">
+				TSD 20-1-1</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-1-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-1-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(152,176,171)" name="TSD 20-1-2" id="TSD 20-1-2" alt="DIN 6164, TSD 20-1-2 - " content="TSD 20-1-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-1-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-1-2">
+				TSD 20-1-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-1-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-1-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(129,151,147)" name="TSD 20-1-3" id="TSD 20-1-3" alt="DIN 6164, TSD 20-1-3 - " content="TSD 20-1-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-1-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-1-3">
+				TSD 20-1-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-1-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-1-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(105,124,121)" name="TSD 20-1-4" id="TSD 20-1-4" alt="DIN 6164, TSD 20-1-4 - " content="TSD 20-1-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-1-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-1-4">
+				TSD 20-1-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-1-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-1-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(86,102,99)" name="TSD 20-1-5" id="TSD 20-1-5" alt="DIN 6164, TSD 20-1-5 - " content="TSD 20-1-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-1-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-1-5">
+				TSD 20-1-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-1-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-1-6">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(69,81,79)" name="TSD 20-1-6" id="TSD 20-1-6" alt="DIN 6164, TSD 20-1-6 - " content="TSD 20-1-6 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-1-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-1-6">
+				TSD 20-1-6</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-1-7 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-1-7">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(57,65,64)" name="TSD 20-1-7" id="TSD 20-1-7" alt="DIN 6164, TSD 20-1-7 - " content="TSD 20-1-7 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-1-7 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-1-7">
+				TSD 20-1-7</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-2-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-2-1">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(164,214,202)" name="TSD 20-2-1" id="TSD 20-2-1" alt="DIN 6164, TSD 20-2-1 - " content="TSD 20-2-1 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-2-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-2-1">
+				TSD 20-2-1</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-2-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-2-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(138,183,174)" name="TSD 20-2-2" id="TSD 20-2-2" alt="DIN 6164, TSD 20-2-2 - " content="TSD 20-2-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-2-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-2-2">
+				TSD 20-2-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-2-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-2-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(113,151,145)" name="TSD 20-2-3" id="TSD 20-2-3" alt="DIN 6164, TSD 20-2-3 - " content="TSD 20-2-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-2-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-2-3">
+				TSD 20-2-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-2-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-2-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(93,127,121)" name="TSD 20-2-4" id="TSD 20-2-4" alt="DIN 6164, TSD 20-2-4 - " content="TSD 20-2-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-2-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-2-4">
+				TSD 20-2-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-2-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-2-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(75,104,99)" name="TSD 20-2-5" id="TSD 20-2-5" alt="DIN 6164, TSD 20-2-5 - " content="TSD 20-2-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-2-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-2-5">
+				TSD 20-2-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-2-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-2-6">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(61,85,81)" name="TSD 20-2-6" id="TSD 20-2-6" alt="DIN 6164, TSD 20-2-6 - " content="TSD 20-2-6 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-2-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-2-6">
+				TSD 20-2-6</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-3-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-3-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(106,184,171)" name="TSD 20-3-2" id="TSD 20-3-2" alt="DIN 6164, TSD 20-3-2 - " content="TSD 20-3-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-3-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-3-2">
+				TSD 20-3-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-3-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-3-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(88,152,141)" name="TSD 20-3-3" id="TSD 20-3-3" alt="DIN 6164, TSD 20-3-3 - " content="TSD 20-3-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-3-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-3-3">
+				TSD 20-3-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-3-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-3-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(70,125,116)" name="TSD 20-3-4" id="TSD 20-3-4" alt="DIN 6164, TSD 20-3-4 - " content="TSD 20-3-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-3-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-3-4">
+				TSD 20-3-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-3-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-3-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(59,106,98)" name="TSD 20-3-5" id="TSD 20-3-5" alt="DIN 6164, TSD 20-3-5 - " content="TSD 20-3-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-3-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-3-5">
+				TSD 20-3-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-3-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-3-6">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(42,84,79)" name="TSD 20-3-6" id="TSD 20-3-6" alt="DIN 6164, TSD 20-3-6 - " content="TSD 20-3-6 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-3-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-3-6">
+				TSD 20-3-6</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-4-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-4-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(51,156,141)" name="TSD 20-4-3" id="TSD 20-4-3" alt="DIN 6164, TSD 20-4-3 - " content="TSD 20-4-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-4-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-4-3">
+				TSD 20-4-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-4-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-4-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(38,127,115)" name="TSD 20-4-4" id="TSD 20-4-4" alt="DIN 6164, TSD 20-4-4 - " content="TSD 20-4-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-4-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-4-4">
+				TSD 20-4-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-4-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-4-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(38,104,94)" name="TSD 20-4-5" id="TSD 20-4-5" alt="DIN 6164, TSD 20-4-5 - " content="TSD 20-4-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-4-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-4-5">
+				TSD 20-4-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-5-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-5-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,126,112)" name="TSD 20-5-4" id="TSD 20-5-4" alt="DIN 6164, TSD 20-5-4 - " content="TSD 20-5-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-5-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-5-4">
+				TSD 20-5-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 20-5-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-5-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(0,104,92)" name="TSD 20-5-5" id="TSD 20-5-5" alt="DIN 6164, TSD 20-5-5 - " content="TSD 20-5-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 20-5-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 20-5-5">
+				TSD 20-5-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-1-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-1-1">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(186,213,201)" name="TSD 21-1-1" id="TSD 21-1-1" alt="DIN 6164, TSD 21-1-1 - " content="TSD 21-1-1 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-1-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-1-1">
+				TSD 21-1-1</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-1-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-1-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(155,176,166)" name="TSD 21-1-2" id="TSD 21-1-2" alt="DIN 6164, TSD 21-1-2 - " content="TSD 21-1-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-1-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-1-2">
+				TSD 21-1-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-1-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-1-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(129,145,138)" name="TSD 21-1-3" id="TSD 21-1-3" alt="DIN 6164, TSD 21-1-3 - " content="TSD 21-1-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-1-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-1-3">
+				TSD 21-1-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-1-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-1-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(106,122,117)" name="TSD 21-1-4" id="TSD 21-1-4" alt="DIN 6164, TSD 21-1-4 - " content="TSD 21-1-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-1-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-1-4">
+				TSD 21-1-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-1-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-1-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(92,104,99)" name="TSD 21-1-5" id="TSD 21-1-5" alt="DIN 6164, TSD 21-1-5 - " content="TSD 21-1-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-1-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-1-5">
+				TSD 21-1-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-1-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-1-6">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(73,83,78)" name="TSD 21-1-6" id="TSD 21-1-6" alt="DIN 6164, TSD 21-1-6 - " content="TSD 21-1-6 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-1-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-1-6">
+				TSD 21-1-6</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-1-7 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-1-7">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(54,63,59)" name="TSD 21-1-7" id="TSD 21-1-7" alt="DIN 6164, TSD 21-1-7 - " content="TSD 21-1-7 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-1-7 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-1-7">
+				TSD 21-1-7</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-2-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-2-1">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(159,207,187)" name="TSD 21-2-1" id="TSD 21-2-1" alt="DIN 6164, TSD 21-2-1 - " content="TSD 21-2-1 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-2-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-2-1">
+				TSD 21-2-1</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-2-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-2-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(134,177,161)" name="TSD 21-2-2" id="TSD 21-2-2" alt="DIN 6164, TSD 21-2-2 - " content="TSD 21-2-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-2-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-2-2">
+				TSD 21-2-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-2-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-2-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(110,146,132)" name="TSD 21-2-3" id="TSD 21-2-3" alt="DIN 6164, TSD 21-2-3 - " content="TSD 21-2-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-2-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-2-3">
+				TSD 21-2-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-2-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-2-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(97,129,115)" name="TSD 21-2-4" id="TSD 21-2-4" alt="DIN 6164, TSD 21-2-4 - " content="TSD 21-2-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-2-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-2-4">
+				TSD 21-2-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-2-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-2-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(79,103,94)" name="TSD 21-2-5" id="TSD 21-2-5" alt="DIN 6164, TSD 21-2-5 - " content="TSD 21-2-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-2-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-2-5">
+				TSD 21-2-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-2-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-2-6">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(67,85,77)" name="TSD 21-2-6" id="TSD 21-2-6" alt="DIN 6164, TSD 21-2-6 - " content="TSD 21-2-6 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-2-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-2-6">
+				TSD 21-2-6</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-3-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-3-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(108,181,155)" name="TSD 21-3-2" id="TSD 21-3-2" alt="DIN 6164, TSD 21-3-2 - " content="TSD 21-3-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-3-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-3-2">
+				TSD 21-3-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-3-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-3-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(93,148,129)" name="TSD 21-3-3" id="TSD 21-3-3" alt="DIN 6164, TSD 21-3-3 - " content="TSD 21-3-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-3-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-3-3">
+				TSD 21-3-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-3-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-3-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(77,128,109)" name="TSD 21-3-4" id="TSD 21-3-4" alt="DIN 6164, TSD 21-3-4 - " content="TSD 21-3-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-3-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-3-4">
+				TSD 21-3-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-3-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-3-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(65,104,89)" name="TSD 21-3-5" id="TSD 21-3-5" alt="DIN 6164, TSD 21-3-5 - " content="TSD 21-3-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-3-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-3-5">
+				TSD 21-3-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-3-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-3-6">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(52,84,70)" name="TSD 21-3-6" id="TSD 21-3-6" alt="DIN 6164, TSD 21-3-6 - " content="TSD 21-3-6 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-3-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-3-6">
+				TSD 21-3-6</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-4-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-4-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(86,183,149)" name="TSD 21-4-2" id="TSD 21-4-2" alt="DIN 6164, TSD 21-4-2 - " content="TSD 21-4-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-4-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-4-2">
+				TSD 21-4-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-4-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-4-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(70,153,123)" name="TSD 21-4-3" id="TSD 21-4-3" alt="DIN 6164, TSD 21-4-3 - " content="TSD 21-4-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-4-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-4-3">
+				TSD 21-4-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-4-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-4-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(54,129,105)" name="TSD 21-4-4" id="TSD 21-4-4" alt="DIN 6164, TSD 21-4-4 - " content="TSD 21-4-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-4-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-4-4">
+				TSD 21-4-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-4-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-4-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(52,107,86)" name="TSD 21-4-5" id="TSD 21-4-5" alt="DIN 6164, TSD 21-4-5 - " content="TSD 21-4-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-4-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-4-5">
+				TSD 21-4-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-5-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-5-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(36,154,117)" name="TSD 21-5-3" id="TSD 21-5-3" alt="DIN 6164, TSD 21-5-3 - " content="TSD 21-5-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-5-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-5-3">
+				TSD 21-5-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-5-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-5-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(12,125,97)" name="TSD 21-5-4" id="TSD 21-5-4" alt="DIN 6164, TSD 21-5-4 - " content="TSD 21-5-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-5-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-5-4">
+				TSD 21-5-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 21-5-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-5-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(12,104,78)" name="TSD 21-5-5" id="TSD 21-5-5" alt="DIN 6164, TSD 21-5-5 - " content="TSD 21-5-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 21-5-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 21-5-5">
+				TSD 21-5-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-1-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-1-1">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(198,217,194)" name="TSD 22-1-1" id="TSD 22-1-1" alt="DIN 6164, TSD 22-1-1 - " content="TSD 22-1-1 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-1-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-1-1">
+				TSD 22-1-1</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-1-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-1-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(158,174,161)" name="TSD 22-1-2" id="TSD 22-1-2" alt="DIN 6164, TSD 22-1-2 - " content="TSD 22-1-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-1-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-1-2">
+				TSD 22-1-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-1-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-1-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(134,147,137)" name="TSD 22-1-3" id="TSD 22-1-3" alt="DIN 6164, TSD 22-1-3 - " content="TSD 22-1-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-1-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-1-3">
+				TSD 22-1-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-1-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-1-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(117,127,117)" name="TSD 22-1-4" id="TSD 22-1-4" alt="DIN 6164, TSD 22-1-4 - " content="TSD 22-1-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-1-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-1-4">
+				TSD 22-1-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-1-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-1-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(96,104,97)" name="TSD 22-1-5" id="TSD 22-1-5" alt="DIN 6164, TSD 22-1-5 - " content="TSD 22-1-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-1-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-1-5">
+				TSD 22-1-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-1-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-1-6">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(75,83,77)" name="TSD 22-1-6" id="TSD 22-1-6" alt="DIN 6164, TSD 22-1-6 - " content="TSD 22-1-6 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-1-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-1-6">
+				TSD 22-1-6</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-1-7 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-1-7">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(63,68,63)" name="TSD 22-1-7" id="TSD 22-1-7" alt="DIN 6164, TSD 22-1-7 - " content="TSD 22-1-7 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-1-7 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-1-7">
+				TSD 22-1-7</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-2-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-2-1">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(177,217,186)" name="TSD 22-2-1" id="TSD 22-2-1" alt="DIN 6164, TSD 22-2-1 - " content="TSD 22-2-1 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-2-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-2-1">
+				TSD 22-2-1</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-2-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-2-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(149,182,156)" name="TSD 22-2-2" id="TSD 22-2-2" alt="DIN 6164, TSD 22-2-2 - " content="TSD 22-2-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-2-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-2-2">
+				TSD 22-2-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-2-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-2-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(123,149,127)" name="TSD 22-2-3" id="TSD 22-2-3" alt="DIN 6164, TSD 22-2-3 - " content="TSD 22-2-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-2-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-2-3">
+				TSD 22-2-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-2-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-2-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(107,130,111)" name="TSD 22-2-4" id="TSD 22-2-4" alt="DIN 6164, TSD 22-2-4 - " content="TSD 22-2-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-2-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-2-4">
+				TSD 22-2-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-2-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-2-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(86,104,88)" name="TSD 22-2-5" id="TSD 22-2-5" alt="DIN 6164, TSD 22-2-5 - " content="TSD 22-2-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-2-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-2-5">
+				TSD 22-2-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-2-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-2-6">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(71,87,73)" name="TSD 22-2-6" id="TSD 22-2-6" alt="DIN 6164, TSD 22-2-6 - " content="TSD 22-2-6 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-2-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-2-6">
+				TSD 22-2-6</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-3-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-3-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(129,178,141)" name="TSD 22-3-2" id="TSD 22-3-2" alt="DIN 6164, TSD 22-3-2 - " content="TSD 22-3-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-3-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-3-2">
+				TSD 22-3-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-3-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-3-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(110,150,119)" name="TSD 22-3-3" id="TSD 22-3-3" alt="DIN 6164, TSD 22-3-3 - " content="TSD 22-3-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-3-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-3-3">
+				TSD 22-3-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-3-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-3-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(95,130,103)" name="TSD 22-3-4" id="TSD 22-3-4" alt="DIN 6164, TSD 22-3-4 - " content="TSD 22-3-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-3-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-3-4">
+				TSD 22-3-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-3-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-3-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(76,103,80)" name="TSD 22-3-5" id="TSD 22-3-5" alt="DIN 6164, TSD 22-3-5 - " content="TSD 22-3-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-3-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-3-5">
+				TSD 22-3-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-3-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-3-6">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(62,85,66)" name="TSD 22-3-6" id="TSD 22-3-6" alt="DIN 6164, TSD 22-3-6 - " content="TSD 22-3-6 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-3-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-3-6">
+				TSD 22-3-6</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-4-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-4-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(109,178,129)" name="TSD 22-4-2" id="TSD 22-4-2" alt="DIN 6164, TSD 22-4-2 - " content="TSD 22-4-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-4-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-4-2">
+				TSD 22-4-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-4-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-4-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(96,155,112)" name="TSD 22-4-3" id="TSD 22-4-3" alt="DIN 6164, TSD 22-4-3 - " content="TSD 22-4-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-4-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-4-3">
+				TSD 22-4-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-4-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-4-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(80,130,92)" name="TSD 22-4-4" id="TSD 22-4-4" alt="DIN 6164, TSD 22-4-4 - " content="TSD 22-4-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-4-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-4-4">
+				TSD 22-4-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-4-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-4-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(67,108,77)" name="TSD 22-4-5" id="TSD 22-4-5" alt="DIN 6164, TSD 22-4-5 - " content="TSD 22-4-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-4-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-4-5">
+				TSD 22-4-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-4-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-4-6">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(54,85,61)" name="TSD 22-4-6" id="TSD 22-4-6" alt="DIN 6164, TSD 22-4-6 - " content="TSD 22-4-6 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-4-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-4-6">
+				TSD 22-4-6</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-5-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-5-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(74,152,100)" name="TSD 22-5-3" id="TSD 22-5-3" alt="DIN 6164, TSD 22-5-3 - " content="TSD 22-5-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-5-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-5-3">
+				TSD 22-5-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-5-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-5-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(60,127,83)" name="TSD 22-5-4" id="TSD 22-5-4" alt="DIN 6164, TSD 22-5-4 - " content="TSD 22-5-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-5-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-5-4">
+				TSD 22-5-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-5-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-5-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(53,107,69)" name="TSD 22-5-5" id="TSD 22-5-5" alt="DIN 6164, TSD 22-5-5 - " content="TSD 22-5-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-5-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-5-5">
+				TSD 22-5-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-6-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-6-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(46,152,89)" name="TSD 22-6-3" id="TSD 22-6-3" alt="DIN 6164, TSD 22-6-3 - " content="TSD 22-6-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-6-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-6-3">
+				TSD 22-6-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 22-6-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-6-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(45,128,74)" name="TSD 22-6-4" id="TSD 22-6-4" alt="DIN 6164, TSD 22-6-4 - " content="TSD 22-6-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 22-6-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 22-6-4">
+				TSD 22-6-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-1-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-1-1">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(195,207,190)" name="TSD 23-1-1" id="TSD 23-1-1" alt="DIN 6164, TSD 23-1-1 - " content="TSD 23-1-1 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-1-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-1-1">
+				TSD 23-1-1</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-1-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-1-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(168,180,163)" name="TSD 23-1-2" id="TSD 23-1-2" alt="DIN 6164, TSD 23-1-2 - " content="TSD 23-1-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-1-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-1-2">
+				TSD 23-1-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-1-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-1-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(137,148,133)" name="TSD 23-1-3" id="TSD 23-1-3" alt="DIN 6164, TSD 23-1-3 - " content="TSD 23-1-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-1-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-1-3">
+				TSD 23-1-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-1-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-1-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(119,127,115)" name="TSD 23-1-4" id="TSD 23-1-4" alt="DIN 6164, TSD 23-1-4 - " content="TSD 23-1-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-1-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-1-4">
+				TSD 23-1-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-1-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-1-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(96,103,94)" name="TSD 23-1-5" id="TSD 23-1-5" alt="DIN 6164, TSD 23-1-5 - " content="TSD 23-1-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-1-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-1-5">
+				TSD 23-1-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-1-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-1-6">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(78,84,76)" name="TSD 23-1-6" id="TSD 23-1-6" alt="DIN 6164, TSD 23-1-6 - " content="TSD 23-1-6 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-1-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-1-6">
+				TSD 23-1-6</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-1-7 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-1-7">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(63,66,61)" name="TSD 23-1-7" id="TSD 23-1-7" alt="DIN 6164, TSD 23-1-7 - " content="TSD 23-1-7 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-1-7 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-1-7">
+				TSD 23-1-7</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-2-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-2-1">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(180,208,173)" name="TSD 23-2-1" id="TSD 23-2-1" alt="DIN 6164, TSD 23-2-1 - " content="TSD 23-2-1 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-2-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-2-1">
+				TSD 23-2-1</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-2-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-2-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(151,174,145)" name="TSD 23-2-2" id="TSD 23-2-2" alt="DIN 6164, TSD 23-2-2 - " content="TSD 23-2-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-2-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-2-2">
+				TSD 23-2-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-2-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-2-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(126,149,123)" name="TSD 23-2-3" id="TSD 23-2-3" alt="DIN 6164, TSD 23-2-3 - " content="TSD 23-2-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-2-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-2-3">
+				TSD 23-2-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-2-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-2-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(109,125,104)" name="TSD 23-2-4" id="TSD 23-2-4" alt="DIN 6164, TSD 23-2-4 - " content="TSD 23-2-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-2-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-2-4">
+				TSD 23-2-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-2-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-2-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(92,105,89)" name="TSD 23-2-5" id="TSD 23-2-5" alt="DIN 6164, TSD 23-2-5 - " content="TSD 23-2-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-2-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-2-5">
+				TSD 23-2-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-2-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-2-6">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(70,81,66)" name="TSD 23-2-6" id="TSD 23-2-6" alt="DIN 6164, TSD 23-2-6 - " content="TSD 23-2-6 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-2-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-2-6">
+				TSD 23-2-6</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-3-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-3-1">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(164,207,156)" name="TSD 23-3-1" id="TSD 23-3-1" alt="DIN 6164, TSD 23-3-1 - " content="TSD 23-3-1 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-3-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-3-1">
+				TSD 23-3-1</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-3-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-3-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(139,178,135)" name="TSD 23-3-2" id="TSD 23-3-2" alt="DIN 6164, TSD 23-3-2 - " content="TSD 23-3-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-3-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-3-2">
+				TSD 23-3-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-3-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-3-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(119,149,112)" name="TSD 23-3-3" id="TSD 23-3-3" alt="DIN 6164, TSD 23-3-3 - " content="TSD 23-3-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-3-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-3-3">
+				TSD 23-3-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-3-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-3-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(101,127,95)" name="TSD 23-3-4" id="TSD 23-3-4" alt="DIN 6164, TSD 23-3-4 - " content="TSD 23-3-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-3-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-3-4">
+				TSD 23-3-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-3-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-3-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(82,103,78)" name="TSD 23-3-5" id="TSD 23-3-5" alt="DIN 6164, TSD 23-3-5 - " content="TSD 23-3-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-3-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-3-5">
+				TSD 23-3-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-3-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-3-6">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(69,86,65)" name="TSD 23-3-6" id="TSD 23-3-6" alt="DIN 6164, TSD 23-3-6 - " content="TSD 23-3-6 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-3-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-3-6">
+				TSD 23-3-6</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-4-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-4-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(131,177,118)" name="TSD 23-4-2" id="TSD 23-4-2" alt="DIN 6164, TSD 23-4-2 - " content="TSD 23-4-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-4-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-4-2">
+				TSD 23-4-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-4-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-4-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(109,152,100)" name="TSD 23-4-3" id="TSD 23-4-3" alt="DIN 6164, TSD 23-4-3 - " content="TSD 23-4-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-4-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-4-3">
+				TSD 23-4-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-4-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-4-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(97,129,86)" name="TSD 23-4-4" id="TSD 23-4-4" alt="DIN 6164, TSD 23-4-4 - " content="TSD 23-4-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-4-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-4-4">
+				TSD 23-4-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-4-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-4-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(80,104,68)" name="TSD 23-4-5" id="TSD 23-4-5" alt="DIN 6164, TSD 23-4-5 - " content="TSD 23-4-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-4-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-4-5">
+				TSD 23-4-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-4-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-4-6">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(62,82,55)" name="TSD 23-4-6" id="TSD 23-4-6" alt="DIN 6164, TSD 23-4-6 - " content="TSD 23-4-6 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-4-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-4-6">
+				TSD 23-4-6</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-5-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-5-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(124,183,107)" name="TSD 23-5-2" id="TSD 23-5-2" alt="DIN 6164, TSD 23-5-2 - " content="TSD 23-5-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-5-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-5-2">
+				TSD 23-5-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-5-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-5-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(104,153,87)" name="TSD 23-5-3" id="TSD 23-5-3" alt="DIN 6164, TSD 23-5-3 - " content="TSD 23-5-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-5-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-5-3">
+				TSD 23-5-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-5-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-5-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(85,126,69)" name="TSD 23-5-4" id="TSD 23-5-4" alt="DIN 6164, TSD 23-5-4 - " content="TSD 23-5-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-5-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-5-4">
+				TSD 23-5-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-5-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-5-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(69,105,55)" name="TSD 23-5-5" id="TSD 23-5-5" alt="DIN 6164, TSD 23-5-5 - " content="TSD 23-5-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-5-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-5-5">
+				TSD 23-5-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-6-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-6-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(116,184,85)" name="TSD 23-6-2" id="TSD 23-6-2" alt="DIN 6164, TSD 23-6-2 - " content="TSD 23-6-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-6-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-6-2">
+				TSD 23-6-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-6-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-6-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(97,154,70)" name="TSD 23-6-3" id="TSD 23-6-3" alt="DIN 6164, TSD 23-6-3 - " content="TSD 23-6-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-6-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-6-3">
+				TSD 23-6-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 23-6-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-6-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(78,127,54)" name="TSD 23-6-4" id="TSD 23-6-4" alt="DIN 6164, TSD 23-6-4 - " content="TSD 23-6-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 23-6-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 23-6-4">
+				TSD 23-6-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-1-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-1-1">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(201,206,188)" name="TSD 24-1-1" id="TSD 24-1-1" alt="DIN 6164, TSD 24-1-1 - " content="TSD 24-1-1 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-1-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-1-1">
+				TSD 24-1-1</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-1-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-1-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(172,176,159)" name="TSD 24-1-2" id="TSD 24-1-2" alt="DIN 6164, TSD 24-1-2 - " content="TSD 24-1-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-1-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-1-2">
+				TSD 24-1-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-1-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-1-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(144,148,136)" name="TSD 24-1-3" id="TSD 24-1-3" alt="DIN 6164, TSD 24-1-3 - " content="TSD 24-1-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-1-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-1-3">
+				TSD 24-1-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-1-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-1-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(120,124,112)" name="TSD 24-1-4" id="TSD 24-1-4" alt="DIN 6164, TSD 24-1-4 - " content="TSD 24-1-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-1-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-1-4">
+				TSD 24-1-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-1-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-1-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(96,99,89)" name="TSD 24-1-5" id="TSD 24-1-5" alt="DIN 6164, TSD 24-1-5 - " content="TSD 24-1-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-1-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-1-5">
+				TSD 24-1-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-1-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-1-6">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(76,79,70)" name="TSD 24-1-6" id="TSD 24-1-6" alt="DIN 6164, TSD 24-1-6 - " content="TSD 24-1-6 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-1-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-1-6">
+				TSD 24-1-6</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-1-7 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-1-7">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(62,64,58)" name="TSD 24-1-7" id="TSD 24-1-7" alt="DIN 6164, TSD 24-1-7 - " content="TSD 24-1-7 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-1-7 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-1-7">
+				TSD 24-1-7</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-2-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-2-1">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(198,209,172)" name="TSD 24-2-1" id="TSD 24-2-1" alt="DIN 6164, TSD 24-2-1 - " content="TSD 24-2-1 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-2-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-2-1">
+				TSD 24-2-1</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-2-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-2-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(167,177,143)" name="TSD 24-2-2" id="TSD 24-2-2" alt="DIN 6164, TSD 24-2-2 - " content="TSD 24-2-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-2-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-2-2">
+				TSD 24-2-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-2-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-2-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(140,149,122)" name="TSD 24-2-3" id="TSD 24-2-3" alt="DIN 6164, TSD 24-2-3 - " content="TSD 24-2-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-2-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-2-3">
+				TSD 24-2-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-2-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-2-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(117,122,99)" name="TSD 24-2-4" id="TSD 24-2-4" alt="DIN 6164, TSD 24-2-4 - " content="TSD 24-2-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-2-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-2-4">
+				TSD 24-2-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-2-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-2-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(95,100,80)" name="TSD 24-2-5" id="TSD 24-2-5" alt="DIN 6164, TSD 24-2-5 - " content="TSD 24-2-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-2-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-2-5">
+				TSD 24-2-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-2-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-2-6">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(82,84,68)" name="TSD 24-2-6" id="TSD 24-2-6" alt="DIN 6164, TSD 24-2-6 - " content="TSD 24-2-6 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-2-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-2-6">
+				TSD 24-2-6</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-3-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-3-1">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(192,209,151)" name="TSD 24-3-1" id="TSD 24-3-1" alt="DIN 6164, TSD 24-3-1 - " content="TSD 24-3-1 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-3-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-3-1">
+				TSD 24-3-1</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-3-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-3-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(162,176,128)" name="TSD 24-3-2" id="TSD 24-3-2" alt="DIN 6164, TSD 24-3-2 - " content="TSD 24-3-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-3-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-3-2">
+				TSD 24-3-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-3-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-3-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(138,150,108)" name="TSD 24-3-3" id="TSD 24-3-3" alt="DIN 6164, TSD 24-3-3 - " content="TSD 24-3-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-3-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-3-3">
+				TSD 24-3-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-3-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-3-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(112,123,88)" name="TSD 24-3-4" id="TSD 24-3-4" alt="DIN 6164, TSD 24-3-4 - " content="TSD 24-3-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-3-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-3-4">
+				TSD 24-3-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-3-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-3-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(93,102,72)" name="TSD 24-3-5" id="TSD 24-3-5" alt="DIN 6164, TSD 24-3-5 - " content="TSD 24-3-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-3-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-3-5">
+				TSD 24-3-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-3-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-3-6">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(76,82,58)" name="TSD 24-3-6" id="TSD 24-3-6" alt="DIN 6164, TSD 24-3-6 - " content="TSD 24-3-6 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-3-6 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-3-6">
+				TSD 24-3-6</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-4-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-4-1">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(189,211,130)" name="TSD 24-4-1" id="TSD 24-4-1" alt="DIN 6164, TSD 24-4-1 - " content="TSD 24-4-1 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-4-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-4-1">
+				TSD 24-4-1</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-4-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-4-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(157,175,111)" name="TSD 24-4-2" id="TSD 24-4-2" alt="DIN 6164, TSD 24-4-2 - " content="TSD 24-4-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-4-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-4-2">
+				TSD 24-4-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-4-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-4-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(137,150,94)" name="TSD 24-4-3" id="TSD 24-4-3" alt="DIN 6164, TSD 24-4-3 - " content="TSD 24-4-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-4-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-4-3">
+				TSD 24-4-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-4-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-4-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(111,125,78)" name="TSD 24-4-4" id="TSD 24-4-4" alt="DIN 6164, TSD 24-4-4 - " content="TSD 24-4-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-4-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-4-4">
+				TSD 24-4-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-4-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-4-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(95,105,64)" name="TSD 24-4-5" id="TSD 24-4-5" alt="DIN 6164, TSD 24-4-5 - " content="TSD 24-4-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-4-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-4-5">
+				TSD 24-4-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-5-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-5-1">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(186,214,108)" name="TSD 24-5-1" id="TSD 24-5-1" alt="DIN 6164, TSD 24-5-1 - " content="TSD 24-5-1 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-5-1 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-5-1">
+				TSD 24-5-1</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-5-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-5-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(152,176,86)" name="TSD 24-5-2" id="TSD 24-5-2" alt="DIN 6164, TSD 24-5-2 - " content="TSD 24-5-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-5-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-5-2">
+				TSD 24-5-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-5-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-5-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(133,151,76)" name="TSD 24-5-3" id="TSD 24-5-3" alt="DIN 6164, TSD 24-5-3 - " content="TSD 24-5-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-5-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-5-3">
+				TSD 24-5-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-5-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-5-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(109,123,60)" name="TSD 24-5-4" id="TSD 24-5-4" alt="DIN 6164, TSD 24-5-4 - " content="TSD 24-5-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-5-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-5-4">
+				TSD 24-5-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-5-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-5-5">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(92,101,50)" name="TSD 24-5-5" id="TSD 24-5-5" alt="DIN 6164, TSD 24-5-5 - " content="TSD 24-5-5 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-5-5 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-5-5">
+				TSD 24-5-5</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-6-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-6-2">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(150,176,55)" name="TSD 24-6-2" id="TSD 24-6-2" alt="DIN 6164, TSD 24-6-2 - " content="TSD 24-6-2 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-6-2 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-6-2">
+				TSD 24-6-2</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-6-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-6-3">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(131,151,45)" name="TSD 24-6-3" id="TSD 24-6-3" alt="DIN 6164, TSD 24-6-3 - " content="TSD 24-6-3 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-6-3 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-6-3">
+				TSD 24-6-3</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+        <li>
+	<a title="More information about TSD 24-6-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-6-4">
+					<img src="images/clearpixel.gif" style="vertical-align:bottom; border:0px; background-color:rgb(110,126,41)" name="TSD 24-6-4" id="TSD 24-6-4" alt="DIN 6164, TSD 24-6-4 - " content="TSD 24-6-4 - " />
+	</a><h2 style="font-weight:normal">
+			<a title="More information about TSD 24-6-4 from the DIN 6164 colour range" href="Lab_values.asp?cRange=DIN 6164&cRef=TSD 24-6-4">
+				TSD 24-6-4</a></h2>
+				<h3 style="font-weight:normal"></h3>
+			</li>
+
+
+        <div class="clear"></div>
+    </ul>
+
+</div>
+
+<div class="colour-chart-nav-5 center" align="center">
+    <a class="g-btn-g" href="DIN_6164_colours.asp?DIN=1">TSD 1 - TSD 4</a>
+    <a class="g-btn-g" href="DIN_6164_colours.asp?DIN=2">TSD 5 - TSD 9</a>
+    <a class="g-btn-g" href="DIN_6164_colours.asp?DIN=3">TSD 10 - TSD 14</a>
+    <a class="g-btn-g" href="DIN_6164_colours.asp?DIN=4">TSD 15 - TSD 19</a>
+    <a class="g-btn-g" href="DIN_6164_colours.asp?DIN=5">TSD 20 - 24</a>
+    <div class="clear"></div>
+</div>
+<hr />
+
+
+
+
+<div class="colour-chart-nav center">
+    <a class="g-btn-b" href="BS_4800_Colour_chart.asp">BS	4800 colour chart</a>
+    <a class="g-btn-b" href="BS381%20Colourchart.asp">BS 381C colour chart</a>
+    <a class="g-btn-b" href="BS2660_colour_chart.asp">BS 2660 colour chart</a>
+    <a class="g-btn-b" href="BS5252_colour_chart.asp">BS 5252 colour chart</a>
+    <div class="clear"></div>
+</div>
+
+    
+
+	<br /><hr /><p>
+        <b><a href="/categories.asp">Continue Shopping</a></b> &brvbar;
+<a href="javascript:void(0);" onclick="history.go(-1); return(false);" >
+<b>Back </b></a>
+        <img src="images/clearpixel.gif" width="1" height="1" alt="spacer" /></p><hr /><br />
+<!-- #EndEditable -->
+        
+        
+        <!--aside-->
+		</div>
+<!--here-->
+<div class="logodiv">
+<aside class="sidebar">
+<div class="products_category_box">
+                    	<h2>COLOUR FANS AND SHEETS</h2>
+                        <ul>
+	 	 	   		<li><a href="https://www.e-paint.co.uk/Ral_colour_guides.asp">RAL Classic colour guides</a></li>	
+	 	   		<li><a class="parent" href="https://www.e-paint.co.uk/products.asp?cat=41">Individual RAL Classic sheets</a></li>
+	 	   		<li><a href="https://www.e-paint.co.uk/products.asp?cat=52">RAL Design colour fans</a></li>
+	           	<li><a href="https://www.e-paint.co.uk/products.asp?cat=56">RAL Effect colour fans</a></li>
+           		<li><a href="https://www.e-paint.co.uk/products.asp?cat=62">NCS Index colour fans</a></li>
+           		<li><a href="https://www.e-paint.co.uk/BS_colour_guides.asp">British Standard colour guides</a></li>
+           		<li><a href="https://www.e-paint.co.uk/products.asp?cat=60">US Federal Std 595 colour fans</a></li>
+            	<li><a href="https://www.e-paint.co.uk/products.asp?cat=65">AMS Standard 595A colour fans</a></li>
+             	<li><a href="https://www.e-paint.co.uk/products.asp?cat=63">Australian Std. 2700 colour fans</a></li>
+        		<li><a href="https://www.e-paint.co.uk/products.asp?cat=59">CIELAB Colour Fans</a></li>
+           	
+                        </ul>
+                    </div>
+<!--cart-->
+         <div class="contact_box_left">
+
+
+     <table class="mincart" width="130" bgcolor="#FFFFFF">
+        <tr> 
+          <td class="mincart" bgcolor="#F0F0F0" align="center"><img src="images/littlecart1.png" style="vertical-align:text-top;" width="16" height="16" alt="Shopping basket"> 
+            &nbsp;<strong><a class="ectlink mincart" href="https://www.e-paint.co.uk/cart.asp">Shopping basket</a></strong></td>
+        </tr>
+        <tr> 
+          <td class="mincart" bgcolor="#F0F0F0" align="center"> 
+            0 Product(s) in basket</td>
+        </tr>
+ 
+        <tr> 
+          <td class="mincart" bgcolor="#F0F0F0" align="center"><span class="cartquant">Total &pound;0.00<br>plus delivery.</span></td>
+        </tr>
+        </table>    
+</div>
+<!---infobox-->
+<div class="clear">
+<div class="products_category_box">
+                    <h2>INFORMATION</h2>
+                    
+                    <ul>
+        				 <li><a href="https://www.e-paint.co.uk/chart_options.asp">
+						 Colour charts</a></li>
+						<li><a href="https://www.e-paint.co.uk/search_for_colours_and_products.asp">
+						Search</a></li>
+     					<li><a href="https://www.e-paint.co.uk/Lab_values.asp">
+						LAB/HLC/RGB Values</a></li>
+    					<li><a href="https://www.e-paint.co.uk/delivery.asp">
+						Delivery</a></li>
+      					<li><a href="https://www.e-paint.co.uk/print_options.asp">
+						Print Colours</a></li>
+  						<li><a href="https://www.e-paint.co.uk/security.asp">
+						Security</a></li>
+    					<li><a href="https://www.e-paint.co.uk/terms_and_conditions.asp">
+						Terms &amp; Conditions</a></li>
+						<li><a href="https://www.e-paint.co.uk/faqs.asp">Help / 
+						FAQS</a></li>
+						<li><a href="https://www.e-paint.co.uk/supplier_directory.asp">
+						Paint suppliers</a></li>
+	 					<li><a href="https://www.e-paint.co.uk/Contact_options.asp">
+						Contact Us</a></li>
+                    </ul>
+                    
+              </div>
+</div>
+<!--minilogos-->
+<div class="mini-logos"> 
+	<div class="special_offer_pr_box" style="left: 0px; top: 0px">
+	         <!-- #BeginEditable "news" -->
+            <p>
+ <a href="https://www.e-paint.co.uk/Ral_colour_guides.asp">
+<img src="includes/images/RAL K7(2).png" alt="RAL Classic K7 colour fan" title="RAL Classic K7 colour fan"/></a></p>
+ <p class="product_name"> <a href="https://www.e-paint.co.uk/Ral_colour_guides.asp">
+ RAL Classic K7 colour fan <br /><b>&pound;14.99</b> </a></p>
+<br /><hr />
+<p>
+<a href="https://www.e-paint.co.uk/products.asp?cat=51">
+<img src="includes/BS%204800_small.gif" alt="British Standard BS 4800:2011 colour fan" title="British Standard BS 4800:2011 colour fan"/></a></p>
+ <p class="product_name"> <a href="https://www.e-paint.co.uk/products.asp?cat=51">
+ BS 4800:2011 colour fan <br /><b>&pound;299.00</b> </a></p>
+    <hr /><p>
+<a href="https://www.e-paint.co.uk/products.asp?cat=51">
+			 <img src="includes/BS%20colour%20fan.gif" alt="Full British Standard colour fan" title="Full British Standard colour fan"/></a></p>
+ <p class="product_name"> <a href="https://www.e-paint.co.uk/products.asp?cat=51">
+ British Stds. colour fan <br /><span style="text-decoration:line-through">&pound;46.99</span> <b>&pound;39.99</b> </a></p>
+ <hr />
+  <div class="adstyle">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- bb1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0375310117557033"
+     data-ad-slot="9865345308"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<hr />
+
+<!-- #EndEditable -->
+                    <script type="text/javascript">
+
+                        function MakeArray(n) {
+	                        this.length = n;
+	                        for (var i = 1; i <= n; i++) {
+		                        this[i] = null;
+                        }
+                        return this;
+                        }
+                        var NumberImages024149 = 3;
+                        var image024149 = 0;
+                        var imag024149 = new MakeArray(NumberImages024149);
+                        var link024149 = new MakeArray(NumberImages024149);
+                        imag024149[1] = "includes/images/RALclassic.gif";
+                        link024149[1] = "Ral_colour_guides.asp";
+                        imag024149[2] = "includes/images/RALeffect.gif";
+                        link024149[2] = "products.asp?cat=56";
+                        imag024149[3] = "includes/images/RALdesign.gif";
+                        link024149[3] = "products.asp?cat=52";
+
+                        function GetRand024149()
+                        {
+                          return (Math.round(Math.random()*(NumberImages024149-1)))+1;
+                        }
+                        function NewImage024149()
+                        {
+                          if (image024149 == 0 ) { 
+                           while( OldRandNum024149 == RandNumber024149) RandNumber024149 = GetRand024149();
+                           OldRandNum024149 = RandNumber024149;
+                          } else { 
+                           if (image024149 == NumberImages024149) { image024149 = 0; } 
+                           RandNumber024149 = ++image024149;
+                          }
+                          document.images['img024149'].src = imag024149[RandNumber024149];
+                          window.setTimeout("NewImage024149()",20000);
+                        }
+                        var RandNumber024149 = GetRand024149();
+                        if(image024149 != 0) { RandNumber024149 = 1; image024149 = 1;}
+                        var OldRandNum024149 = RandNumber024149;
+                        if(document.images)  window.setTimeout("NewImage024149()",20000);
+                        document.write('<a href="javascript:void(0);" onclick="this.href=link024149[RandNumber024149];" target="_self" id="lnk024149" ><img src="',imag024149[RandNumber024149],'" border=0 id="img024149" name="img024149" ></a>');
+                        // -->
+                    </script><br />
+                    <script type="text/javascript" src="https://sealserver.trustwave.com/seal.js?style=invert&size=65x36&code=fa6f7c4ddbac42d0a0171b003d375312"></script>
+                 </div>
+                
+                    <div class="contact_box_left">
+                    	<h2>Contact</h2>
+                    	<hr />
+                        <p class="comp_name">e-paint.co.uk</p>
+                    
+                        <p class="email_icon">
+						<a href="mailto:sales@e-paint.co.uk?subject=Enquiry from the e-paint.co.uk website">
+						sales@e-paint.co.uk</a></p>
+                    </div>
+               </div>     
+			</aside>
+		</div>
+    </div>
+</div>
+
+<!--footer-->
+    <div class="footer-line"><h3><p class="footer-tag g-pad">e-paint.co.uk - Colour Cards, Charts, Fans and Books</p></h3></div>
+
+<div class="footer clear">
+  <div class="wrapper">
+    <ul class="col1">
+      <li>
+        <strong>Products &amp; Services</strong>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk">Home</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/categories.asp">Products</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/Colour_alternatives.asp">Colour alternatives</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/search_colour.asp">Colour search</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/chart_options.asp">Colour charts</a>
+      </li>
+ 
+ 
+    </ul>
+    <ul class="col2">
+      <li>
+        <strong>Help</strong>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/delivery.asp">Delivery information</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/terms_and_conditions.asp">Terms &amp; conditions</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/security.asp">Security and privacy</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/contact_us.asp">Comments</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/faqs.asp">FAQs</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/Contact_options.asp">Contact us</a>
+      </li>
+    </ul>
+    <ul class="col3">
+      <li>
+        <strong>Information</strong>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/Advanced_menu.asp">Colour information</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/colour_trends_2016.asp">Colour trends</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/supplier_directory.asp">Supplier directory</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/Contact_advertisers_home.asp?">Advertising</a>
+      </li>
+      <li>
+        <a href="https://www.e-paint.co.uk/sitemap.txt">Sitemap</a>
+      </li>
+    </ul>
+    <div class="col4">
+      <div class="note">
+        <p>Note: Colours shown on this site are for guidance only and should not be taken as a representation of the true colours.</p>
+      </div>
+      <div class="note">
+        <p>
+          We do not supply paints. If you would like paints to these colours, we would suggest you <a href="supplier_directory.asp">click here</a>
+        </p>
+      </div>
+  
+    </div>
+      <div class="clear"></div>
+     <div class="accepted2">
+     <hr /><img src="image/accepted-cards.png" alt="Credit cards" />
+     <hr />
+     </div>
+  
+  </div>
+
+</div>
+ 
+<div class="footer_bottom_links">
+       	  <div class="width_wrapper">
+          <div class="bottom_links">
+          <h2>e-paint.co.uk <br /> Colour Cards, Charts, Fans and Books</h2><br />
+            	<a href="https://www.e-paint.co.uk/Web_development.htm">&copy; 
+			  e-paint.co.uk 2020, All rights reserved</a><br />
+            <ul>
+                    <li><a href="https://www.e-paint.co.uk/contact_options.asp">
+					Contact</a></li>
+                    <li><a href="https://www.e-paint.co.uk/terms_and_conditions.asp">Terms and Conditions</a></li>
+                    <li class="last"><a href="https://www.e-paint.co.uk/security.asp">
+					Privacy</a></li>
+              </ul>
+              </div>
+             
+            </div>
+            <div class="clear"></div>
+        </div>
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40721933-1', 'e-paint.co.uk');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+
+  am = "Sorry, copying of the colours is not encouraged!";
+
+  bV  = parseInt(navigator.appVersion)
+  bNS = navigator.appName=="Netscape"
+  bIE = navigator.appName=="Microsoft Internet Explorer"
+
+  function nrc(e) {
+  if (bNS && e.which > 1){
+  alert(am)
+  return false
+  } else if (bIE && (event.button >1)) {
+  alert(am);
+  return false;
+  }
+  }
+</script>
+
+    </body>
+
+<!-- #EndTemplate -->
+
+</html>

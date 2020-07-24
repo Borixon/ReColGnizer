@@ -1,5 +1,5 @@
 //
-//  FavoriteViewController.swift
+//  ColourListViewController.swift
 //  Rec-Col-Gnizer
 //
 //  Created by Michał Krupa on 19/04/2020.
@@ -8,31 +8,40 @@
 
 import UIKit
 
-class FavouriteViewController: BaseViewController {
+final class ColourListViewController: BaseViewController {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var infoScreen: UIView!
     @IBOutlet weak var infoLabel: UILabel!
     
-    var vm = FavouriteViewModel()
+    var vm: ColourListViewModelProtocol!
     var searchBar: UISearchBar?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupTableView()
-        setupSearchBar()
-        
-        vm.delegate = self
+        setupTableView() 
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        vm.addDataDelegate()
-        vm.refreshData()
+        setupFavouriteDelegate()
+        tableView.reloadData()
         infoLabel.text = vm.infoText
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        vm.removeDataDelegate()
+        releaseFavouriteDelegate()
+    }
+    
+    private func setupFavouriteDelegate() {
+        if let favVm = vm.data as? FavouriteListData {
+            favVm.delegate = self
+        }
+    }
+    
+    private func releaseFavouriteDelegate() {
+        if let favVm = vm.data as? FavouriteListData {
+            favVm.delegate = nil
+        }
     }
     
     private func setupTableView() {
@@ -42,7 +51,7 @@ class FavouriteViewController: BaseViewController {
         tableView.tableFooterView = UIView()
     }
     
-    internal func setupSearchBar() {
+    public func setupFavouriteSearchBar() {
         let searchBar = (navigationController as? NavigationController)?.searchBar
         searchBar?.delegate = self
         searchBar?.placeholder = vm.placeholder
@@ -55,35 +64,20 @@ class FavouriteViewController: BaseViewController {
         navigationItem.rightBarButtonItem = sortingItem
     }
     
-    @objc private func searchColours() {
-        setupSearchBar()
-    }
-    
     @objc private func sortColours() {
         coordinator?.openSortingView(withTypeSelected: vm.sortingType, delegate: self)
     }
 }
 
-extension FavouriteViewController: FavouriteViewModelDelegate {
-    func refreshData() {
-        if vm.colorArrayIsEmpty {
-            tableView.isHidden = true
-            infoScreen.isHidden = false
-        } else {
-            tableView.isHidden = false
-            infoScreen.isHidden = true
-        }
+extension ColourListViewController: FavouriteListDataDelegate {
+    func dataHasChanged() {
         tableView.reloadData()
-    }
-    
-    func openColor(_ color: ColorModel) {
-        coordinator?.openColorData(data: color)
     }
 }
 
-extension FavouriteViewController: UITableViewDataSource {
+extension ColourListViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return vm.numberOfRows
+        return vm.numberOfItems
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -95,18 +89,30 @@ extension FavouriteViewController: UITableViewDataSource {
     }
 }
 
-extension FavouriteViewController: UITableViewDelegate {
+extension ColourListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return ColorCell.height
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        vm.getColorModel(forIndex: indexPath.row)
+        vm.getColorModel(forIndex: indexPath.row, completion: { model in
+            guard let model = model else { return }
+            self.coordinator?.openColorData(data: model)
+        })
     }
 }
 
-extension FavouriteViewController: SortingViewDelegate {
+extension ColourListViewController: SortingViewDelegate {
     func didSelect(sortingType: SortingType) {
-        vm.setSorting(sortingType)
+        vm.setSorting(sortingType, completion: {
+            if self.vm.colorArrayIsEmpty {
+                self.tableView.isHidden = true
+                self.infoScreen.isHidden = false
+            } else {
+                self.tableView.isHidden = false
+                self.infoScreen.isHidden = true
+            }
+            self.tableView.reloadData()
+        })
     }
 }

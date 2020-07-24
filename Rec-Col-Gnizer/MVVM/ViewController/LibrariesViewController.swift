@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LibrariesViewController: BaseViewController {
+final class LibrariesViewController: BaseViewController {
 
     @IBOutlet weak var tableView: UITableView!
     

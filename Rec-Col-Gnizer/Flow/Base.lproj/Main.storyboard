@@ -96,7 +96,7 @@
                                 <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </activityIndicatorView>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="0.36510009765625001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.58431396484374998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Kid-hD-QN1" firstAttribute="centerY" secondItem="ImX-yB-rNh" secondAttribute="centerY" id="REi-Zf-a3l"/>
                             <constraint firstItem="Kid-hD-QN1" firstAttribute="centerX" secondItem="ImX-yB-rNh" secondAttribute="centerX" id="gV7-hp-TY5"/>
@@ -253,7 +253,7 @@
         <!--Favourite-->
         <scene sceneID="hxR-VS-d7X">
             <objects>
-                <viewController storyboardIdentifier="FavouriteViewController" id="WO5-Og-pJV" customClass="FavouriteViewController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ColourListViewController" id="WO5-Og-pJV" customClass="ColourListViewController" customModule="RecColGnizer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1a0-VB-RHp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

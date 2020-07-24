@@ -9,7 +9,8 @@
 import Foundation
 import UIKit
 
-class PickerColorModel {
+// TODO: Czy sie nei wyejebie struct
+struct PickerColourModel {
      
     var rgbModel: RgbModel = RgbModel(r: UserData().redRGBValue, g: UserData().greenRGBValue, b: UserData().blueRGBValue)
     var hexModel: HexModel = HexModel(value: "")
